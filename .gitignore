@@ -104,5 +104,4 @@ dist
 .tern-port
 
 # Static docs generator output
-docs/_site
 
