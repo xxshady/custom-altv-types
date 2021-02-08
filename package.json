@@ -23,5 +23,8 @@
     "typedoc-theme-dark": "^0.0.5",
     "typescript": "^4.0.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@altv/types-client": "^1.5.2",
+    "@altv/types-server": "^1.7.2"
+  }
 }
