@@ -11,7 +11,7 @@
     "typedoc-plugin-extras"
   ],
   "theme": [
-    "../node_modules/typedoc-theme-dark/dist/dark/"
+    "../node_modules/typedoc-default-themes/bin/default"
   ],
   "name": "alt:V / Docs JS",
   "readme": "README.md",

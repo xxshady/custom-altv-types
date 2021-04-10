@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "@altv/types-client": "^1.5.5",
-    "@altv/types-server": "^1.7.5"
+    "@altv/types-server": "^1.7.5",
+    "typedoc-dark-theme": "0.0.11"
   }
 }
