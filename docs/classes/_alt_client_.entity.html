@@ -135,7 +135,7 @@
 					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:357</li>
+							<li>Defined in types-client/index.d.ts:371</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -150,7 +150,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Spawned<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:369</li>
+							<li>Defined in types-client/index.d.ts:383</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -172,7 +172,7 @@
 					<div class="tsd-signature tsd-kind-icon">model<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:372</li>
+							<li>Defined in types-client/index.d.ts:386</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -188,7 +188,7 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_client_.worldobject.html">WorldObject</a>.<a href="_alt_client_.worldobject.html#pos">pos</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:377</li>
+							<li>Defined in types-client/index.d.ts:391</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -203,7 +203,7 @@
 					<div class="tsd-signature tsd-kind-icon">rot<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:380</li>
+							<li>Defined in types-client/index.d.ts:394</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -218,7 +218,7 @@
 					<div class="tsd-signature tsd-kind-icon">scriptID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:360</li>
+							<li>Defined in types-client/index.d.ts:374</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -270,7 +270,7 @@
 					<div class="tsd-signature tsd-kind-icon">visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:382</li>
+							<li>Defined in types-client/index.d.ts:396</li>
 						</ul>
 					</aside>
 				</section>
@@ -280,9 +280,28 @@
 					<div class="tsd-signature tsd-kind-icon">all<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:354</li>
+							<li>Defined in types-client/index.d.ts:368</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Array with all entities.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>remarks</dt>
+							<dd><p>This creates a clone of the array everytime it is called.
+								It is advised to call this once and store the result in a variable, before iterating over it.</p>
+							</dd>
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> entities = alt.Entity.all; <span class="hljs-comment">// Store it in a variable, so it doesn&#x27;t create a copy of the array on each iteration</span>
+<span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; entities.length; i++)
+{
+  alt.log(<span class="hljs-string">`<span class="hljs-subst">${entities[i].id}</span>`</span>); <span class="hljs-comment">// Logs the id of every entity</span>
+}
+</code></pre>
+							</dd>
+						</dl>
+					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
@@ -385,7 +404,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:422</li>
+									<li>Defined in types-client/index.d.ts:436</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -417,7 +436,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:406</li>
+									<li>Defined in types-client/index.d.ts:420</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -482,7 +501,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:430</li>
+									<li>Defined in types-client/index.d.ts:444</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -514,7 +533,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:414</li>
+									<li>Defined in types-client/index.d.ts:428</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -586,7 +605,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:390</li>
+									<li>Defined in types-client/index.d.ts:404</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -618,7 +637,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:398</li>
+									<li>Defined in types-client/index.d.ts:412</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">

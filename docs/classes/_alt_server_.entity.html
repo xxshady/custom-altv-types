@@ -158,7 +158,7 @@
 					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:445</li>
+							<li>Defined in types-server/index.d.ts:459</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -173,7 +173,7 @@
 					<div class="tsd-signature tsd-kind-icon">model<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:463</li>
+							<li>Defined in types-server/index.d.ts:477</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -193,7 +193,7 @@
 					<div class="tsd-signature tsd-kind-icon">net<wbr>Owner<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.player.html" class="tsd-signature-type">Player</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:456</li>
+							<li>Defined in types-server/index.d.ts:470</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -233,7 +233,7 @@
 					<div class="tsd-signature tsd-kind-icon">rot<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:470</li>
+							<li>Defined in types-server/index.d.ts:484</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -290,7 +290,7 @@
 					<div class="tsd-signature tsd-kind-icon">visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:475</li>
+							<li>Defined in types-server/index.d.ts:489</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -305,9 +305,28 @@
 					<div class="tsd-signature tsd-kind-icon">all<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:440</li>
+							<li>Defined in types-server/index.d.ts:454</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Array with all entities.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>remarks</dt>
+							<dd><p>This creates a clone of the array everytime it is called.
+								It is advised to call this once and store the result in a variable, before iterating over it.</p>
+							</dd>
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> entities = alt.Entity.all; <span class="hljs-comment">// Store it in a variable, so it doesn&#x27;t create a copy of the array on each iteration</span>
+<span class="hljs-keyword">for</span>(<span class="hljs-keyword">let</span> i = <span class="hljs-number">0</span>; i &lt; entities.length; i++)
+{
+  alt.log(<span class="hljs-string">`<span class="hljs-subst">${entities[i].id}</span>`</span>); <span class="hljs-comment">// Logs the id of every entity</span>
+}
+</code></pre>
+							</dd>
+						</dl>
+					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
@@ -322,7 +341,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:589</li>
+									<li>Defined in types-server/index.d.ts:603</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -425,7 +444,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:522</li>
+									<li>Defined in types-server/index.d.ts:536</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -456,7 +475,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:490</li>
+									<li>Defined in types-server/index.d.ts:504</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -510,7 +529,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:596</li>
+									<li>Defined in types-server/index.d.ts:610</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -569,7 +588,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:530</li>
+									<li>Defined in types-server/index.d.ts:544</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -601,7 +620,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:498</li>
+									<li>Defined in types-server/index.d.ts:512</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -666,7 +685,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:538</li>
+									<li>Defined in types-server/index.d.ts:552</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -698,7 +717,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:506</li>
+									<li>Defined in types-server/index.d.ts:520</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -730,7 +749,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:574</li>
+									<li>Defined in types-server/index.d.ts:588</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -810,7 +829,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:561</li>
+									<li>Defined in types-server/index.d.ts:575</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -856,7 +875,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:547</li>
+									<li>Defined in types-server/index.d.ts:561</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -895,7 +914,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:515</li>
+									<li>Defined in types-server/index.d.ts:529</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -934,7 +953,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:483</li>
+									<li>Defined in types-server/index.d.ts:497</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
