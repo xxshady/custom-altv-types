@@ -1,8 +1,9 @@
 {
   "mode": "file",
   "inputFiles": [
-    "../node_modules/@altmp/altv-types/client",
-    "../node_modules/@altmp/altv-types/server"
+    "../node_modules/@altv/types-shared",
+    "../node_modules/@altv/types-server",
+    "../node_modules/@altv/types-client"
   ],
   "includeDeclarations": true,
   "excludeExternals": true,

@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/altmp/altv-typings#readme",
   "devDependencies": {
-    "@altv/types-client": "^1.5.6",
+    "@altv/types-client": "^1.7.1",
     "typedoc": "^0.19.0",
     "typedoc-plugin-extras": "^1.1.8",
     "typedoc-theme-dark": "^0.0.5",
@@ -26,7 +26,8 @@
   },
   "dependencies": {
     "@altmp/altv-types": "git+https://github.com/altmp/altv-types.git",
-    "@altv/types-server": "^1.7.6",
+    "@altv/types-server": "^1.9.1",
+    "@altv/types-shared": "^1.0.1",
     "typedoc-dark-theme": "0.0.11"
   }
 }
