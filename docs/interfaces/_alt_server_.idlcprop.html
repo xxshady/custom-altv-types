@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>FileEncoding | alt:V / Docs JS</title>
+	<title>IDlcProp | alt:V / Docs JS</title>
 	<meta name="description" content="Documentation for alt:V / Docs JS">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -55,63 +55,71 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/_alt_client_.html">&quot;alt-client&quot;</a>
+					<a href="../modules/_alt_server_.html">&quot;alt-server&quot;</a>
 				</li>
 				<li>
-					<a href="_alt_client_.fileencoding.html">FileEncoding</a>
+					<a href="_alt_server_.idlcprop.html">IDlcProp</a>
 				</li>
 			</ul>
-			<h1>Enumeration FileEncoding</h1>
+			<h1>Interface IDlcProp</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">IDlcProp</span>
+					</li>
+				</ul>
+			</section>
 			<section class="tsd-panel-group tsd-index-group">
 				<h2>Index</h2>
 				<section class="tsd-panel tsd-index-panel">
 					<div class="tsd-index-content">
 						<section class="tsd-index-section ">
-							<h3>Enumeration members</h3>
+							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_alt_client_.fileencoding.html#binary" class="tsd-kind-icon">Binary</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_alt_client_.fileencoding.html#utf16" class="tsd-kind-icon">Utf16</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_alt_client_.fileencoding.html#utf8" class="tsd-kind-icon">Utf8</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.idlcprop.html#dlc" class="tsd-kind-icon">dlc</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.idlcprop.html#drawable" class="tsd-kind-icon">drawable</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.idlcprop.html#texture" class="tsd-kind-icon">texture</a></li>
 							</ul>
 						</section>
 					</div>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Enumeration members</h2>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="binary" class="tsd-anchor"></a>
-					<h3>Binary</h3>
-					<div class="tsd-signature tsd-kind-icon">Binary<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;binary&quot;</span></div>
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="dlc" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> dlc</h3>
+					<div class="tsd-signature tsd-kind-icon">dlc<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in client/index.d.ts:67</li>
+							<li>Defined in types-server/index.d.ts:414</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="utf16" class="tsd-anchor"></a>
-					<h3>Utf16</h3>
-					<div class="tsd-signature tsd-kind-icon">Utf16<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;utf-16&quot;</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="drawable" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> drawable</h3>
+					<div class="tsd-signature tsd-kind-icon">drawable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in client/index.d.ts:66</li>
+							<li>Defined in types-server/index.d.ts:412</li>
 						</ul>
 					</aside>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="utf8" class="tsd-anchor"></a>
-					<h3>Utf8</h3>
-					<div class="tsd-signature tsd-kind-icon">Utf8<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol"> = &quot;utf-8&quot;</span></div>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="texture" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> texture</h3>
+					<div class="tsd-signature tsd-kind-icon">texture<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in client/index.d.ts:65</li>
+							<li>Defined in types-server/index.d.ts:413</li>
 						</ul>
 					</aside>
 				</section>
@@ -123,11 +131,14 @@
 					<li class="globals  ">
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="../modules/_alt_client_.html">&quot;alt-<wbr>client&quot;</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="../modules/_alt_server_.html">&quot;alt-<wbr>server&quot;</a>
+					</li>
+					<li class=" tsd-kind-module">
+						<a href="../modules/_alt_shared_.html">&quot;alt-<wbr>shared&quot;</a>
 					</li>
 				</ul>
 			</nav>
@@ -135,17 +146,17 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-enum tsd-parent-kind-module">
-						<a href="_alt_client_.fileencoding.html" class="tsd-kind-icon">File<wbr>Encoding</a>
+					<li class="current tsd-kind-interface tsd-parent-kind-module">
+						<a href="_alt_server_.idlcprop.html" class="tsd-kind-icon">IDlc<wbr>Prop</a>
 						<ul>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_alt_client_.fileencoding.html#binary" class="tsd-kind-icon">Binary</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.idlcprop.html#dlc" class="tsd-kind-icon">dlc</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_alt_client_.fileencoding.html#utf16" class="tsd-kind-icon">Utf16</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.idlcprop.html#drawable" class="tsd-kind-icon">drawable</a>
 							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_alt_client_.fileencoding.html#utf8" class="tsd-kind-icon">Utf8</a>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.idlcprop.html#texture" class="tsd-kind-icon">texture</a>
 							</li>
 						</ul>
 					</li>
@@ -167,10 +178,11 @@
 				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
 			</ul>
 			<ul class="tsd-legend">
-				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
 			</ul>
 			<ul class="tsd-legend">
-				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
