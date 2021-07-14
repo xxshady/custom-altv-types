@@ -1,2 +1,3 @@
-# altv-typings
-This repository contains types definitions for alt:V JavaScript modules.
+# altv-custom-api-docs
+just alt:V js api documentation in the old style
+https://xxshady.github.io/custom-altv-types/
