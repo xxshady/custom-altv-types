@@ -11,8 +11,11 @@
   "plugin": [
     "typedoc-plugin-extras"
   ],
-  "name": "alt:V / Docs JS",
-  "readme": "README.md",
+  "theme": [
+    "../node_modules/typedoc-default-themes/bin/default"
+  ],
+  "name": "custom alt:V docs JS",
+  "readme": "../README.md",
   "favicon": "favicon.ico",
   "hideGenerator": true,
   "json": "_site/typings.json"
