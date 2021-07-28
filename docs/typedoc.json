@@ -11,9 +11,6 @@
   "plugin": [
     "typedoc-plugin-extras"
   ],
-  "theme": [
-    "../node_modules/typedoc-default-themes/bin/default"
-  ],
   "name": "alt:V / Docs JS",
   "readme": "README.md",
   "favicon": "favicon.ico",

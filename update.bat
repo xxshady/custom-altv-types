@@ -1,2 +1,1 @@
-npm uninstall altv-types
-npm install git+https://github.com/altmp/altv-types.git
+npm update @altv/types-shared @altv/types-client @altv/types-server
