@@ -88,6 +88,7 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#aimpos" class="tsd-kind-icon">aim<wbr>Pos</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#armour" class="tsd-kind-icon">armour</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#authtoken" class="tsd-kind-icon">auth<wbr>Token</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#currentweapon" class="tsd-kind-icon">current<wbr>Weapon</a></li>
@@ -97,14 +98,19 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#entityaimoffset" class="tsd-kind-icon">entity<wbr>Aim<wbr>Offset</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#entityaimingat" class="tsd-kind-icon">entity<wbr>Aiming<wbr>At</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#flashlightactive" class="tsd-kind-icon">flashlight<wbr>Active</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#headrot" class="tsd-kind-icon">head<wbr>Rot</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#health" class="tsd-kind-icon">health</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#hwidexhash" class="tsd-kind-icon">hwid<wbr>ExHash</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#hwidhash" class="tsd-kind-icon">hwid<wbr>Hash</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.player.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#invincible" class="tsd-kind-icon">invincible</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#ip" class="tsd-kind-icon">ip</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#isaiming" class="tsd-kind-icon">is<wbr>Aiming</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#isinragdoll" class="tsd-kind-icon">is<wbr>InRagdoll</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#maxarmour" class="tsd-kind-icon">max<wbr>Armour</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#maxhealth" class="tsd-kind-icon">max<wbr>Health</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.player.html#model" class="tsd-kind-icon">model</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#movespeed" class="tsd-kind-icon">move<wbr>Speed</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#name" class="tsd-kind-icon">name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.player.html#netowner" class="tsd-kind-icon">net<wbr>Owner</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#ping" class="tsd-kind-icon">ping</a></li>
@@ -113,6 +119,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#seat" class="tsd-kind-icon">seat</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#socialid" class="tsd-kind-icon">socialID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#socialid-1" class="tsd-kind-icon">social<wbr>Id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.player.html#streamed" class="tsd-kind-icon">streamed</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.player.html#type" class="tsd-kind-icon">type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.player.html#valid" class="tsd-kind-icon">valid</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#vehicle" class="tsd-kind-icon">vehicle</a></li>
@@ -170,12 +177,34 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="aimpos" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> aim<wbr>Pos</h3>
+					<div class="tsd-signature tsd-kind-icon">aim<wbr>Pos<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:657</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Position the player is currently aiming at.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>remarks</dt>
+							<dd><p>Will return <a href="_alt_shared_.vector3.html#zero">Vector3.zero</a> if the player is aiming against a entity.</p>
+							</dd>
+							<dt>beta</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="armour" class="tsd-anchor"></a>
 					<h3>armour</h3>
 					<div class="tsd-signature tsd-kind-icon">armour<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:624</li>
+							<li>Defined in types-server/index.d.ts:637</li>
 						</ul>
 					</aside>
 				</section>
@@ -185,7 +214,7 @@
 					<div class="tsd-signature tsd-kind-icon">auth<wbr>Token<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:646</li>
+							<li>Defined in types-server/index.d.ts:677</li>
 						</ul>
 					</aside>
 				</section>
@@ -195,7 +224,7 @@
 					<div class="tsd-signature tsd-kind-icon">current<wbr>Weapon<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:625</li>
+							<li>Defined in types-server/index.d.ts:638</li>
 						</ul>
 					</aside>
 				</section>
@@ -205,7 +234,7 @@
 					<div class="tsd-signature tsd-kind-icon">current<wbr>Weapon<wbr>Components<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:626</li>
+							<li>Defined in types-server/index.d.ts:639</li>
 						</ul>
 					</aside>
 				</section>
@@ -215,7 +244,7 @@
 					<div class="tsd-signature tsd-kind-icon">current<wbr>Weapon<wbr>Tint<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:627</li>
+							<li>Defined in types-server/index.d.ts:640</li>
 						</ul>
 					</aside>
 				</section>
@@ -226,7 +255,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.worldobject.html">WorldObject</a>.<a href="_alt_server_.worldobject.html#dimension">dimension</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:430</li>
+							<li>Defined in types-server/index.d.ts:436</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -241,7 +270,7 @@
 					<div class="tsd-signature tsd-kind-icon">entity<wbr>Aim<wbr>Offset<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:628</li>
+							<li>Defined in types-server/index.d.ts:641</li>
 						</ul>
 					</aside>
 				</section>
@@ -251,7 +280,7 @@
 					<div class="tsd-signature tsd-kind-icon">entity<wbr>Aiming<wbr>At<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:629</li>
+							<li>Defined in types-server/index.d.ts:642</li>
 						</ul>
 					</aside>
 				</section>
@@ -261,9 +290,25 @@
 					<div class="tsd-signature tsd-kind-icon">flashlight<wbr>Active<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:630</li>
+							<li>Defined in types-server/index.d.ts:643</li>
 						</ul>
 					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="headrot" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> head<wbr>Rot</h3>
+					<div class="tsd-signature tsd-kind-icon">head<wbr>Rot<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:659</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>beta</dt>
+							<dd></dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="health" class="tsd-anchor"></a>
@@ -271,7 +316,7 @@
 					<div class="tsd-signature tsd-kind-icon">health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:631</li>
+							<li>Defined in types-server/index.d.ts:660</li>
 						</ul>
 					</aside>
 				</section>
@@ -281,7 +326,7 @@
 					<div class="tsd-signature tsd-kind-icon">hwid<wbr>ExHash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:645</li>
+							<li>Defined in types-server/index.d.ts:676</li>
 						</ul>
 					</aside>
 				</section>
@@ -291,7 +336,7 @@
 					<div class="tsd-signature tsd-kind-icon">hwid<wbr>Hash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:644</li>
+							<li>Defined in types-server/index.d.ts:675</li>
 						</ul>
 					</aside>
 				</section>
@@ -302,7 +347,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#id">id</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:458</li>
+							<li>Defined in types-server/index.d.ts:464</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -312,14 +357,62 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="invincible" class="tsd-anchor"></a>
+					<h3>invincible</h3>
+					<div class="tsd-signature tsd-kind-icon">invincible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:669</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>beta</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="ip" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> ip</h3>
 					<div class="tsd-signature tsd-kind-icon">ip<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:632</li>
+							<li>Defined in types-server/index.d.ts:661</li>
 						</ul>
 					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isaiming" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> is<wbr>Aiming</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Aiming<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:649</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>beta</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isinragdoll" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> is<wbr>InRagdoll</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>InRagdoll<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:647</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>beta</dt>
+							<dd></dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="maxarmour" class="tsd-anchor"></a>
@@ -327,7 +420,7 @@
 					<div class="tsd-signature tsd-kind-icon">max<wbr>Armour<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:633</li>
+							<li>Defined in types-server/index.d.ts:662</li>
 						</ul>
 					</aside>
 				</section>
@@ -337,7 +430,7 @@
 					<div class="tsd-signature tsd-kind-icon">max<wbr>Health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:634</li>
+							<li>Defined in types-server/index.d.ts:663</li>
 						</ul>
 					</aside>
 				</section>
@@ -348,7 +441,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#model">model</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:476</li>
+							<li>Defined in types-server/index.d.ts:482</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -363,12 +456,28 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="movespeed" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> move<wbr>Speed</h3>
+					<div class="tsd-signature tsd-kind-icon">move<wbr>Speed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:645</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>beta</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="name" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> name</h3>
 					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:635</li>
+							<li>Defined in types-server/index.d.ts:664</li>
 						</ul>
 					</aside>
 				</section>
@@ -379,7 +488,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#netowner">netOwner</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:469</li>
+							<li>Defined in types-server/index.d.ts:475</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -403,7 +512,7 @@
 					<div class="tsd-signature tsd-kind-icon">ping<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:636</li>
+							<li>Defined in types-server/index.d.ts:665</li>
 						</ul>
 					</aside>
 				</section>
@@ -414,7 +523,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.worldobject.html">WorldObject</a>.<a href="_alt_server_.worldobject.html#pos">pos</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:435</li>
+							<li>Defined in types-server/index.d.ts:441</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -430,7 +539,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#rot">rot</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:483</li>
+							<li>Defined in types-server/index.d.ts:489</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -450,7 +559,7 @@
 					<div class="tsd-signature tsd-kind-icon">seat<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:637</li>
+							<li>Defined in types-server/index.d.ts:666</li>
 						</ul>
 					</aside>
 				</section>
@@ -460,7 +569,7 @@
 					<div class="tsd-signature tsd-kind-icon">socialID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:643</li>
+							<li>Defined in types-server/index.d.ts:674</li>
 						</ul>
 					</aside>
 				</section>
@@ -470,7 +579,7 @@
 					<div class="tsd-signature tsd-kind-icon">social<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:642</li>
+							<li>Defined in types-server/index.d.ts:673</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -482,13 +591,33 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="streamed" class="tsd-anchor"></a>
+					<h3>streamed</h3>
+					<div class="tsd-signature tsd-kind-icon">streamed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#streamed">streamed</a></p>
+						<ul>
+							<li>Defined in types-server/index.d.ts:501</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether the entity should be streamed for other entities.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>beta</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="type" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> type</h3>
 					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#type">type</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:236</li>
+							<li>Defined in types-shared/index.d.ts:287</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -504,7 +633,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#valid">valid</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:243</li>
+							<li>Defined in types-shared/index.d.ts:294</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -524,7 +653,7 @@
 					<div class="tsd-signature tsd-kind-icon">vehicle<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:638</li>
+							<li>Defined in types-server/index.d.ts:667</li>
 						</ul>
 					</aside>
 				</section>
@@ -535,7 +664,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#visible">visible</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:488</li>
+							<li>Defined in types-server/index.d.ts:494</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -551,7 +680,7 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#all">all</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:623</li>
+							<li>Defined in types-server/index.d.ts:636</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -587,7 +716,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:656</li>
+									<li>Defined in types-server/index.d.ts:687</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -614,7 +743,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#attachto">attachTo</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:600</li>
+									<li>Defined in types-server/index.d.ts:613</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -681,7 +810,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:661</li>
+									<li>Defined in types-server/index.d.ts:692</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -703,7 +832,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:851</li>
+									<li>Defined in types-server/index.d.ts:882</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -741,7 +870,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:255</li>
+									<li>Defined in types-shared/index.d.ts:306</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -773,7 +902,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#deletestreamsyncedmeta">deleteStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:535</li>
+									<li>Defined in types-server/index.d.ts:548</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -805,7 +934,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#deletesyncedmeta">deleteSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:503</li>
+									<li>Defined in types-server/index.d.ts:516</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -837,7 +966,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#destroy">destroy</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:248</li>
+									<li>Defined in types-shared/index.d.ts:299</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -860,7 +989,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#detach">detach</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:605</li>
+									<li>Defined in types-server/index.d.ts:618</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -882,7 +1011,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:738</li>
+									<li>Defined in types-server/index.d.ts:769</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -920,7 +1049,7 @@ alt.log(cloth.drawable); <span class="hljs-comment">// Logs the drawable of the 
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:751</li>
+									<li>Defined in types-server/index.d.ts:782</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -958,7 +1087,7 @@ alt.log(cloth.drawable); <span class="hljs-comment">// Logs the drawable of the 
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:810</li>
+									<li>Defined in types-server/index.d.ts:841</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -997,7 +1126,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:263</li>
+									<li>Defined in types-shared/index.d.ts:314</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1029,7 +1158,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:797</li>
+									<li>Defined in types-server/index.d.ts:828</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1068,7 +1197,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getstreamsyncedmeta">getStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:543</li>
+									<li>Defined in types-server/index.d.ts:556</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1101,7 +1230,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:511</li>
+									<li>Defined in types-server/index.d.ts:524</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1133,7 +1262,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:670</li>
+									<li>Defined in types-server/index.d.ts:701</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1177,7 +1306,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:271</li>
+									<li>Defined in types-shared/index.d.ts:322</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1210,7 +1339,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#hasstreamsyncedmeta">hasStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:551</li>
+									<li>Defined in types-server/index.d.ts:564</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1243,7 +1372,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:519</li>
+									<li>Defined in types-server/index.d.ts:532</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1275,7 +1404,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:861</li>
+									<li>Defined in types-server/index.d.ts:892</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1309,7 +1438,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:677</li>
+									<li>Defined in types-server/index.d.ts:708</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1340,7 +1469,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:682</li>
+									<li>Defined in types-server/index.d.ts:713</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1362,7 +1491,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:689</li>
+									<li>Defined in types-server/index.d.ts:720</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1393,7 +1522,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:697</li>
+									<li>Defined in types-server/index.d.ts:728</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1431,7 +1560,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#resetnetowner">resetNetOwner</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:587</li>
+									<li>Defined in types-server/index.d.ts:600</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1471,7 +1600,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:767</li>
+									<li>Defined in types-server/index.d.ts:798</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1529,7 +1658,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:699</li>
+									<li>Defined in types-server/index.d.ts:730</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1567,7 +1696,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:784</li>
+									<li>Defined in types-server/index.d.ts:815</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1631,7 +1760,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:839</li>
+									<li>Defined in types-server/index.d.ts:870</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1687,7 +1816,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:280</li>
+									<li>Defined in types-shared/index.d.ts:331</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1727,7 +1856,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setnetowner">setNetOwner</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:574</li>
+									<li>Defined in types-server/index.d.ts:587</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1773,7 +1902,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:824</li>
+									<li>Defined in types-server/index.d.ts:855</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1823,7 +1952,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setstreamsyncedmeta">setStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:560</li>
+									<li>Defined in types-server/index.d.ts:573</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1863,7 +1992,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setsyncedmeta">setSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:528</li>
+									<li>Defined in types-server/index.d.ts:541</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1902,7 +2031,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:701</li>
+									<li>Defined in types-server/index.d.ts:732</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1928,7 +2057,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:703</li>
+									<li>Defined in types-server/index.d.ts:734</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1952,7 +2081,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:715</li>
+									<li>Defined in types-server/index.d.ts:746</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1997,7 +2126,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:725</li>
+									<li>Defined in types-server/index.d.ts:756</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2040,7 +2169,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getbyid">getByID</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:654</li>
+									<li>Defined in types-server/index.d.ts:685</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2089,6 +2218,9 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<a href="_alt_server_.player.html" class="tsd-kind-icon">Player</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#aimpos" class="tsd-kind-icon">aim<wbr>Pos</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#armour" class="tsd-kind-icon">armour</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
@@ -2116,6 +2248,9 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 								<a href="_alt_server_.player.html#flashlightactive" class="tsd-kind-icon">flashlight<wbr>Active</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#headrot" class="tsd-kind-icon">head<wbr>Rot</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#health" class="tsd-kind-icon">health</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
@@ -2128,7 +2263,16 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 								<a href="_alt_server_.player.html#id" class="tsd-kind-icon">id</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#invincible" class="tsd-kind-icon">invincible</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#ip" class="tsd-kind-icon">ip</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#isaiming" class="tsd-kind-icon">is<wbr>Aiming</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#isinragdoll" class="tsd-kind-icon">is<wbr>InRagdoll</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#maxarmour" class="tsd-kind-icon">max<wbr>Armour</a>
@@ -2138,6 +2282,9 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_server_.player.html#model" class="tsd-kind-icon">model</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#movespeed" class="tsd-kind-icon">move<wbr>Speed</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#name" class="tsd-kind-icon">name</a>
@@ -2162,6 +2309,9 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#socialid-1" class="tsd-kind-icon">social<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_alt_server_.player.html#streamed" class="tsd-kind-icon">streamed</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_server_.player.html#type" class="tsd-kind-icon">type</a>
