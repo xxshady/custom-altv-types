@@ -98,6 +98,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.colshapecylinder.html#dimension" class="tsd-kind-icon">dimension</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.colshapecylinder.html#playersonly" class="tsd-kind-icon">players<wbr>Only</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.colshapecylinder.html#pos" class="tsd-kind-icon">pos</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.colshapecylinder.html#refcount" class="tsd-kind-icon">ref<wbr>Count</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.colshapecylinder.html#type" class="tsd-kind-icon">type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.colshapecylinder.html#valid" class="tsd-kind-icon">valid</a></li>
 							</ul>
@@ -129,7 +130,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1095</li>
+									<li>Defined in types-server/index.d.ts:1346</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -164,7 +165,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.colshape.html">Colshape</a>.<a href="_alt_server_.colshape.html#colshapetype">colshapeType</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:1083</li>
+							<li>Defined in types-server/index.d.ts:1334</li>
 						</ul>
 					</aside>
 				</section>
@@ -175,13 +176,18 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.worldobject.html">WorldObject</a>.<a href="_alt_server_.worldobject.html#dimension">dimension</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:436</li>
+							<li>Defined in types-server/index.d.ts:456</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Object dimension.</p>
 						</div>
+						<dl class="tsd-comment-tags">
+							<dt>remarks</dt>
+							<dd><p>Check <a href="https://docs.altv.mp/articles/dimensions.html">https://docs.altv.mp/articles/dimensions.html</a> to understand how it works.</p>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -191,7 +197,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.colshape.html">Colshape</a>.<a href="_alt_server_.colshape.html#playersonly">playersOnly</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:1088</li>
+							<li>Defined in types-server/index.d.ts:1339</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -207,7 +213,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.worldobject.html">WorldObject</a>.<a href="_alt_server_.worldobject.html#pos">pos</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:441</li>
+							<li>Defined in types-server/index.d.ts:461</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -217,13 +223,36 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="refcount" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> ref<wbr>Count</h3>
+					<div class="tsd-signature tsd-kind-icon">ref<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#refcount">refCount</a></p>
+						<ul>
+							<li>Defined in types-shared/index.d.ts:1206</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Returns the ref count of the entity.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>remarks</dt>
+							<dd><p>It&#39;s only available in debug-mode.</p>
+							</dd>
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="type" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> type</h3>
 					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#type">type</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:287</li>
+							<li>Defined in types-shared/index.d.ts:1153</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -239,7 +268,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#valid">valid</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:294</li>
+							<li>Defined in types-shared/index.d.ts:1160</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -267,7 +296,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:306</li>
+									<li>Defined in types-shared/index.d.ts:1172</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -299,7 +328,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#destroy">destroy</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:299</li>
+									<li>Defined in types-shared/index.d.ts:1165</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -322,7 +351,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:314</li>
+									<li>Defined in types-shared/index.d.ts:1180</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -355,7 +384,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:322</li>
+									<li>Defined in types-shared/index.d.ts:1188</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -388,7 +417,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.colshape.html">Colshape</a>.<a href="_alt_server_.colshape.html#isentityin">isEntityIn</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1090</li>
+									<li>Defined in types-server/index.d.ts:1341</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -412,7 +441,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.colshape.html">Colshape</a>.<a href="_alt_server_.colshape.html#ispointin">isPointIn</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1092</li>
+									<li>Defined in types-server/index.d.ts:1343</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -436,7 +465,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:331</li>
+									<li>Defined in types-shared/index.d.ts:1197</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -505,6 +534,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_server_.colshapecylinder.html#pos" class="tsd-kind-icon">pos</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_alt_server_.colshapecylinder.html#refcount" class="tsd-kind-icon">ref<wbr>Count</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_server_.colshapecylinder.html#type" class="tsd-kind-icon">type</a>

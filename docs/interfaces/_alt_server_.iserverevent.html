@@ -363,7 +363,7 @@
 					<div class="tsd-signature tsd-kind-icon">global<wbr>Meta<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, oldValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:374</li>
+							<li>Defined in types-server/index.d.ts:373</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -400,7 +400,7 @@
 					<div class="tsd-signature tsd-kind-icon">global<wbr>Synced<wbr>Meta<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, oldValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:375</li>
+							<li>Defined in types-server/index.d.ts:374</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -777,7 +777,7 @@
 					<div class="tsd-signature tsd-kind-icon">player<wbr>Weapon<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, oldWeapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:382</li>
+							<li>Defined in types-server/index.d.ts:381</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -811,7 +811,7 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="removeentity" class="tsd-anchor"></a>
 					<h3>remove<wbr>Entity</h3>
-					<div class="tsd-signature tsd-kind-icon">remove<wbr>Entity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>object<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_shared_.baseobject.html" class="tsd-signature-type">BaseObject</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<div class="tsd-signature tsd-kind-icon">remove<wbr>Entity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>object<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
 							<li>Defined in types-server/index.d.ts:367</li>
@@ -822,14 +822,14 @@
 						<ul class="tsd-parameters">
 							<li class="tsd-parameter-signature">
 								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>object<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_shared_.baseobject.html" class="tsd-signature-type">BaseObject</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>object<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 								</ul>
 								<ul class="tsd-descriptions">
 									<li class="tsd-description">
 										<h4 class="tsd-parameters-title">Parameters</h4>
 										<ul class="tsd-parameters">
 											<li>
-												<h5>object: <a href="../classes/_alt_shared_.baseobject.html" class="tsd-signature-type">BaseObject</a></h5>
+												<h5>object: <a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a></h5>
 											</li>
 										</ul>
 										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -842,34 +842,25 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="resourceerror" class="tsd-anchor"></a>
 					<h3>resource<wbr>Error</h3>
-					<div class="tsd-signature tsd-kind-icon">resource<wbr>Error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, stackTrace<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, file<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, line<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<div class="tsd-signature tsd-kind-icon">resource<wbr>Error<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Error</span>, file<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, line<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:371</li>
+							<li>Defined in types-server/index.d.ts:370</li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>beta</dt>
-							<dd></dd>
-						</dl>
-					</div>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
 							<li class="tsd-parameter-signature">
 								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, stackTrace<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, file<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, line<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>error<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Error</span>, file<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, line<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 								</ul>
 								<ul class="tsd-descriptions">
 									<li class="tsd-description">
 										<h4 class="tsd-parameters-title">Parameters</h4>
 										<ul class="tsd-parameters">
 											<li>
-												<h5>error: <span class="tsd-signature-type">string</span></h5>
-											</li>
-											<li>
-												<h5>stackTrace: <span class="tsd-signature-type">string</span></h5>
+												<h5>error: <span class="tsd-signature-type">Error</span></h5>
 											</li>
 											<li>
 												<h5>file: <span class="tsd-signature-type">string</span></h5>
@@ -947,7 +938,7 @@
 					<div class="tsd-signature tsd-kind-icon">start<wbr>Fire<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, fires<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_server_.ifireinfo.html" class="tsd-signature-type">IFireInfo</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:380</li>
+							<li>Defined in types-server/index.d.ts:379</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -981,7 +972,7 @@
 					<div class="tsd-signature tsd-kind-icon">start<wbr>Projectile<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, pos<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, dir<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, ammoHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:381</li>
+							<li>Defined in types-server/index.d.ts:380</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -1024,7 +1015,7 @@
 					<div class="tsd-signature tsd-kind-icon">stream<wbr>Synced<wbr>Meta<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, oldValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:373</li>
+							<li>Defined in types-server/index.d.ts:372</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -1064,7 +1055,7 @@
 					<div class="tsd-signature tsd-kind-icon">synced<wbr>Meta<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, oldValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:372</li>
+							<li>Defined in types-server/index.d.ts:371</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -1104,7 +1095,7 @@
 					<div class="tsd-signature tsd-kind-icon">vehicle<wbr>Attach<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, attachedVehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:376</li>
+							<li>Defined in types-server/index.d.ts:375</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -1138,15 +1129,9 @@
 					<div class="tsd-signature tsd-kind-icon">vehicle<wbr>Damage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, bodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, additionalBodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, engineHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, petrolTankDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:384</li>
+							<li>Defined in types-server/index.d.ts:382</li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<dl class="tsd-comment-tags">
-							<dt>beta</dt>
-							<dd></dd>
-						</dl>
-					</div>
 					<div class="tsd-type-declaration">
 						<h4>Type declaration</h4>
 						<ul class="tsd-parameters">
@@ -1193,7 +1178,7 @@
 					<div class="tsd-signature tsd-kind-icon">vehicle<wbr>Destroy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:377</li>
+							<li>Defined in types-server/index.d.ts:376</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -1224,7 +1209,7 @@
 					<div class="tsd-signature tsd-kind-icon">vehicle<wbr>Detach<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, detachedVehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:378</li>
+							<li>Defined in types-server/index.d.ts:377</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
@@ -1258,7 +1243,7 @@
 					<div class="tsd-signature tsd-kind-icon">weapon<wbr>Damage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, target<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, damage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, offset<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, bodyPart<span class="tsd-signature-symbol">: </span><a href="../enums/_alt_server_.bodypart.html" class="tsd-signature-type">BodyPart</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:379</li>
+							<li>Defined in types-server/index.d.ts:378</li>
 						</ul>
 					</aside>
 					<div class="tsd-type-declaration">
