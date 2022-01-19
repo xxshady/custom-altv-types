@@ -5,7 +5,8 @@
   "main": "",
   "private": true,
   "scripts": {
-    "build-docs": "cd ./docs/ && typedoc"
+    "update": "npm install git+https://github.com/altmp/altv-types.git",
+    "build": "cd ./docs/ && typedoc"
   },
   "repository": {
     "type": "git",
