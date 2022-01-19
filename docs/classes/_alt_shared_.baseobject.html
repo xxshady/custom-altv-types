@@ -95,6 +95,9 @@
 							<li>
 								<a href="_alt_client_.httpclient.html" class="tsd-signature-type">HttpClient</a>
 							</li>
+							<li>
+								<a href="_alt_client_.rmldocument.html" class="tsd-signature-type">RmlDocument</a>
+							</li>
 						</ul>
 					</li>
 				</ul>
@@ -116,7 +119,9 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_shared_.baseobject.html#deletemeta" class="tsd-kind-icon">delete<wbr>Meta</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_shared_.baseobject.html#destroy" class="tsd-kind-icon">destroy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_shared_.baseobject.html#getlocalmeta" class="tsd-kind-icon">get<wbr>Local<wbr>Meta</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_shared_.baseobject.html#getmeta" class="tsd-kind-icon">get<wbr>Meta</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_shared_.baseobject.html#haslocalmeta" class="tsd-kind-icon">has<wbr>Local<wbr>Meta</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_shared_.baseobject.html#hasmeta" class="tsd-kind-icon">has<wbr>Meta</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_shared_.baseobject.html#setmeta" class="tsd-kind-icon">set<wbr>Meta</a></li>
 							</ul>
@@ -132,7 +137,7 @@
 					<div class="tsd-signature tsd-kind-icon">ref<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1200</li>
+							<li>Defined in types-shared/index.d.ts:1206</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -152,7 +157,7 @@
 					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1149</li>
+							<li>Defined in types-shared/index.d.ts:1155</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -167,7 +172,7 @@
 					<div class="tsd-signature tsd-kind-icon">valid<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1156</li>
+							<li>Defined in types-shared/index.d.ts:1162</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -194,7 +199,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1168</li>
+									<li>Defined in types-shared/index.d.ts:1174</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -225,7 +230,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1161</li>
+									<li>Defined in types-shared/index.d.ts:1167</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -234,6 +239,42 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getlocalmeta" class="tsd-anchor"></a>
+					<h3>get<wbr>Local<wbr>Meta</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Local<wbr>Meta<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-shared/index.d.ts:1216</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets a value using the specified key.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>beta</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The key of the value to get.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+							<p>Dynamic value associated with the specified key.</p>
 						</li>
 					</ul>
 				</section>
@@ -247,7 +288,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1176</li>
+									<li>Defined in types-shared/index.d.ts:1182</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -270,6 +311,35 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="haslocalmeta" class="tsd-anchor"></a>
+					<h3>has<wbr>Local<wbr>Meta</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">has<wbr>Local<wbr>Meta<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-shared/index.d.ts:1219</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>beta</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
 					<a name="hasmeta" class="tsd-anchor"></a>
 					<h3>has<wbr>Meta</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -279,7 +349,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1184</li>
+									<li>Defined in types-shared/index.d.ts:1190</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -311,7 +381,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1193</li>
+									<li>Defined in types-shared/index.d.ts:1199</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -385,7 +455,13 @@
 								<a href="_alt_shared_.baseobject.html#destroy" class="tsd-kind-icon">destroy</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_alt_shared_.baseobject.html#getlocalmeta" class="tsd-kind-icon">get<wbr>Local<wbr>Meta</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="_alt_shared_.baseobject.html#getmeta" class="tsd-kind-icon">get<wbr>Meta</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="_alt_shared_.baseobject.html#haslocalmeta" class="tsd-kind-icon">has<wbr>Local<wbr>Meta</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="_alt_shared_.baseobject.html#hasmeta" class="tsd-kind-icon">has<wbr>Meta</a>
