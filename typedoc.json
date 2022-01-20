@@ -1,0 +1,24 @@
+{
+  "mode": "file",
+  "inputFiles": [
+    "node_modules/@altv/types-shared",
+    "node_modules/@altv/types-server",
+    "node_modules/@altv/types-client",
+    "node_modules/@altv/types-worker"
+  ],
+  "includeDeclarations": true,
+  "excludeExternals": true,
+  "out": "docs",
+  "plugin": [
+    "typedoc-plugin-extras"
+  ],
+  "theme": [
+    "node_modules/typedoc-default-themes/bin/default"
+  ],
+  "name": "custom alt:V docs JS",
+  "readme": "README.md",
+  "favicon": "docs/favicon.ico",
+  "hideGenerator": true,
+  "json": "docs/typings.json",
+  "disableOutputCheck": true
+}

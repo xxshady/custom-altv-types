@@ -1,1 +1,0 @@
-npm update @altv/types-shared @altv/types-client @altv/types-server

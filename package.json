@@ -1,12 +1,18 @@
 {
-  "name": "altv-typings",
-  "version": "1.0.22",
-  "description": "TypeScript typings for alt:V client & server",
+  "name": "custom-altv-js-docs",
+  "version": "0.0",
+  "description": "just alt:V js api documentation in the old style",
   "main": "",
   "private": true,
   "scripts": {
-    "update": "npm install git+https://github.com/altmp/altv-types.git",
-    "build": "cd ./docs/ && typedoc"
+    "copy": "concurrently 'yarn:copy:*'",
+    "copy:shared": "copyfiles --up 4 \"node_modules/@altmp/altv-types/shared/**/*\" \"node_modules/@altv/types-shared\"",
+    "copy:client": "copyfiles --up 4 \"node_modules/@altmp/altv-types/client/**/*\" \"node_modules/@altv/types-client\"",
+    "copy:server": "copyfiles --up 4 \"node_modules/@altmp/altv-types/server/**/*\" \"node_modules/@altv/types-server\"",
+    "copy:worker": "copyfiles --up 4 \"node_modules/@altmp/altv-types/worker/**/*\" \"node_modules/@altv/types-worker\"",
+    "clear-docs-folder": "rimraf docs/assets docs/classes docs/enums docs/interfaces docs/modules",
+    "build": "yarn clear-docs-folder && typedoc",
+    "update": "yarn add git+https://github.com/altmp/altv-types.git && yarn copy && yarn build"
   },
   "repository": {
     "type": "git",
@@ -14,10 +20,6 @@
   },
   "author": "altMP Team",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/altmp/altv-typings/issues"
-  },
-  "homepage": "https://github.com/altmp/altv-typings#readme",
   "devDependencies": {
     "@altv/types-client": "^1.7.6",
     "typedoc": "^0.19.0",
@@ -29,6 +31,9 @@
     "@altmp/altv-types": "git+https://github.com/altmp/altv-types.git",
     "@altv/types-server": "^1.9.6",
     "@altv/types-shared": "^1.0.1",
+    "concurrently": "^7.0.0",
+    "copyfiles": "^2.4.1",
+    "rimraf": "^3.0.2",
     "typedoc-dark-theme": "0.0.11"
   }
 }
