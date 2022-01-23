@@ -178,8 +178,9 @@
 						<section class="tsd-index-section ">
 							<h3>Interfaces</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.connectioninfo.html" class="tsd-kind-icon">Connection<wbr>Info</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.icloth.html" class="tsd-kind-icon">ICloth</a></li>
+								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.iconnectioninfo.html" class="tsd-kind-icon">IConnection<wbr>Info</a></li>
+								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.iconnectionqueueinfo.html" class="tsd-kind-icon">IConnection<wbr>Queue<wbr>Info</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.idlccloth.html" class="tsd-kind-icon">IDlc<wbr>Cloth</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.idlcprop.html" class="tsd-kind-icon">IDlc<wbr>Prop</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.ifireinfo.html" class="tsd-kind-icon">IFire<wbr>Info</a></li>
@@ -189,8 +190,7 @@
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.iserverevent.html" class="tsd-kind-icon">IServer<wbr>Event</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.ivehiclemodel.html" class="tsd-kind-icon">IVehicle<wbr>Model</a></li>
 								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.ivehicleneon.html" class="tsd-kind-icon">IVehicle<wbr>Neon</a></li>
-								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.weapon.html" class="tsd-kind-icon">Weapon</a></li>
-								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.connectionqueueinfo.html" class="tsd-kind-icon">connection<wbr>Queue<wbr>Info</a></li>
+								<li class="tsd-kind-interface tsd-parent-kind-module"><a href="../interfaces/_alt_server_.iweapon.html" class="tsd-kind-icon">IWeapon</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
@@ -232,7 +232,7 @@
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#onceclient" class="tsd-kind-icon">once<wbr>Client</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#restartresource" class="tsd-kind-icon">restart<wbr>Resource</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#setpassword" class="tsd-kind-icon">set<wbr>Password</a></li>
-								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#setsyncedmeta" class="tsd-kind-icon">set<wbr>Synced<wbr>Meta</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter"><a href="_alt_server_.html#setsyncedmeta" class="tsd-kind-icon">set<wbr>Synced<wbr>Meta</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#startresource" class="tsd-kind-icon">start<wbr>Resource</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#stopresource" class="tsd-kind-icon">stop<wbr>Resource</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#stopserver" class="tsd-kind-icon">stop<wbr>Server</a></li>
@@ -1612,11 +1612,11 @@
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
 					<a name="setsyncedmeta" class="tsd-anchor"></a>
 					<h3>set<wbr>Synced<wbr>Meta</h3>
-					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-						<li class="tsd-signature tsd-kind-icon">set<wbr>Synced<wbr>Meta<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
+						<li class="tsd-signature tsd-kind-icon">set<wbr>Synced<wbr>Meta&lt;T&gt;<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1635,6 +1635,12 @@
 									</dd>
 								</dl>
 							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T = <span class="tsd-signature-type">any</span></h4>
+								</li>
+							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
@@ -1644,7 +1650,7 @@
 									</div>
 								</li>
 								<li>
-									<h5>value: <span class="tsd-signature-type">any</span></h5>
+									<h5>value: <span class="tsd-signature-type">T</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>The value to store.</p>
 									</div>
@@ -2010,10 +2016,13 @@
 						<a href="../classes/_alt_server_.worldobject.html" class="tsd-kind-icon">World<wbr>Object</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/_alt_server_.connectioninfo.html" class="tsd-kind-icon">Connection<wbr>Info</a>
+						<a href="../interfaces/_alt_server_.icloth.html" class="tsd-kind-icon">ICloth</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/_alt_server_.icloth.html" class="tsd-kind-icon">ICloth</a>
+						<a href="../interfaces/_alt_server_.iconnectioninfo.html" class="tsd-kind-icon">IConnection<wbr>Info</a>
+					</li>
+					<li class=" tsd-kind-interface tsd-parent-kind-module">
+						<a href="../interfaces/_alt_server_.iconnectionqueueinfo.html" class="tsd-kind-icon">IConnection<wbr>Queue<wbr>Info</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
 						<a href="../interfaces/_alt_server_.idlccloth.html" class="tsd-kind-icon">IDlc<wbr>Cloth</a>
@@ -2043,10 +2052,7 @@
 						<a href="../interfaces/_alt_server_.ivehicleneon.html" class="tsd-kind-icon">IVehicle<wbr>Neon</a>
 					</li>
 					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/_alt_server_.weapon.html" class="tsd-kind-icon">Weapon</a>
-					</li>
-					<li class=" tsd-kind-interface tsd-parent-kind-module">
-						<a href="../interfaces/_alt_server_.connectionqueueinfo.html" class="tsd-kind-icon">connection<wbr>Queue<wbr>Info</a>
+						<a href="../interfaces/_alt_server_.iweapon.html" class="tsd-kind-icon">IWeapon</a>
 					</li>
 					<li class=" tsd-kind-type-alias tsd-parent-kind-module">
 						<a href="_alt_server_.html#datetimeday" class="tsd-kind-icon">Date<wbr>Time<wbr>Day</a>
@@ -2126,7 +2132,7 @@
 					<li class=" tsd-kind-function tsd-parent-kind-module">
 						<a href="_alt_server_.html#setpassword" class="tsd-kind-icon">set<wbr>Password</a>
 					</li>
-					<li class=" tsd-kind-function tsd-parent-kind-module">
+					<li class=" tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
 						<a href="_alt_server_.html#setsyncedmeta" class="tsd-kind-icon">set<wbr>Synced<wbr>Meta</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-module">
