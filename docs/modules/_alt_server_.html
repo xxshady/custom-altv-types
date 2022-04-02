@@ -94,6 +94,7 @@
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#permission" class="tsd-kind-icon">Permission</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#rgba" class="tsd-kind-icon">RGBA</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#resource" class="tsd-kind-icon">Resource</a></li>
+								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#utils" class="tsd-kind-icon">Utils</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#vector2" class="tsd-kind-icon">Vector2</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#vector3" class="tsd-kind-icon">Vector3</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#branch" class="tsd-kind-icon">branch</a></li>
@@ -129,6 +130,7 @@
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#setinterval" class="tsd-kind-icon">set<wbr>Interval</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#setmeta" class="tsd-kind-icon">set<wbr>Meta</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#settimeout" class="tsd-kind-icon">set<wbr>Timeout</a></li>
+								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#stringtosha256" class="tsd-kind-icon">string<wbr>ToSHA256</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#time" class="tsd-kind-icon">time</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#timeend" class="tsd-kind-icon">time<wbr>End</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#version" class="tsd-kind-icon">version</a></li>
@@ -218,6 +220,7 @@
 						<section class="tsd-index-section ">
 							<h3>Functions</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#deletesyncedmeta" class="tsd-kind-icon">delete<wbr>Synced<wbr>Meta</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#emitallclients" class="tsd-kind-icon">emit<wbr>All<wbr>Clients</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#emitallclientsraw" class="tsd-kind-icon">emit<wbr>All<wbr>Clients<wbr>Raw</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#emitclient" class="tsd-kind-icon">emit<wbr>Client</a></li>
@@ -311,6 +314,11 @@
 					<a name="resource" class="tsd-anchor"></a>
 					<h3>Resource</h3>
 					Re-exports <a href="../classes/_alt_shared_.resource.html">Resource</a>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
+					<a name="utils" class="tsd-anchor"></a>
+					<h3>Utils</h3>
+					Re-exports <a href="../classes/_alt_shared_.utils.html">Utils</a>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
 					<a name="vector2" class="tsd-anchor"></a>
@@ -488,6 +496,11 @@
 					Re-exports <a href="_alt_shared_.html#settimeout">setTimeout</a>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
+					<a name="stringtosha256" class="tsd-anchor"></a>
+					<h3>string<wbr>ToSHA256</h3>
+					Re-exports <a href="_alt_shared_.html#stringtosha256">stringToSHA256</a>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
 					<a name="time" class="tsd-anchor"></a>
 					<h3>time</h3>
 					Re-exports <a href="_alt_shared_.html#time">time</a>
@@ -597,6 +610,37 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Functions</h2>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="deletesyncedmeta" class="tsd-anchor"></a>
+					<h3>delete<wbr>Synced<wbr>Meta</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">delete<wbr>Synced<wbr>Meta<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-server/index.d.ts:1963</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Removes the specified key and the data connected to that specific key.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The key of the value to remove.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
 					<a name="emitallclients" class="tsd-anchor"></a>
 					<h3>emit<wbr>All<wbr>Clients</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
@@ -606,7 +650,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2000</li>
+									<li>Defined in types-server/index.d.ts:2025</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -643,7 +687,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2008</li>
+									<li>Defined in types-server/index.d.ts:2033</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -682,7 +726,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1947</li>
+									<li>Defined in types-server/index.d.ts:1972</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -716,7 +760,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1956</li>
+									<li>Defined in types-server/index.d.ts:1981</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -750,7 +794,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1965</li>
+									<li>Defined in types-server/index.d.ts:1990</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -795,7 +839,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1974</li>
+									<li>Defined in types-server/index.d.ts:1999</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -829,7 +873,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1983</li>
+									<li>Defined in types-server/index.d.ts:2008</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -863,7 +907,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1992</li>
+									<li>Defined in types-server/index.d.ts:2017</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -906,7 +950,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2031</li>
+									<li>Defined in types-server/index.d.ts:2056</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -928,7 +972,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2150</li>
+									<li>Defined in types-server/index.d.ts:2177</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -960,7 +1004,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2038</li>
+									<li>Defined in types-server/index.d.ts:2063</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -991,7 +1035,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2045</li>
+									<li>Defined in types-server/index.d.ts:2070</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1022,7 +1066,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2155</li>
+									<li>Defined in types-server/index.d.ts:2182</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1045,7 +1089,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2152</li>
+									<li>Defined in types-server/index.d.ts:2179</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1068,7 +1112,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2024</li>
+									<li>Defined in types-server/index.d.ts:2049</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1104,7 +1148,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2055</li>
+									<li>Defined in types-server/index.d.ts:2080</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1159,13 +1203,13 @@
 					<h3>on</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
 						<li class="tsd-signature tsd-kind-icon">on&lt;K&gt;<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IServerEvent</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-						<li class="tsd-signature tsd-kind-icon">on<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">on&lt;K&gt;<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">shared.InterfaceValueByKey</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_server_.iserverevent.html" class="tsd-signature-type">IServerEvent</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">never</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2063</li>
+									<li>Defined in types-server/index.d.ts:2088</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1199,7 +1243,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2071</li>
+									<li>Defined in types-server/index.d.ts:2097</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1207,37 +1251,25 @@
 									<p>Subscribes to a custom server event with the specified listener.</p>
 								</div>
 							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h4>
+								</li>
+							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>eventName: <span class="tsd-signature-type">string</span></h5>
+									<h5>eventName: <span class="tsd-signature-type">K</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Name of the event.</p>
 									</div>
 								</li>
 								<li>
-									<h5>listener: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<h5>listener: <span class="tsd-signature-type">shared.InterfaceValueByKey</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_server_.iserverevent.html" class="tsd-signature-type">IServerEvent</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">never</span><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Listener that should be added.</p>
 									</div>
-									<ul class="tsd-parameters">
-										<li class="tsd-parameter-signature">
-											<ul class="tsd-signatures tsd-kind-type-literal">
-												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-											</ul>
-											<ul class="tsd-descriptions">
-												<li class="tsd-description">
-													<h4 class="tsd-parameters-title">Parameters</h4>
-													<ul class="tsd-parameters">
-														<li>
-															<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
-														</li>
-													</ul>
-													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-												</li>
-											</ul>
-										</li>
-									</ul>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1255,7 +1287,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2095</li>
+									<li>Defined in types-server/index.d.ts:2122</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1304,7 +1336,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2104</li>
+									<li>Defined in types-server/index.d.ts:2131</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1359,13 +1391,13 @@
 					<h3>once</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module tsd-has-type-parameter">
 						<li class="tsd-signature tsd-kind-icon">once&lt;K&gt;<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">IServerEvent</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-						<li class="tsd-signature tsd-kind-icon">once<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">once&lt;K&gt;<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">shared.InterfaceValueByKey</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_server_.iserverevent.html" class="tsd-signature-type">IServerEvent</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">never</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2079</li>
+									<li>Defined in types-server/index.d.ts:2105</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1399,7 +1431,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2087</li>
+									<li>Defined in types-server/index.d.ts:2114</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1407,37 +1439,25 @@
 									<p>Subscribes to a custom server event with the specified listener, which only triggers once.</p>
 								</div>
 							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h4>
+								</li>
+							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>eventName: <span class="tsd-signature-type">string</span></h5>
+									<h5>eventName: <span class="tsd-signature-type">K</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Name of the event.</p>
 									</div>
 								</li>
 								<li>
-									<h5>listener: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<h5>listener: <span class="tsd-signature-type">shared.InterfaceValueByKey</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_server_.iserverevent.html" class="tsd-signature-type">IServerEvent</a><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">never</span><span class="tsd-signature-symbol">&gt;</span></h5>
 									<div class="tsd-comment tsd-typography">
 										<p>Listener that should be added.</p>
 									</div>
-									<ul class="tsd-parameters">
-										<li class="tsd-parameter-signature">
-											<ul class="tsd-signatures tsd-kind-type-literal">
-												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-											</ul>
-											<ul class="tsd-descriptions">
-												<li class="tsd-description">
-													<h4 class="tsd-parameters-title">Parameters</h4>
-													<ul class="tsd-parameters">
-														<li>
-															<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
-														</li>
-													</ul>
-													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-												</li>
-											</ul>
-										</li>
-									</ul>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1455,7 +1475,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2112</li>
+									<li>Defined in types-server/index.d.ts:2139</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1504,7 +1524,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2121</li>
+									<li>Defined in types-server/index.d.ts:2148</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1564,7 +1584,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2135</li>
+									<li>Defined in types-server/index.d.ts:2162</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1595,7 +1615,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2015</li>
+									<li>Defined in types-server/index.d.ts:2040</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1626,7 +1646,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1938</li>
+									<li>Defined in types-server/index.d.ts:1956</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1674,7 +1694,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2128</li>
+									<li>Defined in types-server/index.d.ts:2155</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1705,7 +1725,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2142</li>
+									<li>Defined in types-server/index.d.ts:2169</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1736,7 +1756,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2026</li>
+									<li>Defined in types-server/index.d.ts:2051</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1805,6 +1825,9 @@
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_server_.html#resource" class="tsd-kind-icon">Resource</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="_alt_server_.html#utils" class="tsd-kind-icon">Utils</a>
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_server_.html#vector2" class="tsd-kind-icon">Vector2</a>
@@ -1910,6 +1933,9 @@
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_server_.html#settimeout" class="tsd-kind-icon">set<wbr>Timeout</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="_alt_server_.html#stringtosha256" class="tsd-kind-icon">string<wbr>ToSHA256</a>
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_server_.html#time" class="tsd-kind-icon">time</a>
@@ -2087,6 +2113,9 @@
 					</li>
 					<li class=" tsd-kind-variable tsd-parent-kind-module">
 						<a href="_alt_server_.html#rootdir" class="tsd-kind-icon">root<wbr>Dir</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="_alt_server_.html#deletesyncedmeta" class="tsd-kind-icon">delete<wbr>Synced<wbr>Meta</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-module">
 						<a href="_alt_server_.html#emitallclients" class="tsd-kind-icon">emit<wbr>All<wbr>Clients</a>
