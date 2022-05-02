@@ -68,6 +68,28 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>A vehicle is an extension of the Entity class.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-js"><span class="hljs-comment">// Get the vehicle a player is driving.</span>
+<span class="hljs-keyword">const</span> vehicle = alt.Vehicle.all.find(<span class="hljs-function"><span class="hljs-params">veh</span> =&gt;</span> veh.driver &amp;&amp; veh.driver.name === <span class="hljs-string">&#x27;Stuyk&#x27;</span>);
+<span class="hljs-keyword">if</span> (!vehicle) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Stuyk is not driving a vehicle&#x27;</span>);
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Stuyk is driving a vehicle.&#x27;</span>)
+    <span class="hljs-keyword">const</span> player = vehicle.driver;
+}
+</code></pre>
+						</dd>
+						<dt>export</dt>
+						<dd></dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -270,7 +292,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1444</li>
+									<li>Defined in types-server/index.d.ts:1599</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -302,7 +324,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1446</li>
+									<li>Defined in types-server/index.d.ts:1601</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -330,13 +352,24 @@
 					<div class="tsd-signature tsd-kind-icon">active<wbr>Radio<wbr>Station<span class="tsd-signature-symbol">:</span> <a href="../enums/_alt_server_.radiostation.html" class="tsd-signature-type">RadioStation</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1252</li>
+							<li>Defined in types-server/index.d.ts:1292</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets or sets the active radio station.</p>
 						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someVehicle = alt.Vehicle.all[<span class="hljs-number">0</span>];
+<span class="hljs-keyword">const</span> stationNumber = someVehicle.activeRadioStation;
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Current Station: <span class="hljs-subst">${stationNumber}</span>`</span>);
+
+someVehicle.activeRadioStation = <span class="hljs-number">255</span>;
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Vehicle radio station was turned off.`</span>);
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -345,7 +378,7 @@
 					<div class="tsd-signature tsd-kind-icon">attached<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1432</li>
+							<li>Defined in types-server/index.d.ts:1587</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -360,7 +393,7 @@
 					<div class="tsd-signature tsd-kind-icon">attached<wbr>To<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1436</li>
+							<li>Defined in types-server/index.d.ts:1591</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -375,7 +408,7 @@
 					<div class="tsd-signature tsd-kind-icon">boat<wbr>Anchor<wbr>Active<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1937</li>
+							<li>Defined in types-server/index.d.ts:2092</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -394,7 +427,7 @@
 					<div class="tsd-signature tsd-kind-icon">body<wbr>Additional<wbr>Health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1256</li>
+							<li>Defined in types-server/index.d.ts:1297</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -409,7 +442,7 @@
 					<div class="tsd-signature tsd-kind-icon">body<wbr>Health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1260</li>
+							<li>Defined in types-server/index.d.ts:1301</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -441,13 +474,21 @@
 					<div class="tsd-signature tsd-kind-icon">custom<wbr>Primary<wbr>Color<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.rgba.html" class="tsd-signature-type">RGBA</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1264</li>
+							<li>Defined in types-server/index.d.ts:1313</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets or sets the custom primary color as a RGBA type.</p>
 						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someVehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;elegy&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+someVehicle.customPrimaryColor = <span class="hljs-keyword">new</span> alt.RGBA(<span class="hljs-number">255</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Vehicle custom primary color was set to red`</span>);
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -456,13 +497,21 @@
 					<div class="tsd-signature tsd-kind-icon">custom<wbr>Secondary<wbr>Color<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.rgba.html" class="tsd-signature-type">RGBA</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1268</li>
+							<li>Defined in types-server/index.d.ts:1324</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets or sets the custom secondary color as a RGBA type.</p>
 						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someVehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;elegy&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+someVehicle.customSecondaryColor = <span class="hljs-keyword">new</span> alt.RGBA(<span class="hljs-number">255</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+<span class="hljs-built_in">console</span>.log(<span class="hljs-string">`Vehicle custom secondary color was set to red`</span>);
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -471,7 +520,7 @@
 					<div class="tsd-signature tsd-kind-icon">custom<wbr>Tires<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1272</li>
+							<li>Defined in types-server/index.d.ts:1329</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -486,13 +535,20 @@
 					<div class="tsd-signature tsd-kind-icon">darkness<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1276</li>
+							<li>Defined in types-server/index.d.ts:1340</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Applies some decoration effects to the vehicle (e.g.: It makes the hydra looking rusty or applies snow to the front bumper of <code>policeold1</code>). Does not work on every vehicle model.</p>
 						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someVehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;elegy&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+someVehicle.darkness = <span class="hljs-number">500</span>;
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -501,13 +557,21 @@
 					<div class="tsd-signature tsd-kind-icon">dashboard<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1280</li>
+							<li>Defined in types-server/index.d.ts:1353</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets or sets the dashboard color of the vehicle.</p>
 						</div>
+						<p>Dash board colors range from 0 to 159.</p>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someVehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;elegy&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+someVehicle.dashboardColor = <span class="hljs-number">139</span>;
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -516,13 +580,24 @@
 					<div class="tsd-signature tsd-kind-icon">daylight<wbr>On<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1284</li>
+							<li>Defined in types-server/index.d.ts:1368</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets the current state of the daylights.</p>
 						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someVehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;elegy&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+<span class="hljs-keyword">if</span> (someVehicle.daylightOn) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Vehicle daylights are on&#x27;</span>);
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Vehicle daylights are off&#x27;</span>);
+}
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -531,13 +606,25 @@
 					<div class="tsd-signature tsd-kind-icon">destroyed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1288</li>
+							<li>Defined in types-server/index.d.ts:1386</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets if a vehicle is destroyed.</p>
 						</div>
+						<p>Destroyed is set to true when specific game activities cause the engine to stop.
+						Explosions, being underwater, crashing too much, etc.</p>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someVehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;elegy&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+
+<span class="hljs-keyword">if</span> (someVehicle.destroyed) {
+   <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`The elegy has been destroyed.`</span>);
+}
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -567,7 +654,7 @@
 					<div class="tsd-signature tsd-kind-icon">dirt<wbr>Level<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1292</li>
+							<li>Defined in types-server/index.d.ts:1391</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -582,7 +669,7 @@
 					<div class="tsd-signature tsd-kind-icon">drift<wbr>Mode<wbr>Enabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1444</li>
+							<li>Defined in types-server/index.d.ts:1599</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -597,13 +684,24 @@
 					<div class="tsd-signature tsd-kind-icon">driver<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.player.html" class="tsd-signature-type">Player</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1296</li>
+							<li>Defined in types-server/index.d.ts:1407</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets the current driver of the vehicle. It returns null, if there is no driver.</p>
 						</div>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someVehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;elegy&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+<span class="hljs-keyword">const</span> driver = someVehicle.driver;
+
+<span class="hljs-keyword">if</span> (driver) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">`There is currently a player driving this car. <span class="hljs-subst">${driver.name}</span>`</span>);
+}
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -612,13 +710,44 @@
 					<div class="tsd-signature tsd-kind-icon">engine<wbr>Health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1300</li>
+							<li>Defined in types-server/index.d.ts:1445</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets or sets the current engine health.</p>
 						</div>
+						<p>Default maximum engine health is 1000.
+						The <code>vehicle.repair()</code> function should be used to repair a vehicle if the engine health is less than or equal to zero.</p>
+						<p>This example demonstrates that when you drive through a ColShape it will repair the vehicle.</p>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> someColShape = <span class="hljs-keyword">new</span> alt.ColshapeCircle(-<span class="hljs-number">1295.9208984375</span>, <span class="hljs-number">86.0835189819336</span>, <span class="hljs-number">2</span>);
+someColShape.repairVehicles = <span class="hljs-literal">true</span>;
+
+alt.on(<span class="hljs-string">&#x27;entityEnterColshape&#x27;</span>, <span class="hljs-function">(<span class="hljs-params">colshape, entity</span>) =&gt;</span> {
+      <span class="hljs-comment">// Check if the entity is a vehicle or not.</span>
+    <span class="hljs-keyword">if</span> (!(entity <span class="hljs-keyword">instanceof</span> alt.Vehicle)) {
+       <span class="hljs-keyword">return</span>;
+    }
+
+    <span class="hljs-comment">// Check if it&#x27;s the right colshape to do this.</span>
+    <span class="hljs-keyword">if</span> (!colshape.repairVehicles) {
+       <span class="hljs-keyword">return</span>;
+    }
+
+    <span class="hljs-keyword">if</span> (entity.destroyed) {
+        entity.repair();
+        <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Repaired Destroyed Vehicle&#x27;</span>);
+        <span class="hljs-keyword">return</span>;
+    }
+
+    entity.engineHealth = <span class="hljs-number">1000</span>;
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;Repaired Vehicle&#x27;</span>)
+});
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -627,13 +756,21 @@
 					<div class="tsd-signature tsd-kind-icon">engine<wbr>On<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1304</li>
+							<li>Defined in types-server/index.d.ts:1458</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Gets or sets the engine state of the vehicle.</p>
 						</div>
+						<p>The functionality of the vehicle engine can be triggered on either client-side or server-side. If you want to trigger the engine on client-side use native.setVehicleEngineOn.</p>
+						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> vehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;elegy&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
+vehicle.engineOn = <span class="hljs-literal">true</span>;
+</code></pre>
+							</dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
@@ -642,7 +779,7 @@
 					<div class="tsd-signature tsd-kind-icon">flamethrower<wbr>Active<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1308</li>
+							<li>Defined in types-server/index.d.ts:1463</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -657,7 +794,7 @@
 					<div class="tsd-signature tsd-kind-icon">front<wbr>Wheels<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1420</li>
+							<li>Defined in types-server/index.d.ts:1575</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -689,7 +826,7 @@
 					<div class="tsd-signature tsd-kind-icon">handbrake<wbr>Active<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1312</li>
+							<li>Defined in types-server/index.d.ts:1467</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -704,7 +841,7 @@
 					<div class="tsd-signature tsd-kind-icon">has<wbr>Armored<wbr>Windows<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1316</li>
+							<li>Defined in types-server/index.d.ts:1471</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -719,7 +856,7 @@
 					<div class="tsd-signature tsd-kind-icon">headlight<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1320</li>
+							<li>Defined in types-server/index.d.ts:1475</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -750,7 +887,7 @@
 					<div class="tsd-signature tsd-kind-icon">interior<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1324</li>
+							<li>Defined in types-server/index.d.ts:1479</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -765,7 +902,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Mission<wbr>Train<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1822</li>
+							<li>Defined in types-server/index.d.ts:1977</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -780,7 +917,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Train<wbr>Caboose<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1863</li>
+							<li>Defined in types-server/index.d.ts:2018</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -795,7 +932,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Train<wbr>Engine<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1858</li>
+							<li>Defined in types-server/index.d.ts:2013</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -810,7 +947,7 @@
 					<div class="tsd-signature tsd-kind-icon">lights<wbr>Multiplier<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1328</li>
+							<li>Defined in types-server/index.d.ts:1483</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -825,7 +962,7 @@
 					<div class="tsd-signature tsd-kind-icon">livery<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1332</li>
+							<li>Defined in types-server/index.d.ts:1487</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -840,7 +977,7 @@
 					<div class="tsd-signature tsd-kind-icon">lock<wbr>State<span class="tsd-signature-symbol">:</span> <a href="../enums/_alt_server_.vehiclelockstate.html" class="tsd-signature-type">VehicleLockState</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1336</li>
+							<li>Defined in types-server/index.d.ts:1491</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -855,7 +992,7 @@
 					<div class="tsd-signature tsd-kind-icon">manual<wbr>Engine<wbr>Control<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1340</li>
+							<li>Defined in types-server/index.d.ts:1495</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -870,7 +1007,7 @@
 					<div class="tsd-signature tsd-kind-icon">mod<wbr>Kit<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1344</li>
+							<li>Defined in types-server/index.d.ts:1499</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -885,7 +1022,7 @@
 					<div class="tsd-signature tsd-kind-icon">mod<wbr>Kits<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1348</li>
+							<li>Defined in types-server/index.d.ts:1503</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -901,14 +1038,23 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#model">model</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:1248</li>
+							<li>Defined in types-server/index.d.ts:1277</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>Entity model hash.</p>
+							<p>Get the entity model hash.</p>
 						</div>
 						<dl class="tsd-comment-tags">
+							<dt>example</dt>
+							<dd><pre><code class="language-js"><span class="hljs-keyword">const</span> comparisonHash = alt.hash(<span class="hljs-string">&#x27;infernus&#x27;</span>);
+<span class="hljs-keyword">if</span> (comparisonHash === someVehicle.model) {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;This vehicle is an infernus.&#x27;</span>);
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-built_in">console</span>.log(<span class="hljs-string">&#x27;This vehicle is not an infernus.&#x27;</span>);
+}
+</code></pre>
+							</dd>
 							<dt>remarks</dt>
 							<dd><p>Only setter accepts string or number as input, getter returns value as number.</p>
 							</dd>
@@ -921,7 +1067,7 @@
 					<div class="tsd-signature tsd-kind-icon">neon<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_alt_server_.ivehicleneon.html" class="tsd-signature-type">IVehicleNeon</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1352</li>
+							<li>Defined in types-server/index.d.ts:1507</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -936,7 +1082,7 @@
 					<div class="tsd-signature tsd-kind-icon">neon<wbr>Color<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.rgba.html" class="tsd-signature-type">RGBA</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1356</li>
+							<li>Defined in types-server/index.d.ts:1511</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -976,7 +1122,7 @@
 					<div class="tsd-signature tsd-kind-icon">nightlight<wbr>On<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1360</li>
+							<li>Defined in types-server/index.d.ts:1515</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -991,7 +1137,7 @@
 					<div class="tsd-signature tsd-kind-icon">number<wbr>Plate<wbr>Index<span class="tsd-signature-symbol">:</span> <a href="../enums/_alt_server_.numberplatestyle.html" class="tsd-signature-type">NumberPlateStyle</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1364</li>
+							<li>Defined in types-server/index.d.ts:1519</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1006,7 +1152,7 @@
 					<div class="tsd-signature tsd-kind-icon">number<wbr>Plate<wbr>Text<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1368</li>
+							<li>Defined in types-server/index.d.ts:1523</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1021,7 +1167,7 @@
 					<div class="tsd-signature tsd-kind-icon">pearl<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1372</li>
+							<li>Defined in types-server/index.d.ts:1527</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1036,7 +1182,7 @@
 					<div class="tsd-signature tsd-kind-icon">petrol<wbr>Tank<wbr>Health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1376</li>
+							<li>Defined in types-server/index.d.ts:1531</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1067,7 +1213,7 @@
 					<div class="tsd-signature tsd-kind-icon">primary<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1380</li>
+							<li>Defined in types-server/index.d.ts:1535</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1082,7 +1228,7 @@
 					<div class="tsd-signature tsd-kind-icon">rear<wbr>Wheels<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1424</li>
+							<li>Defined in types-server/index.d.ts:1579</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1118,7 +1264,7 @@
 					<div class="tsd-signature tsd-kind-icon">repairs<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1384</li>
+							<li>Defined in types-server/index.d.ts:1539</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1133,7 +1279,7 @@
 					<div class="tsd-signature tsd-kind-icon">roof<wbr>Livery<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1388</li>
+							<li>Defined in types-server/index.d.ts:1543</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1148,7 +1294,7 @@
 					<div class="tsd-signature tsd-kind-icon">roof<wbr>State<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1392</li>
+							<li>Defined in types-server/index.d.ts:1547</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1184,7 +1330,7 @@
 					<div class="tsd-signature tsd-kind-icon">secondary<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1396</li>
+							<li>Defined in types-server/index.d.ts:1551</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1199,7 +1345,7 @@
 					<div class="tsd-signature tsd-kind-icon">siren<wbr>Active<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1400</li>
+							<li>Defined in types-server/index.d.ts:1555</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1230,7 +1376,7 @@
 					<div class="tsd-signature tsd-kind-icon">tire<wbr>Smoke<wbr>Color<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.rgba.html" class="tsd-signature-type">RGBA</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1404</li>
+							<li>Defined in types-server/index.d.ts:1559</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1245,7 +1391,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Carriage<wbr>Config<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1893</li>
+							<li>Defined in types-server/index.d.ts:2048</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1260,7 +1406,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Config<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1848</li>
+							<li>Defined in types-server/index.d.ts:2003</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1280,7 +1426,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Cruise<wbr>Speed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1888</li>
+							<li>Defined in types-server/index.d.ts:2043</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1295,7 +1441,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Direction<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1873</li>
+							<li>Defined in types-server/index.d.ts:2028</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1310,7 +1456,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Distance<wbr>From<wbr>Engine<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1853</li>
+							<li>Defined in types-server/index.d.ts:2008</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1325,7 +1471,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Engine<wbr>Id<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1834</li>
+							<li>Defined in types-server/index.d.ts:1989</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1340,7 +1486,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Force<wbr>Doors<wbr>Open<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1883</li>
+							<li>Defined in types-server/index.d.ts:2038</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1355,7 +1501,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Linked<wbr>ToBackward<wbr>Id<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1898</li>
+							<li>Defined in types-server/index.d.ts:2053</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1370,7 +1516,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Linked<wbr>ToForward<wbr>Id<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1910</li>
+							<li>Defined in types-server/index.d.ts:2065</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1385,7 +1531,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Passenger<wbr>Carriages<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1868</li>
+							<li>Defined in types-server/index.d.ts:2023</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1400,7 +1546,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Render<wbr>Derailed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1878</li>
+							<li>Defined in types-server/index.d.ts:2033</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1415,7 +1561,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Track<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1829</li>
+							<li>Defined in types-server/index.d.ts:1984</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1435,7 +1581,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Unk1<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1919</li>
+							<li>Defined in types-server/index.d.ts:2074</li>
 						</ul>
 					</aside>
 				</section>
@@ -1445,7 +1591,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Unk2<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1921</li>
+							<li>Defined in types-server/index.d.ts:2076</li>
 						</ul>
 					</aside>
 				</section>
@@ -1455,7 +1601,7 @@
 					<div class="tsd-signature tsd-kind-icon">train<wbr>Unk3<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1923</li>
+							<li>Defined in types-server/index.d.ts:2078</li>
 						</ul>
 					</aside>
 				</section>
@@ -1502,7 +1648,7 @@
 					<div class="tsd-signature tsd-kind-icon">velocity<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1440</li>
+							<li>Defined in types-server/index.d.ts:1595</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1533,7 +1679,7 @@
 					<div class="tsd-signature tsd-kind-icon">wheel<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1408</li>
+							<li>Defined in types-server/index.d.ts:1563</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1548,7 +1694,7 @@
 					<div class="tsd-signature tsd-kind-icon">wheel<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1416</li>
+							<li>Defined in types-server/index.d.ts:1571</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1563,7 +1709,7 @@
 					<div class="tsd-signature tsd-kind-icon">wheels<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1412</li>
+							<li>Defined in types-server/index.d.ts:1567</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1578,7 +1724,7 @@
 					<div class="tsd-signature tsd-kind-icon">window<wbr>Tint<span class="tsd-signature-symbol">:</span> <a href="../enums/_alt_server_.windowtint.html" class="tsd-signature-type">WindowTint</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:1428</li>
+							<li>Defined in types-server/index.d.ts:1583</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1594,7 +1740,7 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#all">all</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:1242</li>
+							<li>Defined in types-server/index.d.ts:1261</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -1900,7 +2046,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1461</li>
+									<li>Defined in types-server/index.d.ts:1616</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1932,7 +2078,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1468</li>
+									<li>Defined in types-server/index.d.ts:1623</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1960,7 +2106,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1475</li>
+									<li>Defined in types-server/index.d.ts:1630</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1992,7 +2138,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1482</li>
+									<li>Defined in types-server/index.d.ts:1637</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2025,7 +2171,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1489</li>
+									<li>Defined in types-server/index.d.ts:1644</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2048,7 +2194,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1490</li>
+									<li>Defined in types-server/index.d.ts:1645</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2080,7 +2226,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1498</li>
+									<li>Defined in types-server/index.d.ts:1653</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2109,7 +2255,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1505</li>
+									<li>Defined in types-server/index.d.ts:1660</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2132,7 +2278,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1506</li>
+									<li>Defined in types-server/index.d.ts:1661</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2164,7 +2310,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1515</li>
+									<li>Defined in types-server/index.d.ts:1670</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2201,7 +2347,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1523</li>
+									<li>Defined in types-server/index.d.ts:1678</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2229,7 +2375,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1531</li>
+									<li>Defined in types-server/index.d.ts:1686</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2342,7 +2488,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1538</li>
+									<li>Defined in types-server/index.d.ts:1693</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2365,7 +2511,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1539</li>
+									<li>Defined in types-server/index.d.ts:1694</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2395,7 +2541,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1546</li>
+									<li>Defined in types-server/index.d.ts:1701</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2418,7 +2564,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1547</li>
+									<li>Defined in types-server/index.d.ts:1702</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2448,7 +2594,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1554</li>
+									<li>Defined in types-server/index.d.ts:1709</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2471,7 +2617,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1555</li>
+									<li>Defined in types-server/index.d.ts:1710</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2501,7 +2647,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1562</li>
+									<li>Defined in types-server/index.d.ts:1717</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2524,7 +2670,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1563</li>
+									<li>Defined in types-server/index.d.ts:1718</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2556,7 +2702,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1571</li>
+									<li>Defined in types-server/index.d.ts:1726</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2764,7 +2910,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1578</li>
+									<li>Defined in types-server/index.d.ts:1733</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2954,7 +3100,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1585</li>
+									<li>Defined in types-server/index.d.ts:1740</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2986,7 +3132,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1592</li>
+									<li>Defined in types-server/index.d.ts:1747</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3018,7 +3164,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1599</li>
+									<li>Defined in types-server/index.d.ts:1754</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3050,7 +3196,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1606</li>
+									<li>Defined in types-server/index.d.ts:1761</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3082,7 +3228,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1613</li>
+									<li>Defined in types-server/index.d.ts:1768</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3114,7 +3260,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1620</li>
+									<li>Defined in types-server/index.d.ts:1775</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3146,7 +3292,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1627</li>
+									<li>Defined in types-server/index.d.ts:1782</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3178,7 +3324,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1631</li>
+									<li>Defined in types-server/index.d.ts:1786</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3241,7 +3387,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1640</li>
+									<li>Defined in types-server/index.d.ts:1795</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3277,7 +3423,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1647</li>
+									<li>Defined in types-server/index.d.ts:1802</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3314,7 +3460,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1654</li>
+									<li>Defined in types-server/index.d.ts:1809</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3352,7 +3498,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1661</li>
+									<li>Defined in types-server/index.d.ts:1816</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3380,7 +3526,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1662</li>
+									<li>Defined in types-server/index.d.ts:1817</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3415,7 +3561,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1670</li>
+									<li>Defined in types-server/index.d.ts:1825</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3452,7 +3598,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1677</li>
+									<li>Defined in types-server/index.d.ts:1832</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3480,7 +3626,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1678</li>
+									<li>Defined in types-server/index.d.ts:1833</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3515,7 +3661,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1687</li>
+									<li>Defined in types-server/index.d.ts:1842</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3557,7 +3703,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1695</li>
+									<li>Defined in types-server/index.d.ts:1850</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3593,7 +3739,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1703</li>
+									<li>Defined in types-server/index.d.ts:1858</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3629,7 +3775,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1710</li>
+									<li>Defined in types-server/index.d.ts:1865</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3763,7 +3909,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1717</li>
+									<li>Defined in types-server/index.d.ts:1872</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3791,7 +3937,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1718</li>
+									<li>Defined in types-server/index.d.ts:1873</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3871,7 +4017,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1725</li>
+									<li>Defined in types-server/index.d.ts:1880</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3899,7 +4045,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1726</li>
+									<li>Defined in types-server/index.d.ts:1881</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3932,7 +4078,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1733</li>
+									<li>Defined in types-server/index.d.ts:1888</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3960,7 +4106,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1734</li>
+									<li>Defined in types-server/index.d.ts:1889</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3995,7 +4141,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1740</li>
+									<li>Defined in types-server/index.d.ts:1895</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4026,7 +4172,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1748</li>
+									<li>Defined in types-server/index.d.ts:1903</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4062,7 +4208,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1930</li>
+									<li>Defined in types-server/index.d.ts:2085</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4098,7 +4244,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1755</li>
+									<li>Defined in types-server/index.d.ts:1910</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4353,7 +4499,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1841</li>
+									<li>Defined in types-server/index.d.ts:1996</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4384,7 +4530,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1905</li>
+									<li>Defined in types-server/index.d.ts:2060</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4415,7 +4561,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1917</li>
+									<li>Defined in types-server/index.d.ts:2072</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4446,7 +4592,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1762</li>
+									<li>Defined in types-server/index.d.ts:1917</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4483,7 +4629,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1769</li>
+									<li>Defined in types-server/index.d.ts:1924</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4520,7 +4666,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1817</li>
+									<li>Defined in types-server/index.d.ts:1972</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4551,7 +4697,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1776</li>
+									<li>Defined in types-server/index.d.ts:1931</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4588,7 +4734,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1783</li>
+									<li>Defined in types-server/index.d.ts:1938</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4625,7 +4771,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1790</li>
+									<li>Defined in types-server/index.d.ts:1945</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4662,7 +4808,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1797</li>
+									<li>Defined in types-server/index.d.ts:1952</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4699,7 +4845,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1804</li>
+									<li>Defined in types-server/index.d.ts:1959</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4736,7 +4882,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1811</li>
+									<li>Defined in types-server/index.d.ts:1966</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -4774,7 +4920,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getbyid">getByID</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1454</li>
+									<li>Defined in types-server/index.d.ts:1609</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
