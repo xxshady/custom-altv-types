@@ -92,6 +92,8 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#armour" class="tsd-kind-icon">armour</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#authtoken" class="tsd-kind-icon">auth<wbr>Token</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.player.html#collision" class="tsd-kind-icon">collision</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#currentanimationdict" class="tsd-kind-icon">current<wbr>Animation<wbr>Dict</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#currentanimationname" class="tsd-kind-icon">current<wbr>Animation<wbr>Name</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#currentweapon" class="tsd-kind-icon">current<wbr>Weapon</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#currentweaponcomponents" class="tsd-kind-icon">current<wbr>Weapon<wbr>Components</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#currentweapontintindex" class="tsd-kind-icon">current<wbr>Weapon<wbr>Tint<wbr>Index</a></li>
@@ -112,6 +114,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#isdead" class="tsd-kind-icon">is<wbr>Dead</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#isinragdoll" class="tsd-kind-icon">is<wbr>InRagdoll</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#isreloading" class="tsd-kind-icon">is<wbr>Reloading</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#isspawned" class="tsd-kind-icon">is<wbr>Spawned</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#isstealthy" class="tsd-kind-icon">is<wbr>Stealthy</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#issuperjumpenabled" class="tsd-kind-icon">is<wbr>Super<wbr>Jump<wbr>Enabled</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.player.html#maxarmour" class="tsd-kind-icon">max<wbr>Armour</a></li>
@@ -216,7 +219,7 @@
 					<div class="tsd-signature tsd-kind-icon">aim<wbr>Pos<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:835</li>
+							<li>Defined in types-server/index.d.ts:837</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -236,7 +239,7 @@
 					<div class="tsd-signature tsd-kind-icon">armour<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:813</li>
+							<li>Defined in types-server/index.d.ts:815</li>
 						</ul>
 					</aside>
 				</section>
@@ -246,7 +249,7 @@
 					<div class="tsd-signature tsd-kind-icon">auth<wbr>Token<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:852</li>
+							<li>Defined in types-server/index.d.ts:856</li>
 						</ul>
 					</aside>
 				</section>
@@ -257,7 +260,39 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#collision">collision</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:794</li>
+							<li>Defined in types-server/index.d.ts:796</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>beta</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="currentanimationdict" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> current<wbr>Animation<wbr>Dict</h3>
+					<div class="tsd-signature tsd-kind-icon">current<wbr>Animation<wbr>Dict<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:858</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="currentanimationname" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> current<wbr>Animation<wbr>Name</h3>
+					<div class="tsd-signature tsd-kind-icon">current<wbr>Animation<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:860</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -273,7 +308,7 @@
 					<div class="tsd-signature tsd-kind-icon">current<wbr>Weapon<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:814</li>
+							<li>Defined in types-server/index.d.ts:816</li>
 						</ul>
 					</aside>
 				</section>
@@ -283,7 +318,7 @@
 					<div class="tsd-signature tsd-kind-icon">current<wbr>Weapon<wbr>Components<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:816</li>
+							<li>Defined in types-server/index.d.ts:818</li>
 						</ul>
 					</aside>
 				</section>
@@ -293,7 +328,7 @@
 					<div class="tsd-signature tsd-kind-icon">current<wbr>Weapon<wbr>Tint<wbr>Index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:817</li>
+							<li>Defined in types-server/index.d.ts:819</li>
 						</ul>
 					</aside>
 				</section>
@@ -304,7 +339,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.worldobject.html">WorldObject</a>.<a href="_alt_server_.worldobject.html#dimension">dimension</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:574</li>
+							<li>Defined in types-server/index.d.ts:576</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -324,7 +359,7 @@
 					<div class="tsd-signature tsd-kind-icon">entity<wbr>Aim<wbr>Offset<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:818</li>
+							<li>Defined in types-server/index.d.ts:820</li>
 						</ul>
 					</aside>
 				</section>
@@ -334,7 +369,7 @@
 					<div class="tsd-signature tsd-kind-icon">entity<wbr>Aiming<wbr>At<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:819</li>
+							<li>Defined in types-server/index.d.ts:821</li>
 						</ul>
 					</aside>
 				</section>
@@ -344,7 +379,7 @@
 					<div class="tsd-signature tsd-kind-icon">flashlight<wbr>Active<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:820</li>
+							<li>Defined in types-server/index.d.ts:822</li>
 						</ul>
 					</aside>
 				</section>
@@ -355,12 +390,12 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#frozen">frozen</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:791</li>
+							<li>Defined in types-server/index.d.ts:793</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<dl class="tsd-comment-tags">
-							<dt>alpha</dt>
+							<dt>beta</dt>
 							<dd></dd>
 						</dl>
 					</div>
@@ -371,7 +406,7 @@
 					<div class="tsd-signature tsd-kind-icon">head<wbr>Rot<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:836</li>
+							<li>Defined in types-server/index.d.ts:838</li>
 						</ul>
 					</aside>
 				</section>
@@ -381,7 +416,7 @@
 					<div class="tsd-signature tsd-kind-icon">health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:837</li>
+							<li>Defined in types-server/index.d.ts:839</li>
 						</ul>
 					</aside>
 				</section>
@@ -391,7 +426,7 @@
 					<div class="tsd-signature tsd-kind-icon">hwid<wbr>ExHash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:851</li>
+							<li>Defined in types-server/index.d.ts:855</li>
 						</ul>
 					</aside>
 				</section>
@@ -401,7 +436,7 @@
 					<div class="tsd-signature tsd-kind-icon">hwid<wbr>Hash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:850</li>
+							<li>Defined in types-server/index.d.ts:854</li>
 						</ul>
 					</aside>
 				</section>
@@ -412,7 +447,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#id">id</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:602</li>
+							<li>Defined in types-server/index.d.ts:604</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -427,7 +462,7 @@
 					<div class="tsd-signature tsd-kind-icon">invincible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:845</li>
+							<li>Defined in types-server/index.d.ts:847</li>
 						</ul>
 					</aside>
 				</section>
@@ -437,7 +472,7 @@
 					<div class="tsd-signature tsd-kind-icon">ip<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:838</li>
+							<li>Defined in types-server/index.d.ts:840</li>
 						</ul>
 					</aside>
 				</section>
@@ -447,7 +482,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Aiming<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:823</li>
+							<li>Defined in types-server/index.d.ts:825</li>
 						</ul>
 					</aside>
 				</section>
@@ -457,7 +492,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Crouching<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:847</li>
+							<li>Defined in types-server/index.d.ts:849</li>
 						</ul>
 					</aside>
 				</section>
@@ -467,7 +502,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Dead<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:824</li>
+							<li>Defined in types-server/index.d.ts:826</li>
 						</ul>
 					</aside>
 				</section>
@@ -477,7 +512,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>InRagdoll<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:822</li>
+							<li>Defined in types-server/index.d.ts:824</li>
 						</ul>
 					</aside>
 				</section>
@@ -487,7 +522,23 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Reloading<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:829</li>
+							<li>Defined in types-server/index.d.ts:831</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isspawned" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> is<wbr>Spawned</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Spawned<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:852</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -503,7 +554,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Stealthy<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:848</li>
+							<li>Defined in types-server/index.d.ts:850</li>
 						</ul>
 					</aside>
 				</section>
@@ -513,7 +564,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Super<wbr>Jump<wbr>Enabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:846</li>
+							<li>Defined in types-server/index.d.ts:848</li>
 						</ul>
 					</aside>
 				</section>
@@ -523,7 +574,7 @@
 					<div class="tsd-signature tsd-kind-icon">max<wbr>Armour<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:839</li>
+							<li>Defined in types-server/index.d.ts:841</li>
 						</ul>
 					</aside>
 				</section>
@@ -533,7 +584,7 @@
 					<div class="tsd-signature tsd-kind-icon">max<wbr>Health<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:840</li>
+							<li>Defined in types-server/index.d.ts:842</li>
 						</ul>
 					</aside>
 				</section>
@@ -544,7 +595,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#model">model</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:620</li>
+							<li>Defined in types-server/index.d.ts:622</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -564,7 +615,7 @@
 					<div class="tsd-signature tsd-kind-icon">move<wbr>Speed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:821</li>
+							<li>Defined in types-server/index.d.ts:823</li>
 						</ul>
 					</aside>
 				</section>
@@ -574,7 +625,7 @@
 					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:841</li>
+							<li>Defined in types-server/index.d.ts:843</li>
 						</ul>
 					</aside>
 				</section>
@@ -585,7 +636,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#netowner">netOwner</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:613</li>
+							<li>Defined in types-server/index.d.ts:615</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -609,7 +660,7 @@
 					<div class="tsd-signature tsd-kind-icon">ping<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:842</li>
+							<li>Defined in types-server/index.d.ts:844</li>
 						</ul>
 					</aside>
 				</section>
@@ -620,7 +671,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.worldobject.html">WorldObject</a>.<a href="_alt_server_.worldobject.html#pos">pos</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:579</li>
+							<li>Defined in types-server/index.d.ts:581</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -636,7 +687,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#refcount">refCount</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1550</li>
+							<li>Defined in types-shared/index.d.ts:1560</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -657,7 +708,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#rot">rot</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:627</li>
+							<li>Defined in types-server/index.d.ts:629</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -677,7 +728,7 @@
 					<div class="tsd-signature tsd-kind-icon">seat<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:843</li>
+							<li>Defined in types-server/index.d.ts:845</li>
 						</ul>
 					</aside>
 				</section>
@@ -687,7 +738,7 @@
 					<div class="tsd-signature tsd-kind-icon">socialID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:849</li>
+							<li>Defined in types-server/index.d.ts:853</li>
 						</ul>
 					</aside>
 				</section>
@@ -698,7 +749,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#streamed">streamed</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:637</li>
+							<li>Defined in types-server/index.d.ts:639</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -714,7 +765,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#type">type</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1490</li>
+							<li>Defined in types-shared/index.d.ts:1500</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -730,7 +781,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#valid">valid</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1497</li>
+							<li>Defined in types-shared/index.d.ts:1507</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -750,7 +801,7 @@
 					<div class="tsd-signature tsd-kind-icon">vehicle<span class="tsd-signature-symbol">:</span> <a href="_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:844</li>
+							<li>Defined in types-server/index.d.ts:846</li>
 						</ul>
 					</aside>
 				</section>
@@ -761,7 +812,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#visible">visible</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:632</li>
+							<li>Defined in types-server/index.d.ts:634</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -776,7 +827,7 @@
 					<div class="tsd-signature tsd-kind-icon">weapons<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_server_.iweapon.html" class="tsd-signature-type">IWeapon</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:815</li>
+							<li>Defined in types-server/index.d.ts:817</li>
 						</ul>
 					</aside>
 				</section>
@@ -787,7 +838,7 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#all">all</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:812</li>
+							<li>Defined in types-server/index.d.ts:814</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -823,7 +874,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:878</li>
+									<li>Defined in types-server/index.d.ts:886</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -850,7 +901,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#attachto">attachTo</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:783</li>
+									<li>Defined in types-server/index.d.ts:785</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -917,7 +968,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:883</li>
+									<li>Defined in types-server/index.d.ts:891</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -939,7 +990,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1076</li>
+									<li>Defined in types-server/index.d.ts:1084</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -977,7 +1028,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1155</li>
+									<li>Defined in types-server/index.d.ts:1163</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -991,7 +1042,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1156</li>
+									<li>Defined in types-server/index.d.ts:1164</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1022,7 +1073,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1179</li>
+									<li>Defined in types-server/index.d.ts:1187</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1037,7 +1088,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1180</li>
+									<li>Defined in types-server/index.d.ts:1188</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1068,7 +1119,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#deletestreamsyncedmeta">deleteStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1215</li>
+									<li>Defined in types-server/index.d.ts:1223</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1083,7 +1134,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#deletestreamsyncedmeta">deleteStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1216</li>
+									<li>Defined in types-server/index.d.ts:1224</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1114,7 +1165,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#deletesyncedmeta">deleteSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1197</li>
+									<li>Defined in types-server/index.d.ts:1205</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1129,7 +1180,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#deletesyncedmeta">deleteSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1198</li>
+									<li>Defined in types-server/index.d.ts:1206</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1158,7 +1209,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:950</li>
+									<li>Defined in types-server/index.d.ts:958</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1176,7 +1227,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#destroy">destroy</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1502</li>
+									<li>Defined in types-shared/index.d.ts:1512</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1199,7 +1250,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#detach">detach</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:788</li>
+									<li>Defined in types-server/index.d.ts:790</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1221,7 +1272,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:868</li>
+									<li>Defined in types-server/index.d.ts:876</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1258,7 +1309,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:876</li>
+									<li>Defined in types-server/index.d.ts:884</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1295,7 +1346,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:963</li>
+									<li>Defined in types-server/index.d.ts:971</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1333,7 +1384,7 @@ alt.log(cloth.drawable); <span class="hljs-comment">// Logs the drawable of the 
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:976</li>
+									<li>Defined in types-server/index.d.ts:984</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1371,7 +1422,7 @@ alt.log(cloth.drawable); <span class="hljs-comment">// Logs the drawable of the 
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1035</li>
+									<li>Defined in types-server/index.d.ts:1043</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1409,7 +1460,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1132</li>
+									<li>Defined in types-server/index.d.ts:1140</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -1426,7 +1477,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1118</li>
+									<li>Defined in types-server/index.d.ts:1126</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1449,7 +1500,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1136</li>
+									<li>Defined in types-server/index.d.ts:1144</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -1466,7 +1517,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1140</li>
+									<li>Defined in types-server/index.d.ts:1148</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">number</span></h4>
@@ -1483,7 +1534,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1128</li>
+									<li>Defined in types-server/index.d.ts:1136</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_alt_server_.iheadblenddata.html" class="tsd-signature-type">IHeadBlendData</a></h4>
@@ -1500,7 +1551,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1124</li>
+									<li>Defined in types-server/index.d.ts:1132</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1523,7 +1574,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1114</li>
+									<li>Defined in types-server/index.d.ts:1122</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1548,7 +1599,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1164</li>
+									<li>Defined in types-server/index.d.ts:1172</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1577,7 +1628,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1165</li>
+									<li>Defined in types-server/index.d.ts:1173</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1597,7 +1648,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1167</li>
+									<li>Defined in types-server/index.d.ts:1175</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1636,7 +1687,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1182</li>
+									<li>Defined in types-server/index.d.ts:1190</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1657,7 +1708,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1183</li>
+									<li>Defined in types-server/index.d.ts:1191</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1678,7 +1729,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1185</li>
+									<li>Defined in types-server/index.d.ts:1193</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1714,7 +1765,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1022</li>
+									<li>Defined in types-server/index.d.ts:1030</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1755,7 +1806,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getstreamsyncedmeta">getStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1218</li>
+									<li>Defined in types-server/index.d.ts:1226</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1776,7 +1827,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getstreamsyncedmeta">getStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1219</li>
+									<li>Defined in types-server/index.d.ts:1227</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1797,7 +1848,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getstreamsyncedmeta">getStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1221</li>
+									<li>Defined in types-server/index.d.ts:1229</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1836,7 +1887,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1200</li>
+									<li>Defined in types-server/index.d.ts:1208</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1857,7 +1908,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1201</li>
+									<li>Defined in types-server/index.d.ts:1209</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1878,7 +1929,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1203</li>
+									<li>Defined in types-server/index.d.ts:1211</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1914,7 +1965,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:892</li>
+									<li>Defined in types-server/index.d.ts:900</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1958,7 +2009,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1169</li>
+									<li>Defined in types-server/index.d.ts:1177</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1972,7 +2023,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1170</li>
+									<li>Defined in types-server/index.d.ts:1178</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2003,7 +2054,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1187</li>
+									<li>Defined in types-server/index.d.ts:1195</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2018,7 +2069,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1188</li>
+									<li>Defined in types-server/index.d.ts:1196</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2049,7 +2100,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#hasstreamsyncedmeta">hasStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1223</li>
+									<li>Defined in types-server/index.d.ts:1231</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2064,7 +2115,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#hasstreamsyncedmeta">hasStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1224</li>
+									<li>Defined in types-server/index.d.ts:1232</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2095,7 +2146,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1205</li>
+									<li>Defined in types-server/index.d.ts:1213</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2110,7 +2161,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1206</li>
+									<li>Defined in types-server/index.d.ts:1214</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2140,7 +2191,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1086</li>
+									<li>Defined in types-server/index.d.ts:1094</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2165,7 +2216,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1088</li>
+									<li>Defined in types-server/index.d.ts:1096</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2188,7 +2239,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:899</li>
+									<li>Defined in types-server/index.d.ts:907</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2219,7 +2270,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1106</li>
+									<li>Defined in types-server/index.d.ts:1114</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2269,7 +2320,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:904</li>
+									<li>Defined in types-server/index.d.ts:912</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2291,7 +2342,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1120</li>
+									<li>Defined in types-server/index.d.ts:1128</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2314,7 +2365,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1110</li>
+									<li>Defined in types-server/index.d.ts:1118</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2337,7 +2388,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:911</li>
+									<li>Defined in types-server/index.d.ts:919</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2368,7 +2419,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:919</li>
+									<li>Defined in types-server/index.d.ts:927</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2406,7 +2457,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#resetnetowner">resetNetOwner</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:770</li>
+									<li>Defined in types-server/index.d.ts:772</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2446,7 +2497,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:992</li>
+									<li>Defined in types-server/index.d.ts:1000</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2504,7 +2555,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:921</li>
+									<li>Defined in types-server/index.d.ts:929</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2542,7 +2593,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1009</li>
+									<li>Defined in types-server/index.d.ts:1017</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2606,7 +2657,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1064</li>
+									<li>Defined in types-server/index.d.ts:1072</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2661,7 +2712,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1130</li>
+									<li>Defined in types-server/index.d.ts:1138</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2684,7 +2735,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1116</li>
+									<li>Defined in types-server/index.d.ts:1124</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2710,7 +2761,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1134</li>
+									<li>Defined in types-server/index.d.ts:1142</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2733,7 +2784,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1138</li>
+									<li>Defined in types-server/index.d.ts:1146</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2756,7 +2807,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1126</li>
+									<li>Defined in types-server/index.d.ts:1134</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2803,7 +2854,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1122</li>
+									<li>Defined in types-server/index.d.ts:1130</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2835,7 +2886,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1108</li>
+									<li>Defined in types-server/index.d.ts:1116</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2864,7 +2915,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1112</li>
+									<li>Defined in types-server/index.d.ts:1120</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2896,7 +2947,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1093</li>
+									<li>Defined in types-server/index.d.ts:1101</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2929,7 +2980,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1150</li>
+									<li>Defined in types-server/index.d.ts:1158</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2963,7 +3014,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1151</li>
+									<li>Defined in types-server/index.d.ts:1159</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2986,7 +3037,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1153</li>
+									<li>Defined in types-server/index.d.ts:1161</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3031,7 +3082,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1174</li>
+									<li>Defined in types-server/index.d.ts:1182</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3055,7 +3106,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1175</li>
+									<li>Defined in types-server/index.d.ts:1183</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3079,7 +3130,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1177</li>
+									<li>Defined in types-server/index.d.ts:1185</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3122,7 +3173,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setnetowner">setNetOwner</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:757</li>
+									<li>Defined in types-server/index.d.ts:759</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3168,7 +3219,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:1049</li>
+									<li>Defined in types-server/index.d.ts:1057</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3220,7 +3271,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setstreamsyncedmeta">setStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1210</li>
+									<li>Defined in types-server/index.d.ts:1218</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3244,7 +3295,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setstreamsyncedmeta">setStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1211</li>
+									<li>Defined in types-server/index.d.ts:1219</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3268,7 +3319,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setstreamsyncedmeta">setStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1213</li>
+									<li>Defined in types-server/index.d.ts:1221</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3313,7 +3364,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setsyncedmeta">setSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1192</li>
+									<li>Defined in types-server/index.d.ts:1200</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3337,7 +3388,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setsyncedmeta">setSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1193</li>
+									<li>Defined in types-server/index.d.ts:1201</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3361,7 +3412,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#setsyncedmeta">setSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:1195</li>
+									<li>Defined in types-server/index.d.ts:1203</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3403,7 +3454,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:923</li>
+									<li>Defined in types-server/index.d.ts:931</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3430,7 +3481,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:925</li>
+									<li>Defined in types-server/index.d.ts:933</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3444,7 +3495,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:926</li>
+									<li>Defined in types-server/index.d.ts:934</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3474,7 +3525,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:938</li>
+									<li>Defined in types-server/index.d.ts:946</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3519,7 +3570,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:948</li>
+									<li>Defined in types-server/index.d.ts:956</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3562,7 +3613,7 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_server_.entity.html">Entity</a>.<a href="_alt_server_.entity.html#getbyid">getByID</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:860</li>
+									<li>Defined in types-server/index.d.ts:868</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3626,6 +3677,12 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 								<a href="_alt_server_.player.html#collision" class="tsd-kind-icon">collision</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#currentanimationdict" class="tsd-kind-icon">current<wbr>Animation<wbr>Dict</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#currentanimationname" class="tsd-kind-icon">current<wbr>Animation<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#currentweapon" class="tsd-kind-icon">current<wbr>Weapon</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
@@ -3684,6 +3741,9 @@ alt.log(prop.drawable); <span class="hljs-comment">// Logs the drawable id of th
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#isreloading" class="tsd-kind-icon">is<wbr>Reloading</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.player.html#isspawned" class="tsd-kind-icon">is<wbr>Spawned</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_server_.player.html#isstealthy" class="tsd-kind-icon">is<wbr>Stealthy</a>
