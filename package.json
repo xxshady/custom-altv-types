@@ -12,7 +12,8 @@
     "copy:worker": "copyfiles --up 4 \"node_modules/@altmp/altv-types/worker/**/*\" \"node_modules/@altv/types-worker\"",
     "clear-docs-folder": "rimraf docs/assets docs/classes docs/enums docs/interfaces docs/modules",
     "build": "yarn clear-docs-folder && typedoc",
-    "update": "yarn add git+https://github.com/altmp/altv-types.git && yarn copy && yarn build"
+    "copy-build": "yarn copy && yarn build",
+    "update": "yarn add git+https://github.com/altmp/altv-types.git && yarn copy-build"
   },
   "repository": {
     "type": "git",
