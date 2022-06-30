@@ -107,6 +107,7 @@
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#utils" class="tsd-kind-icon">Utils</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#vector2" class="tsd-kind-icon">Vector2</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#vector3" class="tsd-kind-icon">Vector3</a></li>
+								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#vehiclelockstate" class="tsd-kind-icon">Vehicle<wbr>Lock<wbr>State</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#branch" class="tsd-kind-icon">branch</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#cleareverytick" class="tsd-kind-icon">clear<wbr>Every<wbr>Tick</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#clearinterval" class="tsd-kind-icon">clear<wbr>Interval</a></li>
@@ -160,7 +161,6 @@
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_server_.vehiclebumperdamage.html" class="tsd-kind-icon">Vehicle<wbr>Bumper<wbr>Damage</a></li>
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_server_.vehicledoor.html" class="tsd-kind-icon">Vehicle<wbr>Door</a></li>
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_server_.vehicledoorstate.html" class="tsd-kind-icon">Vehicle<wbr>Door<wbr>State</a></li>
-								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_server_.vehiclelockstate.html" class="tsd-kind-icon">Vehicle<wbr>Lock<wbr>State</a></li>
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_server_.vehiclemodtype.html" class="tsd-kind-icon">Vehicle<wbr>Mod<wbr>Type</a></li>
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_server_.vehiclepart.html" class="tsd-kind-icon">Vehicle<wbr>Part</a></li>
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_server_.vehiclepartdamage.html" class="tsd-kind-icon">Vehicle<wbr>Part<wbr>Damage</a></li>
@@ -400,6 +400,11 @@
 					<a name="vector3" class="tsd-anchor"></a>
 					<h3>Vector3</h3>
 					Re-exports <a href="../classes/_alt_shared_.vector3.html">Vector3</a>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
+					<a name="vehiclelockstate" class="tsd-anchor"></a>
+					<h3>Vehicle<wbr>Lock<wbr>State</h3>
+					Re-exports <a href="../enums/_alt_shared_.vehiclelockstate.html">VehicleLockState</a>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
 					<a name="branch" class="tsd-anchor"></a>
@@ -648,7 +653,7 @@
 					<div class="tsd-signature tsd-kind-icon">default<wbr>Dimension<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:551</li>
+							<li>Defined in types-server/index.d.ts:540</li>
 						</ul>
 					</aside>
 				</section>
@@ -658,7 +663,7 @@
 					<div class="tsd-signature tsd-kind-icon">global<wbr>Dimension<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:553</li>
+							<li>Defined in types-server/index.d.ts:542</li>
 						</ul>
 					</aside>
 				</section>
@@ -668,7 +673,7 @@
 					<div class="tsd-signature tsd-kind-icon">root<wbr>Dir<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:549</li>
+							<li>Defined in types-server/index.d.ts:538</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -691,7 +696,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2434</li>
+									<li>Defined in types-server/index.d.ts:2435</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -713,7 +718,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2435</li>
+									<li>Defined in types-server/index.d.ts:2436</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -742,13 +747,18 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2444</li>
+									<li>Defined in types-server/index.d.ts:2447</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Emits specified event across resources.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about sending destroyed entities.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
 							<ul class="tsd-type-parameters">
@@ -785,13 +795,18 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2517</li>
+									<li>Defined in types-server/index.d.ts:2528</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Emits specified event to all clients.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about sending destroyed entities.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -822,7 +837,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2525</li>
+									<li>Defined in types-server/index.d.ts:2536</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -861,13 +876,18 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2464</li>
+									<li>Defined in types-server/index.d.ts:2469</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Emits specified event to specific client.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about sending destroyed entities.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -895,13 +915,18 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2473</li>
+									<li>Defined in types-server/index.d.ts:2480</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Emits specified event to specific client.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about sending destroyed entities.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -929,13 +954,18 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2482</li>
+									<li>Defined in types-server/index.d.ts:2491</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Emits specified event to specific clients.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about sending destroyed entities.</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -974,7 +1004,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2491</li>
+									<li>Defined in types-server/index.d.ts:2500</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1008,7 +1038,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2500</li>
+									<li>Defined in types-server/index.d.ts:2509</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1042,7 +1072,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2509</li>
+									<li>Defined in types-server/index.d.ts:2518</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1085,7 +1115,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2455</li>
+									<li>Defined in types-server/index.d.ts:2458</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1133,7 +1163,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2548</li>
+									<li>Defined in types-server/index.d.ts:2559</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1155,7 +1185,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2669</li>
+									<li>Defined in types-server/index.d.ts:2688</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1187,7 +1217,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2555</li>
+									<li>Defined in types-server/index.d.ts:2566</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1218,7 +1248,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2562</li>
+									<li>Defined in types-server/index.d.ts:2573</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1249,7 +1279,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2673</li>
+									<li>Defined in types-server/index.d.ts:2692</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1266,7 +1296,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2671</li>
+									<li>Defined in types-server/index.d.ts:2690</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1289,7 +1319,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2541</li>
+									<li>Defined in types-server/index.d.ts:2552</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1325,7 +1355,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2572</li>
+									<li>Defined in types-server/index.d.ts:2583</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1386,7 +1416,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2580</li>
+									<li>Defined in types-server/index.d.ts:2591</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1420,13 +1450,18 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2589</li>
+									<li>Defined in types-server/index.d.ts:2602</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Subscribes to a custom server event with the specified listener.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about receiving destroyed entities</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
 							<ul class="tsd-type-parameters">
@@ -1464,7 +1499,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2614</li>
+									<li>Defined in types-server/index.d.ts:2629</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1513,7 +1548,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2623</li>
+									<li>Defined in types-server/index.d.ts:2640</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1521,6 +1556,9 @@
 									<p>Subscribes to all client events with the specified listener.</p>
 								</div>
 								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about receiving destroyed entities</p>
+									</dd>
 									<dt>remarks</dt>
 									<dd><p>Listener will be only called for user-created events.</p>
 									</dd>
@@ -1574,7 +1612,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2597</li>
+									<li>Defined in types-server/index.d.ts:2610</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1608,13 +1646,18 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2606</li>
+									<li>Defined in types-server/index.d.ts:2621</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Subscribes to a custom server event with the specified listener, which only triggers once.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about receiving destroyed entities</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
 							<ul class="tsd-type-parameters">
@@ -1652,13 +1695,18 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2631</li>
+									<li>Defined in types-server/index.d.ts:2650</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Subscribes to a client event with the specified listener, which only triggers once.</p>
 								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>See <a href="_alt_shared_.html#emit">&quot;alt-shared&quot;.emit</a> for more information about receiving destroyed entities</p>
+									</dd>
+								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -1701,7 +1749,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2640</li>
+									<li>Defined in types-server/index.d.ts:2659</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1761,7 +1809,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2654</li>
+									<li>Defined in types-server/index.d.ts:2673</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1792,7 +1840,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2532</li>
+									<li>Defined in types-server/index.d.ts:2543</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1825,7 +1873,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2424</li>
+									<li>Defined in types-server/index.d.ts:2425</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1864,7 +1912,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2425</li>
+									<li>Defined in types-server/index.d.ts:2426</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1887,7 +1935,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2427</li>
+									<li>Defined in types-server/index.d.ts:2428</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1929,7 +1977,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2647</li>
+									<li>Defined in types-server/index.d.ts:2666</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1960,7 +2008,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2661</li>
+									<li>Defined in types-server/index.d.ts:2680</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1991,7 +2039,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2543</li>
+									<li>Defined in types-server/index.d.ts:2554</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -2099,6 +2147,9 @@
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_server_.html#vector3" class="tsd-kind-icon">Vector3</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="_alt_server_.html#vehiclelockstate" class="tsd-kind-icon">Vehicle<wbr>Lock<wbr>State</a>
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_server_.html#branch" class="tsd-kind-icon">branch</a>
@@ -2243,9 +2294,6 @@
 					</li>
 					<li class=" tsd-kind-enum tsd-parent-kind-module">
 						<a href="../enums/_alt_server_.vehicledoorstate.html" class="tsd-kind-icon">Vehicle<wbr>Door<wbr>State</a>
-					</li>
-					<li class=" tsd-kind-enum tsd-parent-kind-module">
-						<a href="../enums/_alt_server_.vehiclelockstate.html" class="tsd-kind-icon">Vehicle<wbr>Lock<wbr>State</a>
 					</li>
 					<li class=" tsd-kind-enum tsd-parent-kind-module">
 						<a href="../enums/_alt_server_.vehiclemodtype.html" class="tsd-kind-icon">Vehicle<wbr>Mod<wbr>Type</a>

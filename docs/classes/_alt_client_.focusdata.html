@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Profiler | custom alt:V docs JS</title>
+	<title>FocusData | custom alt:V docs JS</title>
 	<meta name="description" content="Documentation for custom alt:V docs JS">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -58,21 +58,32 @@
 					<a href="../modules/_alt_client_.html">&quot;alt-client&quot;</a>
 				</li>
 				<li>
-					<a href="_alt_client_.profiler.html">Profiler</a>
+					<a href="_alt_client_.focusdata.html">FocusData</a>
 				</li>
 			</ul>
-			<h1>Class Profiler</h1>
+			<h1>Class FocusData</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>The FocusData class is used to override the focus of the camera.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>alpha</dt>
+						<dd></dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Profiler</span>
+						<span class="target">FocusData</span>
 					</li>
 				</ul>
 			</section>
@@ -83,17 +94,17 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.profiler.html#heapstats" class="tsd-kind-icon">heap<wbr>Stats</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.profiler.html#profilesrunning" class="tsd-kind-icon">profiles<wbr>Running</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.profiler.html#samplinginterval" class="tsd-kind-icon">sampling<wbr>Interval</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.focusdata.html#focusoverrideentity" class="tsd-kind-icon">focus<wbr>Override<wbr>Entity</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.focusdata.html#focusoverrideoffset" class="tsd-kind-icon">focus<wbr>Override<wbr>Offset</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.focusdata.html#focusoverridepos" class="tsd-kind-icon">focus<wbr>Override<wbr>Pos</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.focusdata.html#isfocusoverriden" class="tsd-kind-icon">is<wbr>Focus<wbr>Overriden</a></li>
 							</ul>
 						</section>
 						<section class="tsd-index-section ">
 							<h3>Methods</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.profiler.html#getmemoryprofile" class="tsd-kind-icon">get<wbr>Memory<wbr>Profile</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.profiler.html#startprofiling" class="tsd-kind-icon">start<wbr>Profiling</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.profiler.html#stopprofiling" class="tsd-kind-icon">stop<wbr>Profiling</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.focusdata.html#clearfocus" class="tsd-kind-icon">clear<wbr>Focus</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.focusdata.html#overridefocus" class="tsd-kind-icon">override<wbr>Focus</a></li>
 							</ul>
 						</section>
 					</div>
@@ -102,54 +113,59 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
-					<a name="heapstats" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> heap<wbr>Stats</h3>
-					<div class="tsd-signature tsd-kind-icon">heap<wbr>Stats<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_alt_client_.iheapstats.html" class="tsd-signature-type">IHeapStats</a></div>
+					<a name="focusoverrideentity" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> focus<wbr>Override<wbr>Entity</h3>
+					<div class="tsd-signature tsd-kind-icon">focus<wbr>Override<wbr>Entity<span class="tsd-signature-symbol">:</span> <a href="_alt_client_.entity.html" class="tsd-signature-type">Entity</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:2615</li>
+							<li>Defined in types-client/index.d.ts:2945</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
-					<a name="profilesrunning" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> profiles<wbr>Running</h3>
-					<div class="tsd-signature tsd-kind-icon">profiles<wbr>Running<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="focusoverrideoffset" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> focus<wbr>Override<wbr>Offset</h3>
+					<div class="tsd-signature tsd-kind-icon">focus<wbr>Override<wbr>Offset<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:2618</li>
+							<li>Defined in types-client/index.d.ts:2944</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
-					<a name="samplinginterval" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> sampling<wbr>Interval</h3>
-					<div class="tsd-signature tsd-kind-icon">sampling<wbr>Interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="focusoverridepos" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> focus<wbr>Override<wbr>Pos</h3>
+					<div class="tsd-signature tsd-kind-icon">focus<wbr>Override<wbr>Pos<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:2617</li>
+							<li>Defined in types-client/index.d.ts:2943</li>
 						</ul>
 					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Sampling interval in microseconds. Defaults to 100.</p>
-						</div>
-					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-static">
+					<a name="isfocusoverriden" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> <span class="tsd-flag ts-flagReadonly">Readonly</span> is<wbr>Focus<wbr>Overriden</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Focus<wbr>Overriden<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:2942</li>
+						</ul>
+					</aside>
 				</section>
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Methods</h2>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
-					<a name="getmemoryprofile" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> get<wbr>Memory<wbr>Profile</h3>
+					<a name="clearfocus" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> clear<wbr>Focus</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Memory<wbr>Profile<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">clear<wbr>Focus<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2636</li>
+									<li>Defined in types-client/index.d.ts:2949</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -157,69 +173,46 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
-					<a name="startprofiling" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> start<wbr>Profiling</h3>
+					<a name="overridefocus" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> override<wbr>Focus</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon">start<wbr>Profiling<span class="tsd-signature-symbol">(</span>profileName<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">override<wbr>Focus<span class="tsd-signature-symbol">(</span>pos<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, offset<span class="tsd-signature-symbol">?: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">override<wbr>Focus<span class="tsd-signature-symbol">(</span>pos<span class="tsd-signature-symbol">: </span><a href="_alt_client_.entity.html" class="tsd-signature-type">Entity</a>, offset<span class="tsd-signature-symbol">?: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2627</li>
+									<li>Defined in types-client/index.d.ts:2947</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Starts a new profile with the specified name.</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>remarks</dt>
-									<dd><p>This can throw an error if starting the profile fails.</p>
-									</dd>
-								</dl>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> profileName: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Name to be used in <a href="_alt_client_.profiler.html#stopprofiling">stopProfiling</a>. Defaults to empty string.</p>
-									</div>
+									<h5>pos: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> offset: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
-					<a name="stopprofiling" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagStatic">Static</span> stop<wbr>Profiling</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
-						<li class="tsd-signature tsd-kind-icon">stop<wbr>Profiling<span class="tsd-signature-symbol">(</span>profileName<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/_alt_client_.iprofile.html" class="tsd-signature-type">IProfile</a></li>
-					</ul>
-					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2634</li>
+									<li>Defined in types-client/index.d.ts:2948</li>
 								</ul>
 							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Stops the profile with the specified name.</p>
-								</div>
-							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5><span class="tsd-flag ts-flagOptional">Optional</span> profileName: <span class="tsd-signature-type">string</span></h5>
-									<div class="tsd-comment tsd-typography">
-										<p>Name of the profile specified in <a href="_alt_client_.profiler.html#startprofiling">startProfiling</a>. Defaults to empty string.</p>
-									</div>
+									<h5>pos: <a href="_alt_client_.entity.html" class="tsd-signature-type">Entity</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> offset: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_alt_client_.iprofile.html" class="tsd-signature-type">IProfile</a></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -250,25 +243,25 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-class tsd-parent-kind-module">
-						<a href="_alt_client_.profiler.html" class="tsd-kind-icon">Profiler</a>
+						<a href="_alt_client_.focusdata.html" class="tsd-kind-icon">Focus<wbr>Data</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
-								<a href="_alt_client_.profiler.html#heapstats" class="tsd-kind-icon">heap<wbr>Stats</a>
+								<a href="_alt_client_.focusdata.html#focusoverrideentity" class="tsd-kind-icon">focus<wbr>Override<wbr>Entity</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
-								<a href="_alt_client_.profiler.html#profilesrunning" class="tsd-kind-icon">profiles<wbr>Running</a>
+								<a href="_alt_client_.focusdata.html#focusoverrideoffset" class="tsd-kind-icon">focus<wbr>Override<wbr>Offset</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
-								<a href="_alt_client_.profiler.html#samplinginterval" class="tsd-kind-icon">sampling<wbr>Interval</a>
+								<a href="_alt_client_.focusdata.html#focusoverridepos" class="tsd-kind-icon">focus<wbr>Override<wbr>Pos</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-static">
+								<a href="_alt_client_.focusdata.html#isfocusoverriden" class="tsd-kind-icon">is<wbr>Focus<wbr>Overriden</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
-								<a href="_alt_client_.profiler.html#getmemoryprofile" class="tsd-kind-icon">get<wbr>Memory<wbr>Profile</a>
+								<a href="_alt_client_.focusdata.html#clearfocus" class="tsd-kind-icon">clear<wbr>Focus</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
-								<a href="_alt_client_.profiler.html#startprofiling" class="tsd-kind-icon">start<wbr>Profiling</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
-								<a href="_alt_client_.profiler.html#stopprofiling" class="tsd-kind-icon">stop<wbr>Profiling</a>
+								<a href="_alt_client_.focusdata.html#overridefocus" class="tsd-kind-icon">override<wbr>Focus</a>
 							</li>
 						</ul>
 					</li>
