@@ -22,7 +22,7 @@
 			},
 			"children": [
 				{
-					"id": 7153,
+					"id": 7267,
 					"name": "AudioCategory",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -32,7 +32,7 @@
 					"target": 655
 				},
 				{
-					"id": 7176,
+					"id": 7290,
 					"name": "BaseObject",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -42,7 +42,7 @@
 					"target": 1180
 				},
 				{
-					"id": 7150,
+					"id": 7264,
 					"name": "BaseObjectType",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -52,7 +52,7 @@
 					"target": 2
 				},
 				{
-					"id": 7152,
+					"id": 7266,
 					"name": "BlipColor",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -62,7 +62,7 @@
 					"target": 602
 				},
 				{
-					"id": 7151,
+					"id": 7265,
 					"name": "BlipSprite",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -72,7 +72,7 @@
 					"target": 16
 				},
 				{
-					"id": 7175,
+					"id": 7289,
 					"name": "File",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -82,7 +82,7 @@
 					"target": 1169
 				},
 				{
-					"id": 7154,
+					"id": 7268,
 					"name": "FileEncoding",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -92,7 +92,7 @@
 					"target": 882
 				},
 				{
-					"id": 7164,
+					"id": 7278,
 					"name": "ICustomBaseObjectMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -102,7 +102,7 @@
 					"target": 913
 				},
 				{
-					"id": 7166,
+					"id": 7280,
 					"name": "ICustomEntityStreamSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -112,7 +112,7 @@
 					"target": 915
 				},
 				{
-					"id": 7165,
+					"id": 7279,
 					"name": "ICustomEntitySyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -122,7 +122,7 @@
 					"target": 914
 				},
 				{
-					"id": 7162,
+					"id": 7276,
 					"name": "ICustomGlobalMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -132,7 +132,7 @@
 					"target": 911
 				},
 				{
-					"id": 7163,
+					"id": 7277,
 					"name": "ICustomGlobalSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -142,7 +142,7 @@
 					"target": 912
 				},
 				{
-					"id": 7169,
+					"id": 7283,
 					"name": "ICustomPlayerLocalMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -152,7 +152,7 @@
 					"target": 918
 				},
 				{
-					"id": 7168,
+					"id": 7282,
 					"name": "ICustomPlayerStreamSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -162,7 +162,7 @@
 					"target": 917
 				},
 				{
-					"id": 7167,
+					"id": 7281,
 					"name": "ICustomPlayerSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -172,7 +172,7 @@
 					"target": 916
 				},
 				{
-					"id": 7171,
+					"id": 7285,
 					"name": "ICustomVehicleStreamSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -182,7 +182,7 @@
 					"target": 920
 				},
 				{
-					"id": 7170,
+					"id": 7284,
 					"name": "ICustomVehicleSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -192,7 +192,7 @@
 					"target": 919
 				},
 				{
-					"id": 7160,
+					"id": 7274,
 					"name": "IResource",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -202,7 +202,7 @@
 					"target": 899
 				},
 				{
-					"id": 7158,
+					"id": 7272,
 					"name": "IVector2",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -212,7 +212,7 @@
 					"target": 892
 				},
 				{
-					"id": 7159,
+					"id": 7273,
 					"name": "IVector3",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -222,7 +222,7 @@
 					"target": 895
 				},
 				{
-					"id": 7155,
+					"id": 7269,
 					"name": "Permission",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -232,7 +232,7 @@
 					"target": 886
 				},
 				{
-					"id": 7174,
+					"id": 7288,
 					"name": "RGBA",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -242,7 +242,7 @@
 					"target": 1147
 				},
 				{
-					"id": 7184,
+					"id": 7298,
 					"name": "Resource",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -252,7 +252,7 @@
 					"target": 1222
 				},
 				{
-					"id": 7185,
+					"id": 7299,
 					"name": "Utils",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -262,7 +262,7 @@
 					"target": 1237
 				},
 				{
-					"id": 7173,
+					"id": 7287,
 					"name": "Vector2",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -272,7 +272,7 @@
 					"target": 1044
 				},
 				{
-					"id": 7172,
+					"id": 7286,
 					"name": "Vector3",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -282,7 +282,7 @@
 					"target": 921
 				},
 				{
-					"id": 7161,
+					"id": 7275,
 					"name": "VehicleLockState",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -292,7 +292,7 @@
 					"target": 902
 				},
 				{
-					"id": 7180,
+					"id": 7294,
 					"name": "branch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -302,7 +302,7 @@
 					"target": 1258
 				},
 				{
-					"id": 7124,
+					"id": 7238,
 					"name": "clearEveryTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -312,7 +312,7 @@
 					"target": 1312
 				},
 				{
-					"id": 7125,
+					"id": 7239,
 					"name": "clearInterval",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -322,7 +322,7 @@
 					"target": 1315
 				},
 				{
-					"id": 7126,
+					"id": 7240,
 					"name": "clearNextTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -332,7 +332,7 @@
 					"target": 1318
 				},
 				{
-					"id": 7127,
+					"id": 7241,
 					"name": "clearTimeout",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -342,7 +342,7 @@
 					"target": 1321
 				},
 				{
-					"id": 7181,
+					"id": 7295,
 					"name": "debug",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -352,7 +352,7 @@
 					"target": 1259
 				},
 				{
-					"id": 7118,
+					"id": 7232,
 					"name": "deleteMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -362,7 +362,7 @@
 					"target": 1260
 				},
 				{
-					"id": 7129,
+					"id": 7243,
 					"name": "emit",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -372,7 +372,7 @@
 					"target": 1327
 				},
 				{
-					"id": 7130,
+					"id": 7244,
 					"name": "emitRaw",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -382,7 +382,7 @@
 					"target": 1331
 				},
 				{
-					"id": 7131,
+					"id": 7245,
 					"name": "everyTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -392,7 +392,7 @@
 					"target": 1335
 				},
 				{
-					"id": 7145,
+					"id": 7259,
 					"name": "getAllResources",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -402,7 +402,7 @@
 					"target": 1417
 				},
 				{
-					"id": 7148,
+					"id": 7262,
 					"name": "getEventListeners",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -412,7 +412,7 @@
 					"target": 1427
 				},
 				{
-					"id": 7119,
+					"id": 7233,
 					"name": "getMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -422,7 +422,7 @@
 					"target": 1266
 				},
 				{
-					"id": 7134,
+					"id": 7248,
 					"name": "getResourceExports",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -432,7 +432,7 @@
 					"target": 1347
 				},
 				{
-					"id": 7122,
+					"id": 7236,
 					"name": "getSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -442,7 +442,7 @@
 					"target": 1296
 				},
 				{
-					"id": 7120,
+					"id": 7234,
 					"name": "hasMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -452,7 +452,7 @@
 					"target": 1276
 				},
 				{
-					"id": 7133,
+					"id": 7247,
 					"name": "hasResource",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -462,7 +462,7 @@
 					"target": 1344
 				},
 				{
-					"id": 7123,
+					"id": 7237,
 					"name": "hasSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -472,7 +472,7 @@
 					"target": 1306
 				},
 				{
-					"id": 7132,
+					"id": 7246,
 					"name": "hash",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -482,7 +482,7 @@
 					"target": 1341
 				},
 				{
-					"id": 7182,
+					"id": 7296,
 					"name": "isClient",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -492,7 +492,7 @@
 					"target": 1415
 				},
 				{
-					"id": 7183,
+					"id": 7297,
 					"name": "isServer",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -502,7 +502,7 @@
 					"target": 1416
 				},
 				{
-					"id": 7135,
+					"id": 7249,
 					"name": "log",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -512,7 +512,7 @@
 					"target": 1350
 				},
 				{
-					"id": 7138,
+					"id": 7252,
 					"name": "logDebug",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -522,7 +522,7 @@
 					"target": 1359
 				},
 				{
-					"id": 7136,
+					"id": 7250,
 					"name": "logError",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -532,7 +532,7 @@
 					"target": 1353
 				},
 				{
-					"id": 7137,
+					"id": 7251,
 					"name": "logWarning",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -542,7 +542,7 @@
 					"target": 1356
 				},
 				{
-					"id": 7139,
+					"id": 7253,
 					"name": "nextTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -552,7 +552,7 @@
 					"target": 1362
 				},
 				{
-					"id": 7142,
+					"id": 7256,
 					"name": "off",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -562,7 +562,7 @@
 					"target": 1382
 				},
 				{
-					"id": 7140,
+					"id": 7254,
 					"name": "on",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -572,7 +572,7 @@
 					"target": 1368
 				},
 				{
-					"id": 7141,
+					"id": 7255,
 					"name": "once",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -582,7 +582,7 @@
 					"target": 1375
 				},
 				{
-					"id": 7177,
+					"id": 7291,
 					"name": "resourceName",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -592,7 +592,7 @@
 					"target": 1255
 				},
 				{
-					"id": 7179,
+					"id": 7293,
 					"name": "sdkVersion",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -602,7 +602,7 @@
 					"target": 1257
 				},
 				{
-					"id": 7143,
+					"id": 7257,
 					"name": "setInterval",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -612,7 +612,7 @@
 					"target": 1401
 				},
 				{
-					"id": 7121,
+					"id": 7235,
 					"name": "setMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -622,7 +622,7 @@
 					"target": 1282
 				},
 				{
-					"id": 7144,
+					"id": 7258,
 					"name": "setTimeout",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -632,7 +632,7 @@
 					"target": 1408
 				},
 				{
-					"id": 7149,
+					"id": 7263,
 					"name": "stringToSHA256",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -642,7 +642,7 @@
 					"target": 1433
 				},
 				{
-					"id": 7146,
+					"id": 7260,
 					"name": "time",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -652,7 +652,7 @@
 					"target": 1419
 				},
 				{
-					"id": 7147,
+					"id": 7261,
 					"name": "timeEnd",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -662,7 +662,7 @@
 					"target": 1423
 				},
 				{
-					"id": 7178,
+					"id": 7292,
 					"name": "version",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -5576,7 +5576,7 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 7153,
+														"id": 7267,
 														"name": "AudioCategory"
 													},
 													{
@@ -6545,7 +6545,7 @@
 								"types": [
 									{
 										"type": "reference",
-										"id": 7153,
+										"id": 7267,
 										"name": "AudioCategory"
 									},
 									{
@@ -15937,6 +15937,11 @@
 							"type": "reference",
 							"id": 5273,
 							"name": "Vehicle"
+						},
+						{
+							"type": "reference",
+							"id": 6780,
+							"name": "Object"
 						}
 					]
 				},
@@ -24603,6 +24608,2890 @@
 							"fileName": "types-client/index.d.ts",
 							"line": 2036,
 							"character": 27
+						}
+					]
+				},
+				{
+					"id": 6780,
+					"name": "Object",
+					"kind": 128,
+					"kindString": "Class",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"tags": [
+							{
+								"tag": "alpha",
+								"text": ""
+							}
+						]
+					},
+					"children": [
+						{
+							"id": 6781,
+							"name": "constructor",
+							"kind": 512,
+							"kindString": "Constructor",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Creates a new object.",
+								"tags": [
+									{
+										"tag": "remarks",
+										"text": "The model for the object is automatically loaded, but because this\nhappens asynchronously, the scriptID property might not be immediately available\nafter creating the object. Setters will always work regardless of whether the model\nis already loaded or not.\n"
+									}
+								]
+							},
+							"signatures": [
+								{
+									"id": 6782,
+									"name": "new Object",
+									"kind": 16384,
+									"kindString": "Constructor signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Creates a new object.",
+										"tags": [
+											{
+												"tag": "remarks",
+												"text": "The model for the object is automatically loaded, but because this\nhappens asynchronously, the scriptID property might not be immediately available\nafter creating the object. Setters will always work regardless of whether the model\nis already loaded or not.\n"
+											}
+										]
+									},
+									"parameters": [
+										{
+											"id": 6783,
+											"name": "model",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "Model name or model hash for the object."
+											},
+											"type": {
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
+											}
+										},
+										{
+											"id": 6784,
+											"name": "pos",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "Position of the object."
+											},
+											"type": {
+												"type": "reference",
+												"id": 921,
+												"name": "Vector3"
+											}
+										},
+										{
+											"id": 6785,
+											"name": "rot",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"shortText": "Rotation of the object."
+											},
+											"type": {
+												"type": "reference",
+												"id": 921,
+												"name": "Vector3"
+											}
+										},
+										{
+											"id": 6786,
+											"name": "noOffset",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"shortText": "If true, object position will not be adjusted to not collide with anything."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										},
+										{
+											"id": 6787,
+											"name": "dynamic",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"shortText": "If true, object reacts to actions in the world. (E.g. force by vehicle)\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"type": {
+										"type": "reference",
+										"id": 6780,
+										"name": "Object"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3067,
+									"character": 38
+								}
+							]
+						},
+						{
+							"id": 6791,
+							"name": "alpha",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Object transparency, values are between 0 and 255. (0 being fully transparent)"
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3091,
+									"character": 16
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 6794,
+							"name": "dynamic",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3094,
+									"character": 27
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 6796,
+							"name": "hasGravity",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "Whether the object is affected by gravity."
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3100,
+									"character": 21
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 6809,
+							"name": "id",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Entity unique id"
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 548,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4937,
+								"name": "Entity.id"
+							}
+						},
+						{
+							"id": 6797,
+							"name": "isRemote",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Whether this object was created clientside or serverside. (Clientside = false, Serverside = true)"
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3103,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							}
+						},
+						{
+							"id": 6812,
+							"name": "isSpawned",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Returns whether the entity is spawned in the game world.",
+								"tags": [
+									{
+										"tag": "remarks",
+										"text": "This does the same thing as checking if the {@link scriptID} is 0.\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 569,
+									"character": 29
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4940,
+								"name": "Entity.isSpawned"
+							}
+						},
+						{
+							"id": 6795,
+							"name": "lodDistance",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"comment": {
+								"shortText": "The distance at which the LOD model of the object starts being applied."
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3097,
+									"character": 22
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							}
+						},
+						{
+							"id": 6813,
+							"name": "model",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Hash of entity model"
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 572,
+									"character": 25
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4941,
+								"name": "Entity.model"
+							}
+						},
+						{
+							"id": 6811,
+							"name": "netOwner",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Network owner of the entity.",
+								"tags": [
+									{
+										"tag": "remarks",
+										"text": "Network owner is responsible for syncing entity with the server.\nIt changes when actual network owner passes the migration range,\nthen the new one is determined based on distance from the entity\n(if entity is a vehicle, then the driver will take priority for becoming network owner).\nDisabling migration range will stop this process from happening until turned on again.\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 562,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"id": 5024,
+										"name": "Player"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4939,
+								"name": "Entity.netOwner"
+							}
+						},
+						{
+							"id": 6789,
+							"name": "pos",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3086,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 921,
+								"name": "Vector3"
+							},
+							"overwrites": {
+								"type": "reference",
+								"id": 4942,
+								"name": "Entity.pos"
+							}
+						},
+						{
+							"id": 6893,
+							"name": "refCount",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Returns the ref count of the entity.",
+								"tags": [
+									{
+										"tag": "remarks",
+										"text": "It's only available in debug-mode.\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "types-shared/index.d.ts",
+									"line": 1585,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 1221,
+								"name": "BaseObject.refCount"
+							}
+						},
+						{
+							"id": 6790,
+							"name": "rot",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3088,
+									"character": 14
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 921,
+								"name": "Vector3"
+							},
+							"overwrites": {
+								"type": "reference",
+								"id": 4943,
+								"name": "Entity.rot"
+							}
+						},
+						{
+							"id": 6810,
+							"name": "scriptID",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Internal game id that can be used in native calls"
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 551,
+									"character": 28
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "number"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4938,
+								"name": "Entity.scriptID"
+							}
+						},
+						{
+							"id": 6889,
+							"name": "type",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Type of the object."
+							},
+							"sources": [
+								{
+									"fileName": "types-shared/index.d.ts",
+									"line": 1525,
+									"character": 24
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 2,
+								"name": "BaseObjectType"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 1181,
+								"name": "BaseObject.type"
+							}
+						},
+						{
+							"id": 6890,
+							"name": "valid",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"comment": {
+								"shortText": "Object usability.",
+								"tags": [
+									{
+										"tag": "returns",
+										"text": "False if object is no longer usable.\n"
+									}
+								]
+							},
+							"sources": [
+								{
+									"fileName": "types-shared/index.d.ts",
+									"line": 1532,
+									"character": 25
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 1182,
+								"name": "BaseObject.valid"
+							}
+						},
+						{
+							"id": 6814,
+							"name": "visible",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 582,
+									"character": 27
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "boolean"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4944,
+								"name": "Entity.visible"
+							}
+						},
+						{
+							"id": 6788,
+							"name": "all",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true,
+								"isExported": true,
+								"isReadonly": true
+							},
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3084,
+									"character": 30
+								}
+							],
+							"type": {
+								"type": "reference",
+								"typeArguments": [
+									{
+										"type": "reference",
+										"id": 6780,
+										"name": "Object"
+									}
+								],
+								"name": "ReadonlyArray"
+							},
+							"overwrites": {
+								"type": "reference",
+								"id": 4936,
+								"name": "Entity.all"
+							}
+						},
+						{
+							"id": 6798,
+							"name": "attachToEntity",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6799,
+									"name": "attachToEntity",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Attaches the object to another entity."
+									},
+									"parameters": [
+										{
+											"id": 6800,
+											"name": "entity",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "Entity the object should be attached to."
+											},
+											"type": {
+												"type": "reference",
+												"id": 4935,
+												"name": "Entity"
+											}
+										},
+										{
+											"id": 6801,
+											"name": "bone",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "Bone index of the entity to attach to. (-1 for entity center)"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										},
+										{
+											"id": 6802,
+											"name": "pos",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "Position offset of the object."
+											},
+											"type": {
+												"type": "reference",
+												"id": 921,
+												"name": "Vector3"
+											}
+										},
+										{
+											"id": 6803,
+											"name": "rot",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "Rotation of the object."
+											},
+											"type": {
+												"type": "reference",
+												"id": 921,
+												"name": "Vector3"
+											}
+										},
+										{
+											"id": 6804,
+											"name": "useSoftPinning",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Whether the object should be able to detach when not fixed."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										},
+										{
+											"id": 6805,
+											"name": "collision",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Whether the object and the entity should collide with each other."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										},
+										{
+											"id": 6806,
+											"name": "fixedRot",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true,
+												"isOptional": true
+											},
+											"comment": {
+												"text": "Whether the rotation of the object is fixed or follows that of the entity.\n"
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "boolean"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3116,
+									"character": 25
+								}
+							]
+						},
+						{
+							"id": 6835,
+							"name": "deleteMeta",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6836,
+									"name": "deleteMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 6837,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4703,
+										"name": "BaseObject.deleteMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4965,
+										"name": "Entity.deleteMeta"
+									}
+								},
+								{
+									"id": 6838,
+									"name": "deleteMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6839,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 4698,
+														"name": "ICustomEntityMeta"
+													}
+												],
+												"name": "shared.ExtractStringKeys"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6840,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 4698,
+															"name": "ICustomEntityMeta"
+														}
+													],
+													"name": "shared.ExtractStringKeys"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4703,
+										"name": "BaseObject.deleteMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4965,
+										"name": "Entity.deleteMeta"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 605,
+									"character": 21
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 606,
+									"character": 21
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 4703,
+								"name": "BaseObject.deleteMeta"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4965,
+								"name": "Entity.deleteMeta"
+							}
+						},
+						{
+							"id": 6891,
+							"name": "destroy",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6892,
+									"name": "destroy",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Removes the object from the world."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 1183,
+										"name": "BaseObject.destroy"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-shared/index.d.ts",
+									"line": 1537,
+									"character": 18
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 1183,
+								"name": "BaseObject.destroy"
+							}
+						},
+						{
+							"id": 6807,
+							"name": "detach",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6808,
+									"name": "detach",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Detaches the object from the current attached entity."
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3119,
+									"character": 17
+								}
+							]
+						},
+						{
+							"id": 6841,
+							"name": "getMeta",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6842,
+									"name": "getMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6843,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6844,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "typeParameter",
+														"name": "K",
+														"constraint": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													{
+														"type": "typeOperator",
+														"operator": "keyof",
+														"target": {
+															"type": "reference",
+															"id": 4698,
+															"name": "ICustomEntityMeta"
+														}
+													}
+												],
+												"name": "Exclude"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "unknown"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4715,
+										"name": "BaseObject.getMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4971,
+										"name": "Entity.getMeta"
+									}
+								},
+								{
+									"id": 6845,
+									"name": "getMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6846,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 4698,
+														"name": "ICustomEntityMeta"
+													}
+												],
+												"name": "shared.ExtractStringKeys"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6847,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 4698,
+															"name": "ICustomEntityMeta"
+														}
+													],
+													"name": "shared.ExtractStringKeys"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "typeParameter",
+													"name": "K",
+													"constraint": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"id": 4698,
+																"name": "ICustomEntityMeta"
+															}
+														],
+														"name": "shared.ExtractStringKeys"
+													}
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "ICustomEntityMeta"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4715,
+										"name": "BaseObject.getMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4971,
+										"name": "Entity.getMeta"
+									}
+								},
+								{
+									"id": 6848,
+									"name": "getMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "deprecated",
+												"text": "See {@link ICustomEntityMeta}"
+											}
+										]
+									},
+									"typeParameter": [
+										{
+											"id": 6849,
+											"name": "V",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6850,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "typeParameter",
+												"name": "V",
+												"constraint": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4715,
+										"name": "BaseObject.getMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4971,
+										"name": "Entity.getMeta"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 608,
+									"character": 18
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 609,
+									"character": 18
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 611,
+									"character": 18
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 4715,
+								"name": "BaseObject.getMeta"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4971,
+								"name": "Entity.getMeta"
+							}
+						},
+						{
+							"id": 6873,
+							"name": "getStreamSyncedMeta",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6874,
+									"name": "getStreamSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Gets a value using the specified key.",
+										"returns": "Dynamic value associated with the specified key or undefined if no data is present.\n"
+									},
+									"typeParameter": [
+										{
+											"id": 6875,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6876,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The key of the value to get."
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "typeParameter",
+														"name": "K",
+														"constraint": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													{
+														"type": "typeOperator",
+														"operator": "keyof",
+														"target": {
+															"type": "reference",
+															"id": 915,
+															"name": "ICustomEntityStreamSyncedMeta"
+														}
+													}
+												],
+												"name": "Exclude"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "unknown"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 5003,
+										"name": "Entity.getStreamSyncedMeta"
+									}
+								},
+								{
+									"id": 6877,
+									"name": "getStreamSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6878,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 915,
+														"name": "ICustomEntityStreamSyncedMeta"
+													}
+												],
+												"name": "shared.ExtractStringKeys"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6879,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 915,
+															"name": "ICustomEntityStreamSyncedMeta"
+														}
+													],
+													"name": "shared.ExtractStringKeys"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "typeParameter",
+													"name": "K",
+													"constraint": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"id": 915,
+																"name": "ICustomEntityStreamSyncedMeta"
+															}
+														],
+														"name": "shared.ExtractStringKeys"
+													}
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "ICustomEntityStreamSyncedMeta"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 5003,
+										"name": "Entity.getStreamSyncedMeta"
+									}
+								},
+								{
+									"id": 6880,
+									"name": "getStreamSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "deprecated",
+												"text": "See {@link \"alt-shared\".ICustomEntityStreamSyncedMeta}"
+											}
+										]
+									},
+									"typeParameter": [
+										{
+											"id": 6881,
+											"name": "V",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6882,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "typeParameter",
+												"name": "V",
+												"constraint": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 5003,
+										"name": "Entity.getStreamSyncedMeta"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 642,
+									"character": 30
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 643,
+									"character": 30
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 645,
+									"character": 30
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 5003,
+								"name": "Entity.getStreamSyncedMeta"
+							}
+						},
+						{
+							"id": 6857,
+							"name": "getSyncedMeta",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6858,
+									"name": "getSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Gets a value using the specified key.",
+										"returns": "Dynamic value associated with the specified key or undefined if no data is present.\n"
+									},
+									"typeParameter": [
+										{
+											"id": 6859,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6860,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The key of the value to get."
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "typeParameter",
+														"name": "K",
+														"constraint": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													{
+														"type": "typeOperator",
+														"operator": "keyof",
+														"target": {
+															"type": "reference",
+															"id": 914,
+															"name": "ICustomEntitySyncedMeta"
+														}
+													}
+												],
+												"name": "Exclude"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "unknown"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4987,
+										"name": "Entity.getSyncedMeta"
+									}
+								},
+								{
+									"id": 6861,
+									"name": "getSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6862,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 914,
+														"name": "ICustomEntitySyncedMeta"
+													}
+												],
+												"name": "shared.ExtractStringKeys"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6863,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 914,
+															"name": "ICustomEntitySyncedMeta"
+														}
+													],
+													"name": "shared.ExtractStringKeys"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "typeParameter",
+													"name": "K",
+													"constraint": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"id": 914,
+																"name": "ICustomEntitySyncedMeta"
+															}
+														],
+														"name": "shared.ExtractStringKeys"
+													}
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "ICustomEntitySyncedMeta"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4987,
+										"name": "Entity.getSyncedMeta"
+									}
+								},
+								{
+									"id": 6864,
+									"name": "getSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "deprecated",
+												"text": "See {@link \"alt-shared\".ICustomEntitySyncedMeta}"
+											}
+										]
+									},
+									"typeParameter": [
+										{
+											"id": 6865,
+											"name": "V",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6866,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "typeParameter",
+												"name": "V",
+												"constraint": {
+													"type": "intrinsic",
+													"name": "any"
+												}
+											},
+											{
+												"type": "intrinsic",
+												"name": "undefined"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4987,
+										"name": "Entity.getSyncedMeta"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 622,
+									"character": 24
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 623,
+									"character": 24
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 625,
+									"character": 24
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4987,
+								"name": "Entity.getSyncedMeta"
+							}
+						},
+						{
+							"id": 6851,
+							"name": "hasMeta",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6852,
+									"name": "hasMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"parameters": [
+										{
+											"id": 6853,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4709,
+										"name": "BaseObject.hasMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4981,
+										"name": "Entity.hasMeta"
+									}
+								},
+								{
+									"id": 6854,
+									"name": "hasMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6855,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 4698,
+														"name": "ICustomEntityMeta"
+													}
+												],
+												"name": "shared.ExtractStringKeys"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6856,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 4698,
+															"name": "ICustomEntityMeta"
+														}
+													],
+													"name": "shared.ExtractStringKeys"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4709,
+										"name": "BaseObject.hasMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4981,
+										"name": "Entity.hasMeta"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 613,
+									"character": 18
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 614,
+									"character": 18
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 4709,
+								"name": "BaseObject.hasMeta"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4981,
+								"name": "Entity.hasMeta"
+							}
+						},
+						{
+							"id": 6883,
+							"name": "hasStreamSyncedMeta",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6884,
+									"name": "hasStreamSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether contains the specified key.",
+										"returns": "True if the meta table contains any data at the specified key or False if not\n"
+									},
+									"parameters": [
+										{
+											"id": 6885,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The key of the value to locate."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 5013,
+										"name": "Entity.hasStreamSyncedMeta"
+									}
+								},
+								{
+									"id": 6886,
+									"name": "hasStreamSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6887,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 915,
+														"name": "ICustomEntityStreamSyncedMeta"
+													}
+												],
+												"name": "shared.ExtractStringKeys"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6888,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 915,
+															"name": "ICustomEntityStreamSyncedMeta"
+														}
+													],
+													"name": "shared.ExtractStringKeys"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 5013,
+										"name": "Entity.hasStreamSyncedMeta"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 653,
+									"character": 30
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 654,
+									"character": 30
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 5013,
+								"name": "Entity.hasStreamSyncedMeta"
+							}
+						},
+						{
+							"id": 6867,
+							"name": "hasSyncedMeta",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6868,
+									"name": "hasSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Determines whether contains the specified key.",
+										"returns": "True if the meta table contains any data at the specified key or False if not\n"
+									},
+									"parameters": [
+										{
+											"id": 6869,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The key of the value to locate."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4997,
+										"name": "Entity.hasSyncedMeta"
+									}
+								},
+								{
+									"id": 6870,
+									"name": "hasSyncedMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6871,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 914,
+														"name": "ICustomEntitySyncedMeta"
+													}
+												],
+												"name": "shared.ExtractStringKeys"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6872,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 914,
+															"name": "ICustomEntitySyncedMeta"
+														}
+													],
+													"name": "shared.ExtractStringKeys"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "boolean"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4997,
+										"name": "Entity.hasSyncedMeta"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 633,
+									"character": 24
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 634,
+									"character": 24
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4997,
+								"name": "Entity.hasSyncedMeta"
+							}
+						},
+						{
+							"id": 6792,
+							"name": "resetAlpha",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6793,
+									"name": "resetAlpha",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 3092,
+									"character": 21
+								}
+							]
+						},
+						{
+							"id": 6821,
+							"name": "setMeta",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6822,
+									"name": "setMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6823,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6824,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											}
+										},
+										{
+											"id": 6825,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 4698,
+														"name": "ICustomEntityMeta"
+													},
+													{
+														"type": "typeParameter",
+														"name": "K",
+														"constraint": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													}
+												],
+												"name": "shared.InterfaceValueByKey"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4725,
+										"name": "BaseObject.setMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4951,
+										"name": "Entity.setMeta"
+									}
+								},
+								{
+									"id": 6826,
+									"name": "setMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"typeParameter": [
+										{
+											"id": 6827,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 4698,
+														"name": "ICustomEntityMeta"
+													}
+												],
+												"name": "shared.ExtractStringKeys"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6828,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "reference",
+													"typeArguments": [
+														{
+															"type": "reference",
+															"id": 4698,
+															"name": "ICustomEntityMeta"
+														}
+													],
+													"name": "shared.ExtractStringKeys"
+												}
+											}
+										},
+										{
+											"id": 6829,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "indexedAccess",
+												"indexType": {
+													"type": "typeParameter",
+													"name": "K",
+													"constraint": {
+														"type": "reference",
+														"typeArguments": [
+															{
+																"type": "reference",
+																"id": 4698,
+																"name": "ICustomEntityMeta"
+															}
+														],
+														"name": "shared.ExtractStringKeys"
+													}
+												},
+												"objectType": {
+													"type": "reference",
+													"name": "ICustomEntityMeta"
+												}
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4725,
+										"name": "BaseObject.setMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4951,
+										"name": "Entity.setMeta"
+									}
+								},
+								{
+									"id": 6830,
+									"name": "setMeta",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"tags": [
+											{
+												"tag": "deprecated",
+												"text": "See {@link ICustomEntityMeta}"
+											}
+										]
+									},
+									"typeParameter": [
+										{
+											"id": 6831,
+											"name": "V",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "any"
+											}
+										},
+										{
+											"id": 6832,
+											"name": "K",
+											"kind": 131072,
+											"kindString": "Type parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "string"
+											}
+										}
+									],
+									"parameters": [
+										{
+											"id": 6833,
+											"name": "key",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "typeParameter",
+												"name": "K",
+												"constraint": {
+													"type": "intrinsic",
+													"name": "string"
+												},
+												"default": {
+													"type": "intrinsic",
+													"name": "string"
+												}
+											}
+										},
+										{
+											"id": 6834,
+											"name": "value",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"type": {
+												"type": "reference",
+												"typeArguments": [
+													{
+														"type": "reference",
+														"id": 4698,
+														"name": "ICustomEntityMeta"
+													},
+													{
+														"type": "typeParameter",
+														"name": "K",
+														"constraint": {
+															"type": "intrinsic",
+															"name": "string"
+														},
+														"default": {
+															"type": "intrinsic",
+															"name": "string"
+														}
+													},
+													{
+														"type": "typeParameter",
+														"name": "V",
+														"constraint": {
+															"type": "intrinsic",
+															"name": "any"
+														}
+													}
+												],
+												"name": "shared.InterfaceValueByKey"
+											}
+										}
+									],
+									"type": {
+										"type": "intrinsic",
+										"name": "void"
+									},
+									"overwrites": {
+										"type": "reference",
+										"id": 4725,
+										"name": "BaseObject.setMeta"
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4951,
+										"name": "Entity.setMeta"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 600,
+									"character": 18
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 601,
+									"character": 18
+								},
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 603,
+									"character": 18
+								}
+							],
+							"overwrites": {
+								"type": "reference",
+								"id": 4725,
+								"name": "BaseObject.setMeta"
+							},
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4951,
+								"name": "Entity.setMeta"
+							}
+						},
+						{
+							"id": 6815,
+							"name": "getByID",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6816,
+									"name": "getByID",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Retrieves the entity from the pool.",
+										"returns": "Entity if it was found, otherwise null.\n"
+									},
+									"parameters": [
+										{
+											"id": 6817,
+											"name": "id",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The id of the entity."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"id": 4935,
+												"name": "Entity"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4945,
+										"name": "Entity.getByID"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 590,
+									"character": 25
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4945,
+								"name": "Entity.getByID"
+							}
+						},
+						{
+							"id": 6818,
+							"name": "getByScriptID",
+							"kind": 2048,
+							"kindString": "Method",
+							"flags": {
+								"isPublic": true,
+								"isStatic": true,
+								"isExported": true
+							},
+							"signatures": [
+								{
+									"id": 6819,
+									"name": "getByScriptID",
+									"kind": 4096,
+									"kindString": "Call signature",
+									"flags": {
+										"isExported": true
+									},
+									"comment": {
+										"shortText": "Retrieves the entity from the pool.",
+										"returns": "Entity if it was found, otherwise null.\n"
+									},
+									"parameters": [
+										{
+											"id": 6820,
+											"name": "scriptID",
+											"kind": 32768,
+											"kindString": "Parameter",
+											"flags": {
+												"isExported": true
+											},
+											"comment": {
+												"text": "The script id of the entity."
+											},
+											"type": {
+												"type": "intrinsic",
+												"name": "number"
+											}
+										}
+									],
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"id": 4935,
+												"name": "Entity"
+											},
+											{
+												"type": "intrinsic",
+												"name": "null"
+											}
+										]
+									},
+									"inheritedFrom": {
+										"type": "reference",
+										"id": 4948,
+										"name": "Entity.getByScriptID"
+									}
+								}
+							],
+							"sources": [
+								{
+									"fileName": "types-client/index.d.ts",
+									"line": 598,
+									"character": 31
+								}
+							],
+							"inheritedFrom": {
+								"type": "reference",
+								"id": 4948,
+								"name": "Entity.getByScriptID"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Constructors",
+							"kind": 512,
+							"children": [
+								6781
+							]
+						},
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								6791,
+								6794,
+								6796,
+								6809,
+								6797,
+								6812,
+								6795,
+								6813,
+								6811,
+								6789,
+								6893,
+								6790,
+								6810,
+								6889,
+								6890,
+								6814,
+								6788
+							]
+						},
+						{
+							"title": "Methods",
+							"kind": 2048,
+							"children": [
+								6798,
+								6835,
+								6891,
+								6807,
+								6841,
+								6873,
+								6857,
+								6851,
+								6883,
+								6867,
+								6792,
+								6821,
+								6815,
+								6818
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "types-client/index.d.ts",
+							"line": 3067,
+							"character": 21
+						}
+					],
+					"extendedTypes": [
+						{
+							"type": "reference",
+							"id": 4935,
+							"name": "Entity"
 						}
 					]
 				},
@@ -57658,7 +60547,7 @@
 					]
 				},
 				{
-					"id": 6780,
+					"id": 6894,
 					"name": "addGxtText",
 					"kind": 64,
 					"kindString": "Function",
@@ -57667,7 +60556,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6781,
+							"id": 6895,
 							"name": "addGxtText",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -57685,7 +60574,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6782,
+									"id": 6896,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -57701,7 +60590,7 @@
 									}
 								},
 								{
-									"id": 6783,
+									"id": 6897,
 									"name": "value",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -57732,7 +60621,7 @@
 					]
 				},
 				{
-					"id": 6784,
+					"id": 6898,
 					"name": "beginScaleformMovieMethodMinimap",
 					"kind": 64,
 					"kindString": "Function",
@@ -57741,7 +60630,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6785,
+							"id": 6899,
 							"name": "beginScaleformMovieMethodMinimap",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -57753,7 +60642,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6786,
+									"id": 6900,
 									"name": "methodName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -57781,7 +60670,7 @@
 					]
 				},
 				{
-					"id": 7022,
+					"id": 7136,
 					"name": "clearPedProp",
 					"kind": 64,
 					"kindString": "Function",
@@ -57790,7 +60679,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7023,
+							"id": 7137,
 							"name": "clearPedProp",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -57802,7 +60691,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7024,
+									"id": 7138,
 									"name": "scriptID",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -57818,7 +60707,7 @@
 									}
 								},
 								{
-									"id": 7025,
+									"id": 7139,
 									"name": "component",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -57849,7 +60738,7 @@
 					]
 				},
 				{
-					"id": 7044,
+					"id": 7158,
 					"name": "copyToClipboard",
 					"kind": 64,
 					"kindString": "Function",
@@ -57858,7 +60747,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7045,
+							"id": 7159,
 							"name": "copyToClipboard",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -57876,7 +60765,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7046,
+									"id": 7160,
 									"name": "val",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -57904,7 +60793,7 @@
 					]
 				},
 				{
-					"id": 6948,
+					"id": 7062,
 					"name": "doesConfigFlagExist",
 					"kind": 64,
 					"kindString": "Function",
@@ -57913,7 +60802,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6949,
+							"id": 7063,
 							"name": "doesConfigFlagExist",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -57926,7 +60815,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6950,
+									"id": 7064,
 									"name": "flag",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -57957,7 +60846,7 @@
 					]
 				},
 				{
-					"id": 6787,
+					"id": 6901,
 					"name": "emit",
 					"kind": 64,
 					"kindString": "Function",
@@ -57966,7 +60855,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6788,
+							"id": 6902,
 							"name": "emit",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -57984,7 +60873,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 6789,
+									"id": 6903,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -57999,7 +60888,7 @@
 							],
 							"parameters": [
 								{
-									"id": 6790,
+									"id": 6904,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58034,7 +60923,7 @@
 									}
 								},
 								{
-									"id": 6791,
+									"id": 6905,
 									"name": "args",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58069,7 +60958,7 @@
 					]
 				},
 				{
-					"id": 6792,
+					"id": 6906,
 					"name": "emitRaw",
 					"kind": 64,
 					"kindString": "Function",
@@ -58078,7 +60967,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6793,
+							"id": 6907,
 							"name": "emitRaw",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58096,7 +60985,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 6794,
+									"id": 6908,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -58111,7 +61000,7 @@
 							],
 							"parameters": [
 								{
-									"id": 6795,
+									"id": 6909,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58146,7 +61035,7 @@
 									}
 								},
 								{
-									"id": 6796,
+									"id": 6910,
 									"name": "args",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58181,7 +61070,7 @@
 					]
 				},
 				{
-					"id": 6797,
+					"id": 6911,
 					"name": "emitServer",
 					"kind": 64,
 					"kindString": "Function",
@@ -58190,7 +61079,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6798,
+							"id": 6912,
 							"name": "emitServer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58208,7 +61097,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6799,
+									"id": 6913,
 									"name": "name",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58221,7 +61110,7 @@
 									}
 								},
 								{
-									"id": 6800,
+									"id": 6914,
 									"name": "args",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58256,7 +61145,7 @@
 					]
 				},
 				{
-					"id": 6801,
+					"id": 6915,
 					"name": "emitServerRaw",
 					"kind": 64,
 					"kindString": "Function",
@@ -58265,7 +61154,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6802,
+							"id": 6916,
 							"name": "emitServerRaw",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58283,7 +61172,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6803,
+									"id": 6917,
 									"name": "name",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58296,7 +61185,7 @@
 									}
 								},
 								{
-									"id": 6804,
+									"id": 6918,
 									"name": "args",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58331,7 +61220,7 @@
 					]
 				},
 				{
-					"id": 6995,
+					"id": 7109,
 					"name": "evalModule",
 					"kind": 64,
 					"kindString": "Function",
@@ -58340,7 +61229,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6996,
+							"id": 7110,
 							"name": "evalModule",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58359,7 +61248,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6997,
+									"id": 7111,
 									"name": "code",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58400,7 +61289,7 @@
 					]
 				},
 				{
-					"id": 6805,
+					"id": 6919,
 					"name": "gameControlsEnabled",
 					"kind": 64,
 					"kindString": "Function",
@@ -58409,7 +61298,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6806,
+							"id": 6920,
 							"name": "gameControlsEnabled",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58434,7 +61323,7 @@
 					]
 				},
 				{
-					"id": 7071,
+					"id": 7185,
 					"name": "getCamPos",
 					"kind": 64,
 					"kindString": "Function",
@@ -58443,7 +61332,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7072,
+							"id": 7186,
 							"name": "getCamPos",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58466,7 +61355,7 @@
 					]
 				},
 				{
-					"id": 6943,
+					"id": 7057,
 					"name": "getConfigFlag",
 					"kind": 64,
 					"kindString": "Function",
@@ -58475,7 +61364,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6944,
+							"id": 7058,
 							"name": "getConfigFlag",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58488,7 +61377,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6945,
+									"id": 7059,
 									"name": "flag",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58511,7 +61400,7 @@
 							}
 						},
 						{
-							"id": 6946,
+							"id": 7060,
 							"name": "getConfigFlag",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58520,7 +61409,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6947,
+									"id": 7061,
 									"name": "flag",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58566,7 +61455,7 @@
 					]
 				},
 				{
-					"id": 6807,
+					"id": 6921,
 					"name": "getCursorPos",
 					"kind": 64,
 					"kindString": "Function",
@@ -58575,7 +61464,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6808,
+							"id": 6922,
 							"name": "getCursorPos",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58587,7 +61476,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6809,
+									"id": 6923,
 									"name": "normalized",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58617,7 +61506,7 @@
 					]
 				},
 				{
-					"id": 7034,
+					"id": 7148,
 					"name": "getFps",
 					"kind": 64,
 					"kindString": "Function",
@@ -58626,7 +61515,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7035,
+							"id": 7149,
 							"name": "getFps",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58651,7 +61540,7 @@
 					]
 				},
 				{
-					"id": 6810,
+					"id": 6924,
 					"name": "getGxtText",
 					"kind": 64,
 					"kindString": "Function",
@@ -58660,7 +61549,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6811,
+							"id": 6925,
 							"name": "getGxtText",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58672,7 +61561,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6812,
+									"id": 6926,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58703,7 +61592,7 @@
 					]
 				},
 				{
-					"id": 7004,
+					"id": 7118,
 					"name": "getHeadshotBase64",
 					"kind": 64,
 					"kindString": "Function",
@@ -58712,7 +61601,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7005,
+							"id": 7119,
 							"name": "getHeadshotBase64",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58731,7 +61620,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7006,
+									"id": 7120,
 									"name": "id",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58762,7 +61651,7 @@
 					]
 				},
 				{
-					"id": 6813,
+					"id": 6927,
 					"name": "getLicenseHash",
 					"kind": 64,
 					"kindString": "Function",
@@ -58771,7 +61660,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6814,
+							"id": 6928,
 							"name": "getLicenseHash",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58793,7 +61682,7 @@
 					]
 				},
 				{
-					"id": 7075,
+					"id": 7189,
 					"name": "getLocalMeta",
 					"kind": 64,
 					"kindString": "Function",
@@ -58802,7 +61691,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7076,
+							"id": 7190,
 							"name": "getLocalMeta",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58815,7 +61704,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 7077,
+									"id": 7191,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -58830,7 +61719,7 @@
 							],
 							"parameters": [
 								{
-									"id": 7078,
+									"id": 7192,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58871,7 +61760,7 @@
 							}
 						},
 						{
-							"id": 7079,
+							"id": 7193,
 							"name": "getLocalMeta",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58880,7 +61769,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 7080,
+									"id": 7194,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -58902,7 +61791,7 @@
 							],
 							"parameters": [
 								{
-									"id": 7081,
+									"id": 7195,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -58959,7 +61848,7 @@
 							}
 						},
 						{
-							"id": 7082,
+							"id": 7196,
 							"name": "getLocalMeta",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -58976,7 +61865,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 7083,
+									"id": 7197,
 									"name": "V",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -58991,7 +61880,7 @@
 							],
 							"parameters": [
 								{
-									"id": 7084,
+									"id": 7198,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -59042,7 +61931,7 @@
 					]
 				},
 				{
-					"id": 6815,
+					"id": 6929,
 					"name": "getLocale",
 					"kind": 64,
 					"kindString": "Function",
@@ -59051,7 +61940,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6816,
+							"id": 6930,
 							"name": "getLocale",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59068,7 +61957,7 @@
 							}
 						},
 						{
-							"id": 6817,
+							"id": 6931,
 							"name": "getLocale",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59224,7 +62113,7 @@
 					]
 				},
 				{
-					"id": 6818,
+					"id": 6932,
 					"name": "getMsPerGameMinute",
 					"kind": 64,
 					"kindString": "Function",
@@ -59233,7 +62122,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6819,
+							"id": 6933,
 							"name": "getMsPerGameMinute",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59264,7 +62153,7 @@
 					]
 				},
 				{
-					"id": 6820,
+					"id": 6934,
 					"name": "getPermissionState",
 					"kind": 64,
 					"kindString": "Function",
@@ -59273,7 +62162,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6821,
+							"id": 6935,
 							"name": "getPermissionState",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59286,7 +62175,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6822,
+									"id": 6936,
 									"name": "permId",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -59310,7 +62199,7 @@
 							}
 						},
 						{
-							"id": 6823,
+							"id": 6937,
 							"name": "getPermissionState",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59319,7 +62208,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 6824,
+									"id": 6938,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -59332,7 +62221,7 @@
 									}
 								},
 								{
-									"id": 6825,
+									"id": 6939,
 									"name": "V",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -59347,7 +62236,7 @@
 							],
 							"parameters": [
 								{
-									"id": 6826,
+									"id": 6940,
 									"name": "permId",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -59392,7 +62281,7 @@
 					]
 				},
 				{
-					"id": 7032,
+					"id": 7146,
 					"name": "getPing",
 					"kind": 64,
 					"kindString": "Function",
@@ -59401,7 +62290,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7033,
+							"id": 7147,
 							"name": "getPing",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59426,7 +62315,7 @@
 					]
 				},
 				{
-					"id": 6998,
+					"id": 7112,
 					"name": "getRemoteEventListeners",
 					"kind": 64,
 					"kindString": "Function",
@@ -59435,7 +62324,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6999,
+							"id": 7113,
 							"name": "getRemoteEventListeners",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59448,7 +62337,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7000,
+									"id": 7114,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -59478,7 +62367,7 @@
 								"elementType": {
 									"type": "reflection",
 									"declaration": {
-										"id": 7001,
+										"id": 7115,
 										"name": "__type",
 										"kind": 65536,
 										"kindString": "Type literal",
@@ -59487,7 +62376,7 @@
 										},
 										"signatures": [
 											{
-												"id": 7002,
+												"id": 7116,
 												"name": "__call",
 												"kind": 4096,
 												"kindString": "Call signature",
@@ -59496,7 +62385,7 @@
 												},
 												"parameters": [
 													{
-														"id": 7003,
+														"id": 7117,
 														"name": "args",
 														"kind": 32768,
 														"kindString": "Parameter",
@@ -59540,7 +62429,7 @@
 					]
 				},
 				{
-					"id": 7073,
+					"id": 7187,
 					"name": "getScreenResolution",
 					"kind": 64,
 					"kindString": "Function",
@@ -59549,7 +62438,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7074,
+							"id": 7188,
 							"name": "getScreenResolution",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59572,7 +62461,7 @@
 					]
 				},
 				{
-					"id": 7040,
+					"id": 7154,
 					"name": "getServerIp",
 					"kind": 64,
 					"kindString": "Function",
@@ -59581,7 +62470,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7041,
+							"id": 7155,
 							"name": "getServerIp",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59607,7 +62496,7 @@
 					]
 				},
 				{
-					"id": 7042,
+					"id": 7156,
 					"name": "getServerPort",
 					"kind": 64,
 					"kindString": "Function",
@@ -59616,7 +62505,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7043,
+							"id": 7157,
 							"name": "getServerPort",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59642,7 +62531,7 @@
 					]
 				},
 				{
-					"id": 6827,
+					"id": 6941,
 					"name": "getStat",
 					"kind": 64,
 					"kindString": "Function",
@@ -59651,7 +62540,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6828,
+							"id": 6942,
 							"name": "getStat",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59663,7 +62552,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6829,
+									"id": 6943,
 									"name": "statName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -59686,7 +62575,7 @@
 							}
 						},
 						{
-							"id": 6830,
+							"id": 6944,
 							"name": "getStat",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59695,7 +62584,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6831,
+									"id": 6945,
 									"name": "statName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -59757,7 +62646,7 @@
 					]
 				},
 				{
-					"id": 7038,
+					"id": 7152,
 					"name": "getTotalPacketsLost",
 					"kind": 64,
 					"kindString": "Function",
@@ -59766,7 +62655,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7039,
+							"id": 7153,
 							"name": "getTotalPacketsLost",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59788,7 +62677,7 @@
 					]
 				},
 				{
-					"id": 7036,
+					"id": 7150,
 					"name": "getTotalPacketsSent",
 					"kind": 64,
 					"kindString": "Function",
@@ -59797,7 +62686,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7037,
+							"id": 7151,
 							"name": "getTotalPacketsSent",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59819,7 +62708,7 @@
 					]
 				},
 				{
-					"id": 7085,
+					"id": 7199,
 					"name": "hasLocalMeta",
 					"kind": 64,
 					"kindString": "Function",
@@ -59828,7 +62717,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7086,
+							"id": 7200,
 							"name": "hasLocalMeta",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59837,7 +62726,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7087,
+									"id": 7201,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -59856,7 +62745,7 @@
 							}
 						},
 						{
-							"id": 7088,
+							"id": 7202,
 							"name": "hasLocalMeta",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59865,7 +62754,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 7089,
+									"id": 7203,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -59887,7 +62776,7 @@
 							],
 							"parameters": [
 								{
-									"id": 7090,
+									"id": 7204,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -59931,7 +62820,7 @@
 					]
 				},
 				{
-					"id": 6934,
+					"id": 7048,
 					"name": "isCamFrozen",
 					"kind": 64,
 					"kindString": "Function",
@@ -59940,7 +62829,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6935,
+							"id": 7049,
 							"name": "isCamFrozen",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59962,7 +62851,7 @@
 					]
 				},
 				{
-					"id": 6832,
+					"id": 6946,
 					"name": "isConsoleOpen",
 					"kind": 64,
 					"kindString": "Function",
@@ -59971,7 +62860,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6833,
+							"id": 6947,
 							"name": "isConsoleOpen",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -59997,7 +62886,7 @@
 					]
 				},
 				{
-					"id": 6981,
+					"id": 7095,
 					"name": "isCursorVisible",
 					"kind": 64,
 					"kindString": "Function",
@@ -60006,7 +62895,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6982,
+							"id": 7096,
 							"name": "isCursorVisible",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60028,7 +62917,7 @@
 					]
 				},
 				{
-					"id": 6834,
+					"id": 6948,
 					"name": "isGameFocused",
 					"kind": 64,
 					"kindString": "Function",
@@ -60037,7 +62926,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6835,
+							"id": 6949,
 							"name": "isGameFocused",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60063,7 +62952,7 @@
 					]
 				},
 				{
-					"id": 6836,
+					"id": 6950,
 					"name": "isInStreamerMode",
 					"kind": 64,
 					"kindString": "Function",
@@ -60072,7 +62961,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6837,
+							"id": 6951,
 							"name": "isInStreamerMode",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60098,7 +62987,7 @@
 					]
 				},
 				{
-					"id": 6841,
+					"id": 6955,
 					"name": "isKeyDown",
 					"kind": 64,
 					"kindString": "Function",
@@ -60107,7 +62996,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6842,
+							"id": 6956,
 							"name": "isKeyDown",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60119,7 +63008,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6843,
+									"id": 6957,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60147,7 +63036,7 @@
 					]
 				},
 				{
-					"id": 6838,
+					"id": 6952,
 					"name": "isKeyToggled",
 					"kind": 64,
 					"kindString": "Function",
@@ -60156,7 +63045,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6839,
+							"id": 6953,
 							"name": "isKeyToggled",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60168,7 +63057,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6840,
+									"id": 6954,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60199,7 +63088,7 @@
 					]
 				},
 				{
-					"id": 6844,
+					"id": 6958,
 					"name": "isMenuOpen",
 					"kind": 64,
 					"kindString": "Function",
@@ -60208,7 +63097,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6845,
+							"id": 6959,
 							"name": "isMenuOpen",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60234,7 +63123,7 @@
 					]
 				},
 				{
-					"id": 7111,
+					"id": 7225,
 					"name": "isPointOnScreen",
 					"kind": 64,
 					"kindString": "Function",
@@ -60243,7 +63132,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7112,
+							"id": 7226,
 							"name": "isPointOnScreen",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60260,7 +63149,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7113,
+									"id": 7227,
 									"name": "x",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60273,7 +63162,7 @@
 									}
 								},
 								{
-									"id": 7114,
+									"id": 7228,
 									"name": "y",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60286,7 +63175,7 @@
 									}
 								},
 								{
-									"id": 7115,
+									"id": 7229,
 									"name": "z",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60305,7 +63194,7 @@
 							}
 						},
 						{
-							"id": 7116,
+							"id": 7230,
 							"name": "isPointOnScreen",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60322,7 +63211,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7117,
+									"id": 7231,
 									"name": "value",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60356,7 +63245,7 @@
 					]
 				},
 				{
-					"id": 6846,
+					"id": 6960,
 					"name": "isTextureExistInArchetype",
 					"kind": 64,
 					"kindString": "Function",
@@ -60365,7 +63254,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6847,
+							"id": 6961,
 							"name": "isTextureExistInArchetype",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60374,7 +63263,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6848,
+									"id": 6962,
 									"name": "modelHash",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60387,7 +63276,7 @@
 									}
 								},
 								{
-									"id": 6849,
+									"id": 6963,
 									"name": "targetTextureName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60415,7 +63304,7 @@
 					]
 				},
 				{
-					"id": 7109,
+					"id": 7223,
 					"name": "loadDefaultIpls",
 					"kind": 64,
 					"kindString": "Function",
@@ -60424,7 +63313,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7110,
+							"id": 7224,
 							"name": "loadDefaultIpls",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60446,7 +63335,7 @@
 					]
 				},
 				{
-					"id": 6850,
+					"id": 6964,
 					"name": "loadModel",
 					"kind": 64,
 					"kindString": "Function",
@@ -60455,7 +63344,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6851,
+							"id": 6965,
 							"name": "loadModel",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60473,7 +63362,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6852,
+									"id": 6966,
 									"name": "modelHash",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60504,7 +63393,7 @@
 					]
 				},
 				{
-					"id": 6853,
+					"id": 6967,
 					"name": "loadModelAsync",
 					"kind": 64,
 					"kindString": "Function",
@@ -60513,7 +63402,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6854,
+							"id": 6968,
 							"name": "loadModelAsync",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60535,7 +63424,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6855,
+									"id": 6969,
 									"name": "modelHash",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60566,7 +63455,7 @@
 					]
 				},
 				{
-					"id": 7052,
+					"id": 7166,
 					"name": "loadRmlFont",
 					"kind": 64,
 					"kindString": "Function",
@@ -60575,7 +63464,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7053,
+							"id": 7167,
 							"name": "loadRmlFont",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60584,7 +63473,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7054,
+									"id": 7168,
 									"name": "path",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60597,7 +63486,7 @@
 									}
 								},
 								{
-									"id": 7055,
+									"id": 7169,
 									"name": "name",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60610,7 +63499,7 @@
 									}
 								},
 								{
-									"id": 7056,
+									"id": 7170,
 									"name": "italic",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60624,7 +63513,7 @@
 									}
 								},
 								{
-									"id": 7057,
+									"id": 7171,
 									"name": "bold",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60653,7 +63542,7 @@
 					]
 				},
 				{
-					"id": 6989,
+					"id": 7103,
 					"name": "loadYtyp",
 					"kind": 64,
 					"kindString": "Function",
@@ -60662,7 +63551,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6990,
+							"id": 7104,
 							"name": "loadYtyp",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60680,7 +63569,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6991,
+									"id": 7105,
 									"name": "path",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60711,7 +63600,7 @@
 					]
 				},
 				{
-					"id": 6856,
+					"id": 6970,
 					"name": "offServer",
 					"kind": 64,
 					"kindString": "Function",
@@ -60720,7 +63609,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6857,
+							"id": 6971,
 							"name": "offServer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60738,7 +63627,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6858,
+									"id": 6972,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60754,7 +63643,7 @@
 									}
 								},
 								{
-									"id": 6859,
+									"id": 6973,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60767,7 +63656,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 6860,
+											"id": 6974,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -60776,7 +63665,7 @@
 											},
 											"signatures": [
 												{
-													"id": 6861,
+													"id": 6975,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -60785,7 +63674,7 @@
 													},
 													"parameters": [
 														{
-															"id": 6862,
+															"id": 6976,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -60834,7 +63723,7 @@
 					]
 				},
 				{
-					"id": 6863,
+					"id": 6977,
 					"name": "on",
 					"kind": 64,
 					"kindString": "Function",
@@ -60843,7 +63732,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6864,
+							"id": 6978,
 							"name": "on",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60855,7 +63744,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 6865,
+									"id": 6979,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -60875,7 +63764,7 @@
 							],
 							"parameters": [
 								{
-									"id": 6866,
+									"id": 6980,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60900,7 +63789,7 @@
 									}
 								},
 								{
-									"id": 6867,
+									"id": 6981,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60938,7 +63827,7 @@
 							}
 						},
 						{
-							"id": 6868,
+							"id": 6982,
 							"name": "on",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -60950,7 +63839,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 6869,
+									"id": 6983,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -60965,7 +63854,7 @@
 							],
 							"parameters": [
 								{
-									"id": 6870,
+									"id": 6984,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -60985,7 +63874,7 @@
 									}
 								},
 								{
-									"id": 6871,
+									"id": 6985,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61014,7 +63903,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 6872,
+													"id": 6986,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -61023,7 +63912,7 @@
 													},
 													"signatures": [
 														{
-															"id": 6873,
+															"id": 6987,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -61032,7 +63921,7 @@
 															},
 															"parameters": [
 																{
-																	"id": 6874,
+																	"id": 6988,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -61093,7 +63982,7 @@
 					]
 				},
 				{
-					"id": 6887,
+					"id": 7001,
 					"name": "onServer",
 					"kind": 64,
 					"kindString": "Function",
@@ -61102,7 +63991,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6888,
+							"id": 7002,
 							"name": "onServer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61114,7 +64003,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6889,
+									"id": 7003,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61130,7 +64019,7 @@
 									}
 								},
 								{
-									"id": 6890,
+									"id": 7004,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61143,7 +64032,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 6891,
+											"id": 7005,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -61152,7 +64041,7 @@
 											},
 											"signatures": [
 												{
-													"id": 6892,
+													"id": 7006,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -61161,7 +64050,7 @@
 													},
 													"parameters": [
 														{
-															"id": 6893,
+															"id": 7007,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -61201,7 +64090,7 @@
 							}
 						},
 						{
-							"id": 6894,
+							"id": 7008,
 							"name": "onServer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61219,7 +64108,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6895,
+									"id": 7009,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61232,7 +64121,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 6896,
+											"id": 7010,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -61241,7 +64130,7 @@
 											},
 											"signatures": [
 												{
-													"id": 6897,
+													"id": 7011,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -61250,7 +64139,7 @@
 													},
 													"parameters": [
 														{
-															"id": 6898,
+															"id": 7012,
 															"name": "eventName",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -61263,7 +64152,7 @@
 															}
 														},
 														{
-															"id": 6899,
+															"id": 7013,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -61317,7 +64206,7 @@
 					]
 				},
 				{
-					"id": 6875,
+					"id": 6989,
 					"name": "once",
 					"kind": 64,
 					"kindString": "Function",
@@ -61326,7 +64215,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6876,
+							"id": 6990,
 							"name": "once",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61338,7 +64227,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 6877,
+									"id": 6991,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -61358,7 +64247,7 @@
 							],
 							"parameters": [
 								{
-									"id": 6878,
+									"id": 6992,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61383,7 +64272,7 @@
 									}
 								},
 								{
-									"id": 6879,
+									"id": 6993,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61421,7 +64310,7 @@
 							}
 						},
 						{
-							"id": 6880,
+							"id": 6994,
 							"name": "once",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61433,7 +64322,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 6881,
+									"id": 6995,
 									"name": "K",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -61448,7 +64337,7 @@
 							],
 							"parameters": [
 								{
-									"id": 6882,
+									"id": 6996,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61468,7 +64357,7 @@
 									}
 								},
 								{
-									"id": 6883,
+									"id": 6997,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61497,7 +64386,7 @@
 											{
 												"type": "reflection",
 												"declaration": {
-													"id": 6884,
+													"id": 6998,
 													"name": "__type",
 													"kind": 65536,
 													"kindString": "Type literal",
@@ -61506,7 +64395,7 @@
 													},
 													"signatures": [
 														{
-															"id": 6885,
+															"id": 6999,
 															"name": "__call",
 															"kind": 4096,
 															"kindString": "Call signature",
@@ -61515,7 +64404,7 @@
 															},
 															"parameters": [
 																{
-																	"id": 6886,
+																	"id": 7000,
 																	"name": "args",
 																	"kind": 32768,
 																	"kindString": "Parameter",
@@ -61576,7 +64465,7 @@
 					]
 				},
 				{
-					"id": 6900,
+					"id": 7014,
 					"name": "onceServer",
 					"kind": 64,
 					"kindString": "Function",
@@ -61585,7 +64474,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6901,
+							"id": 7015,
 							"name": "onceServer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61597,7 +64486,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6902,
+									"id": 7016,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61613,7 +64502,7 @@
 									}
 								},
 								{
-									"id": 6903,
+									"id": 7017,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61626,7 +64515,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 6904,
+											"id": 7018,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -61635,7 +64524,7 @@
 											},
 											"signatures": [
 												{
-													"id": 6905,
+													"id": 7019,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -61644,7 +64533,7 @@
 													},
 													"parameters": [
 														{
-															"id": 6906,
+															"id": 7020,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -61684,7 +64573,7 @@
 							}
 						},
 						{
-							"id": 6907,
+							"id": 7021,
 							"name": "onceServer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61702,7 +64591,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6908,
+									"id": 7022,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61715,7 +64604,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 6909,
+											"id": 7023,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -61724,7 +64613,7 @@
 											},
 											"signatures": [
 												{
-													"id": 6910,
+													"id": 7024,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -61733,7 +64622,7 @@
 													},
 													"parameters": [
 														{
-															"id": 6911,
+															"id": 7025,
 															"name": "eventName",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -61746,7 +64635,7 @@
 															}
 														},
 														{
-															"id": 6912,
+															"id": 7026,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -61800,7 +64689,7 @@
 					]
 				},
 				{
-					"id": 6913,
+					"id": 7027,
 					"name": "removeGxtText",
 					"kind": 64,
 					"kindString": "Function",
@@ -61809,7 +64698,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6914,
+							"id": 7028,
 							"name": "removeGxtText",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61821,7 +64710,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6915,
+									"id": 7029,
 									"name": "key",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61852,7 +64741,7 @@
 					]
 				},
 				{
-					"id": 6916,
+					"id": 7030,
 					"name": "removeIpl",
 					"kind": 64,
 					"kindString": "Function",
@@ -61861,7 +64750,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6917,
+							"id": 7031,
 							"name": "removeIpl",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61873,7 +64762,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6918,
+									"id": 7032,
 									"name": "iplName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61904,7 +64793,7 @@
 					]
 				},
 				{
-					"id": 6919,
+					"id": 7033,
 					"name": "requestIpl",
 					"kind": 64,
 					"kindString": "Function",
@@ -61913,7 +64802,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6920,
+							"id": 7034,
 							"name": "requestIpl",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61925,7 +64814,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6921,
+									"id": 7035,
 									"name": "iplName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -61956,7 +64845,7 @@
 					]
 				},
 				{
-					"id": 6926,
+					"id": 7040,
 					"name": "resetStat",
 					"kind": 64,
 					"kindString": "Function",
@@ -61965,7 +64854,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6927,
+							"id": 7041,
 							"name": "resetStat",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -61977,7 +64866,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6928,
+									"id": 7042,
 									"name": "statName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62000,7 +64889,7 @@
 							}
 						},
 						{
-							"id": 6929,
+							"id": 7043,
 							"name": "resetStat",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62009,7 +64898,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6930,
+									"id": 7044,
 									"name": "statName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62071,7 +64960,7 @@
 					]
 				},
 				{
-					"id": 7050,
+					"id": 7164,
 					"name": "rmlControlsEnabled",
 					"kind": 64,
 					"kindString": "Function",
@@ -62080,7 +64969,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7051,
+							"id": 7165,
 							"name": "rmlControlsEnabled",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62102,7 +64991,7 @@
 					]
 				},
 				{
-					"id": 7065,
+					"id": 7179,
 					"name": "screenToWorld",
 					"kind": 64,
 					"kindString": "Function",
@@ -62111,7 +65000,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7066,
+							"id": 7180,
 							"name": "screenToWorld",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62123,7 +65012,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7067,
+									"id": 7181,
 									"name": "x",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62136,7 +65025,7 @@
 									}
 								},
 								{
-									"id": 7068,
+									"id": 7182,
 									"name": "y",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62156,7 +65045,7 @@
 							}
 						},
 						{
-							"id": 7069,
+							"id": 7183,
 							"name": "screenToWorld",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62165,7 +65054,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7070,
+									"id": 7184,
 									"name": "value",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62200,7 +65089,7 @@
 					]
 				},
 				{
-					"id": 6931,
+					"id": 7045,
 					"name": "setCamFrozen",
 					"kind": 64,
 					"kindString": "Function",
@@ -62209,7 +65098,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6932,
+							"id": 7046,
 							"name": "setCamFrozen",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62227,7 +65116,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6933,
+									"id": 7047,
 									"name": "state",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62258,7 +65147,7 @@
 					]
 				},
 				{
-					"id": 6936,
+					"id": 7050,
 					"name": "setConfigFlag",
 					"kind": 64,
 					"kindString": "Function",
@@ -62267,7 +65156,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6937,
+							"id": 7051,
 							"name": "setConfigFlag",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62279,7 +65168,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6938,
+									"id": 7052,
 									"name": "flag",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62296,7 +65185,7 @@
 									}
 								},
 								{
-									"id": 6939,
+									"id": 7053,
 									"name": "state",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62318,7 +65207,7 @@
 							}
 						},
 						{
-							"id": 6940,
+							"id": 7054,
 							"name": "setConfigFlag",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62327,7 +65216,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6941,
+									"id": 7055,
 									"name": "flag",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62353,7 +65242,7 @@
 									}
 								},
 								{
-									"id": 6942,
+									"id": 7056,
 									"name": "state",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62386,7 +65275,7 @@
 					]
 				},
 				{
-					"id": 6951,
+					"id": 7065,
 					"name": "setCursorPos",
 					"kind": 64,
 					"kindString": "Function",
@@ -62395,7 +65284,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6952,
+							"id": 7066,
 							"name": "setCursorPos",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62413,7 +65302,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6953,
+									"id": 7067,
 									"name": "pos",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62427,7 +65316,7 @@
 									}
 								},
 								{
-									"id": 6954,
+									"id": 7068,
 									"name": "normalized",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62456,7 +65345,7 @@
 					]
 				},
 				{
-					"id": 7091,
+					"id": 7205,
 					"name": "setMinimapComponentPosition",
 					"kind": 64,
 					"kindString": "Function",
@@ -62465,7 +65354,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7092,
+							"id": 7206,
 							"name": "setMinimapComponentPosition",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62477,7 +65366,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7093,
+									"id": 7207,
 									"name": "name",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62493,7 +65382,7 @@
 									}
 								},
 								{
-									"id": 7094,
+									"id": 7208,
 									"name": "alignX",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62509,7 +65398,7 @@
 									}
 								},
 								{
-									"id": 7095,
+									"id": 7209,
 									"name": "alignY",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62525,7 +65414,7 @@
 									}
 								},
 								{
-									"id": 7096,
+									"id": 7210,
 									"name": "pos",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62542,7 +65431,7 @@
 									}
 								},
 								{
-									"id": 7097,
+									"id": 7211,
 									"name": "size",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62565,7 +65454,7 @@
 							}
 						},
 						{
-							"id": 7098,
+							"id": 7212,
 							"name": "setMinimapComponentPosition",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62577,7 +65466,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7099,
+									"id": 7213,
 									"name": "name",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62593,7 +65482,7 @@
 									}
 								},
 								{
-									"id": 7100,
+									"id": 7214,
 									"name": "alignX",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62609,7 +65498,7 @@
 									}
 								},
 								{
-									"id": 7101,
+									"id": 7215,
 									"name": "alignY",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62625,7 +65514,7 @@
 									}
 								},
 								{
-									"id": 7102,
+									"id": 7216,
 									"name": "posX",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62641,7 +65530,7 @@
 									}
 								},
 								{
-									"id": 7103,
+									"id": 7217,
 									"name": "posY",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62657,7 +65546,7 @@
 									}
 								},
 								{
-									"id": 7104,
+									"id": 7218,
 									"name": "sizeX",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62673,7 +65562,7 @@
 									}
 								},
 								{
-									"id": 7105,
+									"id": 7219,
 									"name": "sizeY",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62709,7 +65598,7 @@
 					]
 				},
 				{
-					"id": 7106,
+					"id": 7220,
 					"name": "setMinimapIsRectangle",
 					"kind": 64,
 					"kindString": "Function",
@@ -62718,7 +65607,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7107,
+							"id": 7221,
 							"name": "setMinimapIsRectangle",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62730,7 +65619,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7108,
+									"id": 7222,
 									"name": "state",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62761,7 +65650,7 @@
 					]
 				},
 				{
-					"id": 6955,
+					"id": 7069,
 					"name": "setMsPerGameMinute",
 					"kind": 64,
 					"kindString": "Function",
@@ -62770,7 +65659,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6956,
+							"id": 7070,
 							"name": "setMsPerGameMinute",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62782,7 +65671,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6957,
+									"id": 7071,
 									"name": "milliseconds",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62810,7 +65699,7 @@
 					]
 				},
 				{
-					"id": 7007,
+					"id": 7121,
 					"name": "setPedDlcClothes",
 					"kind": 64,
 					"kindString": "Function",
@@ -62819,7 +65708,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7008,
+							"id": 7122,
 							"name": "setPedDlcClothes",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62831,7 +65720,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7009,
+									"id": 7123,
 									"name": "scriptID",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62847,7 +65736,7 @@
 									}
 								},
 								{
-									"id": 7010,
+									"id": 7124,
 									"name": "dlc",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62863,7 +65752,7 @@
 									}
 								},
 								{
-									"id": 7011,
+									"id": 7125,
 									"name": "component",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62879,7 +65768,7 @@
 									}
 								},
 								{
-									"id": 7012,
+									"id": 7126,
 									"name": "drawable",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62895,7 +65784,7 @@
 									}
 								},
 								{
-									"id": 7013,
+									"id": 7127,
 									"name": "texture",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62911,7 +65800,7 @@
 									}
 								},
 								{
-									"id": 7014,
+									"id": 7128,
 									"name": "palette",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62943,7 +65832,7 @@
 					]
 				},
 				{
-					"id": 7015,
+					"id": 7129,
 					"name": "setPedDlcProp",
 					"kind": 64,
 					"kindString": "Function",
@@ -62952,7 +65841,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7016,
+							"id": 7130,
 							"name": "setPedDlcProp",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -62964,7 +65853,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7017,
+									"id": 7131,
 									"name": "scriptID",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62980,7 +65869,7 @@
 									}
 								},
 								{
-									"id": 7018,
+									"id": 7132,
 									"name": "dlc",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -62996,7 +65885,7 @@
 									}
 								},
 								{
-									"id": 7019,
+									"id": 7133,
 									"name": "component",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63012,7 +65901,7 @@
 									}
 								},
 								{
-									"id": 7020,
+									"id": 7134,
 									"name": "drawable",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63028,7 +65917,7 @@
 									}
 								},
 								{
-									"id": 7021,
+									"id": 7135,
 									"name": "texture",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63059,7 +65948,7 @@
 					]
 				},
 				{
-					"id": 6958,
+					"id": 7072,
 					"name": "setRotationVelocity",
 					"kind": 64,
 					"kindString": "Function",
@@ -63068,7 +65957,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6959,
+							"id": 7073,
 							"name": "setRotationVelocity",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63080,7 +65969,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6960,
+									"id": 7074,
 									"name": "scriptID",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63096,7 +65985,7 @@
 									}
 								},
 								{
-									"id": 6961,
+									"id": 7075,
 									"name": "x",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63112,7 +66001,7 @@
 									}
 								},
 								{
-									"id": 6962,
+									"id": 7076,
 									"name": "y",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63128,7 +66017,7 @@
 									}
 								},
 								{
-									"id": 6963,
+									"id": 7077,
 									"name": "z",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63159,7 +66048,7 @@
 					]
 				},
 				{
-					"id": 6964,
+					"id": 7078,
 					"name": "setStat",
 					"kind": 64,
 					"kindString": "Function",
@@ -63168,7 +66057,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6965,
+							"id": 7079,
 							"name": "setStat",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63180,7 +66069,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6966,
+									"id": 7080,
 									"name": "statName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63197,7 +66086,7 @@
 									}
 								},
 								{
-									"id": 6967,
+									"id": 7081,
 									"name": "value",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63219,7 +66108,7 @@
 							}
 						},
 						{
-							"id": 6968,
+							"id": 7082,
 							"name": "setStat",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63228,7 +66117,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6969,
+									"id": 7083,
 									"name": "statName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63270,7 +66159,7 @@
 									}
 								},
 								{
-									"id": 6970,
+									"id": 7084,
 									"name": "value",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63303,7 +66192,7 @@
 					]
 				},
 				{
-					"id": 7026,
+					"id": 7140,
 					"name": "setWatermarkPosition",
 					"kind": 64,
 					"kindString": "Function",
@@ -63312,7 +66201,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7027,
+							"id": 7141,
 							"name": "setWatermarkPosition",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63324,7 +66213,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7028,
+									"id": 7142,
 									"name": "position",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63347,7 +66236,7 @@
 							}
 						},
 						{
-							"id": 7029,
+							"id": 7143,
 							"name": "setWatermarkPosition",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63356,7 +66245,7 @@
 							},
 							"typeParameter": [
 								{
-									"id": 7030,
+									"id": 7144,
 									"name": "T",
 									"kind": 131072,
 									"kindString": "Type parameter",
@@ -63371,7 +66260,7 @@
 							],
 							"parameters": [
 								{
-									"id": 7031,
+									"id": 7145,
 									"name": "position",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63408,7 +66297,7 @@
 					]
 				},
 				{
-					"id": 6971,
+					"id": 7085,
 					"name": "setWeatherCycle",
 					"kind": 64,
 					"kindString": "Function",
@@ -63417,7 +66306,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6972,
+							"id": 7086,
 							"name": "setWeatherCycle",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63435,7 +66324,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6973,
+									"id": 7087,
 									"name": "weathers",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63457,7 +66346,7 @@
 									}
 								},
 								{
-									"id": 6974,
+									"id": 7088,
 									"name": "multipliers",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63494,7 +66383,7 @@
 					]
 				},
 				{
-					"id": 6975,
+					"id": 7089,
 					"name": "setWeatherSyncActive",
 					"kind": 64,
 					"kindString": "Function",
@@ -63503,7 +66392,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6976,
+							"id": 7090,
 							"name": "setWeatherSyncActive",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63521,7 +66410,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6977,
+									"id": 7091,
 									"name": "isActive",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63552,7 +66441,7 @@
 					]
 				},
 				{
-					"id": 6978,
+					"id": 7092,
 					"name": "showCursor",
 					"kind": 64,
 					"kindString": "Function",
@@ -63561,7 +66450,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6979,
+							"id": 7093,
 							"name": "showCursor",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63579,7 +66468,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6980,
+									"id": 7094,
 									"name": "state",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63610,7 +66499,7 @@
 					]
 				},
 				{
-					"id": 6922,
+					"id": 7036,
 					"name": "takeScreenshot",
 					"kind": 64,
 					"kindString": "Function",
@@ -63619,7 +66508,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6923,
+							"id": 7037,
 							"name": "takeScreenshot",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63657,7 +66546,7 @@
 					]
 				},
 				{
-					"id": 6924,
+					"id": 7038,
 					"name": "takeScreenshotGameOnly",
 					"kind": 64,
 					"kindString": "Function",
@@ -63666,7 +66555,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6925,
+							"id": 7039,
 							"name": "takeScreenshotGameOnly",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63704,7 +66593,7 @@
 					]
 				},
 				{
-					"id": 6983,
+					"id": 7097,
 					"name": "toggleGameControls",
 					"kind": 64,
 					"kindString": "Function",
@@ -63713,7 +66602,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6984,
+							"id": 7098,
 							"name": "toggleGameControls",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63731,7 +66620,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6985,
+									"id": 7099,
 									"name": "state",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63762,7 +66651,7 @@
 					]
 				},
 				{
-					"id": 7047,
+					"id": 7161,
 					"name": "toggleRmlControls",
 					"kind": 64,
 					"kindString": "Function",
@@ -63771,7 +66660,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7048,
+							"id": 7162,
 							"name": "toggleRmlControls",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63780,7 +66669,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7049,
+									"id": 7163,
 									"name": "state",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63808,7 +66697,7 @@
 					]
 				},
 				{
-					"id": 6986,
+					"id": 7100,
 					"name": "toggleVoiceControls",
 					"kind": 64,
 					"kindString": "Function",
@@ -63817,7 +66706,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6987,
+							"id": 7101,
 							"name": "toggleVoiceControls",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63826,7 +66715,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6988,
+									"id": 7102,
 									"name": "state",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63854,7 +66743,7 @@
 					]
 				},
 				{
-					"id": 6992,
+					"id": 7106,
 					"name": "unloadYtyp",
 					"kind": 64,
 					"kindString": "Function",
@@ -63863,7 +66752,7 @@
 					},
 					"signatures": [
 						{
-							"id": 6993,
+							"id": 7107,
 							"name": "unloadYtyp",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63881,7 +66770,7 @@
 							},
 							"parameters": [
 								{
-									"id": 6994,
+									"id": 7108,
 									"name": "path",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63912,7 +66801,7 @@
 					]
 				},
 				{
-					"id": 7058,
+					"id": 7172,
 					"name": "worldToScreen",
 					"kind": 64,
 					"kindString": "Function",
@@ -63921,7 +66810,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7059,
+							"id": 7173,
 							"name": "worldToScreen",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63934,7 +66823,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7060,
+									"id": 7174,
 									"name": "x",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63947,7 +66836,7 @@
 									}
 								},
 								{
-									"id": 7061,
+									"id": 7175,
 									"name": "y",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63960,7 +66849,7 @@
 									}
 								},
 								{
-									"id": 7062,
+									"id": 7176,
 									"name": "z",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -63980,7 +66869,7 @@
 							}
 						},
 						{
-							"id": 7063,
+							"id": 7177,
 							"name": "worldToScreen",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -63989,7 +66878,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7064,
+									"id": 7178,
 									"name": "value",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -64029,71 +66918,71 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						7153,
-						7176,
-						7150,
-						7152,
-						7151,
-						7175,
-						7154,
-						7164,
-						7166,
-						7165,
-						7162,
-						7163,
-						7169,
-						7168,
-						7167,
-						7171,
-						7170,
-						7160,
-						7158,
-						7159,
-						7155,
-						7174,
-						7184,
-						7185,
-						7173,
-						7172,
-						7161,
-						7180,
-						7124,
-						7125,
-						7126,
-						7127,
-						7181,
-						7118,
-						7129,
-						7130,
-						7131,
-						7145,
-						7148,
-						7119,
-						7134,
-						7122,
-						7120,
-						7133,
-						7123,
-						7132,
-						7182,
-						7183,
-						7135,
-						7138,
-						7136,
-						7137,
-						7139,
-						7142,
-						7140,
-						7141,
-						7177,
-						7179,
-						7143,
-						7121,
-						7144,
-						7149,
-						7146,
-						7147,
-						7178
+						7267,
+						7290,
+						7264,
+						7266,
+						7265,
+						7289,
+						7268,
+						7278,
+						7280,
+						7279,
+						7276,
+						7277,
+						7283,
+						7282,
+						7281,
+						7285,
+						7284,
+						7274,
+						7272,
+						7273,
+						7269,
+						7288,
+						7298,
+						7299,
+						7287,
+						7286,
+						7275,
+						7294,
+						7238,
+						7239,
+						7240,
+						7241,
+						7295,
+						7232,
+						7243,
+						7244,
+						7245,
+						7259,
+						7262,
+						7233,
+						7248,
+						7236,
+						7234,
+						7247,
+						7237,
+						7246,
+						7296,
+						7297,
+						7249,
+						7252,
+						7250,
+						7251,
+						7253,
+						7256,
+						7254,
+						7255,
+						7291,
+						7293,
+						7257,
+						7235,
+						7258,
+						7263,
+						7260,
+						7261,
+						7292
 					]
 				},
 				{
@@ -64129,6 +67018,7 @@
 						6011,
 						5995,
 						6028,
+						6780,
 						5024,
 						5839,
 						6268,
@@ -64172,84 +67062,84 @@
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						6780,
-						6784,
-						7022,
-						7044,
-						6948,
-						6787,
-						6792,
-						6797,
-						6801,
-						6995,
-						6805,
-						7071,
-						6943,
-						6807,
-						7034,
-						6810,
-						7004,
-						6813,
-						7075,
-						6815,
-						6818,
-						6820,
-						7032,
-						6998,
-						7073,
-						7040,
-						7042,
-						6827,
-						7038,
-						7036,
-						7085,
-						6934,
-						6832,
-						6981,
-						6834,
-						6836,
-						6841,
-						6838,
-						6844,
-						7111,
-						6846,
+						6894,
+						6898,
+						7136,
+						7158,
+						7062,
+						6901,
+						6906,
+						6911,
+						6915,
 						7109,
-						6850,
-						6853,
-						7052,
-						6989,
-						6856,
-						6863,
-						6887,
-						6875,
-						6900,
-						6913,
-						6916,
 						6919,
-						6926,
+						7185,
+						7057,
+						6921,
+						7148,
+						6924,
+						7118,
+						6927,
+						7189,
+						6929,
+						6932,
+						6934,
+						7146,
+						7112,
+						7187,
+						7154,
+						7156,
+						6941,
+						7152,
+						7150,
+						7199,
+						7048,
+						6946,
+						7095,
+						6948,
+						6950,
+						6955,
+						6952,
+						6958,
+						7225,
+						6960,
+						7223,
+						6964,
+						6967,
+						7166,
+						7103,
+						6970,
+						6977,
+						7001,
+						6989,
+						7014,
+						7027,
+						7030,
+						7033,
+						7040,
+						7164,
+						7179,
+						7045,
 						7050,
 						7065,
-						6931,
-						6936,
-						6951,
-						7091,
+						7205,
+						7220,
+						7069,
+						7121,
+						7129,
+						7072,
+						7078,
+						7140,
+						7085,
+						7089,
+						7092,
+						7036,
+						7038,
+						7097,
+						7161,
+						7100,
 						7106,
-						6955,
-						7007,
-						7015,
-						6958,
-						6964,
-						7026,
-						6971,
-						6975,
-						6978,
-						6922,
-						6924,
-						6983,
-						7047,
-						6986,
-						6992,
-						7058
+						7172
 					]
 				}
 			],
@@ -153740,7 +156630,7 @@
 			]
 		},
 		{
-			"id": 7186,
+			"id": 7300,
 			"name": "\"alt-worker\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -153757,7 +156647,7 @@
 			},
 			"children": [
 				{
-					"id": 7230,
+					"id": 7344,
 					"name": "File",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153767,7 +156657,7 @@
 					"target": 1169
 				},
 				{
-					"id": 7231,
+					"id": 7345,
 					"name": "RGBA",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153777,7 +156667,7 @@
 					"target": 1147
 				},
 				{
-					"id": 7233,
+					"id": 7347,
 					"name": "Vector2",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153787,7 +156677,7 @@
 					"target": 1044
 				},
 				{
-					"id": 7232,
+					"id": 7346,
 					"name": "Vector3",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153797,7 +156687,7 @@
 					"target": 921
 				},
 				{
-					"id": 7227,
+					"id": 7341,
 					"name": "branch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153807,7 +156697,7 @@
 					"target": 1258
 				},
 				{
-					"id": 7223,
+					"id": 7337,
 					"name": "clearInterval",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153817,7 +156707,7 @@
 					"target": 1315
 				},
 				{
-					"id": 7224,
+					"id": 7338,
 					"name": "clearNextTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153827,7 +156717,7 @@
 					"target": 1318
 				},
 				{
-					"id": 7222,
+					"id": 7336,
 					"name": "clearTimeout",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153837,7 +156727,7 @@
 					"target": 1321
 				},
 				{
-					"id": 7229,
+					"id": 7343,
 					"name": "debug",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153847,7 +156737,7 @@
 					"target": 1259
 				},
 				{
-					"id": 7225,
+					"id": 7339,
 					"name": "hash",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153857,7 +156747,7 @@
 					"target": 1341
 				},
 				{
-					"id": 7215,
+					"id": 7329,
 					"name": "log",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153867,7 +156757,7 @@
 					"target": 1350
 				},
 				{
-					"id": 7218,
+					"id": 7332,
 					"name": "logDebug",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153877,7 +156767,7 @@
 					"target": 1359
 				},
 				{
-					"id": 7217,
+					"id": 7331,
 					"name": "logError",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153887,7 +156777,7 @@
 					"target": 1353
 				},
 				{
-					"id": 7216,
+					"id": 7330,
 					"name": "logWarning",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153897,7 +156787,7 @@
 					"target": 1356
 				},
 				{
-					"id": 7221,
+					"id": 7335,
 					"name": "nextTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153907,7 +156797,7 @@
 					"target": 1362
 				},
 				{
-					"id": 7228,
+					"id": 7342,
 					"name": "sdkVersion",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153917,7 +156807,7 @@
 					"target": 1257
 				},
 				{
-					"id": 7220,
+					"id": 7334,
 					"name": "setInterval",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153927,7 +156817,7 @@
 					"target": 1401
 				},
 				{
-					"id": 7219,
+					"id": 7333,
 					"name": "setTimeout",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153937,7 +156827,7 @@
 					"target": 1408
 				},
 				{
-					"id": 7226,
+					"id": 7340,
 					"name": "version",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -153947,7 +156837,7 @@
 					"target": 1256
 				},
 				{
-					"id": 7190,
+					"id": 7304,
 					"name": "emit",
 					"kind": 64,
 					"kindString": "Function",
@@ -153956,7 +156846,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7191,
+							"id": 7305,
 							"name": "emit",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -153968,7 +156858,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7192,
+									"id": 7306,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -153984,7 +156874,7 @@
 									}
 								},
 								{
-									"id": 7193,
+									"id": 7307,
 									"name": "args",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -154019,7 +156909,7 @@
 					]
 				},
 				{
-					"id": 7187,
+					"id": 7301,
 					"name": "getSharedArrayBuffer",
 					"kind": 64,
 					"kindString": "Function",
@@ -154028,7 +156918,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7188,
+							"id": 7302,
 							"name": "getSharedArrayBuffer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -154047,7 +156937,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7189,
+									"id": 7303,
 									"name": "id",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -154078,7 +156968,7 @@
 					]
 				},
 				{
-					"id": 7208,
+					"id": 7322,
 					"name": "off",
 					"kind": 64,
 					"kindString": "Function",
@@ -154087,7 +156977,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7209,
+							"id": 7323,
 							"name": "off",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -154105,7 +156995,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7210,
+									"id": 7324,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -154121,7 +157011,7 @@
 									}
 								},
 								{
-									"id": 7211,
+									"id": 7325,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -154134,7 +157024,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 7212,
+											"id": 7326,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -154143,7 +157033,7 @@
 											},
 											"signatures": [
 												{
-													"id": 7213,
+													"id": 7327,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -154152,7 +157042,7 @@
 													},
 													"parameters": [
 														{
-															"id": 7214,
+															"id": 7328,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -154201,7 +157091,7 @@
 					]
 				},
 				{
-					"id": 7194,
+					"id": 7308,
 					"name": "on",
 					"kind": 64,
 					"kindString": "Function",
@@ -154210,7 +157100,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7195,
+							"id": 7309,
 							"name": "on",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -154222,7 +157112,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7196,
+									"id": 7310,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -154238,7 +157128,7 @@
 									}
 								},
 								{
-									"id": 7197,
+									"id": 7311,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -154251,7 +157141,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 7198,
+											"id": 7312,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -154260,7 +157150,7 @@
 											},
 											"signatures": [
 												{
-													"id": 7199,
+													"id": 7313,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -154269,7 +157159,7 @@
 													},
 													"parameters": [
 														{
-															"id": 7200,
+															"id": 7314,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -154318,7 +157208,7 @@
 					]
 				},
 				{
-					"id": 7201,
+					"id": 7315,
 					"name": "once",
 					"kind": 64,
 					"kindString": "Function",
@@ -154327,7 +157217,7 @@
 					},
 					"signatures": [
 						{
-							"id": 7202,
+							"id": 7316,
 							"name": "once",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -154339,7 +157229,7 @@
 							},
 							"parameters": [
 								{
-									"id": 7203,
+									"id": 7317,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -154355,7 +157245,7 @@
 									}
 								},
 								{
-									"id": 7204,
+									"id": 7318,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -154368,7 +157258,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 7205,
+											"id": 7319,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -154377,7 +157267,7 @@
 											},
 											"signatures": [
 												{
-													"id": 7206,
+													"id": 7320,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -154386,7 +157276,7 @@
 													},
 													"parameters": [
 														{
-															"id": 7207,
+															"id": 7321,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -154440,36 +157330,36 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						7230,
-						7231,
-						7233,
-						7232,
-						7227,
-						7223,
-						7224,
-						7222,
-						7229,
-						7225,
-						7215,
-						7218,
-						7217,
-						7216,
-						7221,
-						7228,
-						7220,
-						7219,
-						7226
+						7344,
+						7345,
+						7347,
+						7346,
+						7341,
+						7337,
+						7338,
+						7336,
+						7343,
+						7339,
+						7329,
+						7332,
+						7331,
+						7330,
+						7335,
+						7342,
+						7334,
+						7333,
+						7340
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						7190,
-						7187,
-						7208,
-						7194,
-						7201
+						7304,
+						7301,
+						7322,
+						7308,
+						7315
 					]
 				}
 			],
@@ -154490,7 +157380,7 @@
 				4307,
 				1436,
 				1,
-				7186
+				7300
 			]
 		}
 	]
