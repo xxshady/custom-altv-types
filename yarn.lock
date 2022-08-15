@@ -4,7 +4,7 @@
 
 "@altmp/altv-types@git+https://github.com/altmp/altv-types.git":
   version "1.0.0"
-  resolved "git+https://github.com/altmp/altv-types.git#821c5847cfe06cfc63b2252713ee5697df710e9c"
+  resolved "git+https://github.com/altmp/altv-types.git#c7ed03074c4ee415cc642e98617f194fbc741f2b"
 
 ansi-regex@^5.0.1:
   version "5.0.1"

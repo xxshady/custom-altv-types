@@ -86,6 +86,7 @@
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_client_.html#baseobjecttype" class="tsd-kind-icon">Base<wbr>Object<wbr>Type</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_client_.html#blipcolor" class="tsd-kind-icon">Blip<wbr>Color</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_client_.html#blipsprite" class="tsd-kind-icon">Blip<wbr>Sprite</a></li>
+								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_client_.html#checkpointtype" class="tsd-kind-icon">Checkpoint<wbr>Type</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_client_.html#file" class="tsd-kind-icon">File</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_client_.html#fileencoding" class="tsd-kind-icon">File<wbr>Encoding</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_client_.html#icustombaseobjectmeta" class="tsd-kind-icon">ICustom<wbr>Base<wbr>Object<wbr>Meta</a></li>
@@ -151,7 +152,6 @@
 						<section class="tsd-index-section ">
 							<h3>Enumerations</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_client_.checkpointtype.html" class="tsd-kind-icon">Checkpoint<wbr>Type</a></li>
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_client_.configflag.html" class="tsd-kind-icon">Config<wbr>Flag</a></li>
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_client_.locale.html" class="tsd-kind-icon">Locale</a></li>
 								<li class="tsd-kind-enum tsd-parent-kind-module"><a href="../enums/_alt_client_.permissionstate.html" class="tsd-kind-icon">Permission<wbr>State</a></li>
@@ -330,6 +330,11 @@
 					<a name="blipsprite" class="tsd-anchor"></a>
 					<h3>Blip<wbr>Sprite</h3>
 					Re-exports <a href="../enums/_alt_shared_.blipsprite.html">BlipSprite</a>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
+					<a name="checkpointtype" class="tsd-anchor"></a>
+					<h3>Checkpoint<wbr>Type</h3>
+					Re-exports <a href="../enums/_alt_shared_.checkpointtype.html">CheckpointType</a>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
 					<a name="file" class="tsd-anchor"></a>
@@ -638,13 +643,13 @@
 					<a name="addgxttext" class="tsd-anchor"></a>
 					<h3>add<wbr>Gxt<wbr>Text</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-						<li class="tsd-signature tsd-kind-icon">add<wbr>Gxt<wbr>Text<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">add<wbr>Gxt<wbr>Text<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2100</li>
+									<li>Defined in types-client/index.d.ts:2038</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -660,9 +665,9 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>key: <span class="tsd-signature-type">string</span></h5>
+									<h5>key: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>GXT entry name.</p>
+										<p>GXT entry name or hash.</p>
 									</div>
 								</li>
 								<li>
@@ -686,7 +691,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2105</li>
+									<li>Defined in types-client/index.d.ts:2043</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -714,7 +719,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2686</li>
+									<li>Defined in types-client/index.d.ts:2623</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -751,7 +756,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2754</li>
+									<li>Defined in types-client/index.d.ts:2693</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -784,7 +789,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2429</li>
+									<li>Defined in types-client/index.d.ts:2366</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -816,7 +821,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2116</li>
+									<li>Defined in types-client/index.d.ts:2054</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -864,7 +869,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2127</li>
+									<li>Defined in types-client/index.d.ts:2065</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -906,13 +911,13 @@
 					<a name="emitserver" class="tsd-anchor"></a>
 					<h3>emit<wbr>Server</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-						<li class="tsd-signature tsd-kind-icon">emit<wbr>Server<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">emit<wbr>Server<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2138</li>
+									<li>Defined in types-client/index.d.ts:2075</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -928,7 +933,10 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<h5>eventName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of the event.</p>
+									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
@@ -945,13 +953,13 @@
 					<a name="emitserverraw" class="tsd-anchor"></a>
 					<h3>emit<wbr>Server<wbr>Raw</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
-						<li class="tsd-signature tsd-kind-icon">emit<wbr>Server<wbr>Raw<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">emit<wbr>Server<wbr>Raw<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2148</li>
+									<li>Defined in types-client/index.d.ts:2085</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -967,7 +975,10 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<h5>eventName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of the event.</p>
+									</div>
 								</li>
 								<li>
 									<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
@@ -990,7 +1001,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2611</li>
+									<li>Defined in types-client/index.d.ts:2548</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1027,7 +1038,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2153</li>
+									<li>Defined in types-client/index.d.ts:2090</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1049,7 +1060,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2776</li>
+									<li>Defined in types-client/index.d.ts:2715</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../classes/_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h4>
@@ -1067,7 +1078,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2420</li>
+									<li>Defined in types-client/index.d.ts:2357</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1090,7 +1101,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2421</li>
+									<li>Defined in types-client/index.d.ts:2358</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1113,7 +1124,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2158</li>
+									<li>Defined in types-client/index.d.ts:2095</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1141,7 +1152,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2729</li>
+									<li>Defined in types-client/index.d.ts:2668</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1163,7 +1174,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2165</li>
+									<li>Defined in types-client/index.d.ts:2102</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1194,7 +1205,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2655</li>
+									<li>Defined in types-client/index.d.ts:2592</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1231,7 +1242,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2167</li>
+									<li>Defined in types-client/index.d.ts:2104</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
@@ -1250,7 +1261,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2977</li>
+									<li>Defined in types-client/index.d.ts:2916</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1279,7 +1290,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2978</li>
+									<li>Defined in types-client/index.d.ts:2917</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1299,7 +1310,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2980</li>
+									<li>Defined in types-client/index.d.ts:2919</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1336,7 +1347,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2172</li>
+									<li>Defined in types-client/index.d.ts:2109</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1349,7 +1360,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2173</li>
+									<li>Defined in types-client/index.d.ts:2110</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">"ar"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"by"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"cz"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"de"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"en"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"es"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"fa"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"fr"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"he"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"hu"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"id"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"in_hd"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"in_ml"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"in_tl"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"in_tm"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"it"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"lt"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"lv"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"nb_no"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"nn_no"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"pl"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"pt"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"pt_br"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"ro"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"rs"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"ru"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"sk"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"th"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"tr"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"ua"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"zh_cn"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"zh_tw"</span></h4>
@@ -1366,7 +1377,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2180</li>
+									<li>Defined in types-client/index.d.ts:2117</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1394,7 +1405,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2188</li>
+									<li>Defined in types-client/index.d.ts:2125</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1417,7 +1428,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2189</li>
+									<li>Defined in types-client/index.d.ts:2126</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1449,7 +1460,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2724</li>
+									<li>Defined in types-client/index.d.ts:2663</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1471,7 +1482,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2619</li>
+									<li>Defined in types-client/index.d.ts:2556</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1503,7 +1514,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2778</li>
+									<li>Defined in types-client/index.d.ts:2717</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../classes/_alt_shared_.vector2.html" class="tsd-signature-type">Vector2</a></h4>
@@ -1520,7 +1531,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2740</li>
+									<li>Defined in types-client/index.d.ts:2679</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1543,7 +1554,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2747</li>
+									<li>Defined in types-client/index.d.ts:2686</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1567,7 +1578,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2196</li>
+									<li>Defined in types-client/index.d.ts:2133</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1589,7 +1600,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2197</li>
+									<li>Defined in types-client/index.d.ts:2134</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1612,7 +1623,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2733</li>
+									<li>Defined in types-client/index.d.ts:2672</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">bigint</span></h4>
@@ -1629,7 +1640,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2731</li>
+									<li>Defined in types-client/index.d.ts:2670</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">bigint</span></h4>
@@ -1647,7 +1658,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2982</li>
+									<li>Defined in types-client/index.d.ts:2921</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1661,7 +1672,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2983</li>
+									<li>Defined in types-client/index.d.ts:2922</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1690,7 +1701,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2403</li>
+									<li>Defined in types-client/index.d.ts:2340</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -1707,7 +1718,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2204</li>
+									<li>Defined in types-client/index.d.ts:2141</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1730,7 +1741,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2491</li>
+									<li>Defined in types-client/index.d.ts:2428</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -1747,7 +1758,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2211</li>
+									<li>Defined in types-client/index.d.ts:2148</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1770,7 +1781,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2218</li>
+									<li>Defined in types-client/index.d.ts:2155</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1793,7 +1804,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2232</li>
+									<li>Defined in types-client/index.d.ts:2169</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1821,7 +1832,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2225</li>
+									<li>Defined in types-client/index.d.ts:2162</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1852,7 +1863,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2239</li>
+									<li>Defined in types-client/index.d.ts:2176</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1876,7 +1887,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3062</li>
+									<li>Defined in types-client/index.d.ts:3005</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1902,7 +1913,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3064</li>
+									<li>Defined in types-client/index.d.ts:3007</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1931,7 +1942,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2241</li>
+									<li>Defined in types-client/index.d.ts:2178</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1957,7 +1968,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3059</li>
+									<li>Defined in types-client/index.d.ts:3002</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1974,7 +1985,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2251</li>
+									<li>Defined in types-client/index.d.ts:2188</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2011,7 +2022,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2264</li>
+									<li>Defined in types-client/index.d.ts:2201</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2052,7 +2063,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2760</li>
+									<li>Defined in types-client/index.d.ts:2699</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2084,7 +2095,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2589</li>
+									<li>Defined in types-client/index.d.ts:2526</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2121,7 +2132,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2274</li>
+									<li>Defined in types-client/index.d.ts:2211</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2182,7 +2193,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2282</li>
+									<li>Defined in types-client/index.d.ts:2219</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2216,7 +2227,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2291</li>
+									<li>Defined in types-client/index.d.ts:2228</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2260,7 +2271,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2316</li>
+									<li>Defined in types-client/index.d.ts:2253</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2306,7 +2317,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2326</li>
+									<li>Defined in types-client/index.d.ts:2263</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2364,7 +2375,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2299</li>
+									<li>Defined in types-client/index.d.ts:2236</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2398,7 +2409,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2308</li>
+									<li>Defined in types-client/index.d.ts:2245</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2442,7 +2453,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2334</li>
+									<li>Defined in types-client/index.d.ts:2271</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2488,7 +2499,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2344</li>
+									<li>Defined in types-client/index.d.ts:2281</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2545,7 +2556,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2351</li>
+									<li>Defined in types-client/index.d.ts:2288</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2576,7 +2587,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2358</li>
+									<li>Defined in types-client/index.d.ts:2295</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2607,7 +2618,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2365</li>
+									<li>Defined in types-client/index.d.ts:2302</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2639,7 +2650,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2391</li>
+									<li>Defined in types-client/index.d.ts:2328</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2661,7 +2672,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2392</li>
+									<li>Defined in types-client/index.d.ts:2329</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2684,7 +2695,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2758</li>
+									<li>Defined in types-client/index.d.ts:2697</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -2702,7 +2713,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2773</li>
+									<li>Defined in types-client/index.d.ts:2712</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2724,7 +2735,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2774</li>
+									<li>Defined in types-client/index.d.ts:2713</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2747,7 +2758,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2401</li>
+									<li>Defined in types-client/index.d.ts:2338</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2784,7 +2795,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2411</li>
+									<li>Defined in types-client/index.d.ts:2348</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2812,7 +2823,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2412</li>
+									<li>Defined in types-client/index.d.ts:2349</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2838,7 +2849,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2436</li>
+									<li>Defined in types-client/index.d.ts:2373</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2875,7 +2886,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2994</li>
+									<li>Defined in types-client/index.d.ts:2933</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2921,7 +2932,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3007</li>
+									<li>Defined in types-client/index.d.ts:2946</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2988,7 +2999,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3014</li>
+									<li>Defined in types-client/index.d.ts:2953</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3019,7 +3030,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2441</li>
+									<li>Defined in types-client/index.d.ts:2378</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3047,7 +3058,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2667</li>
+									<li>Defined in types-client/index.d.ts:2604</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3108,7 +3119,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2678</li>
+									<li>Defined in types-client/index.d.ts:2615</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3163,7 +3174,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2451</li>
+									<li>Defined in types-client/index.d.ts:2388</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3213,7 +3224,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2459</li>
+									<li>Defined in types-client/index.d.ts:2396</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3241,7 +3252,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2460</li>
+									<li>Defined in types-client/index.d.ts:2397</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3268,7 +3279,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2718</li>
+									<li>Defined in types-client/index.d.ts:2657</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3290,7 +3301,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2719</li>
+									<li>Defined in types-client/index.d.ts:2658</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -3319,7 +3330,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2471</li>
+									<li>Defined in types-client/index.d.ts:2408</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3362,7 +3373,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2480</li>
+									<li>Defined in types-client/index.d.ts:2417</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3398,7 +3409,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2489</li>
+									<li>Defined in types-client/index.d.ts:2426</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3434,7 +3445,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2374</li>
+									<li>Defined in types-client/index.d.ts:2311</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3462,7 +3473,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2384</li>
+									<li>Defined in types-client/index.d.ts:2321</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3491,7 +3502,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2500</li>
+									<li>Defined in types-client/index.d.ts:2437</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3527,7 +3538,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2756</li>
+									<li>Defined in types-client/index.d.ts:2695</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3550,7 +3561,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2502</li>
+									<li>Defined in types-client/index.d.ts:2439</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3573,7 +3584,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2601</li>
+									<li>Defined in types-client/index.d.ts:2538</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3611,7 +3622,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2767</li>
+									<li>Defined in types-client/index.d.ts:2706</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -3637,7 +3648,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:2768</li>
+									<li>Defined in types-client/index.d.ts:2707</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -3688,6 +3699,9 @@
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_client_.html#blipsprite" class="tsd-kind-icon">Blip<wbr>Sprite</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="_alt_client_.html#checkpointtype" class="tsd-kind-icon">Checkpoint<wbr>Type</a>
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_client_.html#file" class="tsd-kind-icon">File</a>
@@ -3868,9 +3882,6 @@
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_client_.html#version" class="tsd-kind-icon">version</a>
-					</li>
-					<li class=" tsd-kind-enum tsd-parent-kind-module">
-						<a href="../enums/_alt_client_.checkpointtype.html" class="tsd-kind-icon">Checkpoint<wbr>Type</a>
 					</li>
 					<li class=" tsd-kind-enum tsd-parent-kind-module">
 						<a href="../enums/_alt_client_.configflag.html" class="tsd-kind-icon">Config<wbr>Flag</a>
