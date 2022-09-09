@@ -197,3 +197,5 @@ docs/_site/interfaces/_alt_shared_.ivector3.html
 docs/_site/modules/_alt_client_.html
 docs/_site/modules/_alt_server_.html
 docs/_site/modules/_alt_shared_.html
+.yarn
+.yarnrc.yml
