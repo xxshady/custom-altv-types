@@ -5,10 +5,10 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@altmp/altv-types@git+https://github.com/altmp/altv-types.git":
+"altv-types@https://github.com/altmp/altv-types":
   version: 1.0.0
-  resolution: "@altmp/altv-types@https://github.com/altmp/altv-types.git#commit=c12824867e6a26c30ef3fb5f33f06d0d6d28f11e"
-  checksum: 9a2d4c653afc2fda1485c7813ae4a8cb458888a46a5926238ea3d01931aabd835053ba5518152848208a7e7ca6e6bc730b06310b5f0b569a60a5775caa21a515
+  resolution: "altv-types@https://github.com/altmp/altv-types.git#commit=7977a2064c8e0151afcbba13bf66b301f451b165"
+  checksum: 341ad85bf05c9b88dec03413ead7ca3ea76e19440d4390dc3363061711ac4f3d8f27e4626f61427c92b51755c22080c33d3aedb1014027552da36323405ba892
   languageName: node
   linkType: hard
 
@@ -143,10 +143,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "custom-altv-js-docs@workspace:."
   dependencies:
-    "@altmp/altv-types": "git+https://github.com/altmp/altv-types.git"
+    altv-types: "https://github.com/altmp/altv-types"
     concurrently: ^7.0.0
     copyfiles: ^2.4.1
-    github: "https://github.com/altmp/altv-types.git"
     rimraf: ^3.0.2
     typedoc: ^0.19.0
     typedoc-plugin-extras: ^1.1.8
@@ -205,13 +204,6 @@ __metadata:
   version: 2.0.5
   resolution: "get-caller-file@npm:2.0.5"
   checksum: b9769a836d2a98c3ee734a88ba712e62703f1df31b94b784762c433c27a386dd6029ff55c2a920c392e33657d80191edbf18c61487e198844844516f843496b9
-  languageName: node
-  linkType: hard
-
-"github@https://github.com/altmp/altv-types.git":
-  version: 1.0.0
-  resolution: "github@https://github.com/altmp/altv-types.git#commit=7977a2064c8e0151afcbba13bf66b301f451b165"
-  checksum: 9e610941eb18366217ccf55641729973b22e33321b4afa1dd8daf108c6a0e79abc39527311a2a5ac5276b33edd3ef2aaf16cd8b6254be7fe1571e5938e148bbe
   languageName: node
   linkType: hard
 

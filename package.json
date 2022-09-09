@@ -6,14 +6,14 @@
   "private": true,
   "scripts": {
     "copy": "concurrently 'yarn:copy:*'",
-    "copy:shared": "copyfiles --up 4 \"node_modules/@altmp/altv-types/shared/**/*\" \"node_modules/@altv/types-shared\"",
-    "copy:client": "copyfiles --up 4 \"node_modules/@altmp/altv-types/client/**/*\" \"node_modules/@altv/types-client\"",
-    "copy:server": "copyfiles --up 4 \"node_modules/@altmp/altv-types/server/**/*\" \"node_modules/@altv/types-server\"",
-    "copy:worker": "copyfiles --up 4 \"node_modules/@altmp/altv-types/worker/**/*\" \"node_modules/@altv/types-worker\"",
+    "copy:shared": "copyfiles --up 3 \"node_modules/altv-types/shared/**/*\" \"node_modules/@altv/types-shared\"",
+    "copy:client": "copyfiles --up 3 \"node_modules/altv-types/client/**/*\" \"node_modules/@altv/types-client\"",
+    "copy:server": "copyfiles --up 3 \"node_modules/altv-types/server/**/*\" \"node_modules/@altv/types-server\"",
+    "copy:worker": "copyfiles --up 3 \"node_modules/altv-types/worker/**/*\" \"node_modules/@altv/types-worker\"",
     "clear-docs-folder": "rimraf docs/assets docs/classes docs/enums docs/interfaces docs/modules",
     "build": "yarn clear-docs-folder && typedoc",
     "copy-build": "yarn copy && yarn build",
-    "update": "yarn add github@https://github.com/altmp/altv-types.git && yarn copy-build"
+    "update": "yarn add altv-types@https://github.com/altmp/altv-types && yarn copy-build"
   },
   "repository": {
     "type": "git",
@@ -22,10 +22,9 @@
   "author": "altMP Team",
   "license": "MIT",
   "dependencies": {
-    "@altmp/altv-types": "git+https://github.com/altmp/altv-types.git",
+    "altv-types": "https://github.com/altmp/altv-types",
     "concurrently": "^7.0.0",
     "copyfiles": "^2.4.1",
-    "github": "https://github.com/altmp/altv-types.git",
     "rimraf": "^3.0.2",
     "typedoc": "^0.19.0",
     "typedoc-plugin-extras": "^1.1.8",
