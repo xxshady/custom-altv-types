@@ -101,6 +101,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#localmetachange" class="tsd-kind-icon">local<wbr>Meta<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#netownerchange" class="tsd-kind-icon">net<wbr>Owner<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#playeranimationchange" class="tsd-kind-icon">player<wbr>Animation<wbr>Change</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#playerweaponchange" class="tsd-kind-icon">player<wbr>Weapon<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#playerweaponshoot" class="tsd-kind-icon">player<wbr>Weapon<wbr>Shoot</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#removeentity" class="tsd-kind-icon">remove<wbr>Entity</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#resourceerror" class="tsd-kind-icon">resource<wbr>Error</a></li>
@@ -724,6 +725,46 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="playerweaponchange" class="tsd-anchor"></a>
+					<h3>player<wbr>Weapon<wbr>Change</h3>
+					<div class="tsd-signature tsd-kind-icon">player<wbr>Weapon<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>oldWeapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, newWeapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:150</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>oldWeapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, newWeapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>oldWeapon: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5>newWeapon: <span class="tsd-signature-type">number</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="playerweaponshoot" class="tsd-anchor"></a>
 					<h3>player<wbr>Weapon<wbr>Shoot</h3>
 					<div class="tsd-signature tsd-kind-icon">player<wbr>Weapon<wbr>Shoot<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, totalAmmo<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, ammoInClip<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
@@ -1186,6 +1227,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_client_.iclientevent.html#playeranimationchange" class="tsd-kind-icon">player<wbr>Animation<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_client_.iclientevent.html#playerweaponchange" class="tsd-kind-icon">player<wbr>Weapon<wbr>Change</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_client_.iclientevent.html#playerweaponshoot" class="tsd-kind-icon">player<wbr>Weapon<wbr>Shoot</a>

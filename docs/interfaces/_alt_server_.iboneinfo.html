@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>IVehicleNeon | custom alt:V docs JS</title>
+	<title>IBoneInfo | custom alt:V docs JS</title>
 	<meta name="description" content="Documentation for custom alt:V docs JS">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -58,10 +58,10 @@
 					<a href="../modules/_alt_server_.html">&quot;alt-server&quot;</a>
 				</li>
 				<li>
-					<a href="_alt_server_.ivehicleneon.html">IVehicleNeon</a>
+					<a href="_alt_server_.iboneinfo.html">IBoneInfo</a>
 				</li>
 			</ul>
-			<h1>Interface IVehicleNeon</h1>
+			<h1>Interface IBoneInfo</h1>
 		</div>
 	</div>
 </header>
@@ -72,7 +72,7 @@
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">IVehicleNeon</span>
+						<span class="target">IBoneInfo</span>
 					</li>
 				</ul>
 			</section>
@@ -83,10 +83,9 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehicleneon.html#back" class="tsd-kind-icon">back</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehicleneon.html#front" class="tsd-kind-icon">front</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehicleneon.html#left" class="tsd-kind-icon">left</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehicleneon.html#right" class="tsd-kind-icon">right</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iboneinfo.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iboneinfo.html#index" class="tsd-kind-icon">index</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iboneinfo.html#name" class="tsd-kind-icon">name</a></li>
 							</ul>
 						</section>
 					</div>
@@ -95,42 +94,32 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="back" class="tsd-anchor"></a>
-					<h3>back</h3>
-					<div class="tsd-signature tsd-kind-icon">back<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<a name="id" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> id</h3>
+					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:355</li>
+							<li>Defined in types-server/index.d.ts:403</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="front" class="tsd-anchor"></a>
-					<h3>front</h3>
-					<div class="tsd-signature tsd-kind-icon">front<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<a name="index" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> index</h3>
+					<div class="tsd-signature tsd-kind-icon">index<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:354</li>
+							<li>Defined in types-server/index.d.ts:404</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="left" class="tsd-anchor"></a>
-					<h3>left</h3>
-					<div class="tsd-signature tsd-kind-icon">left<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<a name="name" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> name</h3>
+					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:352</li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="right" class="tsd-anchor"></a>
-					<h3>right</h3>
-					<div class="tsd-signature tsd-kind-icon">right<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in types-server/index.d.ts:353</li>
+							<li>Defined in types-server/index.d.ts:405</li>
 						</ul>
 					</aside>
 				</section>
@@ -161,19 +150,16 @@
 				</ul>
 				<ul class="current">
 					<li class="current tsd-kind-interface tsd-parent-kind-module">
-						<a href="_alt_server_.ivehicleneon.html" class="tsd-kind-icon">IVehicle<wbr>Neon</a>
+						<a href="_alt_server_.iboneinfo.html" class="tsd-kind-icon">IBone<wbr>Info</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_server_.ivehicleneon.html#back" class="tsd-kind-icon">back</a>
+								<a href="_alt_server_.iboneinfo.html#id" class="tsd-kind-icon">id</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_server_.ivehicleneon.html#front" class="tsd-kind-icon">front</a>
+								<a href="_alt_server_.iboneinfo.html#index" class="tsd-kind-icon">index</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_server_.ivehicleneon.html#left" class="tsd-kind-icon">left</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_server_.ivehicleneon.html#right" class="tsd-kind-icon">right</a>
+								<a href="_alt_server_.iboneinfo.html#name" class="tsd-kind-icon">name</a>
 							</li>
 						</ul>
 					</li>
