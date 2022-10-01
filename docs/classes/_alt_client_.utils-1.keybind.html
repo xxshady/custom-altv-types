@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Interval | custom alt:V docs JS</title>
+	<title>Keybind | custom alt:V docs JS</title>
 	<meta name="description" content="Documentation for custom alt:V docs JS">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -61,29 +61,21 @@
 					<a href="_alt_client_.utils-1.html">Utils</a>
 				</li>
 				<li>
-					<a href="_alt_client_.utils-1.interval.html">Interval</a>
+					<a href="_alt_client_.utils-1.keybind.html">Keybind</a>
 				</li>
 			</ul>
-			<h1>Class Interval</h1>
+			<h1>Class Keybind</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel tsd-comment">
-				<div class="tsd-comment tsd-typography">
-					<dl class="tsd-comment-tags">
-						<dt>alpha</dt>
-						<dd></dd>
-					</dl>
-				</div>
-			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
 					<li>
-						<span class="target">Interval</span>
+						<span class="target">Keybind</span>
 					</li>
 				</ul>
 			</section>
@@ -94,7 +86,13 @@
 						<section class="tsd-index-section ">
 							<h3>Constructors</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_alt_client_.utils-1.interval.html#constructor" class="tsd-kind-icon">constructor</a></li>
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="_alt_client_.utils-1.keybind.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_client_.utils-1.keybind.html#destroy" class="tsd-kind-icon">destroy</a></li>
 							</ul>
 						</section>
 					</div>
@@ -106,19 +104,48 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Interval<span class="tsd-signature-symbol">(</span>callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, ms<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.utils-1.interval.html" class="tsd-signature-type">Interval</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Keybind<span class="tsd-signature-symbol">(</span>keyCode<span class="tsd-signature-symbol">: </span><a href="../modules/_alt_client_.html#keycode" class="tsd-signature-type">KeyCode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/_alt_client_.html#keycode" class="tsd-signature-type">KeyCode</a><span class="tsd-signature-symbol">&gt;</span>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span>, eventType<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">"keyup"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"keydown"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.utils-1.keybind.html" class="tsd-signature-type">Keybind</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2163</li>
+									<li>Defined in types-client/index.d.ts:2969</li>
 								</ul>
 							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Binds a callback to a specific key or multiple keys.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>example</dt>
+									<dd><pre><code class="language-js"><span class="hljs-comment">// two keycodes (similar to two separate keybinds with the same handler)</span>
+<span class="hljs-keyword">const</span> bind = <span class="hljs-keyword">new</span> alt.Utils.Keybind([KeyCode.G, KeyCode.H], <span class="hljs-function">() =&gt;</span> {
+  alt.log(<span class="hljs-string">&#x27;pressed G or H&#x27;</span>)
+})
+</code></pre>
+									</dd>
+									<dt>alpha</dt>
+									<dd></dd>
+								</dl>
+							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
+									<h5>keyCode: <a href="../modules/_alt_client_.html#keycode" class="tsd-signature-type">KeyCode</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Array</span><span class="tsd-signature-symbol">&lt;</span><a href="../modules/_alt_client_.html#keycode" class="tsd-signature-type">KeyCode</a><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Single or multiple keys to bind.</p>
+										</div>
+									</div>
+								</li>
+								<li>
 									<h5>callback: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>Function to call.</p>
+										</div>
+									</div>
 									<ul class="tsd-parameters">
 										<li class="tsd-parameter-signature">
 											<ul class="tsd-signatures tsd-kind-type-literal">
@@ -133,10 +160,35 @@
 									</ul>
 								</li>
 								<li>
-									<h5>ms: <span class="tsd-signature-type">number</span></h5>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> eventType: <span class="tsd-signature-type">"keyup"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"keydown"</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<div class="lead">
+											<p>On which event callback should be called. Defaults to &quot;keyup&quot;.</p>
+										</div>
+									</div>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.utils-1.interval.html" class="tsd-signature-type">Interval</a></h4>
+							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.utils-1.keybind.html" class="tsd-signature-type">Keybind</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="destroy" class="tsd-anchor"></a>
+					<h3>destroy</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">destroy<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-client/index.d.ts:2988</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -175,16 +227,19 @@
 							<li class=" tsd-kind-class tsd-parent-kind-class">
 								<a href="_alt_client_.utils-1.everytick.html" class="tsd-kind-icon">Every<wbr>Tick</a>
 							</li>
-							<li class="current tsd-kind-class tsd-parent-kind-class">
+							<li class=" tsd-kind-class tsd-parent-kind-class">
 								<a href="_alt_client_.utils-1.interval.html" class="tsd-kind-icon">Interval</a>
+							</li>
+							<li class="current tsd-kind-class tsd-parent-kind-class">
+								<a href="_alt_client_.utils-1.keybind.html" class="tsd-kind-icon">Keybind</a>
 								<ul>
 									<li class=" tsd-kind-constructor tsd-parent-kind-class">
-										<a href="_alt_client_.utils-1.interval.html#constructor" class="tsd-kind-icon">constructor</a>
+										<a href="_alt_client_.utils-1.keybind.html#constructor" class="tsd-kind-icon">constructor</a>
+									</li>
+									<li class=" tsd-kind-method tsd-parent-kind-class">
+										<a href="_alt_client_.utils-1.keybind.html#destroy" class="tsd-kind-icon">destroy</a>
 									</li>
 								</ul>
-							</li>
-							<li class=" tsd-kind-class tsd-parent-kind-class">
-								<a href="_alt_client_.utils-1.keybind.html" class="tsd-kind-icon">Keybind</a>
 							</li>
 							<li class=" tsd-kind-class tsd-parent-kind-class">
 								<a href="_alt_client_.utils-1.marker.html" class="tsd-kind-icon">Marker</a>
@@ -259,6 +314,7 @@
 			<ul class="tsd-legend">
 				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
 				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
 			</ul>
 			<ul class="tsd-legend">
 				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>

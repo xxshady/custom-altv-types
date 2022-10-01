@@ -13,7 +13,7 @@
     "clear-docs-folder": "rimraf docs/assets docs/classes docs/enums docs/interfaces docs/modules",
     "build": "yarn clear-docs-folder && typedoc",
     "copy-build": "yarn copy && yarn build",
-    "update": "yarn add altv-types@https://github.com/altmp/altv-types && yarn copy-build"
+    "update": "yarn upgrade altv-types@https://github.com/altmp/altv-types && yarn copy-build"
   },
   "repository": {
     "type": "git",
