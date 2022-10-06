@@ -60541,8 +60541,8 @@
 													},
 													"type": {
 														"type": "reference",
-														"id": 1087,
-														"name": "IVector2"
+														"id": 1241,
+														"name": "Vector2"
 													}
 												},
 												{
@@ -60555,8 +60555,8 @@
 													},
 													"type": {
 														"type": "reference",
-														"id": 1087,
-														"name": "IVector2"
+														"id": 1241,
+														"name": "Vector2"
 													}
 												}
 											],
