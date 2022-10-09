@@ -5,7 +5,7 @@ import { Octokit } from 'octokit'
 const YARN_LOCK_ALTV_LINE = 'https://github.com/altmp/altv-types#'
 
 const authToken = process.argv[2]
-console.log('authToken:', authToken)
+log('authToken:', authToken)
 
 const github = new Octokit({
   auth: authToken,
@@ -19,7 +19,7 @@ const spawnChildProcess = (command) => {
       child.stderr.pipe(process.stderr)
     
       child.on("exit", (code) => {
-        console.log(command, 'child proc exit')
+        log(command, 'child proc exit')
         resolve()
       })
     }
@@ -30,7 +30,10 @@ const spawnChildProcess = (command) => {
 }
 
 const updateInterval = async () => {
-  console.log('checking latest commit...')
+  log('pulling latest git changes...')
+  await spawnChildProcess('git pull')
+
+  log('checking latest commit...')
 
   const { 
     data: {
@@ -53,10 +56,10 @@ const updateInterval = async () => {
   
   const equals = latestCommit === currentCommit
   
-  console.log('equals:', equals, latestCommit, currentCommit)
+  log('equals:', equals, latestCommit, currentCommit)
   
   if (!equals) {
-    console.log('updating docs...')
+    log('updating docs...')
   
     await spawnChildProcess('yarn update')
     await spawnChildProcess('git add docs')
@@ -68,3 +71,14 @@ const updateInterval = async () => {
 
 updateInterval()
 setInterval(updateInterval, 1000 * 60 * 30 /** per 30 min */)
+
+// borrowed from altv js module :)
+function getTime() {
+  const date = new Date()
+  const hours = date.getHours(), minutes = date.getMinutes(), seconds = date.getSeconds()
+  return `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`
+}
+
+function log(...args) {
+  console.log(`[${getTime()}]`, ...args)
+}
