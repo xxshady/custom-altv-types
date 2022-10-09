@@ -62,8 +62,7 @@ const updateInterval = async () => {
     log('updating docs...')
   
     await spawnChildProcess('yarn update')
-    await spawnChildProcess('git add docs')
-    await spawnChildProcess('git add docs/*')
+    await spawnChildProcess('git add --all')
     await spawnChildProcess(`git commit -m "[bot] update to: https://github.com/altmp/altv-types/commit/${latestCommit}"`)
     await spawnChildProcess('git push origin main')
   }
