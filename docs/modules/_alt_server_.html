@@ -124,6 +124,7 @@
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#getallresources" class="tsd-kind-icon">get<wbr>All<wbr>Resources</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#geteventlisteners" class="tsd-kind-icon">get<wbr>Event<wbr>Listeners</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#getmeta" class="tsd-kind-icon">get<wbr>Meta</a></li>
+								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#getresourceexports" class="tsd-kind-icon">get<wbr>Resource<wbr>Exports</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#getsyncedmeta" class="tsd-kind-icon">get<wbr>Synced<wbr>Meta</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#hasmeta" class="tsd-kind-icon">has<wbr>Meta</a></li>
 								<li class="tsd-kind-reference tsd-parent-kind-module"><a href="_alt_server_.html#hasresource" class="tsd-kind-icon">has<wbr>Resource</a></li>
@@ -256,6 +257,8 @@
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#getnettime" class="tsd-kind-icon">get<wbr>Net<wbr>Time</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#getpedmodelinfobyhash" class="tsd-kind-icon">get<wbr>Ped<wbr>Model<wbr>Info<wbr>ByHash</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#getremoteeventlisteners" class="tsd-kind-icon">get<wbr>Remote<wbr>Event<wbr>Listeners</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#getresourcemain" class="tsd-kind-icon">get<wbr>Resource<wbr>Main</a></li>
+								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#getresourcepath" class="tsd-kind-icon">get<wbr>Resource<wbr>Path</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#getserverconfig" class="tsd-kind-icon">get<wbr>Server<wbr>Config</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#getvehiclemodelinfobyhash" class="tsd-kind-icon">get<wbr>Vehicle<wbr>Model<wbr>Info<wbr>ByHash</a></li>
 								<li class="tsd-kind-function tsd-parent-kind-module"><a href="_alt_server_.html#hashserverpassword" class="tsd-kind-icon">hash<wbr>Server<wbr>Password</a></li>
@@ -492,6 +495,11 @@
 					<a name="getmeta" class="tsd-anchor"></a>
 					<h3>get<wbr>Meta</h3>
 					Re-exports <a href="_alt_shared_.html#getmeta">getMeta</a>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
+					<a name="getresourceexports" class="tsd-anchor"></a>
+					<h3>get<wbr>Resource<wbr>Exports</h3>
+					Re-exports <a href="_alt_shared_.html#getresourceexports">getResourceExports</a>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-reference tsd-parent-kind-module">
 					<a name="getsyncedmeta" class="tsd-anchor"></a>
@@ -1213,7 +1221,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2761</li>
+									<li>Defined in types-server/index.d.ts:2775</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1242,7 +1250,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2756</li>
+									<li>Defined in types-server/index.d.ts:2770</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1265,6 +1273,68 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getresourcemain" class="tsd-anchor"></a>
+					<h3>get<wbr>Resource<wbr>Main</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Resource<wbr>Main<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-server/index.d.ts:2648</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets the main file of the specified resource.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of the resource.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
+					<a name="getresourcepath" class="tsd-anchor"></a>
+					<h3>get<wbr>Resource<wbr>Path</h3>
+					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Resource<wbr>Path<span class="tsd-signature-symbol">(</span>name<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-server/index.d.ts:2655</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets the path to the specified resource.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>name: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Name of the resource.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-function tsd-parent-kind-module">
 					<a name="getserverconfig" class="tsd-anchor"></a>
 					<h3>get<wbr>Server<wbr>Config</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
@@ -1274,7 +1344,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2763</li>
+									<li>Defined in types-server/index.d.ts:2777</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="../interfaces/_alt_server_.iserverconfig.html" class="tsd-signature-type">IServerConfig</a></h4>
@@ -1291,7 +1361,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2758</li>
+									<li>Defined in types-server/index.d.ts:2772</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1350,7 +1420,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2651</li>
+									<li>Defined in types-server/index.d.ts:2665</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1411,7 +1481,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2659</li>
+									<li>Defined in types-server/index.d.ts:2673</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1445,7 +1515,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2670</li>
+									<li>Defined in types-server/index.d.ts:2684</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1494,7 +1564,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2697</li>
+									<li>Defined in types-server/index.d.ts:2711</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1543,7 +1613,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2708</li>
+									<li>Defined in types-server/index.d.ts:2722</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1607,7 +1677,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2678</li>
+									<li>Defined in types-server/index.d.ts:2692</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1641,7 +1711,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2689</li>
+									<li>Defined in types-server/index.d.ts:2703</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1690,7 +1760,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2718</li>
+									<li>Defined in types-server/index.d.ts:2732</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1744,7 +1814,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2727</li>
+									<li>Defined in types-server/index.d.ts:2741</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1804,7 +1874,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2741</li>
+									<li>Defined in types-server/index.d.ts:2755</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1972,7 +2042,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2734</li>
+									<li>Defined in types-server/index.d.ts:2748</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2003,7 +2073,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2748</li>
+									<li>Defined in types-server/index.d.ts:2762</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2051,7 +2121,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:2765</li>
+									<li>Defined in types-server/index.d.ts:2779</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2216,6 +2286,9 @@
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_server_.html#getmeta" class="tsd-kind-icon">get<wbr>Meta</a>
+					</li>
+					<li class=" tsd-kind-reference tsd-parent-kind-module">
+						<a href="_alt_server_.html#getresourceexports" class="tsd-kind-icon">get<wbr>Resource<wbr>Exports</a>
 					</li>
 					<li class=" tsd-kind-reference tsd-parent-kind-module">
 						<a href="_alt_server_.html#getsyncedmeta" class="tsd-kind-icon">get<wbr>Synced<wbr>Meta</a>
@@ -2522,6 +2595,12 @@
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-module">
 						<a href="_alt_server_.html#getremoteeventlisteners" class="tsd-kind-icon">get<wbr>Remote<wbr>Event<wbr>Listeners</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="_alt_server_.html#getresourcemain" class="tsd-kind-icon">get<wbr>Resource<wbr>Main</a>
+					</li>
+					<li class=" tsd-kind-function tsd-parent-kind-module">
+						<a href="_alt_server_.html#getresourcepath" class="tsd-kind-icon">get<wbr>Resource<wbr>Path</a>
 					</li>
 					<li class=" tsd-kind-function tsd-parent-kind-module">
 						<a href="_alt_server_.html#getserverconfig" class="tsd-kind-icon">get<wbr>Server<wbr>Config</a>
