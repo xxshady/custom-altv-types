@@ -93024,34 +93024,52 @@
 										},
 										{
 											"id": 2580,
-											"name": "entityBoneId",
+											"name": "entityBone",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isExported": true
 											},
 											"comment": {
-												"text": "Target bone id."
+												"text": "Target bone id or name."
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "number"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										},
 										{
 											"id": 2581,
-											"name": "ownBoneId",
+											"name": "ownBone",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isExported": true
 											},
 											"comment": {
-												"text": "Origin bone id."
+												"text": "Origin bone id or name."
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "number"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										},
 										{
@@ -97511,34 +97529,52 @@
 										},
 										{
 											"id": 2983,
-											"name": "entityBoneId",
+											"name": "entityBone",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isExported": true
 											},
 											"comment": {
-												"text": "Target bone id."
+												"text": "Target bone id or name."
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "number"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										},
 										{
 											"id": 2984,
-											"name": "ownBoneId",
+											"name": "ownBone",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isExported": true
 											},
 											"comment": {
-												"text": "Origin bone id."
+												"text": "Origin bone id or name."
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "number"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										},
 										{
@@ -112564,34 +112600,52 @@
 										},
 										{
 											"id": 3452,
-											"name": "entityBoneId",
+											"name": "entityBone",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isExported": true
 											},
 											"comment": {
-												"text": "Target bone id."
+												"text": "Target bone id or name."
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "number"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										},
 										{
 											"id": 3453,
-											"name": "ownBoneId",
+											"name": "ownBone",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isExported": true
 											},
 											"comment": {
-												"text": "Origin bone id."
+												"text": "Origin bone id or name."
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "number"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "intrinsic",
+														"name": "string"
+													}
+												]
 											}
 										},
 										{
