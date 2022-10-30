@@ -46672,8 +46672,7 @@
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
-												"isExported": true,
-												"isOptional": true
+												"isExported": true
 											},
 											"type": {
 												"type": "reference",
@@ -46815,8 +46814,7 @@
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
-												"isExported": true,
-												"isOptional": true
+												"isExported": true
 											},
 											"type": {
 												"type": "reference",
