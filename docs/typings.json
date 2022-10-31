@@ -20192,7 +20192,7 @@
 										"name": "number"
 									}
 								],
-								"name": "Array"
+								"name": "ReadonlyArray"
 							}
 						},
 						{
@@ -21465,7 +21465,7 @@
 												"name": "number"
 											}
 										],
-										"name": "Array"
+										"name": "ReadonlyArray"
 									}
 								},
 								{
@@ -21507,7 +21507,7 @@
 												"name": "number"
 											}
 										],
-										"name": "Array"
+										"name": "ReadonlyArray"
 									}
 								}
 							],
@@ -112871,7 +112871,7 @@
 										"name": "Vehicle"
 									}
 								],
-								"name": "Array"
+								"name": "ReadonlyArray"
 							},
 							"overwrites": {
 								"type": "reference",
