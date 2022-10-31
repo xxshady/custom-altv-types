@@ -112,6 +112,10 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#drawtext2dthisframe" class="tsd-kind-icon">draw<wbr>Text2d<wbr>This<wbr>Frame</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#drawtext3d" class="tsd-kind-icon">draw<wbr>Text3d</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#drawtext3dthisframe" class="tsd-kind-icon">draw<wbr>Text3d<wbr>This<wbr>Frame</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#getclosestobject" class="tsd-kind-icon">get<wbr>Closest<wbr>Object</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#getclosestplayer" class="tsd-kind-icon">get<wbr>Closest<wbr>Player</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#getclosestvehicle" class="tsd-kind-icon">get<wbr>Closest<wbr>Vehicle</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#getclosestworldobject" class="tsd-kind-icon">get<wbr>Closest<wbr>World<wbr>Object</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#inspect" class="tsd-kind-icon">inspect</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#loadmaparea" class="tsd-kind-icon">load<wbr>Map<wbr>Area</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.utils-1.html#requestanimdict" class="tsd-kind-icon">request<wbr>Anim<wbr>Dict</a></li>
@@ -366,6 +370,174 @@
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="getclosestobject" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> get<wbr>Closest<wbr>Object</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Closest<wbr>Object<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a><span class="tsd-signature-symbol">; </span>range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.object.html" class="tsd-signature-type">Object</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-client/index.d.ts:3066</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Finds the closest object (if any) from <a href="_alt_client_.object.html#all">alt.Object.all</a>.</p>
+								</div>
+								<p><code>pos</code> - From which position to look for the nearest object. Defaults to local player position.</p>
+								<p><code>range</code> - In which range to search for the nearest object. Defaults to <code>Infinity</code>.</p>
+								<dl class="tsd-comment-tags">
+									<dt>alpha</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-symbol">{ </span>pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a><span class="tsd-signature-symbol">; </span>range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.object.html" class="tsd-signature-type">Object</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="getclosestplayer" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> get<wbr>Closest<wbr>Player</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Closest<wbr>Player<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a><span class="tsd-signature-symbol">; </span>range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.player.html" class="tsd-signature-type">Player</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-client/index.d.ts:3044</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Finds the closest player (if any) from <a href="_alt_client_.player.html#streamedin">alt.Player.streamedIn</a>.</p>
+								</div>
+								<p><code>pos</code> - From which position to look for the nearest player. Defaults to local player position.</p>
+								<p><code>range</code> - In which range to search for the nearest player. Defaults to <code>Infinity</code>.</p>
+								<dl class="tsd-comment-tags">
+									<dt>alpha</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-symbol">{ </span>pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a><span class="tsd-signature-symbol">; </span>range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.player.html" class="tsd-signature-type">Player</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="getclosestvehicle" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> get<wbr>Closest<wbr>Vehicle</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Closest<wbr>Vehicle<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a><span class="tsd-signature-symbol">; </span>range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-client/index.d.ts:3055</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Finds the closest vehicle (if any) from <a href="_alt_client_.vehicle.html#streamedin">alt.Vehicle.streamedIn</a>.</p>
+								</div>
+								<p><code>pos</code> - From which position to look for the nearest vehicle. Defaults to local player position.</p>
+								<p><code>range</code> - In which range to search for the nearest vehicle. Defaults to <code>Infinity</code>.</p>
+								<dl class="tsd-comment-tags">
+									<dt>alpha</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-symbol">{ </span>pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a><span class="tsd-signature-symbol">; </span>range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.vehicle.html" class="tsd-signature-type">Vehicle</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<a name="getclosestworldobject" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> get<wbr>Closest<wbr>World<wbr>Object</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Closest<wbr>World<wbr>Object<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-symbol">{ </span>pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a><span class="tsd-signature-symbol">; </span>range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.object.html" class="tsd-signature-type">Object</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-client/index.d.ts:3077</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Finds the closest world object (if any) from <a href="_alt_client_.object.html#allworld">alt.Object.allWorld</a>.</p>
+								</div>
+								<p><code>pos</code> - From which position to look for the nearest world object. Defaults to local player position.</p>
+								<p><code>range</code> - In which range to search for the nearest world object. Defaults to <code>Infinity</code>.</p>
+								<dl class="tsd-comment-tags">
+									<dt>alpha</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <span class="tsd-signature-symbol">{ </span>pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a><span class="tsd-signature-symbol">; </span>range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> }</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> pos<span class="tsd-signature-symbol">?: </span><a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> range<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.object.html" class="tsd-signature-type">Object</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -743,6 +915,18 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
 								<a href="_alt_client_.utils-1.html#drawtext3dthisframe" class="tsd-kind-icon">draw<wbr>Text3d<wbr>This<wbr>Frame</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="_alt_client_.utils-1.html#getclosestobject" class="tsd-kind-icon">get<wbr>Closest<wbr>Object</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="_alt_client_.utils-1.html#getclosestplayer" class="tsd-kind-icon">get<wbr>Closest<wbr>Player</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="_alt_client_.utils-1.html#getclosestvehicle" class="tsd-kind-icon">get<wbr>Closest<wbr>Vehicle</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
+								<a href="_alt_client_.utils-1.html#getclosestworldobject" class="tsd-kind-icon">get<wbr>Closest<wbr>World<wbr>Object</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
 								<a href="_alt_client_.utils-1.html#inspect" class="tsd-kind-icon">inspect</a>
