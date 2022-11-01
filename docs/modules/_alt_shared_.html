@@ -217,7 +217,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Client<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2139</li>
+							<li>Defined in types-shared/index.d.ts:2148</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -232,7 +232,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Server<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2144</li>
+							<li>Defined in types-shared/index.d.ts:2153</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -632,7 +632,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2146</li>
+									<li>Defined in types-shared/index.d.ts:2155</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_shared_.iresource.html" class="tsd-signature-type">IResource</a><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -649,7 +649,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2247</li>
+									<li>Defined in types-shared/index.d.ts:2256</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1202,6 +1202,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 					<h3>off</h3>
 					<ul class="tsd-signatures tsd-kind-function tsd-parent-kind-module">
 						<li class="tsd-signature tsd-kind-icon">off<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">off<span class="tsd-signature-symbol">(</span>listener<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -1242,6 +1243,54 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 												<li class="tsd-description">
 													<h4 class="tsd-parameters-title">Parameters</h4>
 													<ul class="tsd-parameters">
+														<li>
+															<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in types-shared/index.d.ts:2125</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Unsubscribes from all user-created events with the specified listener.</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>remarks</dt>
+									<dd><p>Listener should be of the same reference as when event was subscribed to.</p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>listener: <span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Listener that should be removed.</p>
+									</div>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-signature">
+											<ul class="tsd-signatures tsd-kind-type-literal">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventName: <span class="tsd-signature-type">string</span></h5>
+														</li>
 														<li>
 															<h5><span class="tsd-flag ts-flagRest">Rest</span> <span class="tsd-signature-symbol">...</span>args: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
 														</li>
@@ -1475,7 +1524,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2125</li>
+									<li>Defined in types-shared/index.d.ts:2134</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1637,7 +1686,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2134</li>
+									<li>Defined in types-shared/index.d.ts:2143</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1693,7 +1742,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2249</li>
+									<li>Defined in types-shared/index.d.ts:2258</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1717,7 +1766,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2148</li>
+									<li>Defined in types-shared/index.d.ts:2157</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1731,7 +1780,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2150</li>
+									<li>Defined in types-shared/index.d.ts:2159</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1749,7 +1798,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2152</li>
+									<li>Defined in types-shared/index.d.ts:2161</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1763,7 +1812,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2154</li>
+									<li>Defined in types-shared/index.d.ts:2163</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
