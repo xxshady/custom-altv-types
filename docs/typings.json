@@ -135039,7 +135039,7 @@
 									},
 									{
 										"tag": "deprecated",
-										"text": "\n"
+										"text": "For sending events to all clients use {@link emitAllClients} instead.\n"
 									}
 								]
 							},
@@ -135368,7 +135368,7 @@
 								"tags": [
 									{
 										"tag": "deprecated",
-										"text": "\n"
+										"text": "For sending events to all clients use {@link emitAllClientsRaw} instead.\n"
 									}
 								]
 							},
