@@ -103,6 +103,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerconnectdenied" class="tsd-kind-icon">player<wbr>Connect<wbr>Denied</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerdamage" class="tsd-kind-icon">player<wbr>Damage</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerdeath" class="tsd-kind-icon">player<wbr>Death</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerdimensionchange" class="tsd-kind-icon">player<wbr>Dimension<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerdisconnect" class="tsd-kind-icon">player<wbr>Disconnect</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerenteredvehicle" class="tsd-kind-icon">player<wbr>Entered<wbr>Vehicle</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerenteringvehicle" class="tsd-kind-icon">player<wbr>Entering<wbr>Vehicle</a></li>
@@ -853,6 +854,49 @@
 											</li>
 											<li>
 												<h5>weaponHash: <span class="tsd-signature-type">number</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="playerdimensionchange" class="tsd-anchor"></a>
+					<h3>player<wbr>Dimension<wbr>Change</h3>
+					<div class="tsd-signature tsd-kind-icon">player<wbr>Dimension<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, oldDimension<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, newDimension<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:350</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, oldDimension<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, newDimension<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>player: <a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a></h5>
+											</li>
+											<li>
+												<h5>oldDimension: <span class="tsd-signature-type">number</span></h5>
+											</li>
+											<li>
+												<h5>newDimension: <span class="tsd-signature-type">number</span></h5>
 											</li>
 										</ul>
 										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1706,6 +1750,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.iserverevent.html#playerdeath" class="tsd-kind-icon">player<wbr>Death</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.iserverevent.html#playerdimensionchange" class="tsd-kind-icon">player<wbr>Dimension<wbr>Change</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.iserverevent.html#playerdisconnect" class="tsd-kind-icon">player<wbr>Disconnect</a>
