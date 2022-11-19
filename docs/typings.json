@@ -14333,7 +14333,7 @@
 						},
 						{
 							"id": 5518,
-							"name": "getStreamSyncedMetaDataKeys",
+							"name": "getStreamSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -14343,7 +14343,7 @@
 							"signatures": [
 								{
 									"id": 5519,
-									"name": "getStreamSyncedMetaDataKeys",
+									"name": "getStreamSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -14373,7 +14373,7 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 619,
-									"character": 38
+									"character": 34
 								}
 							]
 						},
@@ -14629,7 +14629,7 @@
 						},
 						{
 							"id": 5500,
-							"name": "getSyncedMetaDataKeys",
+							"name": "getSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -14639,7 +14639,7 @@
 							"signatures": [
 								{
 									"id": 5501,
-									"name": "getSyncedMetaDataKeys",
+									"name": "getSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -14669,7 +14669,7 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 596,
-									"character": 32
+									"character": 28
 								}
 							]
 						},
@@ -21588,7 +21588,7 @@
 						},
 						{
 							"id": 5783,
-							"name": "getStreamSyncedMetaDataKeys",
+							"name": "getStreamSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -21598,7 +21598,7 @@
 							"signatures": [
 								{
 									"id": 5784,
-									"name": "getStreamSyncedMetaDataKeys",
+									"name": "getStreamSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -21625,7 +21625,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 5518,
-										"name": "Entity.getStreamSyncedMetaDataKeys"
+										"name": "Entity.getStreamSyncedMetaKeys"
 									}
 								}
 							],
@@ -21633,13 +21633,13 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 619,
-									"character": 38
+									"character": 34
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 5518,
-								"name": "Entity.getStreamSyncedMetaDataKeys"
+								"name": "Entity.getStreamSyncedMetaKeys"
 							}
 						},
 						{
@@ -21927,7 +21927,7 @@
 						},
 						{
 							"id": 5781,
-							"name": "getSyncedMetaDataKeys",
+							"name": "getSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -21937,7 +21937,7 @@
 							"signatures": [
 								{
 									"id": 5782,
-									"name": "getSyncedMetaDataKeys",
+									"name": "getSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -21964,7 +21964,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 5500,
-										"name": "Entity.getSyncedMetaDataKeys"
+										"name": "Entity.getSyncedMetaKeys"
 									}
 								}
 							],
@@ -21972,13 +21972,13 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 596,
-									"character": 32
+									"character": 28
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 5500,
-								"name": "Entity.getSyncedMetaDataKeys"
+								"name": "Entity.getSyncedMetaKeys"
 							}
 						},
 						{
@@ -26586,7 +26586,7 @@
 						},
 						{
 							"id": 7531,
-							"name": "getStreamSyncedMetaDataKeys",
+							"name": "getStreamSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -26596,7 +26596,7 @@
 							"signatures": [
 								{
 									"id": 7532,
-									"name": "getStreamSyncedMetaDataKeys",
+									"name": "getStreamSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -26623,7 +26623,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 5518,
-										"name": "Entity.getStreamSyncedMetaDataKeys"
+										"name": "Entity.getStreamSyncedMetaKeys"
 									}
 								}
 							],
@@ -26631,13 +26631,13 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 619,
-									"character": 38
+									"character": 34
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 5518,
-								"name": "Entity.getStreamSyncedMetaDataKeys"
+								"name": "Entity.getStreamSyncedMetaKeys"
 							}
 						},
 						{
@@ -26912,7 +26912,7 @@
 						},
 						{
 							"id": 7513,
-							"name": "getSyncedMetaDataKeys",
+							"name": "getSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -26922,7 +26922,7 @@
 							"signatures": [
 								{
 									"id": 7514,
-									"name": "getSyncedMetaDataKeys",
+									"name": "getSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -26949,7 +26949,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 5500,
-										"name": "Entity.getSyncedMetaDataKeys"
+										"name": "Entity.getSyncedMetaKeys"
 									}
 								}
 							],
@@ -26957,13 +26957,13 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 596,
-									"character": 32
+									"character": 28
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 5500,
-								"name": "Entity.getSyncedMetaDataKeys"
+								"name": "Entity.getSyncedMetaKeys"
 							}
 						},
 						{
@@ -30128,7 +30128,7 @@
 						},
 						{
 							"id": 5642,
-							"name": "getStreamSyncedMetaDataKeys",
+							"name": "getStreamSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -30138,7 +30138,7 @@
 							"signatures": [
 								{
 									"id": 5643,
-									"name": "getStreamSyncedMetaDataKeys",
+									"name": "getStreamSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -30165,7 +30165,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 5518,
-										"name": "Entity.getStreamSyncedMetaDataKeys"
+										"name": "Entity.getStreamSyncedMetaKeys"
 									}
 								}
 							],
@@ -30173,13 +30173,13 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 619,
-									"character": 38
+									"character": 34
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 5518,
-								"name": "Entity.getStreamSyncedMetaDataKeys"
+								"name": "Entity.getStreamSyncedMetaKeys"
 							}
 						},
 						{
@@ -30447,7 +30447,7 @@
 						},
 						{
 							"id": 5640,
-							"name": "getSyncedMetaDataKeys",
+							"name": "getSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -30457,7 +30457,7 @@
 							"signatures": [
 								{
 									"id": 5641,
-									"name": "getSyncedMetaDataKeys",
+									"name": "getSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -30484,7 +30484,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 5500,
-										"name": "Entity.getSyncedMetaDataKeys"
+										"name": "Entity.getSyncedMetaKeys"
 									}
 								}
 							],
@@ -30492,13 +30492,13 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 596,
-									"character": 32
+									"character": 28
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 5500,
-								"name": "Entity.getSyncedMetaDataKeys"
+								"name": "Entity.getSyncedMetaKeys"
 							}
 						},
 						{
@@ -51495,7 +51495,7 @@
 						},
 						{
 							"id": 5948,
-							"name": "getStreamSyncedMetaDataKeys",
+							"name": "getStreamSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -51505,7 +51505,7 @@
 							"signatures": [
 								{
 									"id": 5949,
-									"name": "getStreamSyncedMetaDataKeys",
+									"name": "getStreamSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -51532,7 +51532,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 5518,
-										"name": "Entity.getStreamSyncedMetaDataKeys"
+										"name": "Entity.getStreamSyncedMetaKeys"
 									}
 								}
 							],
@@ -51540,13 +51540,13 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 619,
-									"character": 38
+									"character": 34
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 5518,
-								"name": "Entity.getStreamSyncedMetaDataKeys"
+								"name": "Entity.getStreamSyncedMetaKeys"
 							}
 						},
 						{
@@ -51814,7 +51814,7 @@
 						},
 						{
 							"id": 5946,
-							"name": "getSyncedMetaDataKeys",
+							"name": "getSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -51824,7 +51824,7 @@
 							"signatures": [
 								{
 									"id": 5947,
-									"name": "getSyncedMetaDataKeys",
+									"name": "getSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -51851,7 +51851,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 5500,
-										"name": "Entity.getSyncedMetaDataKeys"
+										"name": "Entity.getSyncedMetaKeys"
 									}
 								}
 							],
@@ -51859,13 +51859,13 @@
 								{
 									"fileName": "types-client/index.d.ts",
 									"line": 596,
-									"character": 32
+									"character": 28
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 5500,
-								"name": "Entity.getSyncedMetaDataKeys"
+								"name": "Entity.getSyncedMetaKeys"
 							}
 						},
 						{
@@ -97775,7 +97775,7 @@
 						},
 						{
 							"id": 2611,
-							"name": "getStreamSyncedMetaDataKeys",
+							"name": "getStreamSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -97785,7 +97785,7 @@
 							"signatures": [
 								{
 									"id": 2612,
-									"name": "getStreamSyncedMetaDataKeys",
+									"name": "getStreamSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -97815,7 +97815,7 @@
 								{
 									"fileName": "types-server/index.d.ts",
 									"line": 782,
-									"character": 38
+									"character": 34
 								}
 							]
 						},
@@ -98071,7 +98071,7 @@
 						},
 						{
 							"id": 2573,
-							"name": "getSyncedMetaDataKeys",
+							"name": "getSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -98081,7 +98081,7 @@
 							"signatures": [
 								{
 									"id": 2574,
-									"name": "getSyncedMetaDataKeys",
+									"name": "getSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -98111,7 +98111,7 @@
 								{
 									"fileName": "types-server/index.d.ts",
 									"line": 738,
-									"character": 32
+									"character": 28
 								}
 							]
 						},
@@ -103023,7 +103023,7 @@
 						},
 						{
 							"id": 2919,
-							"name": "getLocalMetaDataKeys",
+							"name": "getLocalMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -103033,7 +103033,7 @@
 							"signatures": [
 								{
 									"id": 2920,
-									"name": "getLocalMetaDataKeys",
+									"name": "getLocalMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -103063,7 +103063,7 @@
 								{
 									"fileName": "types-server/index.d.ts",
 									"line": 1270,
-									"character": 31
+									"character": 27
 								}
 							]
 						},
@@ -103711,7 +103711,7 @@
 						},
 						{
 							"id": 3037,
-							"name": "getStreamSyncedMetaDataKeys",
+							"name": "getStreamSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -103721,7 +103721,7 @@
 							"signatures": [
 								{
 									"id": 3038,
-									"name": "getStreamSyncedMetaDataKeys",
+									"name": "getStreamSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -103748,7 +103748,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 2611,
-										"name": "Entity.getStreamSyncedMetaDataKeys"
+										"name": "Entity.getStreamSyncedMetaKeys"
 									}
 								}
 							],
@@ -103756,13 +103756,13 @@
 								{
 									"fileName": "types-server/index.d.ts",
 									"line": 782,
-									"character": 38
+									"character": 34
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 2611,
-								"name": "Entity.getStreamSyncedMetaDataKeys"
+								"name": "Entity.getStreamSyncedMetaKeys"
 							}
 						},
 						{
@@ -104030,7 +104030,7 @@
 						},
 						{
 							"id": 3035,
-							"name": "getSyncedMetaDataKeys",
+							"name": "getSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -104040,7 +104040,7 @@
 							"signatures": [
 								{
 									"id": 3036,
-									"name": "getSyncedMetaDataKeys",
+									"name": "getSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -104067,7 +104067,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 2573,
-										"name": "Entity.getSyncedMetaDataKeys"
+										"name": "Entity.getSyncedMetaKeys"
 									}
 								}
 							],
@@ -104075,13 +104075,13 @@
 								{
 									"fileName": "types-server/index.d.ts",
 									"line": 738,
-									"character": 32
+									"character": 28
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 2573,
-								"name": "Entity.getSyncedMetaDataKeys"
+								"name": "Entity.getSyncedMetaKeys"
 							}
 						},
 						{
@@ -120636,7 +120636,7 @@
 						},
 						{
 							"id": 3509,
-							"name": "getStreamSyncedMetaDataKeys",
+							"name": "getStreamSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -120646,7 +120646,7 @@
 							"signatures": [
 								{
 									"id": 3510,
-									"name": "getStreamSyncedMetaDataKeys",
+									"name": "getStreamSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -120673,7 +120673,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 2611,
-										"name": "Entity.getStreamSyncedMetaDataKeys"
+										"name": "Entity.getStreamSyncedMetaKeys"
 									}
 								}
 							],
@@ -120681,13 +120681,13 @@
 								{
 									"fileName": "types-server/index.d.ts",
 									"line": 782,
-									"character": 38
+									"character": 34
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 2611,
-								"name": "Entity.getStreamSyncedMetaDataKeys"
+								"name": "Entity.getStreamSyncedMetaKeys"
 							}
 						},
 						{
@@ -120955,7 +120955,7 @@
 						},
 						{
 							"id": 3507,
-							"name": "getSyncedMetaDataKeys",
+							"name": "getSyncedMetaKeys",
 							"kind": 2048,
 							"kindString": "Method",
 							"flags": {
@@ -120965,7 +120965,7 @@
 							"signatures": [
 								{
 									"id": 3508,
-									"name": "getSyncedMetaDataKeys",
+									"name": "getSyncedMetaKeys",
 									"kind": 4096,
 									"kindString": "Call signature",
 									"flags": {
@@ -120992,7 +120992,7 @@
 									"inheritedFrom": {
 										"type": "reference",
 										"id": 2573,
-										"name": "Entity.getSyncedMetaDataKeys"
+										"name": "Entity.getSyncedMetaKeys"
 									}
 								}
 							],
@@ -121000,13 +121000,13 @@
 								{
 									"fileName": "types-server/index.d.ts",
 									"line": 738,
-									"character": 32
+									"character": 28
 								}
 							],
 							"inheritedFrom": {
 								"type": "reference",
 								"id": 2573,
-								"name": "Entity.getSyncedMetaDataKeys"
+								"name": "Entity.getSyncedMetaKeys"
 							}
 						},
 						{
