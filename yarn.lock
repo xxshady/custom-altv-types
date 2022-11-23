@@ -276,7 +276,7 @@ aggregate-error@^3.1.0:
 
 "altv-types@https://github.com/altmp/altv-types":
   version "1.0.0"
-  resolved "https://github.com/altmp/altv-types#04d89defe43d5fe970ac46a9a1acca88cc05887e"
+  resolved "https://github.com/altmp/altv-types#eb41fd36f7457a7e26e54afc30636afad1e0ca30"
 
 ansi-regex@^5.0.1:
   version "5.0.1"
