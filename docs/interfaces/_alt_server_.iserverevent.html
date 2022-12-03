@@ -862,7 +862,7 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="playerdamage" class="tsd-anchor"></a>
 					<h3>player<wbr>Damage</h3>
-					<div class="tsd-signature tsd-kind-icon">player<wbr>Damage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>victim<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, healthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, armourDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<div class="tsd-signature tsd-kind-icon">player<wbr>Damage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>victim<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span>, healthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, armourDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
 							<li>Defined in types-server/index.d.ts:320</li>
@@ -873,7 +873,7 @@
 						<ul class="tsd-parameters">
 							<li class="tsd-parameter-signature">
 								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>victim<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, healthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, armourDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>victim<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span>, healthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, armourDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 								</ul>
 								<ul class="tsd-descriptions">
 									<li class="tsd-description">
@@ -883,7 +883,7 @@
 												<h5>victim: <a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a></h5>
 											</li>
 											<li>
-												<h5>attacker: <a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a></h5>
+												<h5>attacker: <a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
 											</li>
 											<li>
 												<h5>healthDamage: <span class="tsd-signature-type">number</span></h5>
@@ -905,7 +905,7 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="playerdeath" class="tsd-anchor"></a>
 					<h3>player<wbr>Death</h3>
-					<div class="tsd-signature tsd-kind-icon">player<wbr>Death<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>victim<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, killer<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<div class="tsd-signature tsd-kind-icon">player<wbr>Death<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>victim<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, killer<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
 							<li>Defined in types-server/index.d.ts:321</li>
@@ -916,7 +916,7 @@
 						<ul class="tsd-parameters">
 							<li class="tsd-parameter-signature">
 								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>victim<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, killer<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>victim<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, killer<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 								</ul>
 								<ul class="tsd-descriptions">
 									<li class="tsd-description">
@@ -926,7 +926,7 @@
 												<h5>victim: <a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a></h5>
 											</li>
 											<li>
-												<h5>killer: <a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a></h5>
+												<h5>killer: <a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
 											</li>
 											<li>
 												<h5>weaponHash: <span class="tsd-signature-type">number</span></h5>
@@ -1581,7 +1581,7 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="vehicledamage" class="tsd-anchor"></a>
 					<h3>vehicle<wbr>Damage</h3>
-					<div class="tsd-signature tsd-kind-icon">vehicle<wbr>Damage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, bodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, additionalBodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, engineHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, petrolTankDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<div class="tsd-signature tsd-kind-icon">vehicle<wbr>Damage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span>, bodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, additionalBodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, engineHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, petrolTankDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
 					<aside class="tsd-sources">
 						<ul>
 							<li>Defined in types-server/index.d.ts:341</li>
@@ -1592,7 +1592,7 @@
 						<ul class="tsd-parameters">
 							<li class="tsd-parameter-signature">
 								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
-									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, bodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, additionalBodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, engineHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, petrolTankDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, attacker<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span>, bodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, additionalBodyHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, engineHealthDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, petrolTankDamage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 								</ul>
 								<ul class="tsd-descriptions">
 									<li class="tsd-description">
@@ -1602,7 +1602,7 @@
 												<h5>vehicle: <a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a></h5>
 											</li>
 											<li>
-												<h5>attacker: <a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a></h5>
+												<h5>attacker: <a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
 											</li>
 											<li>
 												<h5>bodyHealthDamage: <span class="tsd-signature-type">number</span></h5>

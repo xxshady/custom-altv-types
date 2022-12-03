@@ -134693,9 +134693,18 @@
 														"isExported": true
 													},
 													"type": {
-														"type": "reference",
-														"id": 2518,
-														"name": "Entity"
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"id": 2518,
+																"name": "Entity"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															}
+														]
 													}
 												},
 												{
@@ -134812,9 +134821,18 @@
 														"isExported": true
 													},
 													"type": {
-														"type": "reference",
-														"id": 2518,
-														"name": "Entity"
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"id": 2518,
+																"name": "Entity"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															}
+														]
 													}
 												},
 												{
@@ -136494,9 +136512,18 @@
 														"isExported": true
 													},
 													"type": {
-														"type": "reference",
-														"id": 2518,
-														"name": "Entity"
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"id": 2518,
+																"name": "Entity"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															}
+														]
 													}
 												},
 												{
