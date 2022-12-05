@@ -25503,7 +25503,7 @@
 												"isExported": true
 											},
 											"comment": {
-												"text": "Entity the object should be attached to."
+												"text": "Entity or scriptID of the entity the object should be attached to."
 											},
 											"type": {
 												"type": "reference",
@@ -25520,7 +25520,7 @@
 												"isExported": true
 											},
 											"comment": {
-												"text": "Bone index of the entity to attach to. (-1 for entity center)"
+												"text": "Bone index of the entity to attach to. (-1 for entity center)."
 											},
 											"type": {
 												"type": "intrinsic",
@@ -25529,14 +25529,14 @@
 										},
 										{
 											"id": 7456,
-											"name": "pos",
+											"name": "offset",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isExported": true
 											},
 											"comment": {
-												"text": "Position offset of the object."
+												"text": "Offset of the object."
 											},
 											"type": {
 												"type": "reference",
@@ -25553,7 +25553,7 @@
 												"isExported": true
 											},
 											"comment": {
-												"text": "Rotation of the object."
+												"text": "Rotation of the object in radians."
 											},
 											"type": {
 												"type": "reference",
@@ -25655,7 +25655,7 @@
 										},
 										{
 											"id": 7464,
-											"name": "pos",
+											"name": "offset",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {

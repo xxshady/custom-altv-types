@@ -564,8 +564,8 @@
 					<a name="attachtoentity" class="tsd-anchor"></a>
 					<h3>attach<wbr>ToEntity</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">attach<wbr>ToEntity<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="_alt_client_.entity.html" class="tsd-signature-type">Entity</a>, bone<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, rot<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, useSoftPinning<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, collision<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, fixedRot<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-						<li class="tsd-signature tsd-kind-icon">attach<wbr>ToEntity<span class="tsd-signature-symbol">(</span>scriptID<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, bone<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, rot<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, useSoftPinning<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, collision<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, fixedRot<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">attach<wbr>ToEntity<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="_alt_client_.entity.html" class="tsd-signature-type">Entity</a>, bone<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, offset<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, rot<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, useSoftPinning<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, collision<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, fixedRot<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+						<li class="tsd-signature tsd-kind-icon">attach<wbr>ToEntity<span class="tsd-signature-symbol">(</span>scriptID<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, bone<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, offset<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, rot<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, useSoftPinning<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, collision<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, fixedRot<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
@@ -584,25 +584,25 @@
 								<li>
 									<h5>entity: <a href="_alt_client_.entity.html" class="tsd-signature-type">Entity</a></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Entity the object should be attached to.</p>
+										<p>Entity or scriptID of the entity the object should be attached to.</p>
 									</div>
 								</li>
 								<li>
 									<h5>bone: <span class="tsd-signature-type">number</span></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Bone index of the entity to attach to. (-1 for entity center)</p>
+										<p>Bone index of the entity to attach to. (-1 for entity center).</p>
 									</div>
 								</li>
 								<li>
-									<h5>pos: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
+									<h5>offset: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Position offset of the object.</p>
+										<p>Offset of the object.</p>
 									</div>
 								</li>
 								<li>
 									<h5>rot: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
 									<div class="tsd-comment tsd-typography">
-										<p>Rotation of the object.</p>
+										<p>Rotation of the object in radians.</p>
 									</div>
 								</li>
 								<li>
@@ -641,7 +641,7 @@
 									<h5>bone: <span class="tsd-signature-type">number</span></h5>
 								</li>
 								<li>
-									<h5>pos: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
+									<h5>offset: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
 								</li>
 								<li>
 									<h5>rot: <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></h5>
