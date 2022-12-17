@@ -112507,7 +112507,7 @@
 					},
 					"children": [
 						{
-							"id": 4478,
+							"id": 4483,
 							"name": "constructor",
 							"kind": 512,
 							"kindString": "Constructor",
@@ -112517,7 +112517,7 @@
 							},
 							"signatures": [
 								{
-									"id": 4479,
+									"id": 4484,
 									"name": "new Resource",
 									"kind": 16384,
 									"kindString": "Constructor signature",
@@ -112573,7 +112573,7 @@
 							}
 						},
 						{
-							"id": 4486,
+							"id": 4491,
 							"name": "dependants",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112606,7 +112606,7 @@
 							}
 						},
 						{
-							"id": 4485,
+							"id": 4490,
 							"name": "dependencies",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112639,7 +112639,7 @@
 							}
 						},
 						{
-							"id": 4484,
+							"id": 4489,
 							"name": "exports",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112676,7 +112676,7 @@
 							}
 						},
 						{
-							"id": 4480,
+							"id": 4485,
 							"name": "isStarted",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112703,7 +112703,7 @@
 							}
 						},
 						{
-							"id": 4483,
+							"id": 4488,
 							"name": "main",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112730,7 +112730,7 @@
 							}
 						},
 						{
-							"id": 4482,
+							"id": 4487,
 							"name": "name",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112757,7 +112757,7 @@
 							}
 						},
 						{
-							"id": 4488,
+							"id": 4493,
 							"name": "optionalPermissions",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112813,7 +112813,7 @@
 							}
 						},
 						{
-							"id": 4487,
+							"id": 4492,
 							"name": "requiredPermissions",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112847,7 +112847,7 @@
 							}
 						},
 						{
-							"id": 4481,
+							"id": 4486,
 							"name": "type",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112874,7 +112874,7 @@
 							}
 						},
 						{
-							"id": 4489,
+							"id": 4494,
 							"name": "valid",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112901,7 +112901,7 @@
 							}
 						},
 						{
-							"id": 4493,
+							"id": 4481,
 							"name": "all",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112913,8 +112913,8 @@
 							},
 							"sources": [
 								{
-									"fileName": "types-shared/index.d.ts",
-									"line": 2207,
+									"fileName": "types-server/index.d.ts",
+									"line": 2484,
 									"character": 30
 								}
 							],
@@ -112923,20 +112923,20 @@
 								"typeArguments": [
 									{
 										"type": "reference",
-										"id": 1483,
+										"id": 4475,
 										"name": "Resource"
 									}
 								],
 								"name": "ReadonlyArray"
 							},
-							"inheritedFrom": {
+							"overwrites": {
 								"type": "reference",
 								"id": 1499,
 								"name": "Resource.all"
 							}
 						},
 						{
-							"id": 4494,
+							"id": 4482,
 							"name": "current",
 							"kind": 1024,
 							"kindString": "Property",
@@ -112948,24 +112948,24 @@
 							},
 							"sources": [
 								{
-									"fileName": "types-shared/index.d.ts",
-									"line": 2208,
+									"fileName": "types-server/index.d.ts",
+									"line": 2485,
 									"character": 34
 								}
 							],
 							"type": {
 								"type": "reference",
-								"id": 1483,
+								"id": 4475,
 								"name": "Resource"
 							},
-							"inheritedFrom": {
+							"overwrites": {
 								"type": "reference",
 								"id": 1500,
 								"name": "Resource.current"
 							}
 						},
 						{
-							"id": 4490,
+							"id": 4478,
 							"name": "getByName",
 							"kind": 2048,
 							"kindString": "Method",
@@ -112976,7 +112976,7 @@
 							},
 							"signatures": [
 								{
-									"id": 4491,
+									"id": 4479,
 									"name": "getByName",
 									"kind": 4096,
 									"kindString": "Call signature",
@@ -112985,7 +112985,7 @@
 									},
 									"parameters": [
 										{
-											"id": 4492,
+											"id": 4480,
 											"name": "name",
 											"kind": 32768,
 											"kindString": "Parameter",
@@ -113003,7 +113003,7 @@
 										"types": [
 											{
 												"type": "reference",
-												"id": 1483,
+												"id": 4475,
 												"name": "Resource"
 											},
 											{
@@ -113012,7 +113012,7 @@
 											}
 										]
 									},
-									"inheritedFrom": {
+									"overwrites": {
 										"type": "reference",
 										"id": 1496,
 										"name": "Resource.getByName"
@@ -113021,12 +113021,12 @@
 							],
 							"sources": [
 								{
-									"fileName": "types-shared/index.d.ts",
-									"line": 2206,
+									"fileName": "types-server/index.d.ts",
+									"line": 2483,
 									"character": 27
 								}
 							],
-							"inheritedFrom": {
+							"overwrites": {
 								"type": "reference",
 								"id": 1496,
 								"name": "Resource.getByName"
@@ -113038,7 +113038,7 @@
 							"title": "Constructors",
 							"kind": 512,
 							"children": [
-								4478
+								4483
 							]
 						},
 						{
@@ -113046,26 +113046,26 @@
 							"kind": 1024,
 							"children": [
 								4477,
-								4486,
-								4485,
-								4484,
-								4480,
-								4483,
-								4482,
-								4488,
-								4476,
-								4487,
-								4481,
+								4491,
+								4490,
 								4489,
+								4485,
+								4488,
+								4487,
 								4493,
-								4494
+								4476,
+								4492,
+								4486,
+								4494,
+								4481,
+								4482
 							]
 						},
 						{
 							"title": "Methods",
 							"kind": 2048,
 							"children": [
-								4490
+								4478
 							]
 						}
 					],
@@ -114034,7 +114034,7 @@
 							"sources": [
 								{
 									"fileName": "types-server/index.d.ts",
-									"line": 2486,
+									"line": 2490,
 									"character": 43
 								}
 							],
@@ -114160,7 +114160,7 @@
 															"sources": [
 																{
 																	"fileName": "types-server/index.d.ts",
-																	"line": 2498,
+																	"line": 2502,
 																	"character": 52
 																}
 															],
@@ -114182,7 +114182,7 @@
 															"sources": [
 																{
 																	"fileName": "types-server/index.d.ts",
-																	"line": 2498,
+																	"line": 2502,
 																	"character": 76
 																}
 															],
@@ -114205,7 +114205,7 @@
 													"sources": [
 														{
 															"fileName": "types-server/index.d.ts",
-															"line": 2498,
+															"line": 2502,
 															"character": 46
 														}
 													]
@@ -114232,7 +114232,7 @@
 							"sources": [
 								{
 									"fileName": "types-server/index.d.ts",
-									"line": 2498,
+									"line": 2502,
 									"character": 36
 								}
 							]
@@ -114290,7 +114290,7 @@
 															"sources": [
 																{
 																	"fileName": "types-server/index.d.ts",
-																	"line": 2507,
+																	"line": 2511,
 																	"character": 52
 																}
 															],
@@ -114312,7 +114312,7 @@
 															"sources": [
 																{
 																	"fileName": "types-server/index.d.ts",
-																	"line": 2507,
+																	"line": 2511,
 																	"character": 76
 																}
 															],
@@ -114335,7 +114335,7 @@
 													"sources": [
 														{
 															"fileName": "types-server/index.d.ts",
-															"line": 2507,
+															"line": 2511,
 															"character": 46
 														}
 													]
@@ -114362,7 +114362,7 @@
 							"sources": [
 								{
 									"fileName": "types-server/index.d.ts",
-									"line": 2507,
+									"line": 2511,
 									"character": 37
 								}
 							]
@@ -114634,12 +114634,12 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2486,
+							"line": 2490,
 							"character": 20
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2490,
+							"line": 2494,
 							"character": 24
 						}
 					],
@@ -131538,7 +131538,7 @@
 						{
 							"fileName": "types-server/index.d.ts",
 							"line": 484,
-							"character": 25
+							"character": 32
 						}
 					]
 				},
@@ -137176,12 +137176,12 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2528,
+							"line": 2532,
 							"character": 34
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2529,
+							"line": 2533,
 							"character": 34
 						}
 					]
@@ -137293,7 +137293,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2540,
+							"line": 2544,
 							"character": 22
 						}
 					]
@@ -137371,7 +137371,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2625,
+							"line": 2629,
 							"character": 32
 						}
 					]
@@ -137443,7 +137443,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2633,
+							"line": 2637,
 							"character": 35
 						}
 					]
@@ -137698,17 +137698,17 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2562,
+							"line": 2566,
 							"character": 28
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2575,
+							"line": 2579,
 							"character": 28
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2586,
+							"line": 2590,
 							"character": 28
 						}
 					]
@@ -137947,17 +137947,17 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2595,
+							"line": 2599,
 							"character": 31
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2604,
+							"line": 2608,
 							"character": 31
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2615,
+							"line": 2619,
 							"character": 31
 						}
 					]
@@ -138069,7 +138069,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2551,
+							"line": 2555,
 							"character": 25
 						}
 					]
@@ -138103,7 +138103,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2656,
+							"line": 2660,
 							"character": 28
 						}
 					]
@@ -138150,7 +138150,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2812,
+							"line": 2816,
 							"character": 39
 						}
 					]
@@ -138252,7 +138252,7 @@
 										"sources": [
 											{
 												"fileName": "types-server/index.d.ts",
-												"line": 2808,
+												"line": 2812,
 												"character": 70
 											}
 										]
@@ -138264,7 +138264,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2808,
+							"line": 2812,
 							"character": 41
 						}
 					]
@@ -138296,7 +138296,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2814,
+							"line": 2818,
 							"character": 33
 						}
 					]
@@ -138343,7 +138343,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2810,
+							"line": 2814,
 							"character": 43
 						}
 					]
@@ -138401,7 +138401,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2649,
+							"line": 2653,
 							"character": 36
 						}
 					]
@@ -138507,7 +138507,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2732,
+													"line": 2736,
 													"character": 50
 												}
 											]
@@ -138609,7 +138609,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2741,
+													"line": 2745,
 													"character": 31
 												}
 											]
@@ -138626,12 +138626,12 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2732,
+							"line": 2736,
 							"character": 21
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2741,
+							"line": 2745,
 							"character": 21
 						}
 					]
@@ -138737,7 +138737,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2666,
+													"line": 2670,
 													"character": 56
 												}
 											]
@@ -138839,7 +138839,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2675,
+													"line": 2679,
 													"character": 37
 												}
 											]
@@ -138856,12 +138856,12 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2666,
+							"line": 2670,
 							"character": 27
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2675,
+							"line": 2679,
 							"character": 27
 						}
 					]
@@ -139097,7 +139097,7 @@
 													"sources": [
 														{
 															"fileName": "types-server/index.d.ts",
-															"line": 2694,
+															"line": 2698,
 															"character": 106
 														}
 													]
@@ -139206,7 +139206,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2722,
+													"line": 2726,
 													"character": 30
 												}
 											]
@@ -139223,17 +139223,17 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2683,
+							"line": 2687,
 							"character": 20
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2694,
+							"line": 2698,
 							"character": 20
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2722,
+							"line": 2726,
 							"character": 20
 						}
 					]
@@ -139347,7 +139347,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2749,
+													"line": 2753,
 													"character": 55
 												}
 											]
@@ -139467,7 +139467,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2760,
+													"line": 2764,
 													"character": 36
 												}
 											]
@@ -139484,12 +139484,12 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2749,
+							"line": 2753,
 							"character": 26
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2760,
+							"line": 2764,
 							"character": 26
 						}
 					]
@@ -139725,7 +139725,7 @@
 													"sources": [
 														{
 															"fileName": "types-server/index.d.ts",
-															"line": 2713,
+															"line": 2717,
 															"character": 108
 														}
 													]
@@ -139749,12 +139749,12 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2702,
+							"line": 2706,
 							"character": 22
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2713,
+							"line": 2717,
 							"character": 22
 						}
 					]
@@ -139874,7 +139874,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2770,
+													"line": 2774,
 													"character": 57
 												}
 											]
@@ -139990,7 +139990,7 @@
 											"sources": [
 												{
 													"fileName": "types-server/index.d.ts",
-													"line": 2779,
+													"line": 2783,
 													"character": 38
 												}
 											]
@@ -140007,12 +140007,12 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2770,
+							"line": 2774,
 							"character": 28
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2779,
+							"line": 2783,
 							"character": 28
 						}
 					]
@@ -140064,7 +140064,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2793,
+							"line": 2797,
 							"character": 33
 						}
 					]
@@ -140116,7 +140116,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2640,
+							"line": 2644,
 							"character": 29
 						}
 					]
@@ -140428,17 +140428,17 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2518,
+							"line": 2522,
 							"character": 31
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2519,
+							"line": 2523,
 							"character": 31
 						},
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2521,
+							"line": 2525,
 							"character": 31
 						}
 					]
@@ -140490,7 +140490,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2786,
+							"line": 2790,
 							"character": 31
 						}
 					]
@@ -140542,7 +140542,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2800,
+							"line": 2804,
 							"character": 30
 						}
 					]
@@ -140573,7 +140573,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2651,
+							"line": 2655,
 							"character": 28
 						}
 					]
@@ -140619,7 +140619,7 @@
 					"sources": [
 						{
 							"fileName": "types-server/index.d.ts",
-							"line": 2816,
+							"line": 2820,
 							"character": 37
 						}
 					]
