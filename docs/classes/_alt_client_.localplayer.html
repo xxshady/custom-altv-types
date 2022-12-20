@@ -99,6 +99,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.localplayer.html#currentammo" class="tsd-kind-icon">current<wbr>Ammo</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#currentweapon" class="tsd-kind-icon">current<wbr>Weapon</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#currentweaponcomponents" class="tsd-kind-icon">current<wbr>Weapon<wbr>Components</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.localplayer.html#currentweapondata" class="tsd-kind-icon">current<wbr>Weapon<wbr>Data</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#entityaimoffset" class="tsd-kind-icon">entity<wbr>Aim<wbr>Offset</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#entityaimingat" class="tsd-kind-icon">entity<wbr>Aiming<wbr>At</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#flashlightactive" class="tsd-kind-icon">flashlight<wbr>Active</a></li>
@@ -126,6 +127,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#scriptid" class="tsd-kind-icon">scriptID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#seat" class="tsd-kind-icon">seat</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#spatialvolume" class="tsd-kind-icon">spatial<wbr>Volume</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.localplayer.html#stamina" class="tsd-kind-icon">stamina</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#strafespeed" class="tsd-kind-icon">strafe<wbr>Speed</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#type" class="tsd-kind-icon">type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.localplayer.html#valid" class="tsd-kind-icon">valid</a></li>
@@ -268,6 +270,16 @@
 							<p>Current weapon components.</p>
 						</div>
 					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="currentweapondata" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> current<wbr>Weapon<wbr>Data</h3>
+					<div class="tsd-signature tsd-kind-icon">current<wbr>Weapon<wbr>Data<span class="tsd-signature-symbol">:</span> <a href="_alt_client_.weapondata.html" class="tsd-signature-type">WeaponData</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:888</li>
+						</ul>
+					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="entityaimoffset" class="tsd-anchor"></a>
@@ -741,6 +753,22 @@
 						</dl>
 					</div>
 				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="stamina" class="tsd-anchor"></a>
+					<h3>stamina</h3>
+					<div class="tsd-signature tsd-kind-icon">stamina<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:903</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="strafespeed" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> strafe<wbr>Speed</h3>
@@ -909,7 +937,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:900</li>
+									<li>Defined in types-client/index.d.ts:905</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -924,7 +952,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:901</li>
+									<li>Defined in types-client/index.d.ts:906</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -979,7 +1007,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:906</li>
+									<li>Defined in types-client/index.d.ts:911</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1000,7 +1028,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:907</li>
+									<li>Defined in types-client/index.d.ts:912</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1021,7 +1049,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:909</li>
+									<li>Defined in types-client/index.d.ts:914</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1280,7 +1308,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:888</li>
+									<li>Defined in types-client/index.d.ts:890</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1294,7 +1322,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:890</li>
+									<li>Defined in types-client/index.d.ts:892</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1318,7 +1346,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:892</li>
+									<li>Defined in types-client/index.d.ts:894</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1332,7 +1360,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:894</li>
+									<li>Defined in types-client/index.d.ts:896</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1357,7 +1385,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:903</li>
+									<li>Defined in types-client/index.d.ts:908</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1372,7 +1400,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:904</li>
+									<li>Defined in types-client/index.d.ts:909</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1498,7 +1526,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:896</li>
+									<li>Defined in types-client/index.d.ts:898</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1512,7 +1540,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:898</li>
+									<li>Defined in types-client/index.d.ts:900</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1538,7 +1566,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:911</li>
+									<li>Defined in types-client/index.d.ts:916</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1562,7 +1590,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:912</li>
+									<li>Defined in types-client/index.d.ts:917</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1586,7 +1614,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_client_.player.html">Player</a>.<a href="_alt_client_.player.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:914</li>
+									<li>Defined in types-client/index.d.ts:919</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1733,6 +1761,9 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.localplayer.html#currentweaponcomponents" class="tsd-kind-icon">current<wbr>Weapon<wbr>Components</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_client_.localplayer.html#currentweapondata" class="tsd-kind-icon">current<wbr>Weapon<wbr>Data</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.localplayer.html#entityaimoffset" class="tsd-kind-icon">entity<wbr>Aim<wbr>Offset</a>
 							</li>
@@ -1813,6 +1844,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.localplayer.html#spatialvolume" class="tsd-kind-icon">spatial<wbr>Volume</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_client_.localplayer.html#stamina" class="tsd-kind-icon">stamina</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.localplayer.html#strafespeed" class="tsd-kind-icon">strafe<wbr>Speed</a>
