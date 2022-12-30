@@ -15565,7 +15565,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3215,
+									"line": 3221,
 									"character": 26
 								}
 							]
@@ -15584,7 +15584,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3221,
+									"line": 3227,
 									"character": 46
 								}
 							],
@@ -15608,7 +15608,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3220,
+									"line": 3226,
 									"character": 46
 								}
 							],
@@ -15632,7 +15632,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3219,
+									"line": 3225,
 									"character": 43
 								}
 							],
@@ -15656,7 +15656,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3218,
+									"line": 3224,
 									"character": 43
 								}
 							],
@@ -15693,7 +15693,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3225,
+									"line": 3231,
 									"character": 28
 								}
 							]
@@ -15801,12 +15801,12 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3223,
+									"line": 3229,
 									"character": 31
 								},
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3224,
+									"line": 3230,
 									"character": 31
 								}
 							]
@@ -15842,7 +15842,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3215,
+							"line": 3221,
 							"character": 24
 						}
 					]
@@ -24725,7 +24725,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3263,
+									"line": 3269,
 									"character": 38
 								}
 							],
@@ -24750,7 +24750,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3289,
+									"line": 3295,
 									"character": 16
 								}
 							],
@@ -24772,7 +24772,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3292,
+									"line": 3298,
 									"character": 27
 								}
 							],
@@ -24796,7 +24796,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3298,
+									"line": 3304,
 									"character": 21
 								}
 							],
@@ -24848,7 +24848,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3324,
+									"line": 3330,
 									"character": 38
 								}
 							],
@@ -24873,7 +24873,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3301,
+									"line": 3307,
 									"character": 28
 								}
 							],
@@ -24931,7 +24931,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3338,
+									"line": 3344,
 									"character": 33
 								}
 							],
@@ -24955,7 +24955,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3295,
+									"line": 3301,
 									"character": 22
 								}
 							],
@@ -25052,7 +25052,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3284,
+									"line": 3290,
 									"character": 14
 								}
 							],
@@ -25115,7 +25115,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3286,
+									"line": 3292,
 									"character": 14
 								}
 							],
@@ -25172,7 +25172,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3336,
+									"line": 3342,
 									"character": 27
 								}
 							],
@@ -25289,7 +25289,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3280,
+									"line": 3286,
 									"character": 30
 								}
 							],
@@ -25324,7 +25324,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3282,
+									"line": 3288,
 									"character": 35
 								}
 							],
@@ -25367,7 +25367,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3334,
+									"line": 3340,
 									"character": 26
 								}
 							]
@@ -25633,12 +25633,12 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3314,
+									"line": 3320,
 									"character": 25
 								},
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3315,
+									"line": 3321,
 									"character": 25
 								}
 							]
@@ -25880,7 +25880,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3322,
+									"line": 3328,
 									"character": 17
 								}
 							]
@@ -27295,7 +27295,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3329,
+									"line": 3335,
 									"character": 32
 								}
 							]
@@ -27327,7 +27327,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3290,
+									"line": 3296,
 									"character": 21
 								}
 							]
@@ -27725,7 +27725,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3332,
+									"line": 3338,
 									"character": 28
 								}
 							]
@@ -27785,7 +27785,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3326,
+									"line": 3332,
 									"character": 26
 								}
 							]
@@ -27842,7 +27842,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3341,
+									"line": 3347,
 									"character": 23
 								}
 							]
@@ -28065,7 +28065,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3263,
+							"line": 3269,
 							"character": 21
 						}
 					],
@@ -33939,16 +33939,31 @@
 									"flags": {
 										"isExported": true
 									},
+									"comment": {
+										"shortText": "Takes a heap snapshot.\nFor more information see https://nodejs.org/en/docs/guides/diagnostics/memory/using-heap-snapshot/",
+										"tags": [
+											{
+												"tag": "remarks",
+												"text": "The return value is a promise that once resolved contains the JSON string of the serialized heap.\n"
+											}
+										]
+									},
 									"type": {
-										"type": "intrinsic",
-										"name": "void"
+										"type": "reference",
+										"typeArguments": [
+											{
+												"type": "intrinsic",
+												"name": "string"
+											}
+										],
+										"name": "Promise"
 									}
 								}
 							],
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2788,
+									"line": 2794,
 									"character": 34
 								}
 							]
@@ -36371,7 +36386,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2858,
+									"line": 2864,
 									"character": 47
 								}
 							],
@@ -36394,7 +36409,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2907,
+									"line": 2913,
 									"character": 32
 								}
 							],
@@ -36421,7 +36436,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2891,
+									"line": 2897,
 									"character": 34
 								}
 							],
@@ -36449,7 +36464,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2909,
+									"line": 2915,
 									"character": 31
 								}
 							],
@@ -36476,7 +36491,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2893,
+									"line": 2899,
 									"character": 28
 								}
 							],
@@ -36503,7 +36518,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2869,
+									"line": 2875,
 									"character": 24
 								}
 							],
@@ -36526,7 +36541,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2947,
+									"line": 2953,
 									"character": 30
 								}
 							],
@@ -36553,7 +36568,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2955,
+									"line": 2961,
 									"character": 30
 								}
 							],
@@ -36587,7 +36602,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2917,
+									"line": 2923,
 									"character": 32
 								}
 							],
@@ -36614,7 +36629,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2911,
+									"line": 2917,
 									"character": 30
 								}
 							],
@@ -36641,7 +36656,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2913,
+									"line": 2919,
 									"character": 29
 								}
 							],
@@ -36668,7 +36683,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2915,
+									"line": 2921,
 									"character": 31
 								}
 							],
@@ -36695,7 +36710,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2897,
+									"line": 2903,
 									"character": 35
 								}
 							],
@@ -36723,7 +36738,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2943,
+									"line": 2949,
 									"character": 30
 								}
 							],
@@ -36760,7 +36775,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2899,
+									"line": 2905,
 									"character": 34
 								}
 							],
@@ -36797,7 +36812,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2949,
+									"line": 2955,
 									"character": 31
 								}
 							],
@@ -36823,7 +36838,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2903,
+									"line": 2909,
 									"character": 13
 								}
 							],
@@ -36849,7 +36864,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2951,
+									"line": 2957,
 									"character": 19
 								}
 							],
@@ -36876,7 +36891,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2867,
+									"line": 2873,
 									"character": 27
 								}
 							],
@@ -36898,7 +36913,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2905,
+									"line": 2911,
 									"character": 27
 								}
 							],
@@ -36925,7 +36940,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2865,
+									"line": 2871,
 									"character": 29
 								}
 							],
@@ -36952,7 +36967,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2945,
+									"line": 2951,
 									"character": 29
 								}
 							],
@@ -36989,7 +37004,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2939,
+									"line": 2945,
 									"character": 31
 								}
 							],
@@ -37026,7 +37041,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2925,
+									"line": 2931,
 									"character": 32
 								}
 							],
@@ -37053,7 +37068,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2919,
+									"line": 2925,
 									"character": 30
 								}
 							],
@@ -37080,7 +37095,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2921,
+									"line": 2927,
 									"character": 29
 								}
 							],
@@ -37107,7 +37122,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2923,
+									"line": 2929,
 									"character": 31
 								}
 							],
@@ -37134,7 +37149,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2953,
+									"line": 2959,
 									"character": 33
 								}
 							],
@@ -37162,7 +37177,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2937,
+									"line": 2943,
 									"character": 26
 								}
 							],
@@ -37199,7 +37214,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2941,
+									"line": 2947,
 									"character": 35
 								}
 							],
@@ -37272,7 +37287,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2889,
+									"line": 2895,
 									"character": 34
 								}
 							],
@@ -37300,7 +37315,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2933,
+									"line": 2939,
 									"character": 32
 								}
 							],
@@ -37326,7 +37341,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2927,
+									"line": 2933,
 									"character": 21
 								}
 							],
@@ -37352,7 +37367,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2929,
+									"line": 2935,
 									"character": 20
 								}
 							],
@@ -37379,7 +37394,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2931,
+									"line": 2937,
 									"character": 31
 								}
 							],
@@ -37406,7 +37421,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2863,
+									"line": 2869,
 									"character": 29
 								}
 							],
@@ -37427,7 +37442,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3029,
+									"line": 3035,
 									"character": 16
 								}
 							],
@@ -37464,7 +37479,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2901,
+									"line": 2907,
 									"character": 27
 								}
 							],
@@ -37490,7 +37505,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2861,
+									"line": 2867,
 									"character": 16
 								}
 							],
@@ -37579,7 +37594,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2895,
+									"line": 2901,
 									"character": 26
 								}
 							],
@@ -37640,7 +37655,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2965,
+									"line": 2971,
 									"character": 19
 								}
 							],
@@ -37697,7 +37712,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2973,
+									"line": 2979,
 									"character": 25
 								}
 							],
@@ -37755,7 +37770,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2957,
+									"line": 2963,
 									"character": 22
 								}
 							],
@@ -37797,7 +37812,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3023,
+									"line": 3029,
 									"character": 15
 								}
 							],
@@ -37839,7 +37854,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3025,
+									"line": 3031,
 									"character": 16
 								}
 							],
@@ -37906,7 +37921,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3009,
+									"line": 3015,
 									"character": 18
 								}
 							],
@@ -37959,7 +37974,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2877,
+									"line": 2883,
 									"character": 24
 								}
 							]
@@ -38007,7 +38022,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2879,
+									"line": 2885,
 									"character": 25
 								}
 							]
@@ -38232,7 +38247,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3021,
+									"line": 3027,
 									"character": 16
 								}
 							],
@@ -38289,7 +38304,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3005,
+									"line": 3011,
 									"character": 23
 								}
 							],
@@ -38341,7 +38356,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3007,
+									"line": 3013,
 									"character": 24
 								}
 							],
@@ -38389,7 +38404,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2971,
+									"line": 2977,
 									"character": 23
 								}
 							],
@@ -38456,7 +38471,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3011,
+									"line": 3017,
 									"character": 25
 								}
 							],
@@ -38520,7 +38535,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3015,
+									"line": 3021,
 									"character": 33
 								}
 							],
@@ -38584,7 +38599,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3013,
+									"line": 3019,
 									"character": 31
 								}
 							],
@@ -38690,7 +38705,7 @@
 												"sources": [
 													{
 														"fileName": "types-client/index.d.ts",
-														"line": 2887,
+														"line": 2893,
 														"character": 50
 													}
 												]
@@ -38707,7 +38722,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2887,
+									"line": 2893,
 									"character": 28
 								}
 							],
@@ -38764,7 +38779,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2995,
+									"line": 3001,
 									"character": 27
 								}
 							],
@@ -39152,7 +39167,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2993,
+									"line": 2999,
 									"character": 22
 								}
 							],
@@ -39209,7 +39224,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2997,
+									"line": 3003,
 									"character": 35
 								}
 							],
@@ -39257,7 +39272,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2979,
+									"line": 2985,
 									"character": 29
 								}
 							],
@@ -39314,7 +39329,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3003,
+									"line": 3009,
 									"character": 23
 								}
 							],
@@ -39371,7 +39386,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2969,
+									"line": 2975,
 									"character": 19
 								}
 							],
@@ -39428,7 +39443,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2991,
+									"line": 2997,
 									"character": 27
 								}
 							],
@@ -39628,7 +39643,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2989,
+									"line": 2995,
 									"character": 22
 								}
 							],
@@ -39685,7 +39700,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2977,
+									"line": 2983,
 									"character": 25
 								}
 							],
@@ -39722,7 +39737,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2873,
+									"line": 2879,
 									"character": 15
 								}
 							]
@@ -39789,7 +39804,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2959,
+									"line": 2965,
 									"character": 23
 								}
 							],
@@ -39847,7 +39862,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2983,
+									"line": 2989,
 									"character": 31
 								}
 							],
@@ -39944,7 +39959,7 @@
 													"sources": [
 														{
 															"fileName": "types-client/index.d.ts",
-															"line": 2885,
+															"line": 2891,
 															"character": 39
 														}
 													]
@@ -39966,7 +39981,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2885,
+									"line": 2891,
 									"character": 14
 								}
 							],
@@ -40077,7 +40092,7 @@
 													"sources": [
 														{
 															"fileName": "types-client/index.d.ts",
-															"line": 2883,
+															"line": 2889,
 															"character": 38
 														}
 													]
@@ -40099,7 +40114,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2883,
+									"line": 2889,
 									"character": 13
 								}
 							],
@@ -40166,7 +40181,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3017,
+									"line": 3023,
 									"character": 24
 								}
 							],
@@ -40230,7 +40245,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3019,
+									"line": 3025,
 									"character": 27
 								}
 							],
@@ -40287,7 +40302,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3001,
+									"line": 3007,
 									"character": 26
 								}
 							],
@@ -40345,7 +40360,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2963,
+									"line": 2969,
 									"character": 22
 								}
 							],
@@ -40402,7 +40417,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2967,
+									"line": 2973,
 									"character": 22
 								}
 							],
@@ -40459,7 +40474,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2987,
+									"line": 2993,
 									"character": 25
 								}
 							],
@@ -40516,7 +40531,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2975,
+									"line": 2981,
 									"character": 28
 								}
 							],
@@ -40588,7 +40603,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2961,
+									"line": 2967,
 									"character": 23
 								}
 							],
@@ -40646,7 +40661,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3027,
+									"line": 3033,
 									"character": 25
 								}
 							],
@@ -40716,7 +40731,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2999,
+									"line": 3005,
 									"character": 23
 								}
 							],
@@ -41150,7 +41165,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2981,
+									"line": 2987,
 									"character": 20
 								}
 							],
@@ -41220,7 +41235,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2985,
+									"line": 2991,
 									"character": 22
 								}
 							],
@@ -41287,7 +41302,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2871,
+									"line": 2877,
 									"character": 15
 								}
 							]
@@ -41319,7 +41334,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2875,
+									"line": 2881,
 									"character": 17
 								}
 							]
@@ -41441,7 +41456,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2858,
+							"line": 2864,
 							"character": 26
 						}
 					],
@@ -41518,7 +41533,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2907,
+									"line": 2913,
 									"character": 32
 								}
 							],
@@ -41540,7 +41555,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2891,
+									"line": 2897,
 									"character": 34
 								}
 							],
@@ -41563,7 +41578,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2909,
+									"line": 2915,
 									"character": 31
 								}
 							],
@@ -41585,7 +41600,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2893,
+									"line": 2899,
 									"character": 28
 								}
 							],
@@ -41607,7 +41622,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2947,
+									"line": 2953,
 									"character": 30
 								}
 							],
@@ -41629,7 +41644,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2955,
+									"line": 2961,
 									"character": 30
 								}
 							],
@@ -41658,7 +41673,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2917,
+									"line": 2923,
 									"character": 32
 								}
 							],
@@ -41680,7 +41695,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2911,
+									"line": 2917,
 									"character": 30
 								}
 							],
@@ -41702,7 +41717,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2913,
+									"line": 2919,
 									"character": 29
 								}
 							],
@@ -41724,7 +41739,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2915,
+									"line": 2921,
 									"character": 31
 								}
 							],
@@ -41746,7 +41761,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2897,
+									"line": 2903,
 									"character": 35
 								}
 							],
@@ -41769,7 +41784,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2943,
+									"line": 2949,
 									"character": 30
 								}
 							],
@@ -41801,7 +41816,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2899,
+									"line": 2905,
 									"character": 34
 								}
 							],
@@ -41833,7 +41848,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2949,
+									"line": 2955,
 									"character": 31
 								}
 							],
@@ -41854,7 +41869,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2903,
+									"line": 2909,
 									"character": 13
 								}
 							],
@@ -41875,7 +41890,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2951,
+									"line": 2957,
 									"character": 19
 								}
 							],
@@ -41897,7 +41912,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2905,
+									"line": 2911,
 									"character": 27
 								}
 							],
@@ -41919,7 +41934,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2935,
+									"line": 2941,
 									"character": 29
 								}
 							],
@@ -41941,7 +41956,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2945,
+									"line": 2951,
 									"character": 29
 								}
 							],
@@ -41973,7 +41988,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2939,
+									"line": 2945,
 									"character": 31
 								}
 							],
@@ -42005,7 +42020,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2925,
+									"line": 2931,
 									"character": 32
 								}
 							],
@@ -42027,7 +42042,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2919,
+									"line": 2925,
 									"character": 30
 								}
 							],
@@ -42049,7 +42064,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2921,
+									"line": 2927,
 									"character": 29
 								}
 							],
@@ -42071,7 +42086,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2923,
+									"line": 2929,
 									"character": 31
 								}
 							],
@@ -42093,7 +42108,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2953,
+									"line": 2959,
 									"character": 33
 								}
 							],
@@ -42116,7 +42131,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2937,
+									"line": 2943,
 									"character": 26
 								}
 							],
@@ -42148,7 +42163,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2941,
+									"line": 2947,
 									"character": 35
 								}
 							],
@@ -42216,7 +42231,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2889,
+									"line": 2895,
 									"character": 34
 								}
 							],
@@ -42239,7 +42254,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2933,
+									"line": 2939,
 									"character": 32
 								}
 							],
@@ -42260,7 +42275,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2927,
+									"line": 2933,
 									"character": 21
 								}
 							],
@@ -42281,7 +42296,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2929,
+									"line": 2935,
 									"character": 20
 								}
 							],
@@ -42303,7 +42318,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2931,
+									"line": 2937,
 									"character": 31
 								}
 							],
@@ -42324,7 +42339,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3029,
+									"line": 3035,
 									"character": 16
 								}
 							],
@@ -42356,7 +42371,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2901,
+									"line": 2907,
 									"character": 27
 								}
 							],
@@ -42445,7 +42460,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2895,
+									"line": 2901,
 									"character": 26
 								}
 							],
@@ -42496,7 +42511,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2965,
+									"line": 2971,
 									"character": 19
 								}
 							]
@@ -42543,7 +42558,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2973,
+									"line": 2979,
 									"character": 25
 								}
 							]
@@ -42591,7 +42606,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2957,
+									"line": 2963,
 									"character": 22
 								}
 							]
@@ -42623,7 +42638,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3023,
+									"line": 3029,
 									"character": 15
 								}
 							]
@@ -42655,7 +42670,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3025,
+									"line": 3031,
 									"character": 16
 								}
 							]
@@ -42712,7 +42727,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3009,
+									"line": 3015,
 									"character": 18
 								}
 							]
@@ -42932,7 +42947,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3021,
+									"line": 3027,
 									"character": 16
 								}
 							]
@@ -42979,7 +42994,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3005,
+									"line": 3011,
 									"character": 23
 								}
 							]
@@ -43021,7 +43036,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3007,
+									"line": 3013,
 									"character": 24
 								}
 							]
@@ -43059,7 +43074,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2971,
+									"line": 2977,
 									"character": 23
 								}
 							]
@@ -43116,7 +43131,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3011,
+									"line": 3017,
 									"character": 25
 								}
 							]
@@ -43170,7 +43185,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3015,
+									"line": 3021,
 									"character": 33
 								}
 							]
@@ -43224,7 +43239,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3013,
+									"line": 3019,
 									"character": 31
 								}
 							]
@@ -43325,7 +43340,7 @@
 												"sources": [
 													{
 														"fileName": "types-client/index.d.ts",
-														"line": 2887,
+														"line": 2893,
 														"character": 50
 													}
 												]
@@ -43337,7 +43352,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2887,
+									"line": 2893,
 									"character": 28
 								}
 							]
@@ -43384,7 +43399,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2995,
+									"line": 3001,
 									"character": 27
 								}
 							]
@@ -43762,7 +43777,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2993,
+									"line": 2999,
 									"character": 22
 								}
 							]
@@ -43809,7 +43824,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2997,
+									"line": 3003,
 									"character": 35
 								}
 							]
@@ -43847,7 +43862,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2979,
+									"line": 2985,
 									"character": 29
 								}
 							]
@@ -43894,7 +43909,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3003,
+									"line": 3009,
 									"character": 23
 								}
 							]
@@ -43941,7 +43956,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2969,
+									"line": 2975,
 									"character": 19
 								}
 							]
@@ -43988,7 +44003,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2991,
+									"line": 2997,
 									"character": 27
 								}
 							]
@@ -44178,7 +44193,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2989,
+									"line": 2995,
 									"character": 22
 								}
 							]
@@ -44225,7 +44240,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2977,
+									"line": 2983,
 									"character": 25
 								}
 							]
@@ -44287,7 +44302,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2959,
+									"line": 2965,
 									"character": 23
 								}
 							]
@@ -44335,7 +44350,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2983,
+									"line": 2989,
 									"character": 31
 								}
 							]
@@ -44427,7 +44442,7 @@
 													"sources": [
 														{
 															"fileName": "types-client/index.d.ts",
-															"line": 2885,
+															"line": 2891,
 															"character": 39
 														}
 													]
@@ -44444,7 +44459,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2885,
+									"line": 2891,
 									"character": 14
 								}
 							]
@@ -44550,7 +44565,7 @@
 													"sources": [
 														{
 															"fileName": "types-client/index.d.ts",
-															"line": 2883,
+															"line": 2889,
 															"character": 38
 														}
 													]
@@ -44567,7 +44582,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2883,
+									"line": 2889,
 									"character": 13
 								}
 							]
@@ -44624,7 +44639,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3017,
+									"line": 3023,
 									"character": 24
 								}
 							]
@@ -44678,7 +44693,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3019,
+									"line": 3025,
 									"character": 27
 								}
 							]
@@ -44725,7 +44740,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3001,
+									"line": 3007,
 									"character": 26
 								}
 							]
@@ -44773,7 +44788,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2963,
+									"line": 2969,
 									"character": 22
 								}
 							]
@@ -44820,7 +44835,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2967,
+									"line": 2973,
 									"character": 22
 								}
 							]
@@ -44867,7 +44882,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2987,
+									"line": 2993,
 									"character": 25
 								}
 							]
@@ -44914,7 +44929,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2975,
+									"line": 2981,
 									"character": 28
 								}
 							]
@@ -44976,7 +44991,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2961,
+									"line": 2967,
 									"character": 23
 								}
 							]
@@ -45024,7 +45039,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3027,
+									"line": 3033,
 									"character": 25
 								}
 							]
@@ -45084,7 +45099,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2999,
+									"line": 3005,
 									"character": 23
 								}
 							]
@@ -45508,7 +45523,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2981,
+									"line": 2987,
 									"character": 20
 								}
 							]
@@ -45568,7 +45583,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 2985,
+									"line": 2991,
 									"character": 22
 								}
 							]
@@ -45681,7 +45696,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2882,
+							"line": 2888,
 							"character": 25
 						}
 					],
@@ -46222,7 +46237,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3142,
+																	"line": 3148,
 																	"character": 76
 																}
 															]
@@ -46266,7 +46281,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3125,
+											"line": 3131,
 											"character": 26
 										}
 									]
@@ -46298,7 +46313,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3143,
+											"line": 3149,
 											"character": 20
 										}
 									]
@@ -46323,7 +46338,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3125,
+									"line": 3131,
 									"character": 24
 								}
 							]
@@ -46395,7 +46410,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3146,
+											"line": 3152,
 											"character": 25
 										}
 									]
@@ -46412,7 +46427,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3155,
+											"line": 3161,
 											"character": 25
 										}
 									],
@@ -46433,7 +46448,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3154,
+											"line": 3160,
 											"character": 18
 										}
 									],
@@ -46455,7 +46470,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3151,
+											"line": 3157,
 											"character": 16
 										}
 									],
@@ -46477,7 +46492,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3161,
+											"line": 3167,
 											"character": 23
 										}
 									],
@@ -46498,7 +46513,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3156,
+											"line": 3162,
 											"character": 23
 										}
 									],
@@ -46519,7 +46534,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3157,
+											"line": 3163,
 											"character": 16
 										}
 									],
@@ -46540,7 +46555,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3150,
+											"line": 3156,
 											"character": 16
 										}
 									],
@@ -46562,7 +46577,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3152,
+											"line": 3158,
 											"character": 16
 										}
 									],
@@ -46584,7 +46599,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3158,
+											"line": 3164,
 											"character": 19
 										}
 									],
@@ -46605,7 +46620,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3153,
+											"line": 3159,
 											"character": 18
 										}
 									],
@@ -46627,7 +46642,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3159,
+											"line": 3165,
 											"character": 24
 										}
 									],
@@ -46657,7 +46672,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3160,
+											"line": 3166,
 											"character": 24
 										}
 									],
@@ -46687,7 +46702,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3149,
+											"line": 3155,
 											"character": 17
 										}
 									],
@@ -46723,7 +46738,7 @@
 									"sources": [
 										{
 											"fileName": "types-client/index.d.ts",
-											"line": 3163,
+											"line": 3169,
 											"character": 20
 										}
 									]
@@ -46767,7 +46782,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3146,
+									"line": 3152,
 									"character": 23
 								}
 							]
@@ -47317,7 +47332,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3034,
+									"line": 3040,
 									"character": 43
 								}
 							],
@@ -47519,7 +47534,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3056,
+									"line": 3062,
 									"character": 30
 								}
 							]
@@ -47653,7 +47668,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3054,
+									"line": 3060,
 									"character": 39
 								}
 							]
@@ -47787,7 +47802,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3060,
+									"line": 3066,
 									"character": 30
 								}
 							]
@@ -47920,7 +47935,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3058,
+									"line": 3064,
 									"character": 39
 								}
 							]
@@ -47980,7 +47995,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3114,
+																	"line": 3120,
 																	"character": 52
 																}
 															],
@@ -48002,7 +48017,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3114,
+																	"line": 3120,
 																	"character": 77
 																}
 															],
@@ -48025,7 +48040,7 @@
 													"sources": [
 														{
 															"fileName": "types-client/index.d.ts",
-															"line": 3114,
+															"line": 3120,
 															"character": 46
 														}
 													]
@@ -48052,7 +48067,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3114,
+									"line": 3120,
 									"character": 36
 								}
 							]
@@ -48112,7 +48127,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3096,
+																	"line": 3102,
 																	"character": 52
 																}
 															],
@@ -48134,7 +48149,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3096,
+																	"line": 3102,
 																	"character": 77
 																}
 															],
@@ -48157,7 +48172,7 @@
 													"sources": [
 														{
 															"fileName": "types-client/index.d.ts",
-															"line": 3096,
+															"line": 3102,
 															"character": 46
 														}
 													]
@@ -48184,7 +48199,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3096,
+									"line": 3102,
 									"character": 36
 								}
 							]
@@ -48244,7 +48259,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3105,
+																	"line": 3111,
 																	"character": 53
 																}
 															],
@@ -48266,7 +48281,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3105,
+																	"line": 3111,
 																	"character": 78
 																}
 															],
@@ -48289,7 +48304,7 @@
 													"sources": [
 														{
 															"fileName": "types-client/index.d.ts",
-															"line": 3105,
+															"line": 3111,
 															"character": 47
 														}
 													]
@@ -48316,7 +48331,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3105,
+									"line": 3111,
 									"character": 37
 								}
 							]
@@ -48376,7 +48391,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3123,
+																	"line": 3129,
 																	"character": 57
 																}
 															],
@@ -48398,7 +48413,7 @@
 															"sources": [
 																{
 																	"fileName": "types-client/index.d.ts",
-																	"line": 3123,
+																	"line": 3129,
 																	"character": 82
 																}
 															],
@@ -48421,7 +48436,7 @@
 													"sources": [
 														{
 															"fileName": "types-client/index.d.ts",
-															"line": 3123,
+															"line": 3129,
 															"character": 51
 														}
 													]
@@ -48448,7 +48463,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3123,
+									"line": 3129,
 									"character": 41
 								}
 							]
@@ -48619,7 +48634,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3072,
+									"line": 3078,
 									"character": 31
 								}
 							]
@@ -48685,7 +48700,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3082,
+									"line": 3088,
 									"character": 46
 								}
 							]
@@ -48751,7 +48766,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3077,
+									"line": 3083,
 									"character": 45
 								}
 							]
@@ -48817,7 +48832,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3087,
+									"line": 3093,
 									"character": 56
 								}
 							]
@@ -48884,7 +48899,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3046,
+									"line": 3052,
 									"character": 35
 								}
 							]
@@ -48951,7 +48966,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3048,
+									"line": 3054,
 									"character": 34
 								}
 							]
@@ -49018,7 +49033,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3050,
+									"line": 3056,
 									"character": 34
 								}
 							]
@@ -49107,7 +49122,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3052,
+									"line": 3058,
 									"character": 35
 								}
 							]
@@ -49192,7 +49207,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3044,
+									"line": 3050,
 									"character": 32
 								}
 							]
@@ -49410,12 +49425,12 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3034,
+							"line": 3040,
 							"character": 20
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3038,
+							"line": 3044,
 							"character": 24
 						}
 					],
@@ -53552,7 +53567,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3231,
+									"line": 3237,
 									"character": 27
 								}
 							]
@@ -53569,7 +53584,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3243,
+									"line": 3249,
 									"character": 25
 								}
 							],
@@ -53590,7 +53605,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3240,
+									"line": 3246,
 									"character": 25
 								}
 							],
@@ -53612,7 +53627,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3246,
+									"line": 3252,
 									"character": 28
 								}
 							],
@@ -53633,7 +53648,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3245,
+									"line": 3251,
 									"character": 17
 								}
 							],
@@ -53654,7 +53669,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3248,
+									"line": 3254,
 									"character": 33
 								}
 							],
@@ -53675,7 +53690,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3242,
+									"line": 3248,
 									"character": 22
 								}
 							],
@@ -53697,7 +53712,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3234,
+									"line": 3240,
 									"character": 29
 								}
 							],
@@ -53719,7 +53734,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3235,
+									"line": 3241,
 									"character": 28
 								}
 							],
@@ -53740,7 +53755,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3249,
+									"line": 3255,
 									"character": 31
 								}
 							],
@@ -53761,7 +53776,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3244,
+									"line": 3250,
 									"character": 16
 								}
 							],
@@ -53782,7 +53797,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3237,
+									"line": 3243,
 									"character": 28
 								}
 							],
@@ -53803,7 +53818,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3238,
+									"line": 3244,
 									"character": 46
 								}
 							],
@@ -53824,7 +53839,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3239,
+									"line": 3245,
 									"character": 29
 								}
 							],
@@ -53845,7 +53860,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3236,
+									"line": 3242,
 									"character": 31
 								}
 							],
@@ -53867,7 +53882,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3247,
+									"line": 3253,
 									"character": 36
 								}
 							],
@@ -53888,7 +53903,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3241,
+									"line": 3247,
 									"character": 28
 								}
 							],
@@ -53944,7 +53959,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3254,
+									"line": 3260,
 									"character": 28
 								}
 							]
@@ -53991,7 +54006,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3231,
+							"line": 3237,
 							"character": 25
 						}
 					]
@@ -66390,7 +66405,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2832,
+							"line": 2838,
 							"character": 33
 						}
 					]
@@ -66958,7 +66973,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2854,
+							"line": 2860,
 							"character": 27
 						}
 					]
@@ -67143,7 +67158,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2807,
+							"line": 2813,
 							"character": 24
 						}
 					]
@@ -67524,17 +67539,17 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3173,
+							"line": 3179,
 							"character": 30
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3174,
+							"line": 3180,
 							"character": 30
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3176,
+							"line": 3182,
 							"character": 30
 						}
 					]
@@ -67918,7 +67933,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2802,
+							"line": 2808,
 							"character": 25
 						}
 					]
@@ -68064,7 +68079,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2856,
+							"line": 2862,
 							"character": 37
 						}
 					]
@@ -68099,7 +68114,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2818,
+							"line": 2824,
 							"character": 29
 						}
 					]
@@ -68134,7 +68149,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2825,
+							"line": 2831,
 							"character": 31
 						}
 					]
@@ -68280,7 +68295,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2811,
+							"line": 2817,
 							"character": 37
 						}
 					]
@@ -68311,7 +68326,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2809,
+							"line": 2815,
 							"character": 37
 						}
 					]
@@ -68418,12 +68433,12 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3178,
+							"line": 3184,
 							"character": 30
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3179,
+							"line": 3185,
 							"character": 30
 						}
 					]
@@ -68829,12 +68844,12 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3259,
+							"line": 3265,
 							"character": 33
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3261,
+							"line": 3267,
 							"character": 33
 						}
 					]
@@ -68924,7 +68939,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3257,
+							"line": 3263,
 							"character": 33
 						}
 					]
@@ -69131,7 +69146,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2838,
+							"line": 2844,
 							"character": 29
 						}
 					]
@@ -71024,7 +71039,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2836,
+							"line": 2842,
 							"character": 36
 						}
 					]
@@ -71117,12 +71132,12 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2851,
+							"line": 2857,
 							"character": 31
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2852,
+							"line": 2858,
 							"character": 31
 						}
 					]
@@ -71626,12 +71641,12 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3190,
+							"line": 3196,
 							"character": 45
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3203,
+							"line": 3209,
 							"character": 45
 						}
 					]
@@ -71683,7 +71698,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3210,
+							"line": 3216,
 							"character": 39
 						}
 					]
@@ -72325,12 +72340,12 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2796,
+							"line": 2802,
 							"character": 38
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2797,
+							"line": 2803,
 							"character": 38
 						}
 					]
@@ -72730,7 +72745,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2834,
+							"line": 2840,
 							"character": 35
 						}
 					]
@@ -72941,12 +72956,12 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2845,
+							"line": 2851,
 							"character": 31
 						},
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 2846,
+							"line": 2852,
 							"character": 31
 						}
 					]
