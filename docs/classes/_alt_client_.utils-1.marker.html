@@ -71,6 +71,26 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>A marker class whose instances do not need to be created in every tick.</p>
+					</div>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-js"><span class="hljs-comment">// Creates marker at local player pos with default options</span>
+<span class="hljs-keyword">const</span> defaultMarker = <span class="hljs-keyword">new</span> alt.Utils.Marker(alt.Player.local.pos);
+
+<span class="hljs-comment">// Creates default marker at 0, 0, 72 with red color</span>
+<span class="hljs-keyword">const</span> redMarker = <span class="hljs-keyword">new</span> alt.Utils.Marker(<span class="hljs-keyword">new</span> alt.Vector3(<span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">72</span>), { <span class="hljs-attr">color</span>: alt.RGBA.red });
+
+<span class="hljs-comment">// Later you can change the color, scale, etc.</span>
+redMarker.scale = <span class="hljs-keyword">new</span> alt.Vector3(<span class="hljs-number">3.0</span>); <span class="hljs-comment">// Makes marker bigger</span>
+</code></pre>
+						</dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -128,7 +148,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3152</li>
+									<li>Defined in types-client/index.d.ts:3167</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -153,7 +173,7 @@
 					<div class="tsd-signature tsd-kind-icon">bob<wbr>UpAnd<wbr>Down<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3161</li>
+							<li>Defined in types-client/index.d.ts:3176</li>
 						</ul>
 					</aside>
 				</section>
@@ -163,7 +183,7 @@
 					<div class="tsd-signature tsd-kind-icon">color<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.rgba.html" class="tsd-signature-type">RGBA</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3160</li>
+							<li>Defined in types-client/index.d.ts:3175</li>
 						</ul>
 					</aside>
 				</section>
@@ -173,7 +193,7 @@
 					<div class="tsd-signature tsd-kind-icon">dir<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3157</li>
+							<li>Defined in types-client/index.d.ts:3172</li>
 						</ul>
 					</aside>
 				</section>
@@ -183,7 +203,7 @@
 					<div class="tsd-signature tsd-kind-icon">draw<wbr>OnEnts<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3167</li>
+							<li>Defined in types-client/index.d.ts:3182</li>
 						</ul>
 					</aside>
 				</section>
@@ -193,7 +213,7 @@
 					<div class="tsd-signature tsd-kind-icon">face<wbr>Camera<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3162</li>
+							<li>Defined in types-client/index.d.ts:3177</li>
 						</ul>
 					</aside>
 				</section>
@@ -203,7 +223,7 @@
 					<div class="tsd-signature tsd-kind-icon">p19<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3163</li>
+							<li>Defined in types-client/index.d.ts:3178</li>
 						</ul>
 					</aside>
 				</section>
@@ -213,7 +233,7 @@
 					<div class="tsd-signature tsd-kind-icon">pos<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3156</li>
+							<li>Defined in types-client/index.d.ts:3171</li>
 						</ul>
 					</aside>
 				</section>
@@ -223,7 +243,7 @@
 					<div class="tsd-signature tsd-kind-icon">rot<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3158</li>
+							<li>Defined in types-client/index.d.ts:3173</li>
 						</ul>
 					</aside>
 				</section>
@@ -233,7 +253,7 @@
 					<div class="tsd-signature tsd-kind-icon">rotate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3164</li>
+							<li>Defined in types-client/index.d.ts:3179</li>
 						</ul>
 					</aside>
 				</section>
@@ -243,7 +263,7 @@
 					<div class="tsd-signature tsd-kind-icon">scale<span class="tsd-signature-symbol">:</span> <a href="../interfaces/_alt_shared_.ivector3.html" class="tsd-signature-type">IVector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3159</li>
+							<li>Defined in types-client/index.d.ts:3174</li>
 						</ul>
 					</aside>
 				</section>
@@ -253,7 +273,7 @@
 					<div class="tsd-signature tsd-kind-icon">texture<wbr>Dict<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3165</li>
+							<li>Defined in types-client/index.d.ts:3180</li>
 						</ul>
 					</aside>
 				</section>
@@ -263,7 +283,7 @@
 					<div class="tsd-signature tsd-kind-icon">texture<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3166</li>
+							<li>Defined in types-client/index.d.ts:3181</li>
 						</ul>
 					</aside>
 				</section>
@@ -273,7 +293,7 @@
 					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3155</li>
+							<li>Defined in types-client/index.d.ts:3170</li>
 						</ul>
 					</aside>
 				</section>
@@ -290,7 +310,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3169</li>
+									<li>Defined in types-client/index.d.ts:3184</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
