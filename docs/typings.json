@@ -61842,9 +61842,18 @@
 														"isExported": true
 													},
 													"type": {
-														"type": "reference",
-														"id": 5551,
-														"name": "Player"
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"id": 5551,
+																"name": "Player"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															}
+														]
 													}
 												},
 												{
@@ -61856,9 +61865,18 @@
 														"isExported": true
 													},
 													"type": {
-														"type": "reference",
-														"id": 5551,
-														"name": "Player"
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"id": 5551,
+																"name": "Player"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															}
+														]
 													}
 												}
 											],
@@ -132805,9 +132823,18 @@
 														"isExported": true
 													},
 													"type": {
-														"type": "reference",
-														"id": 2664,
-														"name": "Player"
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"id": 2664,
+																"name": "Player"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															}
+														]
 													}
 												},
 												{
@@ -132819,9 +132846,18 @@
 														"isExported": true
 													},
 													"type": {
-														"type": "reference",
-														"id": 2664,
-														"name": "Player"
+														"type": "union",
+														"types": [
+															{
+																"type": "reference",
+																"id": 2664,
+																"name": "Player"
+															},
+															{
+																"type": "intrinsic",
+																"name": "null"
+															}
+														]
 													}
 												}
 											],
