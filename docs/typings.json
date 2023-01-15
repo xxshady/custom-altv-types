@@ -19574,9 +19574,18 @@
 								}
 							],
 							"type": {
-								"type": "reference",
-								"id": 7398,
-								"name": "WeaponData"
+								"type": "union",
+								"types": [
+									{
+										"type": "reference",
+										"id": 7398,
+										"name": "WeaponData"
+									},
+									{
+										"type": "intrinsic",
+										"name": "null"
+									}
+								]
 							}
 						},
 						{
