@@ -67855,18 +67855,8 @@
 										"isExported": true
 									},
 									"type": {
-										"type": "union",
-										"types": [
-											{
-												"type": "reference",
-												"id": 5555,
-												"name": "Player"
-											},
-											{
-												"type": "intrinsic",
-												"name": "number"
-											}
-										]
+										"type": "intrinsic",
+										"name": "number"
 									}
 								},
 								{
@@ -67885,8 +67875,8 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 1113,
-								"name": "IVector3"
+								"id": 1154,
+								"name": "Vector3"
 							}
 						}
 					],
