@@ -22,7 +22,7 @@
 			},
 			"children": [
 				{
-					"id": 8094,
+					"id": 8098,
 					"name": "AudioCategory",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -32,7 +32,7 @@
 					"target": 655
 				},
 				{
-					"id": 8122,
+					"id": 8126,
 					"name": "BaseObject",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -42,7 +42,7 @@
 					"target": 1437
 				},
 				{
-					"id": 8091,
+					"id": 8095,
 					"name": "BaseObjectType",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -52,7 +52,7 @@
 					"target": 2
 				},
 				{
-					"id": 8093,
+					"id": 8097,
 					"name": "BlipColor",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -62,7 +62,7 @@
 					"target": 602
 				},
 				{
-					"id": 8092,
+					"id": 8096,
 					"name": "BlipSprite",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -72,7 +72,7 @@
 					"target": 16
 				},
 				{
-					"id": 8100,
+					"id": 8104,
 					"name": "BodyPart",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -82,7 +82,7 @@
 					"target": 1087
 				},
 				{
-					"id": 8097,
+					"id": 8101,
 					"name": "CheckpointType",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -92,7 +92,7 @@
 					"target": 892
 				},
 				{
-					"id": 8121,
+					"id": 8125,
 					"name": "File",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -102,7 +102,7 @@
 					"target": 1424
 				},
 				{
-					"id": 8095,
+					"id": 8099,
 					"name": "FileEncoding",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -112,7 +112,7 @@
 					"target": 882
 				},
 				{
-					"id": 8109,
+					"id": 8113,
 					"name": "ICustomBaseObjectMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -122,7 +122,7 @@
 					"target": 1131
 				},
 				{
-					"id": 8111,
+					"id": 8115,
 					"name": "ICustomEntityStreamSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -132,7 +132,7 @@
 					"target": 1133
 				},
 				{
-					"id": 8110,
+					"id": 8114,
 					"name": "ICustomEntitySyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -142,7 +142,7 @@
 					"target": 1132
 				},
 				{
-					"id": 8107,
+					"id": 8111,
 					"name": "ICustomGlobalMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -152,7 +152,7 @@
 					"target": 1129
 				},
 				{
-					"id": 8108,
+					"id": 8112,
 					"name": "ICustomGlobalSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -162,7 +162,7 @@
 					"target": 1130
 				},
 				{
-					"id": 8114,
+					"id": 8118,
 					"name": "ICustomPlayerLocalMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -172,7 +172,7 @@
 					"target": 1136
 				},
 				{
-					"id": 8113,
+					"id": 8117,
 					"name": "ICustomPlayerStreamSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -182,7 +182,7 @@
 					"target": 1135
 				},
 				{
-					"id": 8112,
+					"id": 8116,
 					"name": "ICustomPlayerSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -192,7 +192,7 @@
 					"target": 1134
 				},
 				{
-					"id": 8116,
+					"id": 8120,
 					"name": "ICustomVehicleStreamSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -202,7 +202,7 @@
 					"target": 1138
 				},
 				{
-					"id": 8115,
+					"id": 8119,
 					"name": "ICustomVehicleSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -212,7 +212,7 @@
 					"target": 1137
 				},
 				{
-					"id": 8117,
+					"id": 8121,
 					"name": "IInspectOptions",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -222,7 +222,7 @@
 					"target": 1139
 				},
 				{
-					"id": 8105,
+					"id": 8109,
 					"name": "IResource",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -232,7 +232,7 @@
 					"target": 1117
 				},
 				{
-					"id": 8103,
+					"id": 8107,
 					"name": "IVector2",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -242,7 +242,7 @@
 					"target": 1110
 				},
 				{
-					"id": 8104,
+					"id": 8108,
 					"name": "IVector3",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -252,7 +252,7 @@
 					"target": 1113
 				},
 				{
-					"id": 8099,
+					"id": 8103,
 					"name": "KeyCode",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -262,7 +262,7 @@
 					"target": 979
 				},
 				{
-					"id": 8098,
+					"id": 8102,
 					"name": "ModelType",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -272,7 +272,7 @@
 					"target": 960
 				},
 				{
-					"id": 8096,
+					"id": 8100,
 					"name": "Permission",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -282,7 +282,7 @@
 					"target": 886
 				},
 				{
-					"id": 8120,
+					"id": 8124,
 					"name": "RGBA",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -292,7 +292,7 @@
 					"target": 1390
 				},
 				{
-					"id": 8130,
+					"id": 8134,
 					"name": "Resource",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -302,7 +302,7 @@
 					"target": 1483
 				},
 				{
-					"id": 8131,
+					"id": 8135,
 					"name": "Utils",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -312,7 +312,7 @@
 					"target": 1501
 				},
 				{
-					"id": 8119,
+					"id": 8123,
 					"name": "Vector2",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -322,7 +322,7 @@
 					"target": 1282
 				},
 				{
-					"id": 8118,
+					"id": 8122,
 					"name": "Vector3",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -332,7 +332,7 @@
 					"target": 1154
 				},
 				{
-					"id": 8106,
+					"id": 8110,
 					"name": "VehicleLockState",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -342,7 +342,7 @@
 					"target": 1120
 				},
 				{
-					"id": 8126,
+					"id": 8130,
 					"name": "branch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -352,7 +352,7 @@
 					"target": 1515
 				},
 				{
-					"id": 8066,
+					"id": 8070,
 					"name": "clearEveryTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -362,7 +362,7 @@
 					"target": 1569
 				},
 				{
-					"id": 8067,
+					"id": 8071,
 					"name": "clearInterval",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -372,7 +372,7 @@
 					"target": 1572
 				},
 				{
-					"id": 8068,
+					"id": 8072,
 					"name": "clearNextTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -382,7 +382,7 @@
 					"target": 1575
 				},
 				{
-					"id": 8069,
+					"id": 8073,
 					"name": "clearTimeout",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -392,7 +392,7 @@
 					"target": 1578
 				},
 				{
-					"id": 8127,
+					"id": 8131,
 					"name": "debug",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -402,7 +402,7 @@
 					"target": 1516
 				},
 				{
-					"id": 8060,
+					"id": 8064,
 					"name": "deleteMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -412,7 +412,7 @@
 					"target": 1517
 				},
 				{
-					"id": 8071,
+					"id": 8075,
 					"name": "emit",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -422,7 +422,7 @@
 					"target": 1584
 				},
 				{
-					"id": 8072,
+					"id": 8076,
 					"name": "emitRaw",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -432,7 +432,7 @@
 					"target": 1588
 				},
 				{
-					"id": 8073,
+					"id": 8077,
 					"name": "everyTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -442,7 +442,7 @@
 					"target": 1592
 				},
 				{
-					"id": 8086,
+					"id": 8090,
 					"name": "getAllResources",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -452,7 +452,7 @@
 					"target": 1677
 				},
 				{
-					"id": 8089,
+					"id": 8093,
 					"name": "getEventListeners",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -462,7 +462,7 @@
 					"target": 1763
 				},
 				{
-					"id": 8061,
+					"id": 8065,
 					"name": "getMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -472,7 +472,7 @@
 					"target": 1523
 				},
 				{
-					"id": 8064,
+					"id": 8068,
 					"name": "getSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -482,7 +482,7 @@
 					"target": 1553
 				},
 				{
-					"id": 8062,
+					"id": 8066,
 					"name": "hasMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -492,7 +492,7 @@
 					"target": 1533
 				},
 				{
-					"id": 8075,
+					"id": 8079,
 					"name": "hasResource",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -502,7 +502,7 @@
 					"target": 1601
 				},
 				{
-					"id": 8065,
+					"id": 8069,
 					"name": "hasSyncedMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -512,7 +512,7 @@
 					"target": 1563
 				},
 				{
-					"id": 8074,
+					"id": 8078,
 					"name": "hash",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -522,7 +522,7 @@
 					"target": 1598
 				},
 				{
-					"id": 8128,
+					"id": 8132,
 					"name": "isClient",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -532,7 +532,7 @@
 					"target": 1675
 				},
 				{
-					"id": 8129,
+					"id": 8133,
 					"name": "isServer",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -542,7 +542,7 @@
 					"target": 1676
 				},
 				{
-					"id": 8076,
+					"id": 8080,
 					"name": "log",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -552,7 +552,7 @@
 					"target": 1604
 				},
 				{
-					"id": 8079,
+					"id": 8083,
 					"name": "logDebug",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -562,7 +562,7 @@
 					"target": 1613
 				},
 				{
-					"id": 8077,
+					"id": 8081,
 					"name": "logError",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -572,7 +572,7 @@
 					"target": 1607
 				},
 				{
-					"id": 8078,
+					"id": 8082,
 					"name": "logWarning",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -582,7 +582,7 @@
 					"target": 1610
 				},
 				{
-					"id": 8080,
+					"id": 8084,
 					"name": "nextTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -592,7 +592,7 @@
 					"target": 1616
 				},
 				{
-					"id": 8083,
+					"id": 8087,
 					"name": "off",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -602,7 +602,7 @@
 					"target": 1636
 				},
 				{
-					"id": 8081,
+					"id": 8085,
 					"name": "on",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -612,7 +612,7 @@
 					"target": 1622
 				},
 				{
-					"id": 8082,
+					"id": 8086,
 					"name": "once",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -622,7 +622,7 @@
 					"target": 1629
 				},
 				{
-					"id": 8123,
+					"id": 8127,
 					"name": "resourceName",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -632,7 +632,7 @@
 					"target": 1512
 				},
 				{
-					"id": 8125,
+					"id": 8129,
 					"name": "sdkVersion",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -642,7 +642,7 @@
 					"target": 1514
 				},
 				{
-					"id": 8084,
+					"id": 8088,
 					"name": "setInterval",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -652,7 +652,7 @@
 					"target": 1661
 				},
 				{
-					"id": 8063,
+					"id": 8067,
 					"name": "setMeta",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -662,7 +662,7 @@
 					"target": 1539
 				},
 				{
-					"id": 8085,
+					"id": 8089,
 					"name": "setTimeout",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -672,7 +672,7 @@
 					"target": 1668
 				},
 				{
-					"id": 8090,
+					"id": 8094,
 					"name": "stringToSHA256",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -682,7 +682,7 @@
 					"target": 1769
 				},
 				{
-					"id": 8087,
+					"id": 8091,
 					"name": "time",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -692,7 +692,7 @@
 					"target": 1679
 				},
 				{
-					"id": 8088,
+					"id": 8092,
 					"name": "timeEnd",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -702,7 +702,7 @@
 					"target": 1683
 				},
 				{
-					"id": 8124,
+					"id": 8128,
 					"name": "version",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -4623,7 +4623,7 @@
 												"types": [
 													{
 														"type": "reference",
-														"id": 8094,
+														"id": 8098,
 														"name": "AudioCategory"
 													},
 													{
@@ -5602,7 +5602,7 @@
 								"types": [
 									{
 										"type": "reference",
-										"id": 8094,
+										"id": 8098,
 										"name": "AudioCategory"
 									},
 									{
@@ -24748,7 +24748,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3283,
+									"line": 3286,
 									"character": 38
 								}
 							],
@@ -24773,7 +24773,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3309,
+									"line": 3312,
 									"character": 16
 								}
 							],
@@ -24795,7 +24795,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3312,
+									"line": 3315,
 									"character": 27
 								}
 							],
@@ -24819,7 +24819,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3318,
+									"line": 3321,
 									"character": 21
 								}
 							],
@@ -24871,7 +24871,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3344,
+									"line": 3347,
 									"character": 38
 								}
 							],
@@ -24896,7 +24896,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3321,
+									"line": 3324,
 									"character": 28
 								}
 							],
@@ -24954,7 +24954,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3358,
+									"line": 3361,
 									"character": 33
 								}
 							],
@@ -24978,7 +24978,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3315,
+									"line": 3318,
 									"character": 22
 								}
 							],
@@ -25075,7 +25075,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3304,
+									"line": 3307,
 									"character": 14
 								}
 							],
@@ -25138,7 +25138,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3306,
+									"line": 3309,
 									"character": 14
 								}
 							],
@@ -25195,7 +25195,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3356,
+									"line": 3359,
 									"character": 27
 								}
 							],
@@ -25312,7 +25312,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3300,
+									"line": 3303,
 									"character": 30
 								}
 							],
@@ -25347,7 +25347,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3302,
+									"line": 3305,
 									"character": 35
 								}
 							],
@@ -25390,7 +25390,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3354,
+									"line": 3357,
 									"character": 26
 								}
 							]
@@ -25656,12 +25656,12 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3334,
+									"line": 3337,
 									"character": 25
 								},
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3335,
+									"line": 3338,
 									"character": 25
 								}
 							]
@@ -25903,7 +25903,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3342,
+									"line": 3345,
 									"character": 17
 								}
 							]
@@ -27318,7 +27318,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3349,
+									"line": 3352,
 									"character": 32
 								}
 							]
@@ -27350,7 +27350,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3310,
+									"line": 3313,
 									"character": 21
 								}
 							]
@@ -27748,7 +27748,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3352,
+									"line": 3355,
 									"character": 28
 								}
 							]
@@ -27808,7 +27808,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3346,
+									"line": 3349,
 									"character": 26
 								}
 							]
@@ -27865,7 +27865,7 @@
 							"sources": [
 								{
 									"fileName": "types-client/index.d.ts",
-									"line": 3361,
+									"line": 3364,
 									"character": 23
 								}
 							]
@@ -28088,7 +28088,7 @@
 					"sources": [
 						{
 							"fileName": "types-client/index.d.ts",
-							"line": 3283,
+							"line": 3286,
 							"character": 21
 						}
 					],
@@ -46204,7 +46204,7 @@
 														"types": [
 															{
 																"type": "reference",
-																"id": 8099,
+																"id": 8103,
 																"name": "KeyCode"
 															},
 															{
@@ -46212,7 +46212,7 @@
 																"typeArguments": [
 																	{
 																		"type": "reference",
-																		"id": 8099,
+																		"id": 8103,
 																		"name": "KeyCode"
 																	}
 																],
@@ -53447,7 +53447,7 @@
 							],
 							"type": {
 								"type": "reference",
-								"id": 8099,
+								"id": 8103,
 								"name": "KeyCode"
 							}
 						},
@@ -61528,7 +61528,7 @@
 													},
 													"type": {
 														"type": "reference",
-														"id": 8099,
+														"id": 8103,
 														"name": "KeyCode"
 													}
 												}
@@ -61594,7 +61594,7 @@
 													},
 													"type": {
 														"type": "reference",
-														"id": 8099,
+														"id": 8103,
 														"name": "KeyCode"
 													}
 												}
@@ -67821,6 +67821,84 @@
 					]
 				},
 				{
+					"id": 8060,
+					"name": "getPedBonePos",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true
+					},
+					"signatures": [
+						{
+							"id": 8061,
+							"name": "getPedBonePos",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {
+								"isExported": true
+							},
+							"comment": {
+								"tags": [
+									{
+										"tag": "alpha",
+										"text": ""
+									}
+								]
+							},
+							"parameters": [
+								{
+									"id": 8062,
+									"name": "ped",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "union",
+										"types": [
+											{
+												"type": "reference",
+												"id": 5555,
+												"name": "Player"
+											},
+											{
+												"type": "intrinsic",
+												"name": "number"
+											}
+										]
+									}
+								},
+								{
+									"id": 8063,
+									"name": "boneId",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {
+										"isExported": true
+									},
+									"type": {
+										"type": "intrinsic",
+										"name": "number"
+									}
+								}
+							],
+							"type": {
+								"type": "reference",
+								"id": 1113,
+								"name": "IVector3"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "types-client/index.d.ts",
+							"line": 3284,
+							"character": 31
+						}
+					]
+				},
+				{
 					"id": 7612,
 					"name": "getPermissionState",
 					"kind": 64,
@@ -68685,7 +68763,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 8099,
+										"id": 8103,
 										"name": "KeyCode"
 									}
 								}
@@ -68738,7 +68816,7 @@
 									},
 									"type": {
 										"type": "reference",
-										"id": 8099,
+										"id": 8103,
 										"name": "KeyCode"
 									}
 								}
@@ -73016,75 +73094,75 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						8094,
-						8122,
-						8091,
-						8093,
-						8092,
-						8100,
-						8097,
-						8121,
+						8098,
+						8126,
 						8095,
-						8109,
+						8097,
+						8096,
+						8104,
+						8101,
+						8125,
+						8099,
+						8113,
+						8115,
+						8114,
 						8111,
-						8110,
+						8112,
+						8118,
+						8117,
+						8116,
+						8120,
+						8119,
+						8121,
+						8109,
 						8107,
 						8108,
-						8114,
-						8113,
-						8112,
-						8116,
-						8115,
-						8117,
-						8105,
 						8103,
-						8104,
-						8099,
-						8098,
-						8096,
-						8120,
+						8102,
+						8100,
+						8124,
+						8134,
+						8135,
+						8123,
+						8122,
+						8110,
 						8130,
-						8131,
-						8119,
-						8118,
-						8106,
-						8126,
-						8066,
-						8067,
-						8068,
-						8069,
-						8127,
-						8060,
+						8070,
 						8071,
 						8072,
 						8073,
-						8086,
-						8089,
-						8061,
+						8131,
 						8064,
-						8062,
 						8075,
-						8065,
-						8074,
-						8128,
-						8129,
 						8076,
-						8079,
 						8077,
+						8090,
+						8093,
+						8065,
+						8068,
+						8066,
+						8079,
+						8069,
 						8078,
+						8132,
+						8133,
 						8080,
 						8083,
 						8081,
 						8082,
-						8123,
-						8125,
 						8084,
-						8063,
-						8085,
-						8090,
 						8087,
+						8085,
+						8086,
+						8127,
+						8129,
 						8088,
-						8124
+						8067,
+						8089,
+						8094,
+						8091,
+						8092,
+						8128
 					]
 				},
 				{
@@ -73186,6 +73264,7 @@
 						8017,
 						7607,
 						7610,
+						8060,
 						7612,
 						7849,
 						7815,
@@ -174003,7 +174082,7 @@
 			]
 		},
 		{
-			"id": 8132,
+			"id": 8136,
 			"name": "\"alt-worker\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -174020,7 +174099,7 @@
 			},
 			"children": [
 				{
-					"id": 8176,
+					"id": 8180,
 					"name": "File",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174030,7 +174109,7 @@
 					"target": 1424
 				},
 				{
-					"id": 8177,
+					"id": 8181,
 					"name": "RGBA",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174040,7 +174119,7 @@
 					"target": 1390
 				},
 				{
-					"id": 8179,
+					"id": 8183,
 					"name": "Vector2",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174050,7 +174129,7 @@
 					"target": 1282
 				},
 				{
-					"id": 8178,
+					"id": 8182,
 					"name": "Vector3",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174060,7 +174139,7 @@
 					"target": 1154
 				},
 				{
-					"id": 8173,
+					"id": 8177,
 					"name": "branch",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174070,7 +174149,7 @@
 					"target": 1515
 				},
 				{
-					"id": 8169,
+					"id": 8173,
 					"name": "clearInterval",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174080,7 +174159,7 @@
 					"target": 1572
 				},
 				{
-					"id": 8170,
+					"id": 8174,
 					"name": "clearNextTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174090,7 +174169,7 @@
 					"target": 1575
 				},
 				{
-					"id": 8168,
+					"id": 8172,
 					"name": "clearTimeout",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174100,7 +174179,7 @@
 					"target": 1578
 				},
 				{
-					"id": 8175,
+					"id": 8179,
 					"name": "debug",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174110,7 +174189,7 @@
 					"target": 1516
 				},
 				{
-					"id": 8171,
+					"id": 8175,
 					"name": "hash",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174120,7 +174199,7 @@
 					"target": 1598
 				},
 				{
-					"id": 8161,
+					"id": 8165,
 					"name": "log",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174130,7 +174209,7 @@
 					"target": 1604
 				},
 				{
-					"id": 8164,
+					"id": 8168,
 					"name": "logDebug",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174140,7 +174219,7 @@
 					"target": 1613
 				},
 				{
-					"id": 8163,
+					"id": 8167,
 					"name": "logError",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174150,7 +174229,7 @@
 					"target": 1607
 				},
 				{
-					"id": 8162,
+					"id": 8166,
 					"name": "logWarning",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174160,7 +174239,7 @@
 					"target": 1610
 				},
 				{
-					"id": 8167,
+					"id": 8171,
 					"name": "nextTick",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174170,7 +174249,7 @@
 					"target": 1616
 				},
 				{
-					"id": 8174,
+					"id": 8178,
 					"name": "sdkVersion",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174180,7 +174259,7 @@
 					"target": 1514
 				},
 				{
-					"id": 8166,
+					"id": 8170,
 					"name": "setInterval",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174190,7 +174269,7 @@
 					"target": 1661
 				},
 				{
-					"id": 8165,
+					"id": 8169,
 					"name": "setTimeout",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174200,7 +174279,7 @@
 					"target": 1668
 				},
 				{
-					"id": 8172,
+					"id": 8176,
 					"name": "version",
 					"kind": 16777216,
 					"kindString": "Reference",
@@ -174210,7 +174289,7 @@
 					"target": 1513
 				},
 				{
-					"id": 8136,
+					"id": 8140,
 					"name": "emit",
 					"kind": 64,
 					"kindString": "Function",
@@ -174219,7 +174298,7 @@
 					},
 					"signatures": [
 						{
-							"id": 8137,
+							"id": 8141,
 							"name": "emit",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -174231,7 +174310,7 @@
 							},
 							"parameters": [
 								{
-									"id": 8138,
+									"id": 8142,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174247,7 +174326,7 @@
 									}
 								},
 								{
-									"id": 8139,
+									"id": 8143,
 									"name": "args",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174282,7 +174361,7 @@
 					]
 				},
 				{
-					"id": 8133,
+					"id": 8137,
 					"name": "getSharedArrayBuffer",
 					"kind": 64,
 					"kindString": "Function",
@@ -174291,7 +174370,7 @@
 					},
 					"signatures": [
 						{
-							"id": 8134,
+							"id": 8138,
 							"name": "getSharedArrayBuffer",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -174310,7 +174389,7 @@
 							},
 							"parameters": [
 								{
-									"id": 8135,
+									"id": 8139,
 									"name": "id",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174341,7 +174420,7 @@
 					]
 				},
 				{
-					"id": 8154,
+					"id": 8158,
 					"name": "off",
 					"kind": 64,
 					"kindString": "Function",
@@ -174350,7 +174429,7 @@
 					},
 					"signatures": [
 						{
-							"id": 8155,
+							"id": 8159,
 							"name": "off",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -174368,7 +174447,7 @@
 							},
 							"parameters": [
 								{
-									"id": 8156,
+									"id": 8160,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174384,7 +174463,7 @@
 									}
 								},
 								{
-									"id": 8157,
+									"id": 8161,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174397,7 +174476,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 8158,
+											"id": 8162,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -174406,7 +174485,7 @@
 											},
 											"signatures": [
 												{
-													"id": 8159,
+													"id": 8163,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -174415,7 +174494,7 @@
 													},
 													"parameters": [
 														{
-															"id": 8160,
+															"id": 8164,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -174464,7 +174543,7 @@
 					]
 				},
 				{
-					"id": 8140,
+					"id": 8144,
 					"name": "on",
 					"kind": 64,
 					"kindString": "Function",
@@ -174473,7 +174552,7 @@
 					},
 					"signatures": [
 						{
-							"id": 8141,
+							"id": 8145,
 							"name": "on",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -174485,7 +174564,7 @@
 							},
 							"parameters": [
 								{
-									"id": 8142,
+									"id": 8146,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174501,7 +174580,7 @@
 									}
 								},
 								{
-									"id": 8143,
+									"id": 8147,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174514,7 +174593,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 8144,
+											"id": 8148,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -174523,7 +174602,7 @@
 											},
 											"signatures": [
 												{
-													"id": 8145,
+													"id": 8149,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -174532,7 +174611,7 @@
 													},
 													"parameters": [
 														{
-															"id": 8146,
+															"id": 8150,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -174581,7 +174660,7 @@
 					]
 				},
 				{
-					"id": 8147,
+					"id": 8151,
 					"name": "once",
 					"kind": 64,
 					"kindString": "Function",
@@ -174590,7 +174669,7 @@
 					},
 					"signatures": [
 						{
-							"id": 8148,
+							"id": 8152,
 							"name": "once",
 							"kind": 4096,
 							"kindString": "Call signature",
@@ -174602,7 +174681,7 @@
 							},
 							"parameters": [
 								{
-									"id": 8149,
+									"id": 8153,
 									"name": "eventName",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174618,7 +174697,7 @@
 									}
 								},
 								{
-									"id": 8150,
+									"id": 8154,
 									"name": "listener",
 									"kind": 32768,
 									"kindString": "Parameter",
@@ -174631,7 +174710,7 @@
 									"type": {
 										"type": "reflection",
 										"declaration": {
-											"id": 8151,
+											"id": 8155,
 											"name": "__type",
 											"kind": 65536,
 											"kindString": "Type literal",
@@ -174640,7 +174719,7 @@
 											},
 											"signatures": [
 												{
-													"id": 8152,
+													"id": 8156,
 													"name": "__call",
 													"kind": 4096,
 													"kindString": "Call signature",
@@ -174649,7 +174728,7 @@
 													},
 													"parameters": [
 														{
-															"id": 8153,
+															"id": 8157,
 															"name": "args",
 															"kind": 32768,
 															"kindString": "Parameter",
@@ -174703,36 +174782,36 @@
 					"title": "References",
 					"kind": 16777216,
 					"children": [
-						8176,
+						8180,
+						8181,
+						8183,
+						8182,
 						8177,
-						8179,
-						8178,
 						8173,
-						8169,
-						8170,
-						8168,
-						8175,
-						8171,
-						8161,
-						8164,
-						8163,
-						8162,
-						8167,
 						8174,
-						8166,
+						8172,
+						8179,
+						8175,
 						8165,
-						8172
+						8168,
+						8167,
+						8166,
+						8171,
+						8178,
+						8170,
+						8169,
+						8176
 					]
 				},
 				{
 					"title": "Functions",
 					"kind": 64,
 					"children": [
-						8136,
-						8133,
-						8154,
 						8140,
-						8147
+						8137,
+						8158,
+						8144,
+						8151
 					]
 				}
 			],
@@ -174753,7 +174832,7 @@
 				4848,
 				1772,
 				1,
-				8132
+				8136
 			]
 		}
 	]
