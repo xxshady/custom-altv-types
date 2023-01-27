@@ -129855,7 +129855,7 @@
 							],
 							"type": {
 								"type": "intrinsic",
-								"name": "boolean"
+								"name": "string"
 							}
 						},
 						{
@@ -129876,7 +129876,7 @@
 							],
 							"type": {
 								"type": "intrinsic",
-								"name": "boolean"
+								"name": "string"
 							}
 						},
 						{
@@ -129918,7 +129918,7 @@
 							],
 							"type": {
 								"type": "intrinsic",
-								"name": "boolean"
+								"name": "string"
 							}
 						},
 						{
