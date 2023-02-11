@@ -156530,7 +156530,7 @@
 						},
 						{
 							"id": 1101,
-							"name": "LeftElbrow",
+							"name": "LeftElbow",
 							"kind": 16,
 							"kindString": "Enumeration member",
 							"flags": {
@@ -156540,7 +156540,7 @@
 								{
 									"fileName": "types-shared/index.d.ts",
 									"line": 1122,
-									"character": 14
+									"character": 13
 								}
 							]
 						},
@@ -156690,7 +156690,7 @@
 						},
 						{
 							"id": 1105,
-							"name": "RightElbrow",
+							"name": "RightElbow",
 							"kind": 16,
 							"kindString": "Enumeration member",
 							"flags": {
@@ -156700,7 +156700,7 @@
 								{
 									"fileName": "types-shared/index.d.ts",
 									"line": 1126,
-									"character": 15
+									"character": 14
 								}
 							]
 						},
