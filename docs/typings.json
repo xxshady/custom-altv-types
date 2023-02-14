@@ -131310,7 +131310,7 @@
 							],
 							"type": {
 								"type": "intrinsic",
-								"name": "string"
+								"name": "number"
 							}
 						},
 						{
