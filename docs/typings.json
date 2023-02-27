@@ -103582,14 +103582,14 @@
 									"parameters": [
 										{
 											"id": 2729,
-											"name": "weaponHash",
+											"name": "weaponModel",
 											"kind": 32768,
 											"kindString": "Parameter",
 											"flags": {
 												"isExported": true
 											},
 											"comment": {
-												"text": "Hash of the weapon."
+												"text": "The model of the weapon."
 											},
 											"type": {
 												"type": "union",
