@@ -103592,8 +103592,17 @@
 												"text": "Hash of the weapon."
 											},
 											"type": {
-												"type": "intrinsic",
-												"name": "number"
+												"type": "union",
+												"types": [
+													{
+														"type": "intrinsic",
+														"name": "string"
+													},
+													{
+														"type": "intrinsic",
+														"name": "number"
+													}
+												]
 											}
 										},
 										{
