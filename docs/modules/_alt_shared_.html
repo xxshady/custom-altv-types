@@ -218,7 +218,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Client<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2175</li>
+							<li>Defined in types-shared/index.d.ts:2158</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -233,7 +233,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Server<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2180</li>
+							<li>Defined in types-shared/index.d.ts:2163</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -486,31 +486,13 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2031</li>
+									<li>Defined in types-shared/index.d.ts:2014</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Emits specified event across resources.</p>
 								</div>
-								<dl class="tsd-comment-tags">
-									<dt>remarks</dt>
-									<dd><p>Keep in mind that sending invalid (destroyed) BaseObject instance
-											(for example vehicle, player, colshape, etc.)
-										results in sending a null value.</p>
-										<p><em>Note:</em> this does not apply to <a href="https://docs.altv.mp/js/articles/events/index.html#raw-events">raw events</a>.</p>
-									</dd>
-									<dt>example</dt>
-									<dd><pre><code class="language-js">alt.on(<span class="hljs-string">&#x27;test&#x27;</span>, <span class="hljs-function">(<span class="hljs-params">vehicle</span>) =&gt;</span>
-  alt.log(<span class="hljs-string">&#x27;received vehicle:&#x27;</span>, vehicle) <span class="hljs-comment">// vehicle object will be null here</span>
-);
-
-<span class="hljs-keyword">const</span> vehicle = <span class="hljs-keyword">new</span> alt.Vehicle(<span class="hljs-string">&#x27;sultan&#x27;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>, <span class="hljs-number">0</span>);
-vehicle.destroy(); <span class="hljs-comment">// makes vehicle object invalid</span>
-alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span class="hljs-comment">// sends vehicle object as null and throws error</span>
-</code></pre>
-									</dd>
-								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -541,7 +523,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2041</li>
+									<li>Defined in types-shared/index.d.ts:2024</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -583,7 +565,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2049</li>
+									<li>Defined in types-shared/index.d.ts:2032</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -633,7 +615,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2182</li>
+									<li>Defined in types-shared/index.d.ts:2165</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_shared_.iresource.html" class="tsd-signature-type">IResource</a><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -650,7 +632,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2274</li>
+									<li>Defined in types-shared/index.d.ts:2257</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -909,7 +891,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2063</li>
+									<li>Defined in types-shared/index.d.ts:2046</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -993,7 +975,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2056</li>
+									<li>Defined in types-shared/index.d.ts:2039</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1024,7 +1006,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2070</li>
+									<li>Defined in types-shared/index.d.ts:2053</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1057,7 +1039,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2091</li>
+									<li>Defined in types-shared/index.d.ts:2074</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1090,7 +1072,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2077</li>
+									<li>Defined in types-shared/index.d.ts:2060</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1123,7 +1105,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2084</li>
+									<li>Defined in types-shared/index.d.ts:2067</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1156,7 +1138,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2099</li>
+									<li>Defined in types-shared/index.d.ts:2082</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1207,7 +1189,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2125</li>
+									<li>Defined in types-shared/index.d.ts:2108</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1258,7 +1240,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2152</li>
+									<li>Defined in types-shared/index.d.ts:2135</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1316,7 +1298,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2107</li>
+									<li>Defined in types-shared/index.d.ts:2090</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1362,7 +1344,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2134</li>
+									<li>Defined in types-shared/index.d.ts:2117</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1420,7 +1402,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2115</li>
+									<li>Defined in types-shared/index.d.ts:2098</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1466,7 +1448,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2143</li>
+									<li>Defined in types-shared/index.d.ts:2126</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1523,7 +1505,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2161</li>
+									<li>Defined in types-shared/index.d.ts:2144</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1685,7 +1667,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2170</li>
+									<li>Defined in types-shared/index.d.ts:2153</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1741,7 +1723,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2276</li>
+									<li>Defined in types-shared/index.d.ts:2259</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1765,7 +1747,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2184</li>
+									<li>Defined in types-shared/index.d.ts:2167</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1779,7 +1761,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2186</li>
+									<li>Defined in types-shared/index.d.ts:2169</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1797,7 +1779,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2188</li>
+									<li>Defined in types-shared/index.d.ts:2171</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1811,7 +1793,7 @@ alt.emit(<span class="hljs-string">&#x27;test&#x27;</span>, vehicle); <span clas
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2190</li>
+									<li>Defined in types-shared/index.d.ts:2173</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
