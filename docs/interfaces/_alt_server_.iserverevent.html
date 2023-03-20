@@ -110,6 +110,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerinteriorchange" class="tsd-kind-icon">player<wbr>Interior<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerleftvehicle" class="tsd-kind-icon">player<wbr>Left<wbr>Vehicle</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerrequestcontrol" class="tsd-kind-icon">player<wbr>Request<wbr>Control</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerspawn" class="tsd-kind-icon">player<wbr>Spawn</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#playerweaponchange" class="tsd-kind-icon">player<wbr>Weapon<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#removeentity" class="tsd-kind-icon">remove<wbr>Entity</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#resourceerror" class="tsd-kind-icon">resource<wbr>Error</a></li>
@@ -125,6 +126,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#vehicledestroy" class="tsd-kind-icon">vehicle<wbr>Destroy</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#vehicledetach" class="tsd-kind-icon">vehicle<wbr>Detach</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#vehiclehorn" class="tsd-kind-icon">vehicle<wbr>Horn</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#vehiclesiren" class="tsd-kind-icon">vehicle<wbr>Siren</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.iserverevent.html#weapondamage" class="tsd-kind-icon">weapon<wbr>Damage</a></li>
 							</ul>
 						</section>
@@ -1146,6 +1148,43 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="playerspawn" class="tsd-anchor"></a>
+					<h3>player<wbr>Spawn</h3>
+					<div class="tsd-signature tsd-kind-icon">player<wbr>Spawn<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:342</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>player: <a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="playerweaponchange" class="tsd-anchor"></a>
 					<h3>player<wbr>Weapon<wbr>Change</h3>
 					<div class="tsd-signature tsd-kind-icon">player<wbr>Weapon<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>player<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, oldWeapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, weapon<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></div>
@@ -1683,6 +1722,46 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="vehiclesiren" class="tsd-anchor"></a>
+					<h3>vehicle<wbr>Siren</h3>
+					<div class="tsd-signature tsd-kind-icon">vehicle<wbr>Siren<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, state<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:340</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>vehicle<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a>, state<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>vehicle: <a href="../classes/_alt_server_.vehicle.html" class="tsd-signature-type">Vehicle</a></h5>
+											</li>
+											<li>
+												<h5>state: <span class="tsd-signature-type">boolean</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="weapondamage" class="tsd-anchor"></a>
 					<h3>weapon<wbr>Damage</h3>
 					<div class="tsd-signature tsd-kind-icon">weapon<wbr>Damage<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>source<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.player.html" class="tsd-signature-type">Player</a>, target<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_server_.entity.html" class="tsd-signature-type">Entity</a>, weaponHash<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, damage<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span>, offset<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, bodyPart<span class="tsd-signature-symbol">: </span><a href="../enums/_alt_shared_.bodypart.html" class="tsd-signature-type">BodyPart</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">void</span></div>
@@ -1839,6 +1918,9 @@
 								<a href="_alt_server_.iserverevent.html#playerrequestcontrol" class="tsd-kind-icon">player<wbr>Request<wbr>Control</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.iserverevent.html#playerspawn" class="tsd-kind-icon">player<wbr>Spawn</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.iserverevent.html#playerweaponchange" class="tsd-kind-icon">player<wbr>Weapon<wbr>Change</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -1882,6 +1964,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.iserverevent.html#vehiclehorn" class="tsd-kind-icon">vehicle<wbr>Horn</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.iserverevent.html#vehiclesiren" class="tsd-kind-icon">vehicle<wbr>Siren</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.iserverevent.html#weapondamage" class="tsd-kind-icon">weapon<wbr>Damage</a>
