@@ -136147,6 +136147,10 @@
 												"types": [
 													{
 														"type": "intrinsic",
+														"name": "number"
+													},
+													{
+														"type": "intrinsic",
 														"name": "boolean"
 													},
 													{
