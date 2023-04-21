@@ -93,6 +93,8 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#consolecommand" class="tsd-kind-icon">console<wbr>Command</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#disconnect" class="tsd-kind-icon">disconnect</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#enteredvehicle" class="tsd-kind-icon">entered<wbr>Vehicle</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#entityentercolshape" class="tsd-kind-icon">entity<wbr>Enter<wbr>Colshape</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#entityleavecolshape" class="tsd-kind-icon">entity<wbr>Leave<wbr>Colshape</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#gameentitycreate" class="tsd-kind-icon">game<wbr>Entity<wbr>Create</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#gameentitydestroy" class="tsd-kind-icon">game<wbr>Entity<wbr>Destroy</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#globalmetachange" class="tsd-kind-icon">global<wbr>Meta<wbr>Change</a></li>
@@ -101,6 +103,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#keyup" class="tsd-kind-icon">keyup</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#leftvehicle" class="tsd-kind-icon">left<wbr>Vehicle</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#localmetachange" class="tsd-kind-icon">local<wbr>Meta<wbr>Change</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#metachange" class="tsd-kind-icon">meta<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#netownerchange" class="tsd-kind-icon">net<wbr>Owner<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#playeranimationchange" class="tsd-kind-icon">player<wbr>Animation<wbr>Change</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iclientevent.html#playerweaponchange" class="tsd-kind-icon">player<wbr>Weapon<wbr>Change</a></li>
@@ -463,6 +466,86 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="entityentercolshape" class="tsd-anchor"></a>
+					<h3>entity<wbr>Enter<wbr>Colshape</h3>
+					<div class="tsd-signature tsd-kind-icon">entity<wbr>Enter<wbr>Colshape<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>colshape<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.colshape.html" class="tsd-signature-type">Colshape</a>, entity<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:188</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>colshape<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.colshape.html" class="tsd-signature-type">Colshape</a>, entity<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>colshape: <a href="../classes/_alt_client_.colshape.html" class="tsd-signature-type">Colshape</a></h5>
+											</li>
+											<li>
+												<h5>entity: <a href="../classes/_alt_client_.entity.html" class="tsd-signature-type">Entity</a></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="entityleavecolshape" class="tsd-anchor"></a>
+					<h3>entity<wbr>Leave<wbr>Colshape</h3>
+					<div class="tsd-signature tsd-kind-icon">entity<wbr>Leave<wbr>Colshape<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>colshape<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.colshape.html" class="tsd-signature-type">Colshape</a>, entity<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:191</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>colshape<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.colshape.html" class="tsd-signature-type">Colshape</a>, entity<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>colshape: <a href="../classes/_alt_client_.colshape.html" class="tsd-signature-type">Colshape</a></h5>
+											</li>
+											<li>
+												<h5>entity: <a href="../classes/_alt_client_.entity.html" class="tsd-signature-type">Entity</a></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="gameentitycreate" class="tsd-anchor"></a>
 					<h3>game<wbr>Entity<wbr>Create</h3>
 					<div class="tsd-signature tsd-kind-icon">game<wbr>Entity<wbr>Create<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.entity.html" class="tsd-signature-type">Entity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
@@ -726,6 +809,52 @@
 											</li>
 											<li>
 												<h5>newValue: <span class="tsd-signature-type">any</span></h5>
+											</li>
+											<li>
+												<h5>oldValue: <span class="tsd-signature-type">any</span></h5>
+											</li>
+										</ul>
+										<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="metachange" class="tsd-anchor"></a>
+					<h3>meta<wbr>Change</h3>
+					<div class="tsd-signature tsd-kind-icon">meta<wbr>Change<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a>, key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, oldValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:185</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+							<li class="tsd-parameter-signature">
+								<ul class="tsd-signatures tsd-kind-type-literal tsd-parent-kind-property">
+									<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><a href="../classes/_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a>, key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, oldValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+								</ul>
+								<ul class="tsd-descriptions">
+									<li class="tsd-description">
+										<h4 class="tsd-parameters-title">Parameters</h4>
+										<ul class="tsd-parameters">
+											<li>
+												<h5>target: <a href="../classes/_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></h5>
+											</li>
+											<li>
+												<h5>key: <span class="tsd-signature-type">string</span></h5>
+											</li>
+											<li>
+												<h5>value: <span class="tsd-signature-type">any</span></h5>
 											</li>
 											<li>
 												<h5>oldValue: <span class="tsd-signature-type">any</span></h5>
@@ -1454,6 +1583,12 @@
 								<a href="_alt_client_.iclientevent.html#enteredvehicle" class="tsd-kind-icon">entered<wbr>Vehicle</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_client_.iclientevent.html#entityentercolshape" class="tsd-kind-icon">entity<wbr>Enter<wbr>Colshape</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_client_.iclientevent.html#entityleavecolshape" class="tsd-kind-icon">entity<wbr>Leave<wbr>Colshape</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_client_.iclientevent.html#gameentitycreate" class="tsd-kind-icon">game<wbr>Entity<wbr>Create</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
@@ -1476,6 +1611,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_client_.iclientevent.html#localmetachange" class="tsd-kind-icon">local<wbr>Meta<wbr>Change</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_client_.iclientevent.html#metachange" class="tsd-kind-icon">meta<wbr>Change</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_client_.iclientevent.html#netownerchange" class="tsd-kind-icon">net<wbr>Owner<wbr>Change</a>

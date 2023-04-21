@@ -89,6 +89,15 @@
 									<li>
 										<a href="_alt_client_.blip.html" class="tsd-signature-type">Blip</a>
 									</li>
+									<li>
+										<a href="_alt_client_.marker.html" class="tsd-signature-type">Marker</a>
+									</li>
+									<li>
+										<a href="_alt_client_.colshape.html" class="tsd-signature-type">Colshape</a>
+									</li>
+									<li>
+										<a href="_alt_client_.textlabel.html" class="tsd-signature-type">TextLabel</a>
+									</li>
 								</ul>
 							</li>
 						</ul>
@@ -108,6 +117,7 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.worldobject.html#dimension" class="tsd-kind-icon">dimension</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.worldobject.html#pos" class="tsd-kind-icon">pos</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.worldobject.html#refcount" class="tsd-kind-icon">ref<wbr>Count</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.worldobject.html#type" class="tsd-kind-icon">type</a></li>
@@ -119,9 +129,14 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited"><a href="_alt_client_.worldobject.html#deletemeta" class="tsd-kind-icon">delete<wbr>Meta</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.worldobject.html#destroy" class="tsd-kind-icon">destroy</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.worldobject.html#getbyid" class="tsd-kind-icon">get<wbr>ByID</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.worldobject.html#getbyremoteid" class="tsd-kind-icon">get<wbr>ByRemoteID</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited"><a href="_alt_client_.worldobject.html#getmeta" class="tsd-kind-icon">get<wbr>Meta</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.worldobject.html#getmetadatakeys" class="tsd-kind-icon">get<wbr>Meta<wbr>Data<wbr>Keys</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited"><a href="_alt_client_.worldobject.html#getsyncedmeta" class="tsd-kind-icon">get<wbr>Synced<wbr>Meta</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.worldobject.html#getsyncedmetakeys" class="tsd-kind-icon">get<wbr>Synced<wbr>Meta<wbr>Keys</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited"><a href="_alt_client_.worldobject.html#hasmeta" class="tsd-kind-icon">has<wbr>Meta</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited"><a href="_alt_client_.worldobject.html#hassyncedmeta" class="tsd-kind-icon">has<wbr>Synced<wbr>Meta</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited"><a href="_alt_client_.worldobject.html#setmeta" class="tsd-kind-icon">set<wbr>Meta</a></li>
 							</ul>
 						</section>
@@ -141,7 +156,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1827</li>
+									<li>Defined in types-shared/index.d.ts:1964</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.worldobject.html" class="tsd-signature-type">WorldObject</a></h4>
@@ -152,12 +167,34 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="dimension" class="tsd-anchor"></a>
+					<h3>dimension</h3>
+					<div class="tsd-signature tsd-kind-icon">dimension<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:605</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Object dimension.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>remarks</dt>
+							<dd><p>Check <a href="https://docs.altv.mp/articles/dimensions.html">https://docs.altv.mp/articles/dimensions.html</a> to understand how it works.</p>
+							</dd>
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="pos" class="tsd-anchor"></a>
 					<h3>pos</h3>
 					<div class="tsd-signature tsd-kind-icon">pos<span class="tsd-signature-symbol">:</span> <a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:547</li>
+							<li>Defined in types-client/index.d.ts:596</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -173,7 +210,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#refcount">refCount</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1895</li>
+							<li>Defined in types-shared/index.d.ts:2054</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -194,7 +231,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#type">type</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1833</li>
+							<li>Defined in types-shared/index.d.ts:1970</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -210,7 +247,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#valid">valid</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1840</li>
+							<li>Defined in types-shared/index.d.ts:1977</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -240,7 +277,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#deletemeta">deleteMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:399</li>
+									<li>Defined in types-client/index.d.ts:427</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -256,7 +293,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#deletemeta">deleteMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:400</li>
+									<li>Defined in types-client/index.d.ts:428</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -286,7 +323,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#destroy">destroy</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1845</li>
+									<li>Defined in types-shared/index.d.ts:1982</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -295,6 +332,78 @@
 								</div>
 							</div>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getbyid" class="tsd-anchor"></a>
+					<h3>get<wbr>ByID</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>ByID<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a>, id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getbyid">getByID</a></p>
+								<ul>
+									<li>Defined in types-client/index.d.ts:419</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets the base object with the given type and local id</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>alpha</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>type: <a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a></h5>
+								</li>
+								<li>
+									<h5>id: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getbyremoteid" class="tsd-anchor"></a>
+					<h3>get<wbr>ByRemoteID</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>ByRemoteID<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a>, id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getbyremoteid">getByRemoteID</a></p>
+								<ul>
+									<li>Defined in types-client/index.d.ts:425</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets the base object with the given type and remote id</p>
+								</div>
+								<dl class="tsd-comment-tags">
+									<dt>alpha</dt>
+									<dd></dd>
+								</dl>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>type: <a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a></h5>
+								</li>
+								<li>
+									<h5>id: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></h4>
 						</li>
 					</ul>
 				</section>
@@ -312,7 +421,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:405</li>
+									<li>Defined in types-client/index.d.ts:433</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -334,7 +443,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:406</li>
+									<li>Defined in types-client/index.d.ts:434</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -356,7 +465,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:408</li>
+									<li>Defined in types-client/index.d.ts:436</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -393,7 +502,115 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmetadatakeys">getMetaDataKeys</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1875</li>
+									<li>Defined in types-shared/index.d.ts:2012</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
+					<a name="getsyncedmeta" class="tsd-anchor"></a>
+					<h3>get<wbr>Synced<wbr>Meta</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Synced<wbr>Meta&lt;K&gt;<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Exclude</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/_alt_shared_.icustombaseobjectsyncedmeta.html" class="tsd-signature-type">ICustomBaseObjectSyncedMeta</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">unknown</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Synced<wbr>Meta&lt;K&gt;<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ICustomBaseObjectSyncedMeta</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Synced<wbr>Meta&lt;V&gt;<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">V</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
+								<ul>
+									<li>Defined in types-shared/index.d.ts:2033</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets a value using the specified key.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">Exclude</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-symbol">keyof </span><a href="../interfaces/_alt_shared_.icustombaseobjectsyncedmeta.html" class="tsd-signature-type">ICustomBaseObjectSyncedMeta</a><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The key of the value to get.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">unknown</span></h4>
+							<p>Dynamic value associated with the specified key or undefined if no data is present.</p>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
+								<ul>
+									<li>Defined in types-shared/index.d.ts:2034</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ExtractStringKeys</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_shared_.icustombaseobjectsyncedmeta.html" class="tsd-signature-type">ICustomBaseObjectSyncedMeta</a><span class="tsd-signature-symbol">&gt;</span></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">K</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ICustomBaseObjectSyncedMeta</span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
+								<ul>
+									<li>Defined in types-shared/index.d.ts:2036</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<dl class="tsd-comment-tags">
+									<dt>deprecated</dt>
+									<dd><p>See <a href="../interfaces/_alt_shared_.icustombaseobjectsyncedmeta.html">&quot;alt-shared&quot;.ICustomBaseObjectSyncedMeta</a></p>
+									</dd>
+								</dl>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>V<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">V</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+					<a name="getsyncedmetakeys" class="tsd-anchor"></a>
+					<h3>get<wbr>Synced<wbr>Meta<wbr>Keys</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Synced<wbr>Meta<wbr>Keys<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmetakeys">getSyncedMetaKeys</a></p>
+								<ul>
+									<li>Defined in types-shared/index.d.ts:2047</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -413,7 +630,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#hasmeta">hasMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:402</li>
+									<li>Defined in types-client/index.d.ts:430</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -429,13 +646,68 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#hasmeta">hasMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:403</li>
+									<li>Defined in types-client/index.d.ts:431</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
 							<ul class="tsd-type-parameters">
 								<li>
 									<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">shared.ExtractStringKeys</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_client_.icustombaseobjectmeta-1.html" class="tsd-signature-type">ICustomBaseObjectMeta</a><span class="tsd-signature-symbol">&gt;</span></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">K</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
+					<a name="hassyncedmeta" class="tsd-anchor"></a>
+					<h3>has<wbr>Synced<wbr>Meta</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
+						<li class="tsd-signature tsd-kind-icon">has<wbr>Synced<wbr>Meta<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+						<li class="tsd-signature tsd-kind-icon">has<wbr>Synced<wbr>Meta&lt;K&gt;<span class="tsd-signature-symbol">(</span>key<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">K</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hassyncedmeta">hasSyncedMeta</a></p>
+								<ul>
+									<li>Defined in types-shared/index.d.ts:2044</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Determines whether contains the specified key.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>key: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The key of the value to locate.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+							<p>True if the meta table contains any data at the specified key or False if not</p>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hassyncedmeta">hasSyncedMeta</a></p>
+								<ul>
+									<li>Defined in types-shared/index.d.ts:2045</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>K<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ExtractStringKeys</span><span class="tsd-signature-symbol">&lt;</span><a href="../interfaces/_alt_shared_.icustombaseobjectsyncedmeta.html" class="tsd-signature-type">ICustomBaseObjectSyncedMeta</a><span class="tsd-signature-symbol">&gt;</span></h4>
 								</li>
 							</ul>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -462,7 +734,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:410</li>
+									<li>Defined in types-client/index.d.ts:438</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -487,7 +759,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:411</li>
+									<li>Defined in types-client/index.d.ts:439</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -512,7 +784,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:413</li>
+									<li>Defined in types-client/index.d.ts:441</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -577,6 +849,9 @@
 								<a href="_alt_client_.worldobject.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_client_.worldobject.html#dimension" class="tsd-kind-icon">dimension</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_client_.worldobject.html#pos" class="tsd-kind-icon">pos</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -594,14 +869,29 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.worldobject.html#destroy" class="tsd-kind-icon">destroy</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_alt_client_.worldobject.html#getbyid" class="tsd-kind-icon">get<wbr>ByID</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_alt_client_.worldobject.html#getbyremoteid" class="tsd-kind-icon">get<wbr>ByRemoteID</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited">
 								<a href="_alt_client_.worldobject.html#getmeta" class="tsd-kind-icon">get<wbr>Meta</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.worldobject.html#getmetadatakeys" class="tsd-kind-icon">get<wbr>Meta<wbr>Data<wbr>Keys</a>
 							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
+								<a href="_alt_client_.worldobject.html#getsyncedmeta" class="tsd-kind-icon">get<wbr>Synced<wbr>Meta</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
+								<a href="_alt_client_.worldobject.html#getsyncedmetakeys" class="tsd-kind-icon">get<wbr>Synced<wbr>Meta<wbr>Keys</a>
+							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited">
 								<a href="_alt_client_.worldobject.html#hasmeta" class="tsd-kind-icon">has<wbr>Meta</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-inherited">
+								<a href="_alt_client_.worldobject.html#hassyncedmeta" class="tsd-kind-icon">has<wbr>Synced<wbr>Meta</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited">
 								<a href="_alt_client_.worldobject.html#setmeta" class="tsd-kind-icon">set<wbr>Meta</a>
