@@ -103,18 +103,22 @@
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#iscollisionenabled" class="tsd-kind-icon">is<wbr>Collision<wbr>Enabled</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#isremote" class="tsd-kind-icon">is<wbr>Remote</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.object.html#isspawned" class="tsd-kind-icon">is<wbr>Spawned</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#isstreamedin" class="tsd-kind-icon">is<wbr>Streamed<wbr>In</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#isworldobject" class="tsd-kind-icon">is<wbr>World<wbr>Object</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#loddistance" class="tsd-kind-icon">lod<wbr>Distance</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.object.html#model" class="tsd-kind-icon">model</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.object.html#netowner" class="tsd-kind-icon">net<wbr>Owner</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="_alt_client_.object.html#pos" class="tsd-kind-icon">pos</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#positionfrozen" class="tsd-kind-icon">position<wbr>Frozen</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.object.html#refcount" class="tsd-kind-icon">ref<wbr>Count</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="_alt_client_.object.html#rot" class="tsd-kind-icon">rot</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.object.html#scriptid" class="tsd-kind-icon">scriptID</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#streamingdistance" class="tsd-kind-icon">streaming<wbr>Distance</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#texturevariation" class="tsd-kind-icon">texture<wbr>Variation</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.object.html#type" class="tsd-kind-icon">type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.object.html#usestreaming" class="tsd-kind-icon">use<wbr>Streaming</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.object.html#valid" class="tsd-kind-icon">valid</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.object.html#visible" class="tsd-kind-icon">visible</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="_alt_client_.object.html#visible" class="tsd-kind-icon">visible</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-static"><a href="_alt_client_.object.html#all" class="tsd-kind-icon">all</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.object.html#allworld" class="tsd-kind-icon">all<wbr>World</a></li>
 							</ul>
@@ -141,7 +145,6 @@
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_client_.object.html#placeongroundproperly" class="tsd-kind-icon">place<wbr>OnGround<wbr>Properly</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_client_.object.html#resetalpha" class="tsd-kind-icon">reset<wbr>Alpha</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited"><a href="_alt_client_.object.html#setmeta" class="tsd-kind-icon">set<wbr>Meta</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_client_.object.html#setpositionfrozen" class="tsd-kind-icon">set<wbr>Position<wbr>Frozen</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_client_.object.html#togglecollision" class="tsd-kind-icon">toggle<wbr>Collision</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_client_.object.html#waitforspawn" class="tsd-kind-icon">wait<wbr>For<wbr>Spawn</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="_alt_client_.object.html#getbyid-1" class="tsd-kind-icon">get<wbr>ByID</a></li>
@@ -157,14 +160,14 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Object<span class="tsd-signature-symbol">(</span>model<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, rot<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, noOffset<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, dynamic<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.object.html" class="tsd-signature-type">Object</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Object<span class="tsd-signature-symbol">(</span>model<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span>, pos<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, rot<span class="tsd-signature-symbol">: </span><a href="_alt_shared_.vector3.html" class="tsd-signature-type">Vector3</a>, noOffset<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, dynamic<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, useStreaming<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">boolean</span>, streamingDistance<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.object.html" class="tsd-signature-type">Object</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3559</li>
+									<li>Defined in types-client/index.d.ts:3594</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -222,6 +225,12 @@
 										</div>
 									</div>
 								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> useStreaming: <span class="tsd-signature-type">boolean</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> streamingDistance: <span class="tsd-signature-type">number</span></h5>
+								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.object.html" class="tsd-signature-type">Object</a></h4>
 						</li>
@@ -236,7 +245,7 @@
 					<div class="tsd-signature tsd-kind-icon">alpha<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3588</li>
+							<li>Defined in types-client/index.d.ts:3623</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -251,7 +260,7 @@
 					<div class="tsd-signature tsd-kind-icon">count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3581</li>
+							<li>Defined in types-client/index.d.ts:3616</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -268,7 +277,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.virtualentity.html">VirtualEntity</a>.<a href="_alt_client_.virtualentity.html#dimension">dimension</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:605</li>
+							<li>Defined in types-client/index.d.ts:609</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -290,7 +299,7 @@
 					<div class="tsd-signature tsd-kind-icon">dynamic<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3591</li>
+							<li>Defined in types-client/index.d.ts:3626</li>
 						</ul>
 					</aside>
 				</section>
@@ -300,7 +309,7 @@
 					<div class="tsd-signature tsd-kind-icon">has<wbr>Gravity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3597</li>
+							<li>Defined in types-client/index.d.ts:3632</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -316,7 +325,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#id">id</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:671</li>
+							<li>Defined in types-client/index.d.ts:688</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -331,7 +340,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Collision<wbr>Enabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3623</li>
+							<li>Defined in types-client/index.d.ts:3670</li>
 						</ul>
 					</aside>
 				</section>
@@ -341,7 +350,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Remote<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3600</li>
+							<li>Defined in types-client/index.d.ts:3635</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -357,7 +366,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#isspawned">isSpawned</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:692</li>
+							<li>Defined in types-client/index.d.ts:709</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -372,12 +381,28 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isstreamedin" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> is<wbr>Streamed<wbr>In</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Streamed<wbr>In<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:3638</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="isworldobject" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> is<wbr>World<wbr>Object</h3>
 					<div class="tsd-signature tsd-kind-icon">is<wbr>World<wbr>Object<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3637</li>
+							<li>Defined in types-client/index.d.ts:3684</li>
 						</ul>
 					</aside>
 				</section>
@@ -387,7 +412,7 @@
 					<div class="tsd-signature tsd-kind-icon">lod<wbr>Distance<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3594</li>
+							<li>Defined in types-client/index.d.ts:3629</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -403,7 +428,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#model">model</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:695</li>
+							<li>Defined in types-client/index.d.ts:712</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -419,7 +444,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#netowner">netOwner</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:685</li>
+							<li>Defined in types-client/index.d.ts:702</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -444,9 +469,24 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#pos">pos</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3583</li>
+							<li>Defined in types-client/index.d.ts:3618</li>
 						</ul>
 					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="positionfrozen" class="tsd-anchor"></a>
+					<h3>position<wbr>Frozen</h3>
+					<div class="tsd-signature tsd-kind-icon">position<wbr>Frozen<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:3678</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Freeze the object on the position</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="refcount" class="tsd-anchor"></a>
@@ -455,7 +495,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#refcount">refCount</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2054</li>
+							<li>Defined in types-shared/index.d.ts:2056</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -476,7 +516,7 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#rot">rot</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3585</li>
+							<li>Defined in types-client/index.d.ts:3620</li>
 						</ul>
 					</aside>
 				</section>
@@ -487,7 +527,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#scriptid">scriptID</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:674</li>
+							<li>Defined in types-client/index.d.ts:691</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -497,12 +537,28 @@
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="streamingdistance" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> streaming<wbr>Distance</h3>
+					<div class="tsd-signature tsd-kind-icon">streaming<wbr>Distance<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:3644</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
 					<a name="texturevariation" class="tsd-anchor"></a>
 					<h3>texture<wbr>Variation</h3>
 					<div class="tsd-signature tsd-kind-icon">texture<wbr>Variation<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3635</li>
+							<li>Defined in types-client/index.d.ts:3682</li>
 						</ul>
 					</aside>
 				</section>
@@ -513,13 +569,29 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#type">type</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1970</li>
+							<li>Defined in types-shared/index.d.ts:1972</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
 							<p>Type of the object.</p>
 						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="usestreaming" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> use<wbr>Streaming</h3>
+					<div class="tsd-signature tsd-kind-icon">use<wbr>Streaming<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-client/index.d.ts:3641</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
 					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
@@ -529,7 +601,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#valid">valid</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:1977</li>
+							<li>Defined in types-shared/index.d.ts:1979</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -543,16 +615,22 @@
 						</dl>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 					<a name="visible" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> visible</h3>
+					<h3>visible</h3>
 					<div class="tsd-signature tsd-kind-icon">visible<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
-						<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#visible">visible</a></p>
+						<p>Overrides <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#visible">visible</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:705</li>
+							<li>Defined in types-client/index.d.ts:3647</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<dl class="tsd-comment-tags">
+							<dt>alpha</dt>
+							<dd></dd>
+						</dl>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-static">
 					<a name="all" class="tsd-anchor"></a>
@@ -561,7 +639,7 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#all">all</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3576</li>
+							<li>Defined in types-client/index.d.ts:3611</li>
 						</ul>
 					</aside>
 				</section>
@@ -571,7 +649,7 @@
 					<div class="tsd-signature tsd-kind-icon">all<wbr>World<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.object.html" class="tsd-signature-type">Object</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3578</li>
+							<li>Defined in types-client/index.d.ts:3613</li>
 						</ul>
 					</aside>
 				</section>
@@ -588,7 +666,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3633</li>
+									<li>Defined in types-client/index.d.ts:3680</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -606,7 +684,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3613</li>
+									<li>Defined in types-client/index.d.ts:3660</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -664,7 +742,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3614</li>
+									<li>Defined in types-client/index.d.ts:3661</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -708,7 +786,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#deletemeta">deleteMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:728</li>
+									<li>Defined in types-client/index.d.ts:745</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -724,7 +802,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#deletemeta">deleteMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:729</li>
+									<li>Defined in types-client/index.d.ts:746</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -754,7 +832,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#destroy">destroy</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:1982</li>
+									<li>Defined in types-shared/index.d.ts:1984</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -776,7 +854,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3621</li>
+									<li>Defined in types-client/index.d.ts:3668</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -808,7 +886,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getbyid">getByID</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:419</li>
+									<li>Defined in types-client/index.d.ts:421</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -844,7 +922,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getbyremoteid">getByRemoteID</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:425</li>
+									<li>Defined in types-client/index.d.ts:427</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -883,7 +961,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:731</li>
+									<li>Defined in types-client/index.d.ts:748</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -905,7 +983,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:732</li>
+									<li>Defined in types-client/index.d.ts:749</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -927,7 +1005,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:734</li>
+									<li>Defined in types-client/index.d.ts:751</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -964,7 +1042,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmetadatakeys">getMetaDataKeys</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2012</li>
+									<li>Defined in types-shared/index.d.ts:2014</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -984,7 +1062,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getstreamsyncedmeta">getStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:767</li>
+									<li>Defined in types-client/index.d.ts:784</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1014,7 +1092,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getstreamsyncedmeta">getStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:768</li>
+									<li>Defined in types-client/index.d.ts:785</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1035,7 +1113,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getstreamsyncedmeta">getStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:770</li>
+									<li>Defined in types-client/index.d.ts:787</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1072,7 +1150,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getstreamsyncedmetakeys">getStreamSyncedMetaKeys</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:781</li>
+									<li>Defined in types-client/index.d.ts:798</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1093,7 +1171,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getsyncedmeta">getSyncedMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:745</li>
+									<li>Defined in types-client/index.d.ts:762</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1124,7 +1202,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getsyncedmeta">getSyncedMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:746</li>
+									<li>Defined in types-client/index.d.ts:763</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1146,7 +1224,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getsyncedmeta">getSyncedMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:748</li>
+									<li>Defined in types-client/index.d.ts:765</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1184,7 +1262,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getsyncedmetakeys">getSyncedMetaKeys</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmetakeys">getSyncedMetaKeys</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:759</li>
+									<li>Defined in types-client/index.d.ts:776</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1204,7 +1282,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#hasmeta">hasMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:736</li>
+									<li>Defined in types-client/index.d.ts:753</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1220,7 +1298,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#hasmeta">hasMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:737</li>
+									<li>Defined in types-client/index.d.ts:754</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1251,7 +1329,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#hasstreamsyncedmeta">hasStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:778</li>
+									<li>Defined in types-client/index.d.ts:795</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1275,7 +1353,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#hasstreamsyncedmeta">hasStreamSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:779</li>
+									<li>Defined in types-client/index.d.ts:796</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1307,7 +1385,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:756</li>
+									<li>Defined in types-client/index.d.ts:773</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1332,7 +1410,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:757</li>
+									<li>Defined in types-client/index.d.ts:774</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1361,7 +1439,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3628</li>
+									<li>Defined in types-client/index.d.ts:3675</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1383,7 +1461,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3589</li>
+									<li>Defined in types-client/index.d.ts:3624</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1404,7 +1482,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:723</li>
+									<li>Defined in types-client/index.d.ts:740</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1429,7 +1507,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:724</li>
+									<li>Defined in types-client/index.d.ts:741</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1454,7 +1532,7 @@
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:726</li>
+									<li>Defined in types-client/index.d.ts:743</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1487,34 +1565,6 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
-					<a name="setpositionfrozen" class="tsd-anchor"></a>
-					<h3>set<wbr>Position<wbr>Frozen</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
-						<li class="tsd-signature tsd-kind-icon">set<wbr>Position<wbr>Frozen<span class="tsd-signature-symbol">(</span>toggle<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<ul>
-									<li>Defined in types-client/index.d.ts:3631</li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Freeze the object on the position</p>
-								</div>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>toggle: <span class="tsd-signature-type">boolean</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
 					<a name="togglecollision" class="tsd-anchor"></a>
 					<h3>toggle<wbr>Collision</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
@@ -1524,7 +1574,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3625</li>
+									<li>Defined in types-client/index.d.ts:3672</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1550,7 +1600,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3640</li>
+									<li>Defined in types-client/index.d.ts:3687</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1579,7 +1629,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getbyid-1">getByID</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:713</li>
+									<li>Defined in types-client/index.d.ts:730</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1612,7 +1662,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.entity.html">Entity</a>.<a href="_alt_client_.entity.html#getbyscriptid">getByScriptID</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:721</li>
+									<li>Defined in types-client/index.d.ts:738</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1694,6 +1744,9 @@
 								<a href="_alt_client_.object.html#isspawned" class="tsd-kind-icon">is<wbr>Spawned</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_client_.object.html#isstreamedin" class="tsd-kind-icon">is<wbr>Streamed<wbr>In</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_client_.object.html#isworldobject" class="tsd-kind-icon">is<wbr>World<wbr>Object</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
@@ -1708,6 +1761,9 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 								<a href="_alt_client_.object.html#pos" class="tsd-kind-icon">pos</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_client_.object.html#positionfrozen" class="tsd-kind-icon">position<wbr>Frozen</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.object.html#refcount" class="tsd-kind-icon">ref<wbr>Count</a>
 							</li>
@@ -1718,15 +1774,21 @@
 								<a href="_alt_client_.object.html#scriptid" class="tsd-kind-icon">scriptID</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_client_.object.html#streamingdistance" class="tsd-kind-icon">streaming<wbr>Distance</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
 								<a href="_alt_client_.object.html#texturevariation" class="tsd-kind-icon">texture<wbr>Variation</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.object.html#type" class="tsd-kind-icon">type</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_client_.object.html#usestreaming" class="tsd-kind-icon">use<wbr>Streaming</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.object.html#valid" class="tsd-kind-icon">valid</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 								<a href="_alt_client_.object.html#visible" class="tsd-kind-icon">visible</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite tsd-is-static">
@@ -1791,9 +1853,6 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-overwrite tsd-is-inherited">
 								<a href="_alt_client_.object.html#setmeta" class="tsd-kind-icon">set<wbr>Meta</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class">
-								<a href="_alt_client_.object.html#setpositionfrozen" class="tsd-kind-icon">set<wbr>Position<wbr>Frozen</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="_alt_client_.object.html#togglecollision" class="tsd-kind-icon">toggle<wbr>Collision</a>
