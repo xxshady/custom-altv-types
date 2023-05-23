@@ -102,9 +102,9 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.virtualentitygroup.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.virtualentitygroup.html#id" class="tsd-kind-icon">id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.virtualentitygroup.html#maxentitiesinstream" class="tsd-kind-icon">max<wbr>Entities<wbr>InStream</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.virtualentitygroup.html#refcount" class="tsd-kind-icon">ref<wbr>Count</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_server_.virtualentitygroup.html#streamingrangelimit" class="tsd-kind-icon">streaming<wbr>Range<wbr>Limit</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.virtualentitygroup.html#type" class="tsd-kind-icon">type</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_server_.virtualentitygroup.html#valid" class="tsd-kind-icon">valid</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><a href="_alt_server_.virtualentitygroup.html#all" class="tsd-kind-icon">all</a></li>
@@ -136,14 +136,14 @@
 					<a name="constructor" class="tsd-anchor"></a>
 					<h3>constructor</h3>
 					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
-						<li class="tsd-signature tsd-kind-icon">new <wbr>Virtual<wbr>Entity<wbr>Group<span class="tsd-signature-symbol">(</span>maxStreamedEntityCount<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_server_.virtualentitygroup.html" class="tsd-signature-type">VirtualEntityGroup</a></li>
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Virtual<wbr>Entity<wbr>Group<span class="tsd-signature-symbol">(</span>maxEntitiesInStream<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_server_.virtualentitygroup.html" class="tsd-signature-type">VirtualEntityGroup</a></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:636</li>
+									<li>Defined in types-server/index.d.ts:641</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -154,7 +154,7 @@
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
 								<li>
-									<h5>maxStreamedEntityCount: <span class="tsd-signature-type">number</span></h5>
+									<h5>maxEntitiesInStream: <span class="tsd-signature-type">number</span></h5>
 								</li>
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="_alt_server_.virtualentitygroup.html" class="tsd-signature-type">VirtualEntityGroup</a></h4>
@@ -164,18 +164,29 @@
 			</section>
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="id" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> id</h3>
 					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
+						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#id">id</a></p>
 						<ul>
-							<li>Defined in types-server/index.d.ts:644</li>
+							<li>Defined in types-shared/index.d.ts:2269</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="maxentitiesinstream" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> max<wbr>Entities<wbr>InStream</h3>
+					<div class="tsd-signature tsd-kind-icon">max<wbr>Entities<wbr>InStream<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:649</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
 						<div class="lead">
-							<p>Unique id</p>
+							<p>Maximum streaming range inside the Virtual Entity Group</p>
 						</div>
 					</div>
 				</section>
@@ -186,7 +197,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#refcount">refCount</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2343</li>
+							<li>Defined in types-shared/index.d.ts:2346</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -200,21 +211,6 @@
 						</dl>
 					</div>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
-					<a name="streamingrangelimit" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> streaming<wbr>Range<wbr>Limit</h3>
-					<div class="tsd-signature tsd-kind-icon">streaming<wbr>Range<wbr>Limit<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in types-server/index.d.ts:647</li>
-						</ul>
-					</aside>
-					<div class="tsd-comment tsd-typography">
-						<div class="lead">
-							<p>Maximum streaming range inside the Virtual Entity Group</p>
-						</div>
-					</div>
-				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="type" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> type</h3>
@@ -222,7 +218,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#type">type</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2259</li>
+							<li>Defined in types-shared/index.d.ts:2260</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -238,7 +234,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#valid">valid</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2266</li>
+							<li>Defined in types-shared/index.d.ts:2267</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -258,7 +254,7 @@
 					<div class="tsd-signature tsd-kind-icon">all<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_server_.virtualentitygroup.html" class="tsd-signature-type">VirtualEntityGroup</a><span class="tsd-signature-symbol">&gt;</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:641</li>
+							<li>Defined in types-server/index.d.ts:646</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -283,7 +279,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#deletemeta">deleteMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:583</li>
+									<li>Defined in types-server/index.d.ts:588</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -299,7 +295,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#deletemeta">deleteMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:584</li>
+									<li>Defined in types-server/index.d.ts:589</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -330,7 +326,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#deletesyncedmeta">deleteSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:604</li>
+									<li>Defined in types-server/index.d.ts:609</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -353,7 +349,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#deletesyncedmeta">deleteSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:605</li>
+									<li>Defined in types-server/index.d.ts:610</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -383,7 +379,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#destroy">destroy</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2271</li>
+									<li>Defined in types-shared/index.d.ts:2274</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -406,7 +402,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#getbyid">getByID</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:581</li>
+									<li>Defined in types-server/index.d.ts:586</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -445,7 +441,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:589</li>
+									<li>Defined in types-server/index.d.ts:594</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -467,7 +463,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:590</li>
+									<li>Defined in types-server/index.d.ts:595</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -489,7 +485,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:592</li>
+									<li>Defined in types-server/index.d.ts:597</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -526,7 +522,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmetadatakeys">getMetaDataKeys</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2301</li>
+									<li>Defined in types-shared/index.d.ts:2304</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -546,7 +542,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2322</li>
+									<li>Defined in types-shared/index.d.ts:2325</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -576,7 +572,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2323</li>
+									<li>Defined in types-shared/index.d.ts:2326</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -597,7 +593,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2325</li>
+									<li>Defined in types-shared/index.d.ts:2328</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -634,7 +630,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmetakeys">getSyncedMetaKeys</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2336</li>
+									<li>Defined in types-shared/index.d.ts:2339</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -654,7 +650,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#hasmeta">hasMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:586</li>
+									<li>Defined in types-server/index.d.ts:591</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -670,7 +666,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#hasmeta">hasMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:587</li>
+									<li>Defined in types-server/index.d.ts:592</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -701,7 +697,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2333</li>
+									<li>Defined in types-shared/index.d.ts:2336</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -725,7 +721,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2334</li>
+									<li>Defined in types-shared/index.d.ts:2337</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -758,7 +754,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:594</li>
+									<li>Defined in types-server/index.d.ts:599</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -783,7 +779,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:595</li>
+									<li>Defined in types-server/index.d.ts:600</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -808,7 +804,7 @@
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:597</li>
+									<li>Defined in types-server/index.d.ts:602</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -853,7 +849,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#setsyncedmeta">setSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:615</li>
+									<li>Defined in types-server/index.d.ts:620</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -893,7 +889,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#setsyncedmeta">setSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:616</li>
+									<li>Defined in types-server/index.d.ts:621</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -917,7 +913,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_server_.baseobject-1.html">BaseObject</a>.<a href="_alt_server_.baseobject-1.html#setsyncedmeta">setSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-server/index.d.ts:618</li>
+									<li>Defined in types-server/index.d.ts:623</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -981,14 +977,14 @@
 							<li class=" tsd-kind-constructor tsd-parent-kind-class tsd-is-overwrite">
 								<a href="_alt_server_.virtualentitygroup.html#constructor" class="tsd-kind-icon">constructor</a>
 							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_server_.virtualentitygroup.html#id" class="tsd-kind-icon">id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="_alt_server_.virtualentitygroup.html#maxentitiesinstream" class="tsd-kind-icon">max<wbr>Entities<wbr>InStream</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_server_.virtualentitygroup.html#refcount" class="tsd-kind-icon">ref<wbr>Count</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-class">
-								<a href="_alt_server_.virtualentitygroup.html#streamingrangelimit" class="tsd-kind-icon">streaming<wbr>Range<wbr>Limit</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_server_.virtualentitygroup.html#type" class="tsd-kind-icon">type</a>
