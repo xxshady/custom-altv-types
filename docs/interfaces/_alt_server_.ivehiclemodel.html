@@ -85,10 +85,13 @@
 							<ul class="tsd-index-list">
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#availablemodkits" class="tsd-kind-icon">available<wbr>Modkits</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#bones" class="tsd-kind-icon">bones</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#canattachcars" class="tsd-kind-icon">can<wbr>Attach<wbr>Cars</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#dashboardcolor" class="tsd-kind-icon">dashboard<wbr>Color</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#handlingnamehash" class="tsd-kind-icon">handling<wbr>Name<wbr>Hash</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#hasarmoredwindows" class="tsd-kind-icon">has<wbr>Armored<wbr>Windows</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#hasautoattachtrailer" class="tsd-kind-icon">has<wbr>Auto<wbr>Attach<wbr>Trailer</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#interiorcolor" class="tsd-kind-icon">interior<wbr>Color</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#modelhash" class="tsd-kind-icon">model<wbr>Hash</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#pearlcolor" class="tsd-kind-icon">pearl<wbr>Color</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#primarycolor" class="tsd-kind-icon">primary<wbr>Color</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_server_.ivehiclemodel.html#secondarycolor" class="tsd-kind-icon">secondary<wbr>Color</a></li>
@@ -113,20 +116,30 @@
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="availablemodkits" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> available<wbr>Modkits</h3>
-					<div class="tsd-signature tsd-kind-icon">available<wbr>Modkits<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">available<wbr>Modkits<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:425</li>
+							<li>Defined in types-server/index.d.ts:463</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="bones" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> bones</h3>
-					<div class="tsd-signature tsd-kind-icon">bones<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_server_.iboneinfo.html" class="tsd-signature-type">IBoneInfo</a><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">bones<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">readonly </span><a href="_alt_server_.iboneinfo.html" class="tsd-signature-type">IBoneInfo</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:428</li>
+							<li>Defined in types-server/index.d.ts:466</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="canattachcars" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> can<wbr>Attach<wbr>Cars</h3>
+					<div class="tsd-signature tsd-kind-icon">can<wbr>Attach<wbr>Cars<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:467</li>
 						</ul>
 					</aside>
 				</section>
@@ -136,7 +149,17 @@
 					<div class="tsd-signature tsd-kind-icon">dashboard<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:423</li>
+							<li>Defined in types-server/index.d.ts:461</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="handlingnamehash" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> handling<wbr>Name<wbr>Hash</h3>
+					<div class="tsd-signature tsd-kind-icon">handling<wbr>Name<wbr>Hash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:468</li>
 						</ul>
 					</aside>
 				</section>
@@ -146,7 +169,7 @@
 					<div class="tsd-signature tsd-kind-icon">has<wbr>Armored<wbr>Windows<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:417</li>
+							<li>Defined in types-server/index.d.ts:455</li>
 						</ul>
 					</aside>
 				</section>
@@ -156,7 +179,7 @@
 					<div class="tsd-signature tsd-kind-icon">has<wbr>Auto<wbr>Attach<wbr>Trailer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:424</li>
+							<li>Defined in types-server/index.d.ts:462</li>
 						</ul>
 					</aside>
 				</section>
@@ -166,7 +189,17 @@
 					<div class="tsd-signature tsd-kind-icon">interior<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:422</li>
+							<li>Defined in types-server/index.d.ts:460</li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="modelhash" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> model<wbr>Hash</h3>
+					<div class="tsd-signature tsd-kind-icon">model<wbr>Hash<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in types-server/index.d.ts:451</li>
 						</ul>
 					</aside>
 				</section>
@@ -176,7 +209,7 @@
 					<div class="tsd-signature tsd-kind-icon">pearl<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:420</li>
+							<li>Defined in types-server/index.d.ts:458</li>
 						</ul>
 					</aside>
 				</section>
@@ -186,7 +219,7 @@
 					<div class="tsd-signature tsd-kind-icon">primary<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:418</li>
+							<li>Defined in types-server/index.d.ts:456</li>
 						</ul>
 					</aside>
 				</section>
@@ -196,7 +229,7 @@
 					<div class="tsd-signature tsd-kind-icon">secondary<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:419</li>
+							<li>Defined in types-server/index.d.ts:457</li>
 						</ul>
 					</aside>
 				</section>
@@ -206,7 +239,7 @@
 					<div class="tsd-signature tsd-kind-icon">title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:414</li>
+							<li>Defined in types-server/index.d.ts:452</li>
 						</ul>
 					</aside>
 				</section>
@@ -216,7 +249,7 @@
 					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <a href="../enums/_alt_shared_.modeltype.html" class="tsd-signature-type">ModelType</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:415</li>
+							<li>Defined in types-server/index.d.ts:453</li>
 						</ul>
 					</aside>
 				</section>
@@ -226,7 +259,7 @@
 					<div class="tsd-signature tsd-kind-icon">wheels<wbr>Color<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:421</li>
+							<li>Defined in types-server/index.d.ts:459</li>
 						</ul>
 					</aside>
 				</section>
@@ -236,7 +269,7 @@
 					<div class="tsd-signature tsd-kind-icon">wheels<wbr>Count<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-server/index.d.ts:416</li>
+							<li>Defined in types-server/index.d.ts:454</li>
 						</ul>
 					</aside>
 				</section>
@@ -253,7 +286,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:427</li>
+									<li>Defined in types-server/index.d.ts:465</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -276,7 +309,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-server/index.d.ts:426</li>
+									<li>Defined in types-server/index.d.ts:464</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -325,7 +358,13 @@
 								<a href="_alt_server_.ivehiclemodel.html#bones" class="tsd-kind-icon">bones</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.ivehiclemodel.html#canattachcars" class="tsd-kind-icon">can<wbr>Attach<wbr>Cars</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.ivehiclemodel.html#dashboardcolor" class="tsd-kind-icon">dashboard<wbr>Color</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.ivehiclemodel.html#handlingnamehash" class="tsd-kind-icon">handling<wbr>Name<wbr>Hash</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.ivehiclemodel.html#hasarmoredwindows" class="tsd-kind-icon">has<wbr>Armored<wbr>Windows</a>
@@ -335,6 +374,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.ivehiclemodel.html#interiorcolor" class="tsd-kind-icon">interior<wbr>Color</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="_alt_server_.ivehiclemodel.html#modelhash" class="tsd-kind-icon">model<wbr>Hash</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_server_.ivehiclemodel.html#pearlcolor" class="tsd-kind-icon">pearl<wbr>Color</a>

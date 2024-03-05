@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>PermissionState | custom alt:V docs JS</title>
+	<title>ICustomClientServerEvent | custom alt:V docs JS</title>
 	<meta name="description" content="Documentation for custom alt:V docs JS">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../assets/css/main.css">
@@ -55,77 +55,48 @@
 					<a href="../globals.html">Globals</a>
 				</li>
 				<li>
-					<a href="../modules/_alt_client_.html">&quot;alt-client&quot;</a>
+					<a href="../modules/_alt_shared_.html">&quot;alt-shared&quot;</a>
 				</li>
 				<li>
-					<a href="_alt_client_.permissionstate.html">PermissionState</a>
+					<a href="_alt_shared_.icustomclientserverevent.html">ICustomClientServerEvent</a>
 				</li>
 			</ul>
-			<h1>Enumeration PermissionState</h1>
+			<h1>Interface ICustomClientServerEvent</h1>
 		</div>
 	</div>
 </header>
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
-			<section class="tsd-panel-group tsd-index-group">
-				<h2>Index</h2>
-				<section class="tsd-panel tsd-index-panel">
-					<div class="tsd-index-content">
-						<section class="tsd-index-section ">
-							<h3>Enumeration members</h3>
-							<ul class="tsd-index-list">
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_alt_client_.permissionstate.html#allowed" class="tsd-kind-icon">ALLOWED</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_alt_client_.permissionstate.html#denied" class="tsd-kind-icon">DENIED</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_alt_client_.permissionstate.html#failed" class="tsd-kind-icon">FAILED</a></li>
-								<li class="tsd-kind-enum-member tsd-parent-kind-enum"><a href="_alt_client_.permissionstate.html#unspecified" class="tsd-kind-icon">UNSPECIFIED</a></li>
-							</ul>
-						</section>
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Extend <code>alt.onClient</code> and <code>alt.emitServer</code> auto-completion by merging interfaces.</p>
 					</div>
-				</section>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-ts"><span class="hljs-keyword">declare</span> <span class="hljs-built_in">module</span> <span class="hljs-string">&#x27;alt-client&#x27;</span> {
+   <span class="hljs-keyword">interface</span> ICustomClientServerEvent {
+       <span class="hljs-attr">myEvent</span>: (arg1: <span class="hljs-built_in">string</span>, <span class="hljs-attr">arg2</span>: { <span class="hljs-attr">key</span>: <span class="hljs-built_in">string</span>, <span class="hljs-attr">value</span>: <span class="hljs-built_in">number</span> })
+   }
+}
+</code></pre>
+						</dd>
+						<dt>export</dt>
+						<dd></dd>
+						<dt>interface</dt>
+						<dd><p>ICustomClientServerEvent</p>
+						</dd>
+					</dl>
+				</div>
 			</section>
-			<section class="tsd-panel-group tsd-member-group ">
-				<h2>Enumeration members</h2>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="allowed" class="tsd-anchor"></a>
-					<h3>ALLOWED</h3>
-					<div class="tsd-signature tsd-kind-icon">ALLOWED<span class="tsd-signature-symbol">:</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in types-client/index.d.ts:45</li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="denied" class="tsd-anchor"></a>
-					<h3>DENIED</h3>
-					<div class="tsd-signature tsd-kind-icon">DENIED<span class="tsd-signature-symbol">:</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in types-client/index.d.ts:46</li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="failed" class="tsd-anchor"></a>
-					<h3>FAILED</h3>
-					<div class="tsd-signature tsd-kind-icon">FAILED<span class="tsd-signature-symbol">:</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in types-client/index.d.ts:48</li>
-						</ul>
-					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-enum-member tsd-parent-kind-enum">
-					<a name="unspecified" class="tsd-anchor"></a>
-					<h3>UNSPECIFIED</h3>
-					<div class="tsd-signature tsd-kind-icon">UNSPECIFIED<span class="tsd-signature-symbol">:</span></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in types-client/index.d.ts:47</li>
-						</ul>
-					</aside>
-				</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">ICustomClientServerEvent</span>
+					</li>
+				</ul>
 			</section>
 		</div>
 		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
@@ -134,13 +105,13 @@
 					<li class="globals  ">
 						<a href="../globals.html"><em>Globals</em></a>
 					</li>
-					<li class="current tsd-kind-module">
+					<li class=" tsd-kind-module">
 						<a href="../modules/_alt_client_.html">&quot;alt-<wbr>client&quot;</a>
 					</li>
 					<li class=" tsd-kind-module">
 						<a href="../modules/_alt_server_.html">&quot;alt-<wbr>server&quot;</a>
 					</li>
-					<li class=" tsd-kind-module">
+					<li class="current tsd-kind-module">
 						<a href="../modules/_alt_shared_.html">&quot;alt-<wbr>shared&quot;</a>
 					</li>
 					<li class=" tsd-kind-module">
@@ -152,22 +123,8 @@
 				<ul class="before-current">
 				</ul>
 				<ul class="current">
-					<li class="current tsd-kind-enum tsd-parent-kind-module">
-						<a href="_alt_client_.permissionstate.html" class="tsd-kind-icon">Permission<wbr>State</a>
-						<ul>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_alt_client_.permissionstate.html#allowed" class="tsd-kind-icon">ALLOWED</a>
-							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_alt_client_.permissionstate.html#denied" class="tsd-kind-icon">DENIED</a>
-							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_alt_client_.permissionstate.html#failed" class="tsd-kind-icon">FAILED</a>
-							</li>
-							<li class=" tsd-kind-enum-member tsd-parent-kind-enum">
-								<a href="_alt_client_.permissionstate.html#unspecified" class="tsd-kind-icon">UNSPECIFIED</a>
-							</li>
-						</ul>
+					<li class="current tsd-kind-interface tsd-parent-kind-module">
+						<a href="_alt_shared_.icustomclientserverevent.html" class="tsd-kind-icon">ICustom<wbr>Client<wbr>Server<wbr>Event</a>
 					</li>
 				</ul>
 				<ul class="after-current">

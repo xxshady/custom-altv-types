@@ -113,6 +113,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#innerrml" class="tsd-kind-icon">innerRML</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class"><a href="_alt_client_.rmldocument.html#ismodal" class="tsd-kind-icon">is<wbr>Modal</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#isowned" class="tsd-kind-icon">is<wbr>Owned</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#isremote" class="tsd-kind-icon">is<wbr>Remote</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-overwrite"><a href="_alt_client_.rmldocument.html#isvisible" class="tsd-kind-icon">is<wbr>Visible</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#lastchild" class="tsd-kind-icon">last<wbr>Child</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#nextsibling" class="tsd-kind-icon">next<wbr>Sibling</a></li>
@@ -125,6 +126,7 @@
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#previoussibling" class="tsd-kind-icon">previous<wbr>Sibling</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#refcount" class="tsd-kind-icon">ref<wbr>Count</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#relativeoffset" class="tsd-kind-icon">relative<wbr>Offset</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#remoteid" class="tsd-kind-icon">remoteID</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#rmlid" class="tsd-kind-icon">rml<wbr>Id</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#scrollheight" class="tsd-kind-icon">scroll<wbr>Height</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#scrollleft" class="tsd-kind-icon">scroll<wbr>Left</a></li>
@@ -155,8 +157,6 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#focus" class="tsd-kind-icon">focus</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#getattribute" class="tsd-kind-icon">get<wbr>Attribute</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#getattributes" class="tsd-kind-icon">get<wbr>Attributes</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#getbyid" class="tsd-kind-icon">get<wbr>ByID</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#getbyremoteid" class="tsd-kind-icon">get<wbr>ByRemoteID</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#getclasslist" class="tsd-kind-icon">get<wbr>Class<wbr>List</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#getelementbyid" class="tsd-kind-icon">get<wbr>Element<wbr>ByID</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#getelementsbyclassname" class="tsd-kind-icon">get<wbr>Elements<wbr>ByClass<wbr>Name</a></li>
@@ -197,7 +197,8 @@
 								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><a href="_alt_client_.rmldocument.html#setproperty" class="tsd-kind-icon">set<wbr>Property</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_client_.rmldocument.html#show" class="tsd-kind-icon">show</a></li>
 								<li class="tsd-kind-method tsd-parent-kind-class"><a href="_alt_client_.rmldocument.html#update" class="tsd-kind-icon">update</a></li>
-								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-static"><a href="_alt_client_.rmldocument.html#getbyid-1" class="tsd-kind-icon">get<wbr>ByID</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-static"><a href="_alt_client_.rmldocument.html#getbyid" class="tsd-kind-icon">get<wbr>ByID</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static"><a href="_alt_client_.rmldocument.html#getbyremoteid" class="tsd-kind-icon">get<wbr>ByRemoteID</a></li>
 							</ul>
 						</section>
 					</div>
@@ -216,7 +217,7 @@
 							<aside class="tsd-sources">
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#constructor">constructor</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3159</li>
+									<li>Defined in types-client/index.d.ts:3303</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -239,7 +240,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#absoluteleft">absoluteLeft</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3218</li>
+							<li>Defined in types-client/index.d.ts:3361</li>
 						</ul>
 					</aside>
 				</section>
@@ -250,7 +251,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#absoluteoffset">absoluteOffset</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3202</li>
+							<li>Defined in types-client/index.d.ts:3345</li>
 						</ul>
 					</aside>
 				</section>
@@ -261,7 +262,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#absolutetop">absoluteTop</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3220</li>
+							<li>Defined in types-client/index.d.ts:3363</li>
 						</ul>
 					</aside>
 				</section>
@@ -272,7 +273,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#baseline">baseline</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3204</li>
+							<li>Defined in types-client/index.d.ts:3347</li>
 						</ul>
 					</aside>
 				</section>
@@ -282,7 +283,7 @@
 					<div class="tsd-signature tsd-kind-icon">body<span class="tsd-signature-symbol">:</span> <a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3180</li>
+							<li>Defined in types-client/index.d.ts:3323</li>
 						</ul>
 					</aside>
 				</section>
@@ -293,18 +294,18 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#childcount">childCount</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3258</li>
+							<li>Defined in types-client/index.d.ts:3401</li>
 						</ul>
 					</aside>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="childnodes" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> child<wbr>Nodes</h3>
-					<div class="tsd-signature tsd-kind-icon">child<wbr>Nodes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">&gt;</span></div>
+					<div class="tsd-signature tsd-kind-icon">child<wbr>Nodes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">readonly </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#childnodes">childNodes</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3266</li>
+							<li>Defined in types-client/index.d.ts:3409</li>
 						</ul>
 					</aside>
 				</section>
@@ -315,7 +316,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#clientheight">clientHeight</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3228</li>
+							<li>Defined in types-client/index.d.ts:3371</li>
 						</ul>
 					</aside>
 				</section>
@@ -326,7 +327,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#clientleft">clientLeft</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3222</li>
+							<li>Defined in types-client/index.d.ts:3365</li>
 						</ul>
 					</aside>
 				</section>
@@ -337,7 +338,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#clienttop">clientTop</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3224</li>
+							<li>Defined in types-client/index.d.ts:3367</li>
 						</ul>
 					</aside>
 				</section>
@@ -348,7 +349,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#clientwidth">clientWidth</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3226</li>
+							<li>Defined in types-client/index.d.ts:3369</li>
 						</ul>
 					</aside>
 				</section>
@@ -359,7 +360,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#containingblock">containingBlock</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3208</li>
+							<li>Defined in types-client/index.d.ts:3351</li>
 						</ul>
 					</aside>
 				</section>
@@ -370,7 +371,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#firstchild">firstChild</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3254</li>
+							<li>Defined in types-client/index.d.ts:3397</li>
 						</ul>
 					</aside>
 				</section>
@@ -381,7 +382,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#focusedelement">focusedElement</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3210</li>
+							<li>Defined in types-client/index.d.ts:3353</li>
 						</ul>
 					</aside>
 				</section>
@@ -392,7 +393,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#haschildren">hasChildren</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3260</li>
+							<li>Defined in types-client/index.d.ts:3403</li>
 						</ul>
 					</aside>
 				</section>
@@ -403,7 +404,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#id">id</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2269</li>
+							<li>Defined in types-shared/index.d.ts:2558</li>
 						</ul>
 					</aside>
 				</section>
@@ -414,7 +415,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#innerrml">innerRML</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3262</li>
+							<li>Defined in types-client/index.d.ts:3405</li>
 						</ul>
 					</aside>
 				</section>
@@ -424,7 +425,7 @@
 					<div class="tsd-signature tsd-kind-icon">is<wbr>Modal<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3178</li>
+							<li>Defined in types-client/index.d.ts:3321</li>
 						</ul>
 					</aside>
 				</section>
@@ -435,9 +436,25 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#isowned">isOwned</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3216</li>
+							<li>Defined in types-client/index.d.ts:3359</li>
 						</ul>
 					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="isremote" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> is<wbr>Remote</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Remote<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#isremote">isRemote</a></p>
+						<ul>
+							<li>Defined in types-client/index.d.ts:567</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Whether this entity was created clientside or serverside. (Clientside = false, Serverside = true).</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 					<a name="isvisible" class="tsd-anchor"></a>
@@ -446,7 +463,7 @@
 					<aside class="tsd-sources">
 						<p>Overrides <a href="_alt_client_.rmlelement.html">RmlElement</a>.<a href="_alt_client_.rmlelement.html#isvisible">isVisible</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3176</li>
+							<li>Defined in types-client/index.d.ts:3319</li>
 						</ul>
 					</aside>
 				</section>
@@ -457,7 +474,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#lastchild">lastChild</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3256</li>
+							<li>Defined in types-client/index.d.ts:3399</li>
 						</ul>
 					</aside>
 				</section>
@@ -468,7 +485,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#nextsibling">nextSibling</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3250</li>
+							<li>Defined in types-client/index.d.ts:3393</li>
 						</ul>
 					</aside>
 				</section>
@@ -479,7 +496,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#offsetheight">offsetHeight</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3236</li>
+							<li>Defined in types-client/index.d.ts:3379</li>
 						</ul>
 					</aside>
 				</section>
@@ -490,7 +507,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#offsetleft">offsetLeft</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3230</li>
+							<li>Defined in types-client/index.d.ts:3373</li>
 						</ul>
 					</aside>
 				</section>
@@ -501,7 +518,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#offsettop">offsetTop</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3232</li>
+							<li>Defined in types-client/index.d.ts:3375</li>
 						</ul>
 					</aside>
 				</section>
@@ -512,7 +529,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#offsetwidth">offsetWidth</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3234</li>
+							<li>Defined in types-client/index.d.ts:3377</li>
 						</ul>
 					</aside>
 				</section>
@@ -523,7 +540,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#ownerdocument">ownerDocument</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3264</li>
+							<li>Defined in types-client/index.d.ts:3407</li>
 						</ul>
 					</aside>
 				</section>
@@ -534,7 +551,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#parent">parent</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3248</li>
+							<li>Defined in types-client/index.d.ts:3391</li>
 						</ul>
 					</aside>
 				</section>
@@ -545,7 +562,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#previoussibling">previousSibling</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3252</li>
+							<li>Defined in types-client/index.d.ts:3395</li>
 						</ul>
 					</aside>
 				</section>
@@ -556,7 +573,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#refcount">refCount</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2346</li>
+							<li>Defined in types-shared/index.d.ts:2635</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -577,9 +594,25 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#relativeoffset">relativeOffset</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3200</li>
+							<li>Defined in types-client/index.d.ts:3343</li>
 						</ul>
 					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+					<a name="remoteid" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> remoteID</h3>
+					<div class="tsd-signature tsd-kind-icon">remoteID<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#remoteid">remoteID</a></p>
+						<ul>
+							<li>Defined in types-client/index.d.ts:571</li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The serverside id of this entity.</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 					<a name="rmlid" class="tsd-anchor"></a>
@@ -588,7 +621,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#rmlid">rmlId</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3214</li>
+							<li>Defined in types-client/index.d.ts:3357</li>
 						</ul>
 					</aside>
 				</section>
@@ -599,7 +632,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#scrollheight">scrollHeight</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3244</li>
+							<li>Defined in types-client/index.d.ts:3387</li>
 						</ul>
 					</aside>
 				</section>
@@ -610,7 +643,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#scrollleft">scrollLeft</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3238</li>
+							<li>Defined in types-client/index.d.ts:3381</li>
 						</ul>
 					</aside>
 				</section>
@@ -621,7 +654,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#scrolltop">scrollTop</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3240</li>
+							<li>Defined in types-client/index.d.ts:3383</li>
 						</ul>
 					</aside>
 				</section>
@@ -632,7 +665,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#scrollwidth">scrollWidth</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3242</li>
+							<li>Defined in types-client/index.d.ts:3385</li>
 						</ul>
 					</aside>
 				</section>
@@ -642,7 +675,7 @@
 					<div class="tsd-signature tsd-kind-icon">source<wbr>Url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3174</li>
+							<li>Defined in types-client/index.d.ts:3317</li>
 						</ul>
 					</aside>
 				</section>
@@ -653,7 +686,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#style">style</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3340</li>
+							<li>Defined in types-client/index.d.ts:3483</li>
 						</ul>
 					</aside>
 				</section>
@@ -664,7 +697,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#tagname">tagName</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3212</li>
+							<li>Defined in types-client/index.d.ts:3355</li>
 						</ul>
 					</aside>
 				</section>
@@ -674,7 +707,7 @@
 					<div class="tsd-signature tsd-kind-icon">title<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:3162</li>
+							<li>Defined in types-client/index.d.ts:3306</li>
 						</ul>
 					</aside>
 				</section>
@@ -685,7 +718,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#type">type</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2260</li>
+							<li>Defined in types-shared/index.d.ts:2549</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -701,7 +734,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#valid">valid</a></p>
 						<ul>
-							<li>Defined in types-shared/index.d.ts:2267</li>
+							<li>Defined in types-shared/index.d.ts:2556</li>
 						</ul>
 					</aside>
 					<div class="tsd-comment tsd-typography">
@@ -722,7 +755,7 @@
 					<aside class="tsd-sources">
 						<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#zindex">zIndex</a></p>
 						<ul>
-							<li>Defined in types-client/index.d.ts:3206</li>
+							<li>Defined in types-client/index.d.ts:3349</li>
 						</ul>
 					</aside>
 				</section>
@@ -740,7 +773,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#addclass">addClass</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3276</li>
+									<li>Defined in types-client/index.d.ts:3419</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -764,7 +797,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#addpseudoclass">addPseudoClass</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3284</li>
+									<li>Defined in types-client/index.d.ts:3427</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -788,7 +821,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#appendchild">appendChild</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3268</li>
+									<li>Defined in types-client/index.d.ts:3411</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -812,7 +845,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#blur">blur</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3334</li>
+									<li>Defined in types-client/index.d.ts:3477</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -830,7 +863,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#click">click</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3336</li>
+									<li>Defined in types-client/index.d.ts:3479</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -848,7 +881,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#closest">closest</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3320</li>
+									<li>Defined in types-client/index.d.ts:3463</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -871,7 +904,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3188</li>
+									<li>Defined in types-client/index.d.ts:3331</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -894,7 +927,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3190</li>
+									<li>Defined in types-client/index.d.ts:3333</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -920,7 +953,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#deletemeta">deleteMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:440</li>
+									<li>Defined in types-client/index.d.ts:580</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -936,7 +969,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#deletemeta">deleteMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#deletemeta">deleteMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:441</li>
+									<li>Defined in types-client/index.d.ts:581</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -966,7 +999,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#destroy">destroy</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2274</li>
+									<li>Defined in types-shared/index.d.ts:2563</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -989,7 +1022,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#focus">focus</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3332</li>
+									<li>Defined in types-client/index.d.ts:3475</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
@@ -1007,7 +1040,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getattribute">getAttribute</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3316</li>
+									<li>Defined in types-client/index.d.ts:3459</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1031,7 +1064,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getattributes">getAttributes</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3318</li>
+									<li>Defined in types-client/index.d.ts:3461</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Record</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
@@ -1039,92 +1072,20 @@
 					</ul>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-					<a name="getbyid" class="tsd-anchor"></a>
-					<h3>get<wbr>ByID</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>ByID<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a>, id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getbyid">getByID</a></p>
-								<ul>
-									<li>Defined in types-client/index.d.ts:432</li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the base object with the given type and local id</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>alpha</dt>
-									<dd></dd>
-								</dl>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>type: <a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a></h5>
-								</li>
-								<li>
-									<h5>id: <span class="tsd-signature-type">number</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-					<a name="getbyremoteid" class="tsd-anchor"></a>
-					<h3>get<wbr>ByRemoteID</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>ByRemoteID<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a>, id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></li>
-					</ul>
-					<ul class="tsd-descriptions">
-						<li class="tsd-description">
-							<aside class="tsd-sources">
-								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getbyremoteid">getByRemoteID</a></p>
-								<ul>
-									<li>Defined in types-client/index.d.ts:438</li>
-								</ul>
-							</aside>
-							<div class="tsd-comment tsd-typography">
-								<div class="lead">
-									<p>Gets the base object with the given type and remote id</p>
-								</div>
-								<dl class="tsd-comment-tags">
-									<dt>alpha</dt>
-									<dd></dd>
-								</dl>
-							</div>
-							<h4 class="tsd-parameters-title">Parameters</h4>
-							<ul class="tsd-parameters">
-								<li>
-									<h5>type: <a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a></h5>
-								</li>
-								<li>
-									<h5>id: <span class="tsd-signature-type">number</span></h5>
-								</li>
-							</ul>
-							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a></h4>
-						</li>
-					</ul>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 					<a name="getclasslist" class="tsd-anchor"></a>
 					<h3>get<wbr>Class<wbr>List</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Class<wbr>List<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Class<wbr>List<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getclasslist">getClassList</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3282</li>
+									<li>Defined in types-client/index.d.ts:3425</li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1139,7 +1100,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getelementbyid">getElementByID</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3322</li>
+									<li>Defined in types-client/index.d.ts:3465</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1156,14 +1117,14 @@
 					<a name="getelementsbyclassname" class="tsd-anchor"></a>
 					<h3>get<wbr>Elements<wbr>ByClass<wbr>Name</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Elements<wbr>ByClass<wbr>Name<span class="tsd-signature-symbol">(</span>className<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Elements<wbr>ByClass<wbr>Name<span class="tsd-signature-symbol">(</span>className<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">readonly </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getelementsbyclassname">getElementsByClassName</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3326</li>
+									<li>Defined in types-client/index.d.ts:3469</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1172,7 +1133,7 @@
 									<h5>className: <span class="tsd-signature-type">string</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">readonly </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1180,14 +1141,14 @@
 					<a name="getelementsbytagname" class="tsd-anchor"></a>
 					<h3>get<wbr>Elements<wbr>ByTag<wbr>Name</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Elements<wbr>ByTag<wbr>Name<span class="tsd-signature-symbol">(</span>tag<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Elements<wbr>ByTag<wbr>Name<span class="tsd-signature-symbol">(</span>tag<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">readonly </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getelementsbytagname">getElementsByTagName</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3324</li>
+									<li>Defined in types-client/index.d.ts:3467</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1196,7 +1157,7 @@
 									<h5>tag: <span class="tsd-signature-type">string</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">readonly </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1204,14 +1165,14 @@
 					<a name="geteventlisteners" class="tsd-anchor"></a>
 					<h3>get<wbr>Event<wbr>Listeners</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Event<wbr>Listeners<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>senderElement<span class="tsd-signature-symbol">: </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Event<wbr>Listeners<span class="tsd-signature-symbol">(</span>eventName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>senderElement<span class="tsd-signature-symbol">: </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#geteventlisteners">getEventListeners</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3198</li>
+									<li>Defined in types-client/index.d.ts:3341</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1220,7 +1181,7 @@
 									<h5>eventName: <span class="tsd-signature-type">string</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>senderElement<span class="tsd-signature-symbol">: </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">(</span>senderElement<span class="tsd-signature-symbol">: </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a>, <span class="tsd-signature-symbol">...</span>args<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol"> =&gt; </span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1235,7 +1196,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getlocalproperty">getLocalProperty</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3306</li>
+									<li>Defined in types-client/index.d.ts:3449</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1262,7 +1223,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:446</li>
+									<li>Defined in types-client/index.d.ts:586</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1284,7 +1245,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:447</li>
+									<li>Defined in types-client/index.d.ts:587</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1306,7 +1267,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getmeta">getMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmeta">getMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:449</li>
+									<li>Defined in types-client/index.d.ts:589</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1336,17 +1297,17 @@
 					<a name="getmetadatakeys" class="tsd-anchor"></a>
 					<h3>get<wbr>Meta<wbr>Data<wbr>Keys</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Meta<wbr>Data<wbr>Keys<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Meta<wbr>Data<wbr>Keys<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getmetadatakeys">getMetaDataKeys</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2304</li>
+									<li>Defined in types-shared/index.d.ts:2593</li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1361,7 +1322,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getproperty">getProperty</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3304</li>
+									<li>Defined in types-client/index.d.ts:3447</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1385,7 +1346,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getpropertyabsolutevalue">getPropertyAbsoluteValue</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3308</li>
+									<li>Defined in types-client/index.d.ts:3451</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1402,17 +1363,17 @@
 					<a name="getpseudoclasslist" class="tsd-anchor"></a>
 					<h3>get<wbr>Pseudo<wbr>Class<wbr>List</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Pseudo<wbr>Class<wbr>List<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Pseudo<wbr>Class<wbr>List<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#getpseudoclasslist">getPseudoClassList</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3290</li>
+									<li>Defined in types-client/index.d.ts:3433</li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1429,7 +1390,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2325</li>
+									<li>Defined in types-shared/index.d.ts:2614</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1459,7 +1420,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2326</li>
+									<li>Defined in types-shared/index.d.ts:2615</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1480,7 +1441,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmeta">getSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2328</li>
+									<li>Defined in types-shared/index.d.ts:2617</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1510,17 +1471,17 @@
 					<a name="getsyncedmetakeys" class="tsd-anchor"></a>
 					<h3>get<wbr>Synced<wbr>Meta<wbr>Keys</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">get<wbr>Synced<wbr>Meta<wbr>Keys<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Synced<wbr>Meta<wbr>Keys<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#getsyncedmetakeys">getSyncedMetaKeys</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2339</li>
+									<li>Defined in types-shared/index.d.ts:2628</li>
 								</ul>
 							</aside>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1535,7 +1496,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#hasattribute">hasAttribute</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3314</li>
+									<li>Defined in types-client/index.d.ts:3457</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1559,7 +1520,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#hasclass">hasClass</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3280</li>
+									<li>Defined in types-client/index.d.ts:3423</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1583,7 +1544,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#haslocalproperty">hasLocalProperty</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3302</li>
+									<li>Defined in types-client/index.d.ts:3445</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1609,7 +1570,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#hasmeta">hasMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:443</li>
+									<li>Defined in types-client/index.d.ts:583</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1625,7 +1586,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#hasmeta">hasMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hasmeta">hasMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:444</li>
+									<li>Defined in types-client/index.d.ts:584</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1655,7 +1616,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#hasproperty">hasProperty</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3300</li>
+									<li>Defined in types-client/index.d.ts:3443</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1679,7 +1640,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#haspseudoclass">hasPseudoClass</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3288</li>
+									<li>Defined in types-client/index.d.ts:3431</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1704,7 +1665,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2336</li>
+									<li>Defined in types-shared/index.d.ts:2625</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -1728,7 +1689,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#hassyncedmeta">hasSyncedMeta</a></p>
 								<ul>
-									<li>Defined in types-shared/index.d.ts:2337</li>
+									<li>Defined in types-shared/index.d.ts:2626</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -1757,7 +1718,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3184</li>
+									<li>Defined in types-client/index.d.ts:3327</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
@@ -1775,7 +1736,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#insertbefore">insertBefore</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3270</li>
+									<li>Defined in types-client/index.d.ts:3413</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1802,7 +1763,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#ispointwithinelement">isPointWithinElement</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3294</li>
+									<li>Defined in types-client/index.d.ts:3437</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1826,7 +1787,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#off">off</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3196</li>
+									<li>Defined in types-client/index.d.ts:3339</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1871,7 +1832,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#on">on</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3194</li>
+									<li>Defined in types-client/index.d.ts:3337</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1919,7 +1880,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#queryselector">querySelector</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3328</li>
+									<li>Defined in types-client/index.d.ts:3471</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1936,14 +1897,14 @@
 					<a name="queryselectorall" class="tsd-anchor"></a>
 					<h3>query<wbr>Selector<wbr>All</h3>
 					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-						<li class="tsd-signature tsd-kind-icon">query<wbr>Selector<wbr>All<span class="tsd-signature-symbol">(</span>selector<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">&gt;</span></li>
+						<li class="tsd-signature tsd-kind-icon">query<wbr>Selector<wbr>All<span class="tsd-signature-symbol">(</span>selector<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">readonly </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">[]</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#queryselectorall">querySelectorAll</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3330</li>
+									<li>Defined in types-client/index.d.ts:3473</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1952,7 +1913,7 @@
 									<h5>selector: <span class="tsd-signature-type">string</span></h5>
 								</li>
 							</ul>
-							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">ReadonlyArray</span><span class="tsd-signature-symbol">&lt;</span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">&gt;</span></h4>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">readonly </span><a href="_alt_client_.rmlelement.html" class="tsd-signature-type">RmlElement</a><span class="tsd-signature-symbol">[]</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -1967,7 +1928,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#removeattribute">removeAttribute</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3312</li>
+									<li>Defined in types-client/index.d.ts:3455</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -1991,7 +1952,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#removechild">removeChild</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3274</li>
+									<li>Defined in types-client/index.d.ts:3417</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2015,7 +1976,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#removeclass">removeClass</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3278</li>
+									<li>Defined in types-client/index.d.ts:3421</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2039,7 +2000,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#removeproperty">removeProperty</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3298</li>
+									<li>Defined in types-client/index.d.ts:3441</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2063,7 +2024,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#removepseudoclass">removePseudoClass</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3286</li>
+									<li>Defined in types-client/index.d.ts:3429</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2087,7 +2048,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#replacechild">replaceChild</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3272</li>
+									<li>Defined in types-client/index.d.ts:3415</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2114,7 +2075,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#scrollintoview">scrollIntoView</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3338</li>
+									<li>Defined in types-client/index.d.ts:3481</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2138,7 +2099,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#setattribute">setAttribute</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3310</li>
+									<li>Defined in types-client/index.d.ts:3453</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2168,7 +2129,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:451</li>
+									<li>Defined in types-client/index.d.ts:591</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2193,7 +2154,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:452</li>
+									<li>Defined in types-client/index.d.ts:592</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-type-parameters-title">Type parameters</h4>
@@ -2218,7 +2179,7 @@
 								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#setmeta">setMeta</a></p>
 								<p>Overrides <a href="_alt_shared_.baseobject.html">BaseObject</a>.<a href="_alt_shared_.baseobject.html#setmeta">setMeta</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:454</li>
+									<li>Defined in types-client/index.d.ts:594</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
@@ -2261,7 +2222,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#setoffset">setOffset</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3292</li>
+									<li>Defined in types-client/index.d.ts:3435</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2291,7 +2252,7 @@
 							<aside class="tsd-sources">
 								<p>Inherited from <a href="_alt_client_.rmldocument.html">RmlDocument</a>.<a href="_alt_client_.rmldocument.html#setproperty">setProperty</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3296</li>
+									<li>Defined in types-client/index.d.ts:3439</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2317,7 +2278,7 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3182</li>
+									<li>Defined in types-client/index.d.ts:3325</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-parameters-title">Parameters</h4>
@@ -2343,34 +2304,31 @@
 						<li class="tsd-description">
 							<aside class="tsd-sources">
 								<ul>
-									<li>Defined in types-client/index.d.ts:3186</li>
+									<li>Defined in types-client/index.d.ts:3329</li>
 								</ul>
 							</aside>
 							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
 						</li>
 					</ul>
 				</section>
-				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-static">
-					<a name="getbyid-1" class="tsd-anchor"></a>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-static">
+					<a name="getbyid" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagStatic">Static</span> get<wbr>ByID</h3>
-					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-static">
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-static">
 						<li class="tsd-signature tsd-kind-icon">get<wbr>ByID<span class="tsd-signature-symbol">(</span>id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.rmldocument.html" class="tsd-signature-type">RmlDocument</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
 					</ul>
 					<ul class="tsd-descriptions">
 						<li class="tsd-description">
 							<aside class="tsd-sources">
+								<p>Overrides <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getbyid">getByID</a></p>
 								<ul>
-									<li>Defined in types-client/index.d.ts:3172</li>
+									<li>Defined in types-client/index.d.ts:3315</li>
 								</ul>
 							</aside>
 							<div class="tsd-comment tsd-typography">
 								<div class="lead">
 									<p>Retrieves the rmldocument from the pool.</p>
 								</div>
-								<dl class="tsd-comment-tags">
-									<dt>alpha</dt>
-									<dd></dd>
-								</dl>
 							</div>
 							<h4 class="tsd-parameters-title">Parameters</h4>
 							<ul class="tsd-parameters">
@@ -2383,6 +2341,33 @@
 							</ul>
 							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.rmldocument.html" class="tsd-signature-type">RmlDocument</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
 							<p>Entity if it was found, otherwise null.</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+					<a name="getbyremoteid" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagStatic">Static</span> get<wbr>ByRemoteID</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>ByRemoteID<span class="tsd-signature-symbol">(</span>type<span class="tsd-signature-symbol">: </span><a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a>, id<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Inherited from <a href="_alt_client_.baseobject-1.html">BaseObject</a>.<a href="_alt_client_.baseobject-1.html#getbyremoteid">getByRemoteID</a></p>
+								<ul>
+									<li>Defined in types-client/index.d.ts:578</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>type: <a href="../enums/_alt_shared_.baseobjecttype.html" class="tsd-signature-type">BaseObjectType</a></h5>
+								</li>
+								<li>
+									<h5>id: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="_alt_client_.baseobject-1.html" class="tsd-signature-type">BaseObject</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h4>
 						</li>
 					</ul>
 				</section>
@@ -2475,6 +2460,9 @@
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.rmldocument.html#isowned" class="tsd-kind-icon">is<wbr>Owned</a>
 							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_alt_client_.rmldocument.html#isremote" class="tsd-kind-icon">is<wbr>Remote</a>
+							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-overwrite">
 								<a href="_alt_client_.rmldocument.html#isvisible" class="tsd-kind-icon">is<wbr>Visible</a>
 							</li>
@@ -2510,6 +2498,9 @@
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.rmldocument.html#relativeoffset" class="tsd-kind-icon">relative<wbr>Offset</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
+								<a href="_alt_client_.rmldocument.html#remoteid" class="tsd-kind-icon">remoteID</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.rmldocument.html#rmlid" class="tsd-kind-icon">rml<wbr>Id</a>
@@ -2585,12 +2576,6 @@
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.rmldocument.html#getattributes" class="tsd-kind-icon">get<wbr>Attributes</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_alt_client_.rmldocument.html#getbyid" class="tsd-kind-icon">get<wbr>ByID</a>
-							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
-								<a href="_alt_client_.rmldocument.html#getbyremoteid" class="tsd-kind-icon">get<wbr>ByRemoteID</a>
 							</li>
 							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited">
 								<a href="_alt_client_.rmldocument.html#getclasslist" class="tsd-kind-icon">get<wbr>Class<wbr>List</a>
@@ -2712,8 +2697,11 @@
 							<li class=" tsd-kind-method tsd-parent-kind-class">
 								<a href="_alt_client_.rmldocument.html#update" class="tsd-kind-icon">update</a>
 							</li>
-							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-static">
-								<a href="_alt_client_.rmldocument.html#getbyid-1" class="tsd-kind-icon">get<wbr>ByID</a>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-overwrite tsd-is-static">
+								<a href="_alt_client_.rmldocument.html#getbyid" class="tsd-kind-icon">get<wbr>ByID</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-inherited tsd-is-static">
+								<a href="_alt_client_.rmldocument.html#getbyremoteid" class="tsd-kind-icon">get<wbr>ByRemoteID</a>
 							</li>
 						</ul>
 					</li>

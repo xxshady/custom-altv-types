@@ -68,6 +68,32 @@
 <div class="container container-main">
 	<div class="row">
 		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Follows Chrome DevTools cpuprofile format.
+						See <a href="https://chromedevtools.github.io/devtools-protocol/tot/Profiler/#type-Profile">Chrome DevTools protocol docs</a> for more details.</p>
+					</div>
+					<p>In order to analyze resulting Profile - serialize this class as JSON and put to a .cpuprofile file.
+					It will be available to use in DevTools on &quot;Performance&quot; tab, or in Visual Studio Code.</p>
+					<dl class="tsd-comment-tags">
+						<dt>example</dt>
+						<dd><pre><code class="language-js"><span class="hljs-comment">// server</span>
+alt.onClient(<span class="hljs-string">&quot;saveProfile&quot;</span>, <span class="hljs-function">(<span class="hljs-params">player, name, content</span>) =&gt;</span> {
+    fs.writeFileSync(<span class="hljs-string">&quot;./&quot;</span> + name + <span class="hljs-string">&quot;.cpuprofile&quot;</span>, content);
+});
+
+<span class="hljs-comment">// client</span>
+alt.Profile.startProfiling(<span class="hljs-string">&quot;test&quot;</span>);
+<span class="hljs-comment">// do some stuff</span>
+<span class="hljs-keyword">const</span> profile = alt.Profile.stopProfiling(<span class="hljs-string">&quot;test&quot;</span>);
+<span class="hljs-keyword">const</span> content = <span class="hljs-built_in">JSON</span>.stringify(profile);
+alt.emitServer(<span class="hljs-string">&quot;saveProfile&quot;</span>, <span class="hljs-string">&quot;test&quot;</span>, content);
+</code></pre>
+						</dd>
+					</dl>
+				</div>
+			</section>
 			<section class="tsd-panel tsd-hierarchy">
 				<h3>Hierarchy</h3>
 				<ul class="tsd-hierarchy">
@@ -83,12 +109,11 @@
 						<section class="tsd-index-section ">
 							<h3>Properties</h3>
 							<ul class="tsd-index-list">
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#end" class="tsd-kind-icon">end</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#id" class="tsd-kind-icon">id</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#root" class="tsd-kind-icon">root</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#endtime" class="tsd-kind-icon">end<wbr>Time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#nodes" class="tsd-kind-icon">nodes</a></li>
 								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#samples" class="tsd-kind-icon">samples</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#start" class="tsd-kind-icon">start</a></li>
-								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#type" class="tsd-kind-icon">type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#starttime" class="tsd-kind-icon">start<wbr>Time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="_alt_client_.iprofile.html#timedeltas" class="tsd-kind-icon">time<wbr>Deltas</a></li>
 							</ul>
 						</section>
 					</div>
@@ -97,64 +122,79 @@
 			<section class="tsd-panel-group tsd-member-group ">
 				<h2>Properties</h2>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="end" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> end</h3>
-					<div class="tsd-signature tsd-kind-icon">end<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="endtime" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> end<wbr>Time</h3>
+					<div class="tsd-signature tsd-kind-icon">end<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:314</li>
+							<li>Defined in types-client/index.d.ts:350</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Profiling end timestamp in microseconds.</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="id" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> id</h3>
-					<div class="tsd-signature tsd-kind-icon">id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="nodes" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> nodes</h3>
+					<div class="tsd-signature tsd-kind-icon">nodes<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">readonly </span><a href="_alt_client_.iprofilenode.html" class="tsd-signature-type">IProfileNode</a><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:311</li>
+							<li>Defined in types-client/index.d.ts:340</li>
 						</ul>
 					</aside>
-				</section>
-				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="root" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> root</h3>
-					<div class="tsd-signature tsd-kind-icon">root<span class="tsd-signature-symbol">:</span> <a href="_alt_client_.iprofilenode.html" class="tsd-signature-type">IProfileNode</a></div>
-					<aside class="tsd-sources">
-						<ul>
-							<li>Defined in types-client/index.d.ts:316</li>
-						</ul>
-					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The list of profile nodes. First item is the root node.</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
 					<a name="samples" class="tsd-anchor"></a>
 					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> samples</h3>
-					<div class="tsd-signature tsd-kind-icon">samples<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<div class="tsd-signature tsd-kind-icon">samples<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:315</li>
+							<li>Defined in types-client/index.d.ts:355</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Ids of samples top nodes.</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="start" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> start</h3>
-					<div class="tsd-signature tsd-kind-icon">start<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
+					<a name="starttime" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> start<wbr>Time</h3>
+					<div class="tsd-signature tsd-kind-icon">start<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:313</li>
+							<li>Defined in types-client/index.d.ts:345</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Profiling start timestamp in microseconds.</p>
+						</div>
+					</div>
 				</section>
 				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
-					<a name="type" class="tsd-anchor"></a>
-					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> type</h3>
-					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span></div>
+					<a name="timedeltas" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagReadonly">Readonly</span> time<wbr>Deltas</h3>
+					<div class="tsd-signature tsd-kind-icon">time<wbr>Deltas<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">readonly </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">[]</span></div>
 					<aside class="tsd-sources">
 						<ul>
-							<li>Defined in types-client/index.d.ts:312</li>
+							<li>Defined in types-client/index.d.ts:360</li>
 						</ul>
 					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Time intervals between adjacent samples in microseconds. The first delta is relative to the profile startTime.</p>
+						</div>
+					</div>
 				</section>
 			</section>
 		</div>
@@ -186,22 +226,19 @@
 						<a href="_alt_client_.iprofile.html" class="tsd-kind-icon">IProfile</a>
 						<ul>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_client_.iprofile.html#end" class="tsd-kind-icon">end</a>
+								<a href="_alt_client_.iprofile.html#endtime" class="tsd-kind-icon">end<wbr>Time</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_client_.iprofile.html#id" class="tsd-kind-icon">id</a>
-							</li>
-							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_client_.iprofile.html#root" class="tsd-kind-icon">root</a>
+								<a href="_alt_client_.iprofile.html#nodes" class="tsd-kind-icon">nodes</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
 								<a href="_alt_client_.iprofile.html#samples" class="tsd-kind-icon">samples</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_client_.iprofile.html#start" class="tsd-kind-icon">start</a>
+								<a href="_alt_client_.iprofile.html#starttime" class="tsd-kind-icon">start<wbr>Time</a>
 							</li>
 							<li class=" tsd-kind-property tsd-parent-kind-interface">
-								<a href="_alt_client_.iprofile.html#type" class="tsd-kind-icon">type</a>
+								<a href="_alt_client_.iprofile.html#timedeltas" class="tsd-kind-icon">time<wbr>Deltas</a>
 							</li>
 						</ul>
 					</li>
