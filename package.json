@@ -9,7 +9,6 @@
     "copy:shared": "copyfiles --up 3 \"node_modules/altv-types/shared/**/*\" \"node_modules/@altv/types-shared\"",
     "copy:client": "copyfiles --up 3 \"node_modules/altv-types/client/**/*\" \"node_modules/@altv/types-client\"",
     "copy:server": "copyfiles --up 3 \"node_modules/altv-types/server/**/*\" \"node_modules/@altv/types-server\"",
-    "copy:worker": "copyfiles --up 3 \"node_modules/altv-types/worker/**/*\" \"node_modules/@altv/types-worker\"",
     "clear-docs-folder": "rimraf docs/assets docs/classes docs/enums docs/interfaces docs/modules",
     "build": "yarn clear-docs-folder && typedoc",
     "copy-build": "yarn copy && yarn build && node after-build",
